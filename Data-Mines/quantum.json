@@ -2067,12 +2067,12 @@
                     "id": "2cc05e5f-9ec0-4391-adec-9bf687a4d10d",
                     "savedPayload": {
                         "position": {
-                            "x": 15663.71305870525,
-                            "y": 15768.001906581922
+                            "x": 15158.908743856058,
+                            "y": 17766.869872225958
                         },
                         "targetPosition": {
-                            "x": 15363.71305870525,
-                            "y": 15768.001906581922
+                            "x": 14881.744884102673,
+                            "y": 17881.674901935483
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -2513,15 +2513,15 @@
                     "id": "0411a2f1-5da3-4601-9c68-12af4237f338",
                     "savedPayload": {
                         "position": {
-                            "x": 15877.845093061214,
-                            "y": 15981.133940937885
+                            "x": 15158.908743856058,
+                            "y": 17996.479931645008
                         },
                         "targetPosition": {
-                            "x": 15363.71305870525,
-                            "y": 15768.001906581922
+                            "x": 14881.744884102673,
+                            "y": 17881.674901935483
                         },
                         "floatingObject": {
-                            "isPinned": true,
+                            "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": true,
                             "angleToParent": 2,
@@ -2549,12 +2549,12 @@
                             "id": "4bbe3516-d2bf-46e5-866e-3a20247beead",
                             "savedPayload": {
                                 "position": {
-                                    "x": 15606.418157017735,
-                                    "y": 16244.337482269664
+                                    "x": 15288.260889931502,
+                                    "y": 18228.872370845642
                                 },
                                 "targetPosition": {
-                                    "x": 15363.71305870525,
-                                    "y": 16068.001906581922
+                                    "x": 14996.5499138122,
+                                    "y": 18158.83876168887
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -2577,12 +2577,12 @@
                             "id": "6e65fef4-9b88-488b-87af-5d0afa994f88",
                             "savedPayload": {
                                 "position": {
-                                    "x": 15456.418157017735,
-                                    "y": 16353.318861470467
+                                    "x": 15191.384328311255,
+                                    "y": 18386.960551368877
                                 },
                                 "targetPosition": {
-                                    "x": 15363.71305870525,
-                                    "y": 16068.001906581922
+                                    "x": 14996.5499138122,
+                                    "y": 18158.83876168887
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -2616,12 +2616,12 @@
                                     "id": "89de107f-3d95-4473-acae-83e9e3437072",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15412.645091714032,
-                                            "y": 16880.41842371418
+                                            "x": 15257.85177160434,
+                                            "y": 18535.168210402546
                                         },
                                         "targetPosition": {
-                                            "x": 15336.604495154028,
-                                            "y": 16815.473618881166
+                                            "x": 15162.746119974825,
+                                            "y": 18504.26651096505
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -2639,12 +2639,12 @@
                                 "id": "6213e58b-4d35-47a7-a8e2-45b1ff63918c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15336.604495154028,
-                                        "y": 16815.473618881166
+                                        "x": 15162.746119974825,
+                                        "y": 18504.26651096505
                                     },
                                     "targetPosition": {
-                                        "x": 15222.543600314024,
-                                        "y": 16718.05641163164
+                                        "x": 15020.087642530552,
+                                        "y": 18457.91396180881
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2672,12 +2672,12 @@
                                     "id": "3560f5cb-e23a-4e8a-9d53-3d081ea6beee",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15358.740750235887,
-                                            "y": 16985.358368888148
+                                            "x": 15248.20943221056,
+                                            "y": 18652.748376307864
                                         },
                                         "targetPosition": {
-                                            "x": 15290.642175274956,
-                                            "y": 16851.707390259893
+                                            "x": 15134.148537370556,
+                                            "y": 18555.331169058336
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -2695,12 +2695,12 @@
                                 "id": "36d74a21-eae9-43aa-bfcf-4be6123b133c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15290.642175274956,
-                                        "y": 16851.707390259893
+                                        "x": 15134.148537370556,
+                                        "y": 18555.331169058336
                                     },
                                     "targetPosition": {
-                                        "x": 15222.543600314024,
-                                        "y": 16718.05641163164
+                                        "x": 15020.087642530552,
+                                        "y": 18457.91396180881
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2728,12 +2728,12 @@
                                     "id": "e2818bd8-c978-4c40-931e-ac723388e7da",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15246.081329032379,
-                                            "y": 17017.131611751574
+                                            "x": 15156.284792452416,
+                                            "y": 18725.21591906532
                                         },
                                         "targetPosition": {
-                                            "x": 15234.312464673201,
-                                            "y": 16867.594011691606
+                                            "x": 15088.186217491484,
+                                            "y": 18591.564940437063
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -2751,12 +2751,12 @@
                                 "id": "763426ec-58ef-461e-992f-b35332482470",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15234.312464673201,
-                                        "y": 16867.594011691606
+                                        "x": 15088.186217491484,
+                                        "y": 18591.564940437063
                                     },
                                     "targetPosition": {
-                                        "x": 15222.543600314024,
-                                        "y": 16718.05641163164
+                                        "x": 15020.087642530552,
+                                        "y": 18457.91396180881
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2784,12 +2784,12 @@
                                     "id": "96178326-4010-42d5-ad13-80b9a249b08f",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15145.289351720288,
-                                            "y": 16955.820540705427
+                                            "x": 15039.702416462515,
+                                            "y": 18707.14329524209
                                         },
                                         "targetPosition": {
-                                            "x": 15176.191051157783,
-                                            "y": 16860.71488907591
+                                            "x": 15031.85650688973,
+                                            "y": 18607.451561868776
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -2807,12 +2807,12 @@
                                 "id": "dfbb4378-2fbb-4dcf-92c7-5a8a32a411b9",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15176.191051157783,
-                                        "y": 16860.71488907591
+                                        "x": 15031.85650688973,
+                                        "y": 18607.451561868776
                                     },
                                     "targetPosition": {
-                                        "x": 15222.543600314024,
-                                        "y": 16718.05641163164
+                                        "x": 15020.087642530552,
+                                        "y": 18457.91396180881
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2840,12 +2840,12 @@
                                     "id": "11454794-ba45-41a6-ad7f-58d16e2962a5",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15060.181588231479,
-                                            "y": 16908.157903031642
+                                            "x": 14942.833393936817,
+                                            "y": 18695.678090882597
                                         },
                                         "targetPosition": {
-                                            "x": 15125.126393064496,
-                                            "y": 16832.117306471642
+                                            "x": 14973.735093374311,
+                                            "y": 18600.572439253083
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -2863,12 +2863,12 @@
                                 "id": "3b431537-fa88-4fb3-9f41-f359685f9930",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15125.126393064496,
-                                        "y": 16832.117306471642
+                                        "x": 14973.735093374311,
+                                        "y": 18600.572439253083
                                     },
                                     "targetPosition": {
-                                        "x": 15222.543600314024,
-                                        "y": 16718.05641163164
+                                        "x": 15020.087642530552,
+                                        "y": 18457.91396180881
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2896,12 +2896,12 @@
                                     "id": "ca539ee1-ac65-4892-8d4d-ca9e6eac6eb7",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 14999.791969266933,
-                                            "y": 16831.554036566522
+                                            "x": 14857.725630448007,
+                                            "y": 18648.015453208816
                                         },
                                         "targetPosition": {
-                                            "x": 15088.892621685769,
-                                            "y": 16786.15498659257
+                                            "x": 14922.670435281025,
+                                            "y": 18571.974856648812
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -2919,12 +2919,12 @@
                                 "id": "f26d2ade-e853-4dc7-b4a7-3708043deefc",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15088.892621685769,
-                                        "y": 16786.15498659257
+                                        "x": 14922.670435281025,
+                                        "y": 18571.974856648812
                                     },
                                     "targetPosition": {
-                                        "x": 15222.543600314024,
-                                        "y": 16718.05641163164
+                                        "x": 15020.087642530552,
+                                        "y": 18457.91396180881
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2952,12 +2952,12 @@
                                     "id": "ab2e7943-ccdc-4300-8d84-2824f4d3d1f5",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 14973.314266880741,
-                                            "y": 16737.6711855636
+                                            "x": 14797.336011483461,
+                                            "y": 18571.411586743696
                                         },
                                         "targetPosition": {
-                                            "x": 15073.006000254054,
-                                            "y": 16729.825275990814
+                                            "x": 14886.436663902297,
+                                            "y": 18526.01253676974
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -2975,12 +2975,12 @@
                                 "id": "4dd65130-0fd3-43d9-8e83-416592918c4f",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15073.006000254054,
-                                        "y": 16729.825275990814
+                                        "x": 14886.436663902297,
+                                        "y": 18526.01253676974
                                     },
                                     "targetPosition": {
-                                        "x": 15222.543600314024,
-                                        "y": 16718.05641163164
+                                        "x": 15020.087642530552,
+                                        "y": 18457.91396180881
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2999,17 +2999,17 @@
                         "id": "5fea2b56-7c4c-4c0e-9d87-a25d5aae14ba",
                         "savedPayload": {
                             "position": {
-                                "x": 15222.543600314024,
-                                "y": 16718.05641163164
+                                "x": 15020.087642530552,
+                                "y": 18457.91396180881
                             },
                             "targetPosition": {
-                                "x": 15363.71305870525,
-                                "y": 16068.001906581922
+                                "x": 14996.5499138122,
+                                "y": 18158.83876168887
                             },
                             "floatingObject": {
-                                "isPinned": true,
+                                "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -3030,17 +3030,17 @@
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
                                 "name": "New Procedure Javascript Code",
-                                "code": "/* Loop Code */\nlet movingAvLen1 = 5;\nlet movingAvLen2 = 10;\t\t\nlet movingAvLen3 = 20;\nlet movingAvLen4 = 50;\nlet movingAvLen5 = 100;\nlet candle = record.current;\nlet volume = getElement('volumes', candle);\nlet AllVolume = volume.buy; // + volume.sell;\nlet MaxLen = Math.max(movingAvLen1, movingAvLen2, movingAvLen3, movingAvLen4, movingAvLen5);\nlet tempPVsum = 0;\n//variable.volBuy = AllVolume;\n\n// error handling when the exchange is down and no data available.\nif ( Number.isNaN(candle.close) || Number.isNaN(candle.open) ) {\n\tcandle.close = variable.prevClose;\n\tcandle.min = variable.prevMin;\n\tcandle.max = variable.prevMax;\n\tAllVolume = 1;\t// 1 as a placeholder,not sure what to put here\n} else {\n\tvariable.prevClose = candle.close;\n\tvariable.prevMin = candle.min;\n\tvariable.prevMax = candle.max;\n}\n\n//////////\n// Calculate PriceVolume\ntempPVsum = calculatePV();\nif ( Number.isNaN(tempPVsum)) {\n\t// result is Nan, return zero volume as server or asset is down\n\ttempPVsum = 0;\n} else { variable.PVSum.push(tempPVsum) }\n\nif (variable.PVSum.length > MaxLen) {\n    variable.PVSum.splice(0, 1); // Remove the first element of the array to keep it at a maximum of movingAvLen1 elements (default 10) \n}\n\n// Add current volume to array\nvariable.VolSum.push(AllVolume);\n\nif (variable.VolSum.length > MaxLen) {\n    variable.VolSum.splice(0, 1) // Remove the first element of the array to keep it at a maximum of movingAvLen1 elements (default 10) \n}\n\nvariable.mvwap1 = calculateVolSum(movingAvLen1);\nvariable.mvwap2 = calculateVolSum(movingAvLen2);\nvariable.mvwap3 = calculateVolSum(movingAvLen3);\nvariable.mvwap4 = calculateVolSum(movingAvLen4);\nvariable.mvwap5 = calculateVolSum(movingAvLen5);\n\n//////////////////\n// functions area\n\nfunction calculatePV()\t{\n\treturn (candle.close + candle.max + candle.min) / 3 * AllVolume;\n}\n\nfunction calculateVolSum(length) {\n\t/* We check we have enough values to make the calculation */\n    if (variable.PVSum.length < length) { return 0 } // If not, define the value as zero.\n\t\n\tlet sum1 = 0 // Initialise sum variables. \n\tlet sum2 = 0 \n    for (let i = variable.PVSum.length - length; i < variable.PVSum.length; i++) { // Iterate through the array\n        sum1 = sum1 + variable.PVSum[i];\n\t\tsum2 = sum2 + variable.VolSum[i];\n    }\n    \n    let MVWAP = sum1 / sum2;\n\tif ( Number.isNaN(MVWAP) ) {\n\t\t// error handling, return zero instead of NaN\n\t\tMVWAP = 0;\n\t}\n    return MVWAP;\n}",
+                                "code": "/* Loop Code */\nlet movingAvLen1 = 5;\nlet movingAvLen2 = 10;\nlet movingAvLen3 = 20;\nlet movingAvLen4 = 50;\nlet movingAvLen5 = 100;\nlet candle = record.current;\nlet volume = getElement('volumes', candle);\nlet AllVolume = volume.buy; // + volume.sell;\nlet MaxLen = Math.max(movingAvLen1, movingAvLen2, movingAvLen3, movingAvLen4, movingAvLen5);\nlet tempPVsum = 0;\n//variable.volBuy = AllVolume;\n\n// error handling when the exchange is down and no data available.\nif (Number.isNaN(candle.close) || Number.isNaN(candle.open)) {\n\tcandle.close = variable.prevClose;\n\tcandle.min = variable.prevMin;\n\tcandle.max = variable.prevMax;\n\tAllVolume = 1;\t// 1 as a placeholder,not sure what to put here\n} else {\n\tvariable.prevClose = candle.close;\n\tvariable.prevMin = candle.min;\n\tvariable.prevMax = candle.max;\n}\n\n//////////\n// Calculate PriceVolume\ntempPVsum = calculatePV();\nif (Number.isNaN(tempPVsum)) {\n\t// result is Nan, return zero volume as server or asset is down\n\ttempPVsum = 0;\n} else { variable.PVSum.push(tempPVsum) }\n\nif (variable.PVSum.length > MaxLen) {\n\tvariable.PVSum.splice(0, 1); // Remove the first element of the array to keep it at a maximum of movingAvLen1 elements (default 10) \n}\n\n// Add current volume to array\nvariable.VolSum.push(AllVolume);\n\nif (variable.VolSum.length > MaxLen) {\n\tvariable.VolSum.splice(0, 1) // Remove the first element of the array to keep it at a maximum of movingAvLen1 elements (default 10) \n}\n\nvariable.mvwap1 = calculateVolSum(movingAvLen1);\nvariable.mvwap2 = calculateVolSum(movingAvLen2);\nvariable.mvwap3 = calculateVolSum(movingAvLen3);\nvariable.mvwap4 = calculateVolSum(movingAvLen4);\nvariable.mvwap5 = calculateVolSum(movingAvLen5);\n\n//////////////////\n// functions area\n\nfunction calculatePV() {\n\treturn (candle.close + candle.max + candle.min) / 3 * AllVolume;\n}\n\nfunction calculateVolSum(length) {\n\t/* We check we have enough values to make the calculation */\n\tif (variable.PVSum.length < length) { return 0 } // If not, define the value as zero.\n\n\tlet sum1 = 0 // Initialise sum variables. \n\tlet sum2 = 0\n\tfor (let i = variable.PVSum.length - length; i < variable.PVSum.length; i++) { // Iterate through the array\n\t\tsum1 = sum1 + variable.PVSum[i];\n\t\tsum2 = sum2 + variable.VolSum[i];\n\t}\n\n\tlet MVWAP = sum1 / sum2;\n\tif (Number.isNaN(MVWAP)) {\n\t\t// error handling, return zero instead of NaN\n\t\tMVWAP = 0;\n\t}\n\treturn MVWAP;\n}",
                                 "project": "Foundations",
                                 "id": "220b986c-c28b-4bec-a92d-561900c0ef34",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 14837.81378442034,
-                                        "y": 16594.053164925303
+                                        "x": 14711.99343928065,
+                                        "y": 18846.09969168578
                                     },
                                     "targetPosition": {
-                                        "x": 14932.211843077816,
-                                        "y": 16477.481270706754
+                                        "x": 14754.595740986239,
+                                        "y": 18702.276731455553
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -3058,12 +3058,12 @@
                             "id": "570ca810-bc5e-4d6c-9ee8-617ac181e047",
                             "savedPayload": {
                                 "position": {
-                                    "x": 14932.211843077816,
-                                    "y": 16477.481270706754
+                                    "x": 14754.595740986239,
+                                    "y": 18702.276731455553
                                 },
                                 "targetPosition": {
-                                    "x": 15121.007960392766,
-                                    "y": 16244.337482269664
+                                    "x": 14839.800344397416,
+                                    "y": 18414.630810995095
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -3090,12 +3090,12 @@
                                 "id": "dfe7c2db-36aa-40b7-9a39-f3f72f15f82f",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 14700.896768469025,
-                                        "y": 16405.60305956505
+                                        "x": 14513.381877441887,
+                                        "y": 18724.390370057285
                                     },
                                     "targetPosition": {
-                                        "x": 14840.933832443605,
-                                        "y": 16351.847867133254
+                                        "x": 14622.18803309373,
+                                        "y": 18621.13718370322
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -3113,12 +3113,12 @@
                             "id": "787fbe89-be98-4632-8bda-48aaa5be7eda",
                             "savedPayload": {
                                 "position": {
-                                    "x": 14840.933832443605,
-                                    "y": 16351.847867133254
+                                    "x": 14622.18803309373,
+                                    "y": 18621.13718370322
                                 },
                                 "targetPosition": {
-                                    "x": 15121.007960392766,
-                                    "y": 16244.337482269664
+                                    "x": 14839.800344397416,
+                                    "y": 18414.630810995095
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -3136,12 +3136,12 @@
                         "id": "5e8cdf8a-c440-4f80-bf6b-06dd4577f352",
                         "savedPayload": {
                             "position": {
-                                "x": 15121.007960392766,
-                                "y": 16244.337482269664
+                                "x": 14839.800344397416,
+                                "y": 18414.630810995095
                             },
                             "targetPosition": {
-                                "x": 15363.71305870525,
-                                "y": 16068.001906581922
+                                "x": 14996.5499138122,
+                                "y": 18158.83876168887
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -3159,12 +3159,12 @@
                     "id": "5167cbd3-33b9-4f02-80bf-18b8f007e563",
                     "savedPayload": {
                         "position": {
-                            "x": 15363.71305870525,
-                            "y": 16068.001906581922
+                            "x": 14996.5499138122,
+                            "y": 18158.83876168887
                         },
                         "targetPosition": {
-                            "x": 15363.71305870525,
-                            "y": 15768.001906581922
+                            "x": 14881.744884102673,
+                            "y": 17881.674901935483
                         },
                         "floatingObject": {
                             "isPinned": false,
