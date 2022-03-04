@@ -1,0 +1,2641 @@
+{
+    "type": "Data Mine",
+    "name": "Schaff Trend Cycle",
+    "config": "{\n    \"codeName\": \"STC\"\n}",
+    "project": "Data-Mining",
+    "sensorBots": [],
+    "apiDataFetcherBots": [],
+    "indicatorBots": [
+        {
+            "type": "Indicator Bot",
+            "name": "STC",
+            "config": "{\n    \"codeName\": \"STC\"\n}",
+            "project": "Data-Mining",
+            "processes": [
+                {
+                    "type": "Process Definition",
+                    "name": "Multi-Time-Frame-Market",
+                    "config": "{\n    \"codeName\": \"Multi-Time-Frame-Market\",\n    \"normalWaitTime\": 0,\n    \"retryWaitTime\": 10000,\n    \"framework\": {\n        \"name\": \"Multi-Time-Frame-Market\"\n    }\n}",
+                    "project": "Foundations",
+                    "processOutput": {
+                        "type": "Process Output",
+                        "name": "New Process Output",
+                        "project": "Foundations",
+                        "outputDatasets": [
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Market STC",
+                                "project": "Foundations",
+                                "id": "4bbac10e-cf27-4454-ac7a-d1cdb56d1f5f",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 28584.066277229707,
+                                        "y": 23706.551922605606
+                                    },
+                                    "targetPosition": {
+                                        "x": 28609.94818173996,
+                                        "y": 23803.14450523451
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Output",
+                                        "name": "New Process Output",
+                                        "id": "f61a4b44-2f48-4c3e-adea-1025da95980e"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Output",
+                                        "name": "New Process Output",
+                                        "id": "f61a4b44-2f48-4c3e-adea-1025da95980e"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "7342d9de-2c0b-4ac2-a02d-15a8370e335c"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Schaff Trend Cycle",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "STC",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "STC",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "outputDatasetFolders": [],
+                        "id": "37603d8d-4190-4136-becd-2899fce4ad3f",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28609.94818173996,
+                                "y": 23803.14450523451
+                            },
+                            "targetPosition": {
+                                "x": 28648.77103850534,
+                                "y": 23948.033379177872
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            }
+                        }
+                    },
+                    "processDependencies": {
+                        "type": "Process Dependencies",
+                        "name": "New Process Dependencies",
+                        "project": "Foundations",
+                        "statusDependencies": [
+                            {
+                                "type": "Status Dependency",
+                                "name": "STC Multi-Time-Frame-Market",
+                                "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
+                                "project": "Foundations",
+                                "id": "9c3e8b87-dab9-4963-ae24-33fba363237b",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 28576.416752036097,
+                                        "y": 23398.44801015582
+                                    },
+                                    "targetPosition": {
+                                        "x": 28726.416752036097,
+                                        "y": 23658.25563129115
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "80300890-b158-4142-9263-b946aac2f901"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "80300890-b158-4142-9263-b946aac2f901"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "CFO",
+                                        "id": "b0c0ddba-f503-4cdd-b259-63c76aa8fb93"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Schaff Trend Cycle",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "STC",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "CFO",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Status Dependency",
+                                "name": "Candles Volumes Multi-Time-Frame-Market",
+                                "config": "{\n    \"mainUtility\": \"Market Ending Point\"\n}",
+                                "project": "Foundations",
+                                "id": "4b3dc5b9-7fb2-42e2-84a7-1d15a0f3fefc",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 28804.062465566854,
+                                        "y": 23368.47788340443
+                                    },
+                                    "targetPosition": {
+                                        "x": 28726.416752036097,
+                                        "y": 23658.25563129115
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "80300890-b158-4142-9263-b946aac2f901"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "80300890-b158-4142-9263-b946aac2f901"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "Candles Volumes Multi-Time-Frame-Market Status Report",
+                                        "id": "a0a61ba9-91cb-4ec7-92fe-134ff079de2d"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "Candles Volumes Multi-Time-Frame-Market Status Report",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataDependencies": [
+                            {
+                                "type": "Data Dependency",
+                                "name": "Candles Multi-Time-Frame-Market",
+                                "project": "Foundations",
+                                "id": "5b2c47a4-cf75-4bf0-8902-7b3d6207c063",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 28986.22437317143,
+                                        "y": 23508.25563129115
+                                    },
+                                    "targetPosition": {
+                                        "x": 28726.416752036097,
+                                        "y": 23658.25563129115
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "80300890-b158-4142-9263-b946aac2f901"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "80300890-b158-4142-9263-b946aac2f901"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "2b03494a-67d6-47f1-89b6-53fc4c9116a8"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataMineDataDependencies": [],
+                        "id": "26ff4f3d-67ae-4ac3-9035-4b71629871cd",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28726.416752036097,
+                                "y": 23658.25563129115
+                            },
+                            "targetPosition": {
+                                "x": 28648.77103850534,
+                                "y": 23948.033379177872
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            }
+                        }
+                    },
+                    "statusReport": {
+                        "type": "Status Report",
+                        "name": "CFO",
+                        "project": "Foundations",
+                        "id": "b0c0ddba-f503-4cdd-b259-63c76aa8fb93",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28860.903072861303,
+                                "y": 23735.90134482191
+                            },
+                            "targetPosition": {
+                                "x": 28648.77103850534,
+                                "y": 23948.033379177872
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            },
+                            "referenceChildren": [
+                                {
+                                    "type": "Status Dependency",
+                                    "name": "STC Multi-Time-Frame-Market",
+                                    "id": "009fc446-662a-4af5-a5cb-68702a962c66"
+                                }
+                            ]
+                        }
+                    },
+                    "executionStartedEvent": {
+                        "type": "Execution Started Event",
+                        "name": "",
+                        "project": "Foundations",
+                        "id": "997f8aef-5ee9-40be-9648-d908e4877ee2",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28938.54878639206,
+                                "y": 23870.387665647115
+                            },
+                            "targetPosition": {
+                                "x": 28648.77103850534,
+                                "y": 23948.033379177872
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            },
+                            "referenceParent": {
+                                "type": "Execution Finished Event",
+                                "name": "New Execution Finished Event",
+                                "id": "1824fa00-dd30-4cdc-acc0-01c2f29056c5"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Candles",
+                                    "Data Mine"
+                                ],
+                                [
+                                    "Candles Volumes",
+                                    "Indicator Bot"
+                                ],
+                                [
+                                    "Multi-Time-Frame-Market",
+                                    "Process Definition"
+                                ],
+                                [
+                                    "New Execution Finished Event",
+                                    "Execution Finished Event"
+                                ]
+                            ]
+                        }
+                    },
+                    "executionFinishedEvent": {
+                        "type": "Execution Finished Event",
+                        "name": "New Execution Finished Event",
+                        "project": "Foundations",
+                        "id": "705d762c-2b5f-4f8c-80a4-37c810769a0b",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28938.54878639206,
+                                "y": 24025.67909270863
+                            },
+                            "targetPosition": {
+                                "x": 28648.77103850534,
+                                "y": 23948.033379177872
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "c3614e2c-b625-4975-9edf-145adda69eb3"
+                            }
+                        }
+                    },
+                    "id": "b2e10cef-2483-4095-a8e8-ed7c85f5db84",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28648.77103850534,
+                            "y": 23948.033379177872
+                        },
+                        "targetPosition": {
+                            "x": 28436.639004149376,
+                            "y": 24160.165413533836
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "parentNode": {
+                            "type": "Indicator Bot",
+                            "name": "STC",
+                            "id": "bc39b599-39ec-4376-8d8b-2bff1ec238e7"
+                        },
+                        "chainParent": {
+                            "type": "Indicator Bot",
+                            "name": "STC",
+                            "id": "bc39b599-39ec-4376-8d8b-2bff1ec238e7"
+                        },
+                        "referenceChildren": [
+                            {
+                                "type": "Indicator Process Instance",
+                                "name": "STC Multi-Time-Frame-Market",
+                                "id": "cc79d66f-4ca2-45e1-a5e2-ae47e94695a8"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Process Definition",
+                    "name": "Multi-Time-Frame-Daily",
+                    "config": "{\n    \"codeName\": \"Multi-Time-Frame-Daily\",\n    \"normalWaitTime\": 0,\n    \"retryWaitTime\": 10000,\n    \"framework\": {\n        \"name\": \"Multi-Time-Frame-Daily\"\n    }\n}",
+                    "project": "Foundations",
+                    "processOutput": {
+                        "type": "Process Output",
+                        "name": "New Process Output",
+                        "project": "Foundations",
+                        "outputDatasets": [
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Daily STC",
+                                "project": "Foundations",
+                                "id": "4cc80a40-2481-4a9c-8249-f063e5288f7e",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 29036.639004149376,
+                                        "y": 23640.55017126317
+                                    },
+                                    "targetPosition": {
+                                        "x": 28886.639004149376,
+                                        "y": 23900.357792398503
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Output",
+                                        "name": "New Process Output",
+                                        "id": "bac5c53f-4a6f-4218-bba6-bf3f8ac641f6"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Output",
+                                        "name": "New Process Output",
+                                        "id": "bac5c53f-4a6f-4218-bba6-bf3f8ac641f6"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "be90cc0a-e458-4e97-8458-4aff4f4d5a1d"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Schaff Trend Cycle",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "STC",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "STC",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "outputDatasetFolders": [],
+                        "id": "fcbd93eb-a052-4258-a2d9-83e2e67c62d6",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28886.639004149376,
+                                "y": 23900.357792398503
+                            },
+                            "targetPosition": {
+                                "x": 28736.639004149376,
+                                "y": 24160.165413533836
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            }
+                        }
+                    },
+                    "processDependencies": {
+                        "type": "Process Dependencies",
+                        "name": "New Process Dependencies",
+                        "project": "Foundations",
+                        "statusDependencies": [
+                            {
+                                "type": "Status Dependency",
+                                "name": "STC Multi-Time-Frame-Daily",
+                                "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
+                                "project": "Foundations",
+                                "id": "3270afc1-06ee-4db1-a62f-776ccb1a20e8",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 29159.838335789216,
+                                        "y": 23758.56424315021
+                                    },
+                                    "targetPosition": {
+                                        "x": 28996.44662528471,
+                                        "y": 24010.165413533836
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "2671b2ef-49f0-4472-8502-78df9fc9351c"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "2671b2ef-49f0-4472-8502-78df9fc9351c"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "CFO",
+                                        "id": "923630b3-6daa-4e8f-ba5b-932fc4514f34"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Schaff Trend Cycle",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "STC",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "CFO",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Status Dependency",
+                                "name": "",
+                                "config": "{\n    \"mainUtility\": \"Market Ending Point\"\n}",
+                                "project": "Foundations",
+                                "id": "ef8e9e9b-ef54-4d91-a08d-53258b9e9d9b",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 29229.5904137218,
+                                        "y": 23821.369296218883
+                                    },
+                                    "targetPosition": {
+                                        "x": 28996.44662528471,
+                                        "y": 24010.165413533836
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "2671b2ef-49f0-4472-8502-78df9fc9351c"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "2671b2ef-49f0-4472-8502-78df9fc9351c"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "New Status Report",
+                                        "id": "2a021da8-9feb-475e-90ab-1586968c17c7"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "New Status Report",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Status Dependency",
+                                "name": "Exchange Raw Data Historic-OHLCVs",
+                                "config": "{\n    \"mainUtility\": \"Market Starting Point\"\n}",
+                                "project": "Foundations",
+                                "id": "51477c3a-f775-47b9-843c-e697eaaf40f1",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 29276.520753233868,
+                                        "y": 23902.655028670244
+                                    },
+                                    "targetPosition": {
+                                        "x": 28996.44662528471,
+                                        "y": 24010.165413533836
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "2671b2ef-49f0-4472-8502-78df9fc9351c"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "2671b2ef-49f0-4472-8502-78df9fc9351c"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                        "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Historic-OHLCVs",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataDependencies": [
+                            {
+                                "type": "Data Dependency",
+                                "name": "Candles Multi-Time-Frame-Daily",
+                                "project": "Foundations",
+                                "id": "b62e59fb-19e2-4d2d-b976-df632a726866",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 29296.03548571108,
+                                        "y": 23994.464626660952
+                                    },
+                                    "targetPosition": {
+                                        "x": 28996.44662528471,
+                                        "y": 24010.165413533836
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "2671b2ef-49f0-4472-8502-78df9fc9351c"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "2671b2ef-49f0-4472-8502-78df9fc9351c"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "678a567c-f08d-49b9-813b-4e54fd6afadb"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataMineDataDependencies": [],
+                        "id": "41bfe7e8-84bc-4951-b8c0-a4e02c7ed290",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28996.44662528471,
+                                "y": 24010.165413533836
+                            },
+                            "targetPosition": {
+                                "x": 28736.639004149376,
+                                "y": 24160.165413533836
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            }
+                        }
+                    },
+                    "statusReport": {
+                        "type": "Status Report",
+                        "name": "CFO",
+                        "project": "Foundations",
+                        "id": "923630b3-6daa-4e8f-ba5b-932fc4514f34",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28886.639004149376,
+                                "y": 24160.165413533836
+                            },
+                            "targetPosition": {
+                                "x": 28736.639004149376,
+                                "y": 24160.165413533836
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            },
+                            "referenceChildren": [
+                                {
+                                    "type": "Status Dependency",
+                                    "name": "STC Multi-Time-Frame-Daily",
+                                    "id": "c35288e1-f829-448c-b469-81d97f8cc0da"
+                                }
+                            ]
+                        }
+                    },
+                    "executionStartedEvent": {
+                        "type": "Execution Started Event",
+                        "name": "",
+                        "project": "Foundations",
+                        "id": "ee6393d9-e9dc-47d1-8fe1-8350a46c20f6",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28866.542814717042,
+                                "y": 24235.165413533836
+                            },
+                            "targetPosition": {
+                                "x": 28736.639004149376,
+                                "y": 24160.165413533836
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            },
+                            "referenceParent": {
+                                "type": "Execution Finished Event",
+                                "name": "New Execution Finished Event",
+                                "id": "f29d08f9-e7c8-490c-8fca-14851a0d3dc3"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Candles",
+                                    "Data Mine"
+                                ],
+                                [
+                                    "Candles Volumes",
+                                    "Indicator Bot"
+                                ],
+                                [
+                                    "Multi-Time-Frame-Daily",
+                                    "Process Definition"
+                                ],
+                                [
+                                    "New Execution Finished Event",
+                                    "Execution Finished Event"
+                                ]
+                            ]
+                        }
+                    },
+                    "executionFinishedEvent": {
+                        "type": "Execution Finished Event",
+                        "name": "New Execution Finished Event",
+                        "project": "Foundations",
+                        "id": "59cfe12b-dee4-44cf-99f3-fa077cf73cb8",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28811.639004149376,
+                                "y": 24290.069224101502
+                            },
+                            "targetPosition": {
+                                "x": 28736.639004149376,
+                                "y": 24160.165413533836
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "91282d7f-aa2f-403a-bfc3-4fdaed634a2f"
+                            }
+                        }
+                    },
+                    "id": "b76ac3bb-ab9f-4271-958c-f687523465b5",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28736.639004149376,
+                            "y": 24160.165413533836
+                        },
+                        "targetPosition": {
+                            "x": 28436.639004149376,
+                            "y": 24160.165413533836
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "parentNode": {
+                            "type": "Indicator Bot",
+                            "name": "STC",
+                            "id": "bc39b599-39ec-4376-8d8b-2bff1ec238e7"
+                        },
+                        "chainParent": {
+                            "type": "Indicator Bot",
+                            "name": "STC",
+                            "id": "bc39b599-39ec-4376-8d8b-2bff1ec238e7"
+                        },
+                        "referenceChildren": [
+                            {
+                                "type": "Indicator Process Instance",
+                                "name": "STC Multi-Time-Frame-Daily",
+                                "id": "1c07f0b9-b2a7-4476-a951-bfc45159c168"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "products": [
+                {
+                    "type": "Product Definition",
+                    "name": "STC",
+                    "config": "{\n    \"codeName\": \"STC\",\n    \"singularVariableName\": \"STC\",\n    \"pluralVariableName\": \"STCs\"\n}",
+                    "project": "Foundations",
+                    "datasets": [
+                        {
+                            "type": "Dataset Definition",
+                            "name": "Multi-Time-Frame-Market",
+                            "config": "{\n    \"codeName\": \"Multi-Time-Frame-Market\",\n    \"type\": \"Market Files\",\n    \"validTimeFrames\": [\n        \"24-hs\",\n        \"12-hs\",\n        \"08-hs\",\n        \"06-hs\",\n        \"04-hs\",\n        \"03-hs\",\n        \"02-hs\",\n        \"01-hs\"\n    ],\n    \"filePath\": \"Project/@Project/@MineType/@Mine/@Bot/@Exchange/@BaseAsset-@QuotedAsset/Output/@Product/@Dataset/@TimeFrame\",\n    \"fileName\": \"Data.json\"\n}",
+                            "project": "Foundations",
+                            "id": "7342d9de-2c0b-4ac2-a02d-15a8370e335c",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 28796.92428959461,
+                                    "y": 24348.832278133767
+                                },
+                                "targetPosition": {
+                                    "x": 28648.77103850534,
+                                    "y": 24372.2974478898
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 2,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Product Definition",
+                                    "name": "STC",
+                                    "id": "3c29b8b8-29d9-4846-811b-d5b8c884a3df"
+                                },
+                                "chainParent": {
+                                    "type": "Product Definition",
+                                    "name": "STC",
+                                    "id": "3c29b8b8-29d9-4846-811b-d5b8c884a3df"
+                                },
+                                "referenceChildren": [
+                                    {
+                                        "type": "Data Dependency",
+                                        "name": "PEMA Multi-Time-Frame-Market",
+                                        "id": "17f1999c-6ee2-41a4-9856-337a1a99d410"
+                                    },
+                                    {
+                                        "type": "Data Dependency",
+                                        "name": "STC Multi-Time-Frame-Market",
+                                        "id": "8e03e927-5afc-4a6e-89a1-8422cfb80379"
+                                    },
+                                    {
+                                        "type": "Output Dataset",
+                                        "name": "Multi-Time-Frame-Market STC",
+                                        "id": "62f5e259-80c2-4a30-8e23-cb8a633b5bd7"
+                                    },
+                                    {
+                                        "type": "Data Dependency",
+                                        "name": "STC Multi-Time-Frame-Market",
+                                        "id": "ae954aae-0fae-4b04-97a8-2b4e657e1928"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "Dataset Definition",
+                            "name": "Multi-Time-Frame-Daily",
+                            "config": "{\n    \"codeName\": \"Multi-Time-Frame-Daily\",\n    \"type\": \"Daily Files\",\n    \"validTimeFrames\": [\n        \"45-min\",\n        \"40-min\",\n        \"30-min\",\n        \"20-min\",\n        \"15-min\",\n        \"10-min\",\n        \"05-min\",\n        \"04-min\",\n        \"03-min\",\n        \"02-min\",\n        \"01-min\"\n    ],\n    \"filePath\": \"Project/@Project/@MineType/@Mine/@Bot/@Exchange/@BaseAsset-@QuotedAsset/Output/@Product/@Dataset/@TimeFrame/@Year/@Month/@Day\",\n    \"fileName\": \"Data.json\",\n    \"dataRange\": {\n        \"filePath\": \"Project/@Project/@MineType/@Mine/@Bot/@Exchange/@BaseAsset-@QuotedAsset/Output/@Product/@Dataset\",\n        \"fileName\": \"Data.Range.json\"\n    }\n}",
+                            "project": "Foundations",
+                            "id": "be90cc0a-e458-4e97-8458-4aff4f4d5a1d",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 28737.871690924178,
+                                    "y": 24417.696497863755
+                                },
+                                "targetPosition": {
+                                    "x": 28648.77103850534,
+                                    "y": 24372.2974478898
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 1,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Product Definition",
+                                    "name": "STC",
+                                    "id": "3c29b8b8-29d9-4846-811b-d5b8c884a3df"
+                                },
+                                "chainParent": {
+                                    "type": "Product Definition",
+                                    "name": "STC",
+                                    "id": "3c29b8b8-29d9-4846-811b-d5b8c884a3df"
+                                },
+                                "referenceChildren": [
+                                    {
+                                        "type": "Data Dependency",
+                                        "name": "PEMA Multi-Time-Frame-Daily",
+                                        "id": "9d120520-c844-42f1-91bf-e0cbd5ab2a58"
+                                    },
+                                    {
+                                        "type": "Data Dependency",
+                                        "name": "STC Multi-Time-Frame-Daily",
+                                        "id": "e6d6545b-c249-45aa-aa95-9b68aae8e917"
+                                    },
+                                    {
+                                        "type": "Output Dataset",
+                                        "name": "Multi-Time-Frame-Daily STC",
+                                        "id": "66409045-6994-4f1a-878e-f4e54f3a4a0e"
+                                    },
+                                    {
+                                        "type": "Data Dependency",
+                                        "name": "STC Multi-Time-Frame-Daily",
+                                        "id": "49f658b2-aa82-4b91-88cf-7c7e739e51d8"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "record": {
+                        "type": "Record Definition",
+                        "name": "New Record Definition",
+                        "project": "Foundations",
+                        "properties": [
+                            {
+                                "type": "Record Property",
+                                "name": "Begin",
+                                "config": "{\n    \"codeName\": \"begin\",\n    \"isString\": false,\n    \"isCalculated\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Formula",
+                                    "code": "record.current.begin",
+                                    "project": "Foundations",
+                                    "id": "635c5f02-9085-4bd3-84a6-dab8bfbc89e4",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 28873.139082188645,
+                                            "y": 25179.50378192634
+                                        },
+                                        "targetPosition": {
+                                            "x": 28777.364000520152,
+                                            "y": 25150.743849183145
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 1,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Record Property",
+                                            "name": "Begin",
+                                            "id": "fe95eef1-d796-4e0b-9c0a-8b41c45128bb"
+                                        },
+                                        "chainParent": {
+                                            "type": "Record Property",
+                                            "name": "Begin",
+                                            "id": "fe95eef1-d796-4e0b-9c0a-8b41c45128bb"
+                                        }
+                                    }
+                                },
+                                "id": "6380daf5-bcc3-4f21-acec-94ad3eb5eaf3",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 28817.053927173652,
+                                        "y": 24756.77173791221
+                                    },
+                                    "targetPosition": {
+                                        "x": 28695.70137801741,
+                                        "y": 24668.60395006834
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "1d2e1568-7cb2-488e-a6ba-da77ec0db596"
+                                    },
+                                    "chainParent": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "1d2e1568-7cb2-488e-a6ba-da77ec0db596"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Record Property",
+                                "name": "End",
+                                "config": "{\n    \"codeName\": \"end\",\n    \"isString\": false,\n    \"isCalculated\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Formula",
+                                    "code": "record.current.end",
+                                    "project": "Foundations",
+                                    "id": "b1f44ec1-2d4a-4b36-ac6b-d24e6c8165a4",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 28818.23112738924,
+                                            "y": 25276.271586551364
+                                        },
+                                        "targetPosition": {
+                                            "x": 28744.41922764051,
+                                            "y": 25208.804531958147
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 1,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Record Property",
+                                            "name": "End",
+                                            "id": "e190769b-5a09-4e5c-a116-405dd1423ac3"
+                                        },
+                                        "chainParent": {
+                                            "type": "Record Property",
+                                            "name": "End",
+                                            "id": "e190769b-5a09-4e5c-a116-405dd1423ac3"
+                                        }
+                                    }
+                                },
+                                "id": "47c3e7fa-7ff4-4184-8034-2eebb2c40903",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 28719.166547773442,
+                                        "y": 24816.757201157612
+                                    },
+                                    "targetPosition": {
+                                        "x": 28695.70137801741,
+                                        "y": 24668.60395006834
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "1d2e1568-7cb2-488e-a6ba-da77ec0db596"
+                                    },
+                                    "chainParent": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "1d2e1568-7cb2-488e-a6ba-da77ec0db596"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Record Property",
+                                "name": "STC",
+                                "config": "{\n  \"codeName\": \"STC\",\n  \"isString\": false,\n  \"isCalculated\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Record Formula",
+                                    "code": "variable.STC",
+                                    "project": "Foundations",
+                                    "id": "6ffe3d21-c4f9-4997-ab2d-5001e1c4a9a1",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 28548.75506494429,
+                                            "y": 24870.858198662077
+                                        },
+                                        "targetPosition": {
+                                            "x": 28607.533590173538,
+                                            "y": 24789.956499224583
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Record Property",
+                                            "name": "STC",
+                                            "id": "1c464d7c-e6ef-4839-8f29-8b5c1aab916d"
+                                        },
+                                        "chainParent": {
+                                            "type": "Record Property",
+                                            "name": "STC",
+                                            "id": "1c464d7c-e6ef-4839-8f29-8b5c1aab916d"
+                                        }
+                                    }
+                                },
+                                "id": "4a3cdf7b-8ffc-4f9a-884e-9db1948f13d0",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 28607.533590173538,
+                                        "y": 24789.956499224583
+                                    },
+                                    "targetPosition": {
+                                        "x": 28695.70137801741,
+                                        "y": 24668.60395006834
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "1d2e1568-7cb2-488e-a6ba-da77ec0db596"
+                                    },
+                                    "chainParent": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "1d2e1568-7cb2-488e-a6ba-da77ec0db596"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "ac50afe7-da76-42ce-b38d-e60122e1514c",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28695.70137801741,
+                                "y": 24668.60395006834
+                            },
+                            "targetPosition": {
+                                "x": 28648.77103850534,
+                                "y": 24372.2974478898
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Product Definition",
+                                "name": "STC",
+                                "id": "3c29b8b8-29d9-4846-811b-d5b8c884a3df"
+                            },
+                            "chainParent": {
+                                "type": "Product Definition",
+                                "name": "STC",
+                                "id": "3c29b8b8-29d9-4846-811b-d5b8c884a3df"
+                            }
+                        }
+                    },
+                    "dataBuilding": {
+                        "type": "Data Building Procedure",
+                        "name": "New Data Building Procedure",
+                        "project": "Foundations",
+                        "loop": {
+                            "type": "Procedure Loop",
+                            "name": "New Procedure Loop",
+                            "project": "Foundations",
+                            "procedureJavascriptCode": {
+                                "type": "Procedure Javascript Code",
+                                "name": "New Procedure Javascript Code",
+                                "code": "\n// Init\nlet candle = record.current\nlet len = 10\nlet lenFast = 23\nlet lenSlow = 50\nlet factor = 0.5\n\n// MACD\nlet fastEMA = calculateEMA(lenFast, candle.close, variable.fastEMAprev)\nvariable.fastEMAprev = fastEMA\n\nlet slowEMA = calculateEMA(lenSlow, candle.close, variable.slowEMAprev)\nvariable.slowEMAprev = slowEMA\n\nlet macd = fastEMA - slowEMA\nvariable.macdArray.push(macd)\nif (variable.macdArray.length > len) { variable.macdArray.splice(0, 1) }\n\n\n// STC\nlet v1 = Math.min(...variable.macdArray)\nlet v2 = Math.max(...variable.macdArray) - v1\n\nlet f1 = 0\nif (v2 > 0) {\n\tf1 = (macd - v1) / v2 * 100\n}\n\nlet pf = variable.pfPrev + (factor * (f1 - variable.pfPrev))\nvariable.pfPrev = pf\nvariable.pfArray.push(pf)\nif (variable.pfArray.length > len) { variable.pfArray.splice(0, 1) }\n\nlet v3 = Math.min(...variable.pfArray)\nlet v4 = Math.max(...variable.pfArray) - v3\n\nlet f2 = 0\nif (v4 > 0) {\n\tf2 = (pf - v3) / v4 * 100\n}\n\nvariable.STC = variable.prevSTC + (factor * (f2 - variable.prevSTC))\nvariable.prevSTC = variable.STC\n\n\n// NaN -> 0\nvariable.STC = variable.STC || 0\n\n// FUNCTION\n// EMA calculations\nfunction calculateEMA(periods, price, previousEMA) {\n\tlet k = 2 / (periods + 1)\n\treturn price * k + previousEMA * (1 - k)\n}",
+                                "project": "Foundations",
+                                "id": "70776ae2-62c0-44d2-bfaa-7882b864fea2",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 28329.333853507735,
+                                        "y": 24607.678674440445
+                                    },
+                                    "targetPosition": {
+                                        "x": 28403.648336055474,
+                                        "y": 24540.76561380456
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Procedure Loop",
+                                        "name": "New Procedure Loop",
+                                        "id": "5e326a6f-82ed-42fd-9b27-a7f3d0872386"
+                                    },
+                                    "chainParent": {
+                                        "type": "Procedure Loop",
+                                        "name": "New Procedure Loop",
+                                        "id": "5e326a6f-82ed-42fd-9b27-a7f3d0872386"
+                                    }
+                                }
+                            },
+                            "id": "211a6d61-e4bc-4626-a6d0-19d1a70152f8",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 28403.648336055474,
+                                    "y": 24540.76561380456
+                                },
+                                "targetPosition": {
+                                    "x": 28515.120059877085,
+                                    "y": 24440.39602285073
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 3,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Data Building Procedure",
+                                    "name": "New Data Building Procedure",
+                                    "id": "a93387e6-3aa3-4de2-a62e-c3c7fed91e7b"
+                                },
+                                "chainParent": {
+                                    "type": "Data Building Procedure",
+                                    "name": "New Data Building Procedure",
+                                    "id": "a93387e6-3aa3-4de2-a62e-c3c7fed91e7b"
+                                }
+                            }
+                        },
+                        "initialization": {
+                            "type": "Procedure Initialization",
+                            "name": "New Procedure Initialization",
+                            "project": "Foundations",
+                            "procedureJavascriptCode": {
+                                "type": "Procedure Javascript Code",
+                                "name": "New Procedure Javascript Code",
+                                "code": "variable.macdArray = []\r\nvariable.pfArray = []\r\nvariable.fastEMAprev = null\r\nvariable.slowEMAprev = null\r\nvariable.pfPrev = null\r\nvariable.prevSTC = null\r\n",
+                                "project": "Foundations",
+                                "id": "cd86942f-119a-4096-badd-900d9c0e6780",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 28270.583159693633,
+                                        "y": 24492.37394555517
+                                    },
+                                    "targetPosition": {
+                                        "x": 28368.397919767012,
+                                        "y": 24471.582776473395
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Procedure Initialization",
+                                        "name": "New Procedure Initialization",
+                                        "id": "e84c5dc1-4d61-4474-b836-09850c56e708"
+                                    },
+                                    "chainParent": {
+                                        "type": "Procedure Initialization",
+                                        "name": "New Procedure Initialization",
+                                        "id": "e84c5dc1-4d61-4474-b836-09850c56e708"
+                                    }
+                                }
+                            },
+                            "id": "455c932e-a8b5-4110-b316-8b148f81aad2",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 28368.397919767012,
+                                    "y": 24471.582776473395
+                                },
+                                "targetPosition": {
+                                    "x": 28515.120059877085,
+                                    "y": 24440.39602285073
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 3,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Data Building Procedure",
+                                    "name": "New Data Building Procedure",
+                                    "id": "a93387e6-3aa3-4de2-a62e-c3c7fed91e7b"
+                                },
+                                "chainParent": {
+                                    "type": "Data Building Procedure",
+                                    "name": "New Data Building Procedure",
+                                    "id": "a93387e6-3aa3-4de2-a62e-c3c7fed91e7b"
+                                }
+                            }
+                        },
+                        "id": "e9f9585a-bfcf-4314-8a53-228db335b9de",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28515.120059877085,
+                                "y": 24440.39602285073
+                            },
+                            "targetPosition": {
+                                "x": 28648.77103850534,
+                                "y": 24372.2974478898
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Product Definition",
+                                "name": "STC",
+                                "id": "3c29b8b8-29d9-4846-811b-d5b8c884a3df"
+                            },
+                            "chainParent": {
+                                "type": "Product Definition",
+                                "name": "STC",
+                                "id": "3c29b8b8-29d9-4846-811b-d5b8c884a3df"
+                            }
+                        }
+                    },
+                    "id": "ffc9485c-840f-4eb4-ac9c-8e35506727c6",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28648.77103850534,
+                            "y": 24372.2974478898
+                        },
+                        "targetPosition": {
+                            "x": 28436.639004149376,
+                            "y": 24160.165413533836
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "parentNode": {
+                            "type": "Indicator Bot",
+                            "name": "STC",
+                            "id": "bc39b599-39ec-4376-8d8b-2bff1ec238e7"
+                        },
+                        "chainParent": {
+                            "type": "Indicator Bot",
+                            "name": "STC",
+                            "id": "bc39b599-39ec-4376-8d8b-2bff1ec238e7"
+                        },
+                        "referenceChildren": [
+                            {
+                                "type": "Data Product",
+                                "name": "STC",
+                                "id": "ee7d1b96-7ddd-431b-a456-30293b73aaa1"
+                            }
+                        ],
+                        "referenceParent": {
+                            "type": "Plotter Module",
+                            "name": "STC",
+                            "id": "4c596361-da77-4d8f-bddb-9e0fb77900b6"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Schaff Trend Cycle",
+                                "Data Mine"
+                            ],
+                            [
+                                "Pentuple EMA",
+                                "Plotter"
+                            ],
+                            [
+                                "PEMA",
+                                "Plotter Module"
+                            ]
+                        ]
+                    }
+                }
+            ],
+            "id": "b37eb840-31bb-4f2c-902c-bbde4e287578",
+            "savedPayload": {
+                "position": {
+                    "x": 28436.639004149376,
+                    "y": 24160.165413533836
+                },
+                "targetPosition": {
+                    "x": 28136.639004149376,
+                    "y": 24160.165413533836
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": true,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "parentNode": {
+                    "type": "Data Mine",
+                    "name": "Schaff Trend Cycle",
+                    "id": "2a88f5d0-2f10-4fec-8e78-705d8b7e4a58"
+                },
+                "chainParent": {
+                    "type": "Data Mine",
+                    "name": "Schaff Trend Cycle",
+                    "id": "2a88f5d0-2f10-4fec-8e78-705d8b7e4a58"
+                }
+            }
+        }
+    ],
+    "plotters": [
+        {
+            "type": "Plotter",
+            "name": "STC",
+            "config": "{\n  \"codeName\": \"plotterSTC\"\n}",
+            "project": "Foundations",
+            "modules": [
+                {
+                    "type": "Plotter Module",
+                    "name": "STC",
+                    "config": "{\n  \"codeName\": \"moduleSTC\",\n  \"icon\": \"oscillator\"\n}",
+                    "project": "Foundations",
+                    "shapes": {
+                        "type": "Shapes",
+                        "name": "STC",
+                        "project": "Foundations",
+                        "chartPoints": [
+                            {
+                                "type": "Chart Points",
+                                "name": "Points",
+                                "project": "Foundations",
+                                "points": [
+                                    {
+                                        "type": "Point",
+                                        "name": "STC Begin",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.begin\ny = record.previous.STC",
+                                            "project": "Foundations",
+                                            "id": "254b6670-170c-41ce-b095-de59945eb2e9",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 27126.831383014043,
+                                                    "y": 25169.97303466917
+                                                },
+                                                "targetPosition": {
+                                                    "x": 27126.831383014043,
+                                                    "y": 24869.97303466917
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                },
+                                                "parentNode": {
+                                                    "type": "Point",
+                                                    "name": "STC Begin",
+                                                    "id": "f8ca236f-7184-4b78-9240-e7c6b61ef0d4"
+                                                },
+                                                "chainParent": {
+                                                    "type": "Point",
+                                                    "name": "STC Begin",
+                                                    "id": "f8ca236f-7184-4b78-9240-e7c6b61ef0d4"
+                                                }
+                                            }
+                                        },
+                                        "id": "7bb18743-62d3-48cc-89d7-9344b9f5955e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 27126.831383014043,
+                                                "y": 24869.97303466917
+                                            },
+                                            "targetPosition": {
+                                                "x": 27126.831383014043,
+                                                "y": 24569.97303466917
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "c89eaa50-37f1-4d6d-ad2c-acb14bb31682"
+                                            },
+                                            "chainParent": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "c89eaa50-37f1-4d6d-ad2c-acb14bb31682"
+                                            },
+                                            "referenceChildren": [
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points STC Begin",
+                                                    "id": "f6a320f8-2f6a-4e7f-9cfb-7a1269368830"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "STC End",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.end\ny = record.STC",
+                                            "project": "Foundations",
+                                            "id": "eb639ec3-a68c-4621-bec0-02e909b8fa3c",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 26607.216140743378,
+                                                    "y": 24869.97303466917
+                                                },
+                                                "targetPosition": {
+                                                    "x": 26867.02376187871,
+                                                    "y": 24719.97303466917
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                },
+                                                "parentNode": {
+                                                    "type": "Point",
+                                                    "name": "STC End",
+                                                    "id": "7f4ab0c0-e067-4296-b838-415e36864237"
+                                                },
+                                                "chainParent": {
+                                                    "type": "Point",
+                                                    "name": "STC End",
+                                                    "id": "7f4ab0c0-e067-4296-b838-415e36864237"
+                                                }
+                                            }
+                                        },
+                                        "id": "0abb045c-d21d-4222-b0e5-ca37f73b6f28",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 26867.02376187871,
+                                                "y": 24719.97303466917
+                                            },
+                                            "targetPosition": {
+                                                "x": 27126.831383014043,
+                                                "y": 24569.97303466917
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "c89eaa50-37f1-4d6d-ad2c-acb14bb31682"
+                                            },
+                                            "chainParent": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "c89eaa50-37f1-4d6d-ad2c-acb14bb31682"
+                                            },
+                                            "referenceChildren": [
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points STC End",
+                                                    "id": "a722d2c4-21ba-4ad0-ba69-47bc2eaf7a7d"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "70b8c710-cce1-414b-884e-4887d93a960d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 27126.831383014043,
+                                        "y": 24569.97303466917
+                                    },
+                                    "targetPosition": {
+                                        "x": 27276.831383014043,
+                                        "y": 24310.165413533836
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Shapes",
+                                        "name": "STC",
+                                        "id": "07219cce-3070-4df4-8333-b6405d538bcd"
+                                    },
+                                    "chainParent": {
+                                        "type": "Shapes",
+                                        "name": "STC",
+                                        "id": "07219cce-3070-4df4-8333-b6405d538bcd"
+                                    }
+                                }
+                            }
+                        ],
+                        "polygons": [
+                            {
+                                "type": "Polygon",
+                                "name": "PEMA",
+                                "project": "Foundations",
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 1,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RED\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 1,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.LIGHT\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "4e035217-06a7-4a16-a02c-be9a806314b6",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 26687.053635127322,
+                                                "y": 24812.07519577652
+                                            },
+                                            "targetPosition": {
+                                                "x": 26764.69934865808,
+                                                "y": 24522.2974478898
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Polygon Border",
+                                                "name": "New Polygon Border",
+                                                "id": "63c2b31a-7e84-4f0d-96db-681853ef48c8"
+                                            },
+                                            "chainParent": {
+                                                "type": "Polygon Border",
+                                                "name": "New Polygon Border",
+                                                "id": "63c2b31a-7e84-4f0d-96db-681853ef48c8"
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [
+                                        {
+                                            "type": "Style Condition",
+                                            "name": "New Style Condition",
+                                            "code": "record.STC > record.previous.STC",
+                                            "project": "Foundations",
+                                            "style": {
+                                                "type": "Style",
+                                                "name": "New Style",
+                                                "config": "{\r\n    \"opacity\": 0.2,\r\n    \"lineWidth\": 2,\r\n    \"lineDash\": [\r\n        0,\r\n        0\r\n    ],\r\n    \"paletteColor\": \"UI_COLOR.TRUE_GREEN\"\r\n}",
+                                                "project": "Foundations",
+                                                "id": "da2051cc-ea9b-41b3-ad67-2234499b43db",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 26185.143852884637,
+                                                        "y": 24677.588874951314
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 26474.92160077136,
+                                                        "y": 24599.943161420557
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "parentNode": {
+                                                        "type": "Style Condition",
+                                                        "name": "New Style Condition",
+                                                        "id": "2e25a4cb-2a93-4afa-a711-f61283fd9fca"
+                                                    },
+                                                    "chainParent": {
+                                                        "type": "Style Condition",
+                                                        "name": "New Style Condition",
+                                                        "id": "2e25a4cb-2a93-4afa-a711-f61283fd9fca"
+                                                    }
+                                                }
+                                            },
+                                            "id": "40e6d1d7-0cfe-4110-90b3-9bdf9e808261",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 26474.92160077136,
+                                                    "y": 24599.943161420557
+                                                },
+                                                "targetPosition": {
+                                                    "x": 26764.69934865808,
+                                                    "y": 24522.2974478898
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                },
+                                                "parentNode": {
+                                                    "type": "Polygon Border",
+                                                    "name": "New Polygon Border",
+                                                    "id": "63c2b31a-7e84-4f0d-96db-681853ef48c8"
+                                                },
+                                                "chainParent": {
+                                                    "type": "Polygon Border",
+                                                    "name": "New Polygon Border",
+                                                    "id": "63c2b31a-7e84-4f0d-96db-681853ef48c8"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "id": "23df2cc0-2d5b-4bbb-b5b6-f43b4e38a951",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 26764.69934865808,
+                                            "y": 24522.2974478898
+                                        },
+                                        "targetPosition": {
+                                            "x": 26976.831383014043,
+                                            "y": 24310.165413533836
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Polygon",
+                                            "name": "PEMA",
+                                            "id": "7ba8d858-77e1-4f65-8bc0-733840dfb541"
+                                        },
+                                        "chainParent": {
+                                            "type": "Polygon",
+                                            "name": "PEMA",
+                                            "id": "7ba8d858-77e1-4f65-8bc0-733840dfb541"
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Points STC Begin",
+                                        "project": "Foundations",
+                                        "id": "aa3e28fe-66d9-4714-bc0b-d663eb9faf30",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 26676.831383014043,
+                                                "y": 24310.165413533836
+                                            },
+                                            "targetPosition": {
+                                                "x": 26976.831383014043,
+                                                "y": 24310.165413533836
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": true,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Polygon",
+                                                "name": "PEMA",
+                                                "id": "7ba8d858-77e1-4f65-8bc0-733840dfb541"
+                                            },
+                                            "chainParent": {
+                                                "type": "Polygon",
+                                                "name": "PEMA",
+                                                "id": "7ba8d858-77e1-4f65-8bc0-733840dfb541"
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "STC Begin",
+                                                "id": "7bb18743-62d3-48cc-89d7-9344b9f5955e"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Schaff Trend Cycle",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "STC",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "STC",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "STC",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Points",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "STC Begin",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Points STC End",
+                                        "project": "Foundations",
+                                        "id": "23351c1a-43b0-4fb8-861b-7e9af5d7d36b",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 26764.69934865808,
+                                                "y": 24098.033379177872
+                                            },
+                                            "targetPosition": {
+                                                "x": 26976.831383014043,
+                                                "y": 24310.165413533836
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Polygon",
+                                                "name": "PEMA",
+                                                "id": "7ba8d858-77e1-4f65-8bc0-733840dfb541"
+                                            },
+                                            "chainParent": {
+                                                "type": "Polygon",
+                                                "name": "PEMA",
+                                                "id": "7ba8d858-77e1-4f65-8bc0-733840dfb541"
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "STC End",
+                                                "id": "0abb045c-d21d-4222-b0e5-ca37f73b6f28"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Schaff Trend Cycle",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "STC",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "STC",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "STC",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Points",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "STC End",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "98d2c8c2-69cf-4e9d-baae-02de4f8b9fc1",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 26976.831383014043,
+                                        "y": 24310.165413533836
+                                    },
+                                    "targetPosition": {
+                                        "x": 27276.831383014043,
+                                        "y": 24310.165413533836
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Shapes",
+                                        "name": "STC",
+                                        "id": "07219cce-3070-4df4-8333-b6405d538bcd"
+                                    },
+                                    "chainParent": {
+                                        "type": "Shapes",
+                                        "name": "STC",
+                                        "id": "07219cce-3070-4df4-8333-b6405d538bcd"
+                                    },
+                                    "referenceChildren": []
+                                }
+                            }
+                        ],
+                        "images": [],
+                        "texts": [],
+                        "id": "81f2ae03-1fca-464c-ab37-e9cb258321da",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27276.831383014043,
+                                "y": 24310.165413533836
+                            },
+                            "targetPosition": {
+                                "x": 27536.639004149376,
+                                "y": 24160.165413533836
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Plotter Module",
+                                "name": "STC",
+                                "id": "d5e1d7a4-99b7-48e9-a928-5711d64dcad3"
+                            },
+                            "chainParent": {
+                                "type": "Plotter Module",
+                                "name": "STC",
+                                "id": "d5e1d7a4-99b7-48e9-a928-5711d64dcad3"
+                            }
+                        }
+                    },
+                    "panels": [
+                        {
+                            "type": "Plotter Panel",
+                            "name": "Schaff Trend Cycle",
+                            "config": "{\n    \"codeName\": \"panelSTC\",\n    \"isLegacy\": false\n}",
+                            "project": "Foundations",
+                            "panelData": [
+                                {
+                                    "type": "Panel Data",
+                                    "name": "Schaff Trend Cycle",
+                                    "config": "{\n  \"valueDecimals\": 2\n}",
+                                    "project": "Foundations",
+                                    "dataFormula": {
+                                        "type": "Data Formula",
+                                        "name": "STC",
+                                        "code": "record.STC",
+                                        "project": "Foundations",
+                                        "id": "f3d0d104-cf96-40b0-81af-2d081e9d650d",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 26757.216140743378,
+                                                "y": 24010.165413533836
+                                            },
+                                            "targetPosition": {
+                                                "x": 27017.02376187871,
+                                                "y": 23860.165413533836
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Panel Data",
+                                                "name": "Schaff Trend Cycle",
+                                                "id": "7496b72f-dad7-49a9-b64d-76c1fec41183"
+                                            },
+                                            "chainParent": {
+                                                "type": "Panel Data",
+                                                "name": "Schaff Trend Cycle",
+                                                "id": "7496b72f-dad7-49a9-b64d-76c1fec41183"
+                                            }
+                                        }
+                                    },
+                                    "textStyle": {
+                                        "type": "Text Style",
+                                        "name": "New Text Style",
+                                        "config": "{\n    \"paletteColor\": \"UI_COLOR.PERSIAN_PLUM\"\n}",
+                                        "project": "Foundations",
+                                        "id": "9fba7f1f-404d-4cdd-99a6-71ba3bcdd284",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 27017.02376187871,
+                                                "y": 23560.165413533836
+                                            },
+                                            "targetPosition": {
+                                                "x": 27017.02376187871,
+                                                "y": 23860.165413533836
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Panel Data",
+                                                "name": "Schaff Trend Cycle",
+                                                "id": "7496b72f-dad7-49a9-b64d-76c1fec41183"
+                                            },
+                                            "chainParent": {
+                                                "type": "Panel Data",
+                                                "name": "Schaff Trend Cycle",
+                                                "id": "7496b72f-dad7-49a9-b64d-76c1fec41183"
+                                            }
+                                        }
+                                    },
+                                    "id": "c8554bde-cd7b-4b3c-b0a0-bdfc52ac39ff",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 27017.02376187871,
+                                            "y": 23860.165413533836
+                                        },
+                                        "targetPosition": {
+                                            "x": 27276.831383014043,
+                                            "y": 24010.165413533836
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 3,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Plotter Panel",
+                                            "name": "Schaff Trend Cycle",
+                                            "id": "5c5fb457-550b-48ae-9749-da0d3d3e0108"
+                                        },
+                                        "chainParent": {
+                                            "type": "Plotter Panel",
+                                            "name": "Schaff Trend Cycle",
+                                            "id": "5c5fb457-550b-48ae-9749-da0d3d3e0108"
+                                        }
+                                    }
+                                }
+                            ],
+                            "id": "98c68c88-5f11-4c2c-a7c6-05875aadc436",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 27276.831383014043,
+                                    "y": 24010.165413533836
+                                },
+                                "targetPosition": {
+                                    "x": 27536.639004149376,
+                                    "y": 24160.165413533836
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Plotter Module",
+                                    "name": "STC",
+                                    "id": "d5e1d7a4-99b7-48e9-a928-5711d64dcad3"
+                                },
+                                "chainParent": {
+                                    "type": "Plotter Module",
+                                    "name": "STC",
+                                    "id": "d5e1d7a4-99b7-48e9-a928-5711d64dcad3"
+                                },
+                                "referenceChildren": []
+                            }
+                        }
+                    ],
+                    "id": "4c596361-da77-4d8f-bddb-9e0fb77900b6",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27536.639004149376,
+                            "y": 24160.165413533836
+                        },
+                        "targetPosition": {
+                            "x": 27836.639004149376,
+                            "y": 24160.165413533836
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "parentNode": {
+                            "type": "Plotter",
+                            "name": "STC",
+                            "id": "4cd071b5-2040-4ca7-a30e-8e35bffb7c98"
+                        },
+                        "chainParent": {
+                            "type": "Plotter",
+                            "name": "STC",
+                            "id": "4cd071b5-2040-4ca7-a30e-8e35bffb7c98"
+                        },
+                        "referenceChildren": [
+                            {
+                                "type": "Product Definition",
+                                "name": "STC",
+                                "id": "3c29b8b8-29d9-4846-811b-d5b8c884a3df"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "id": "6aaa255d-6b7b-4915-b453-9b387e3d74be",
+            "savedPayload": {
+                "position": {
+                    "x": 27836.639004149376,
+                    "y": 24160.165413533836
+                },
+                "targetPosition": {
+                    "x": 28136.639004149376,
+                    "y": 24160.165413533836
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": true,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "parentNode": {
+                    "type": "Data Mine",
+                    "name": "Schaff Trend Cycle",
+                    "id": "2a88f5d0-2f10-4fec-8e78-705d8b7e4a58"
+                },
+                "chainParent": {
+                    "type": "Data Mine",
+                    "name": "Schaff Trend Cycle",
+                    "id": "2a88f5d0-2f10-4fec-8e78-705d8b7e4a58"
+                }
+            }
+        }
+    ],
+    "id": "d81fba56-1c81-472a-af15-da029e4d088e",
+    "savedPayload": {
+        "position": {
+            "x": 28136.639004149376,
+            "y": 24160.165413533836
+        },
+        "targetPosition": {
+            "x": 28136.639004149376,
+            "y": 24160.165413533836
+        },
+        "floatingObject": {
+            "isPinned": true,
+            "isFrozen": false,
+            "isCollapsed": false,
+            "angleToParent": 1,
+            "distanceToParent": 3,
+            "arrangementStyle": 0
+        },
+        "uiObject": {
+            "isRunning": false
+        },
+        "referenceChildren": [
+            {
+                "type": "Data Mine Data Dependencies",
+                "name": "Expontential Moving Averages",
+                "id": "3d88c830-bc2f-4674-bbf6-d59d32620779"
+            },
+            {
+                "type": "Data Mine Data Dependencies",
+                "name": "Schaff Trend Cycle",
+                "id": "d56e3a2f-08e3-4752-a3cf-dd3aad4e7587"
+            },
+            {
+                "type": "Data Mine Products",
+                "name": "Schaff Trend Cycle",
+                "id": "f8eba0c9-d9a5-4e2f-96ee-787486f6fd56"
+            },
+            {
+                "type": "Data Mine Tasks",
+                "name": "Schaff Trend Cycle",
+                "id": "cc64cb70-7e3c-4e65-b4d1-fcc2efeb71bd"
+            },
+            {
+                "type": "Data Mine Data Dependencies",
+                "name": "Schaff Trend Cycle",
+                "id": "6d31e761-5c88-4cd2-9d9e-a0c7f31ec54f"
+            }
+        ]
+    }
+}
