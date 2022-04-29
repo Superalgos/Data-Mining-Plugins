@@ -3202,8 +3202,8 @@
             "id": "37f2df00-c1ce-41a5-92c7-070eeea83948",
             "savedPayload": {
                 "position": {
-                    "x": 15039.247646179369,
-                    "y": 17883.338442522094
+                    "x": 15041.50484219101,
+                    "y": 17874.56192115536
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -4684,8 +4684,8 @@
             "id": "2e689fb6-1d88-4e5f-a5b7-5f259e6d41fe",
             "savedPayload": {
                 "position": {
-                    "x": 14994.292456052284,
-                    "y": 17991.869872225958
+                    "x": 15003.03623589323,
+                    "y": 17975.995299645652
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -6434,8 +6434,8 @@
             "id": "116ee86b-502f-4975-8710-6bf9ea928684",
             "savedPayload": {
                 "position": {
-                    "x": 14922.779075883233,
-                    "y": 18085.067923759903
+                    "x": 14941.410861026283,
+                    "y": 18065.275068434315
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -7956,8 +7956,8 @@
             "id": "732bf119-690a-4f0e-b975-07088f8bfd40",
             "savedPayload": {
                 "position": {
-                    "x": 14829.581024349287,
-                    "y": 18156.581303928957
+                    "x": 14860.210160378307,
+                    "y": 18137.2126118781
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -9326,8 +9326,8 @@
             "id": "b654433e-0e01-40ec-b73c-d54f5913604f",
             "savedPayload": {
                 "position": {
-                    "x": 14721.049594645421,
-                    "y": 18201.53649405604
+                    "x": 14764.153223518428,
+                    "y": 18187.627181434393
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -10860,8 +10860,8 @@
             "id": "e577ed73-1391-40ba-9ad4-cab1ac74284f",
             "savedPayload": {
                 "position": {
-                    "x": 14604.581024349287,
-                    "y": 18216.869872225958
+                    "x": 14658.822530464182,
+                    "y": 18213.588865570084
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -12508,8 +12508,8 @@
             "id": "bbaddc53-3818-4498-acac-fb1d91a5e958",
             "savedPayload": {
                 "position": {
-                    "x": 14488.112454053153,
-                    "y": 18201.53649405604
+                    "x": 14550.339518234392,
+                    "y": 18213.588865570084
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -13920,8 +13920,8 @@
             "id": "9d3a0685-b9a3-4ca6-bdd6-0c17f0223515",
             "savedPayload": {
                 "position": {
-                    "x": 14379.581024349287,
-                    "y": 18156.581303928957
+                    "x": 14445.008825180146,
+                    "y": 18187.627181434393
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -15232,8 +15232,8 @@
             "id": "a7d503e9-1c2a-4bf9-9a77-6589a1bc4ae6",
             "savedPayload": {
                 "position": {
-                    "x": 14286.382972815341,
-                    "y": 18085.067923759903
+                    "x": 14348.951888320267,
+                    "y": 18137.2126118781
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -16698,8 +16698,8 @@
             "id": "34c5573e-fdcf-484c-93db-5368a40430e7",
             "savedPayload": {
                 "position": {
-                    "x": 14214.86959264629,
-                    "y": 17991.869872225958
+                    "x": 14267.751187672291,
+                    "y": 18065.275068434315
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -18166,8 +18166,1418 @@
             "id": "955905c7-f58a-43a2-b88e-7af9adefe0b1",
             "savedPayload": {
                 "position": {
-                    "x": 14169.914402519205,
-                    "y": 17883.338442522094
+                    "x": 14206.125812805343,
+                    "y": 17975.995299645652
+                },
+                "targetPosition": {
+                    "x": 14604.581024349287,
+                    "y": 17766.869872225958
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": true,
+                    "angleToParent": 1,
+                    "distanceToParent": 4,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        {
+            "type": "Indicator Bot",
+            "name": "Worden Stochastic",
+            "config": "{\n    \"codeName\": \"WordenStochastic\"\n}",
+            "project": "Data-Mining",
+            "processes": [
+                {
+                    "type": "Process Definition",
+                    "name": "Multi-Time-Frame-Market",
+                    "config": "{\n    \"codeName\": \"Multi-Time-Frame-Market\",\n    \"description\": \"Produces the Keltner Channel.\",\n    \"deadWaitTime\": 0,\n    \"normalWaitTime\": 0,\n    \"retryWaitTime\": 10000,\n    \"sleepWaitTime\": 3600000,\n    \"comaWaitTime\": 86400000,\n    \"framework\": {\n        \"name\": \"Multi-Time-Frame-Market\"\n    }\n}",
+                    "project": "Foundations",
+                    "processOutput": {
+                        "type": "Process Output",
+                        "name": "New Process Output",
+                        "project": "Foundations",
+                        "outputDatasets": [
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Market Worden Stochastic",
+                                "project": "Foundations",
+                                "id": "3cbf3378-a695-46b0-9c67-9e436fe7b4b9",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 16359.251584498099,
+                                        "y": 25765.012738401078
+                                    },
+                                    "targetPosition": {
+                                        "x": 16203.111242106177,
+                                        "y": 25508.848350794735
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 1,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "069ad260-38ed-4e32-ba3d-600f3943b402"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Test Mine",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Worden Stochastic",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Worden Stochastic",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "outputDatasetFolders": [],
+                        "id": "665631e5-6161-49af-81bb-594d77f890df",
+                        "savedPayload": {
+                            "position": {
+                                "x": 16203.111242106177,
+                                "y": 25508.848350794735
+                            },
+                            "targetPosition": {
+                                "x": 16046.970899714255,
+                                "y": 25252.683963188392
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "processDependencies": {
+                        "type": "Process Dependencies",
+                        "name": "New Process Dependencies",
+                        "project": "Foundations",
+                        "statusDependencies": [
+                            {
+                                "type": "Status Dependency",
+                                "name": "Candles Volumes Multi-Time-Frame-Market",
+                                "config": "{\n    \"mainUtility\": \"Market Ending Point\"\n}",
+                                "project": "Foundations",
+                                "id": "c0630549-3672-4f67-a3da-59dc602c3633",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 16271.230420409609,
+                                        "y": 25759.622705040965
+                                    },
+                                    "targetPosition": {
+                                        "x": 16054.110208978087,
+                                        "y": 25552.599001596333
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": " Multi-Time-Frame-Market",
+                                        "id": "a0a61ba9-91cb-4ec7-92fe-134ff079de2d"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "Candles Volumes Multi-Time-Frame-Market Status Report",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Status Dependency",
+                                "name": "Worden Stochastic Multi-Time-Frame-Market",
+                                "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
+                                "project": "Foundations",
+                                "id": "545fa397-fa30-424a-a264-758406abd57e",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 16057.679863610003,
+                                        "y": 25702.556520800303
+                                    },
+                                    "targetPosition": {
+                                        "x": 16054.110208978087,
+                                        "y": 25552.599001596333
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": " Multi-Time-Frame-Market",
+                                        "id": "deaac06d-fa88-4e51-af74-e090ae03660d"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Test Mine",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Worden Stochastic",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            " Multi-Time-Frame-Market",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataDependencies": [
+                            {
+                                "type": "Data Dependency",
+                                "name": "Candles Multi-Time-Frame-Market",
+                                "project": "Foundations",
+                                "id": "d0291b17-09a0-421a-8c79-ce68c1593406",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 15950.59835725577,
+                                        "y": 25661.159107312094
+                                    },
+                                    "targetPosition": {
+                                        "x": 16054.110208978087,
+                                        "y": 25552.599001596333
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "2b03494a-67d6-47f1-89b6-53fc4c9116a8"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataMineDataDependencies": [],
+                        "id": "ede6e8e2-2985-463e-b679-cc091d880549",
+                        "savedPayload": {
+                            "position": {
+                                "x": 16054.110208978087,
+                                "y": 25552.599001596333
+                            },
+                            "targetPosition": {
+                                "x": 16046.970899714255,
+                                "y": 25252.683963188392
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": true,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "statusReport": {
+                        "type": "Status Report",
+                        "name": " Multi-Time-Frame-Market",
+                        "project": "Foundations",
+                        "id": "deaac06d-fa88-4e51-af74-e090ae03660d",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15903.196203698239,
+                                "y": 25515.98766005857
+                            },
+                            "targetPosition": {
+                                "x": 16046.970899714255,
+                                "y": 25252.683963188392
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "executionStartedEvent": {
+                        "type": "Execution Started Event",
+                        "name": "",
+                        "project": "Foundations",
+                        "id": "800c7691-01ce-4c7a-a543-1000cd2dacbd",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15918.888705911084,
+                                "y": 25330.75413438435
+                            },
+                            "targetPosition": {
+                                "x": 16046.970899714255,
+                                "y": 25252.683963188392
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "Execution Finished Event",
+                                "name": "New Execution Finished Event",
+                                "id": "1824fa00-dd30-4cdc-acc0-01c2f29056c5"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Candles",
+                                    "Data Mine"
+                                ],
+                                [
+                                    "Candles Volumes",
+                                    "Indicator Bot"
+                                ],
+                                [
+                                    "Multi-Time-Frame-Market",
+                                    "Process Definition"
+                                ],
+                                [
+                                    "New Execution Finished Event",
+                                    "Execution Finished Event"
+                                ]
+                            ]
+                        }
+                    },
+                    "executionFinishedEvent": {
+                        "type": "Execution Finished Event",
+                        "name": "New Execution Finished Event",
+                        "project": "Foundations",
+                        "id": "0e7ec517-108a-4622-98f3-3607b25271a1",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15897.013380510285,
+                                "y": 25256.253617820308
+                            },
+                            "targetPosition": {
+                                "x": 16046.970899714255,
+                                "y": 25252.683963188392
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "97d8e0eb-5a7b-44ad-bcd0-5efc7db68fe9",
+                    "savedPayload": {
+                        "position": {
+                            "x": 13934.855190127617,
+                            "y": 18259.663493691012
+                        },
+                        "targetPosition": {
+                            "x": 14167.657206507563,
+                            "y": 17874.56192115536
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Process Definition",
+                    "name": "Multi-Time-Frame-Daily",
+                    "config": "{\n    \"codeName\": \"Multi-Time-Frame-Daily\",\n    \"description\": \"Produces the Keltner Channel.\",\n    \"deadWaitTime\": 0,\n    \"normalWaitTime\": 0,\n    \"retryWaitTime\": 10000,\n    \"sleepWaitTime\": 3600000,\n    \"comaWaitTime\": 86400000,\n    \"framework\": {\n        \"name\": \"Multi-Time-Frame-Daily\"\n    }\n}",
+                    "project": "Foundations",
+                    "processOutput": {
+                        "type": "Process Output",
+                        "name": "New Process Output",
+                        "project": "Foundations",
+                        "outputDatasets": [
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Daily Worden Stochastic",
+                                "project": "Foundations",
+                                "id": "930e4cdb-5fe3-4861-b14c-056f5c958684",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 15761.442342340266,
+                                        "y": 25656.986974364765
+                                    },
+                                    "targetPosition": {
+                                        "x": 15832.170022993094,
+                                        "y": 25365.443503867704
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "1c520884-db19-4eca-a0a3-7c4b6f0157a1"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Test Mine",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Worden Stochastic",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Worden Stochastic",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "outputDatasetFolders": [],
+                        "id": "84370c88-4ddc-4731-bd54-b08dd00646c8",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15832.170022993094,
+                                "y": 25365.443503867704
+                            },
+                            "targetPosition": {
+                                "x": 15902.897703645922,
+                                "y": 25073.900033370643
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": true,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "processDependencies": {
+                        "type": "Process Dependencies",
+                        "name": "New Process Dependencies",
+                        "project": "Foundations",
+                        "statusDependencies": [
+                            {
+                                "type": "Status Dependency",
+                                "name": "Worden Stochastic Multi-Time-Frame-Daily",
+                                "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
+                                "project": "Foundations",
+                                "id": "3c51a200-cc6b-4ea5-b941-d7bc4105122d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 15625.146319548461,
+                                        "y": 25582.563715299224
+                                    },
+                                    "targetPosition": {
+                                        "x": 15695.87400020129,
+                                        "y": 25291.020244802163
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": " Multi-Time-Frame-Daily",
+                                        "id": "22ca1526-d9c3-46e4-8b0d-5fa18fc4ba2d"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Test Mine",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Worden Stochastic",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            " Multi-Time-Frame-Daily",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Status Dependency",
+                                "name": "Candles Volumes Multi-Time-Frame-Daily",
+                                "config": "{\n    \"mainUtility\": \"Market Ending Point\"\n}",
+                                "project": "Foundations",
+                                "id": "5fa7a43c-8871-4025-a1aa-6130d4856a4d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 15552.099304185273,
+                                        "y": 25554.32394167234
+                                    },
+                                    "targetPosition": {
+                                        "x": 15695.87400020129,
+                                        "y": 25291.020244802163
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": " Multi-Time-Frame-Daily",
+                                        "id": "2a021da8-9feb-475e-90ab-1586968c17c7"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "New Status Report",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Status Dependency",
+                                "name": "Exchange Raw Data Historic-OHLCVs",
+                                "config": "{\n    \"mainUtility\": \"Market Starting Point\"\n}",
+                                "project": "Foundations",
+                                "id": "73350031-65f5-4d13-8304-d8e3228082d3",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 15488.850296756656,
+                                        "y": 25508.140456233683
+                                    },
+                                    "targetPosition": {
+                                        "x": 15695.87400020129,
+                                        "y": 25291.020244802163
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": " Historic-OHLCVs",
+                                        "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Historic-OHLCVs",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataDependencies": [
+                            {
+                                "type": "Data Dependency",
+                                "name": "Candles Multi-Time-Frame-Daily",
+                                "project": "Foundations",
+                                "id": "536088ed-77f9-43eb-baa3-9ef358b87c0c",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 15439.709612594945,
+                                        "y": 25447.160587194085
+                                    },
+                                    "targetPosition": {
+                                        "x": 15695.87400020129,
+                                        "y": 25291.020244802163
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "678a567c-f08d-49b9-813b-4e54fd6afadb"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataMineDataDependencies": [
+                            {
+                                "type": "Data Mine Data Dependencies",
+                                "name": "Candles",
+                                "project": "Foundations",
+                                "botDataDependencies": [],
+                                "id": "08536990-19b5-4c71-bd0b-2ddf417dcf61",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 15408.02610811694,
+                                        "y": 25375.54001185459
+                                    },
+                                    "targetPosition": {
+                                        "x": 15695.87400020129,
+                                        "y": 25291.020244802163
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Data Mine",
+                                        "name": "Candles",
+                                        "id": "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "id": "be389986-4533-42b0-aa37-2056b0b4fe48",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15695.87400020129,
+                                "y": 25291.020244802163
+                            },
+                            "targetPosition": {
+                                "x": 15902.897703645922,
+                                "y": 25073.900033370643
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": true,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "statusReport": {
+                        "type": "Status Report",
+                        "name": " Multi-Time-Frame-Daily",
+                        "project": "Foundations",
+                        "id": "22ca1526-d9c3-46e4-8b0d-5fa18fc4ba2d",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15758.973757603748,
+                                "y": 25116.159916896857
+                            },
+                            "targetPosition": {
+                                "x": 15902.897703645922,
+                                "y": 25073.900033370643
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "executionStartedEvent": {
+                        "type": "Execution Started Event",
+                        "name": "",
+                        "project": "Foundations",
+                        "id": "5d5d6b18-aa31-40a1-b3c9-7e198b7f68d4",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15757.125968397391,
+                                "y": 25038.536193044227
+                            },
+                            "targetPosition": {
+                                "x": 15902.897703645922,
+                                "y": 25073.900033370643
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "Execution Finished Event",
+                                "name": "New Execution Finished Event",
+                                "id": "f29d08f9-e7c8-490c-8fca-14851a0d3dc3"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Candles",
+                                    "Data Mine"
+                                ],
+                                [
+                                    "Candles Volumes",
+                                    "Indicator Bot"
+                                ],
+                                [
+                                    "Multi-Time-Frame-Daily",
+                                    "Process Definition"
+                                ],
+                                [
+                                    "New Execution Finished Event",
+                                    "Execution Finished Event"
+                                ]
+                            ]
+                        }
+                    },
+                    "executionFinishedEvent": {
+                        "type": "Execution Finished Event",
+                        "name": "New Execution Finished Event",
+                        "project": "Foundations",
+                        "id": "b58f6b8e-67b1-4729-8f15-90b461637a18",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15794.337597930162,
+                                "y": 24970.388181648326
+                            },
+                            "targetPosition": {
+                                "x": 15902.897703645922,
+                                "y": 25073.900033370643
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "8f01f523-0105-4027-bceb-fe32bb8b87ca",
+                    "savedPayload": {
+                        "position": {
+                            "x": 13730.73338866584,
+                            "y": 17982.253970084763
+                        },
+                        "targetPosition": {
+                            "x": 14167.657206507563,
+                            "y": 17874.56192115536
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                }
+            ],
+            "products": [
+                {
+                    "type": "Product Definition",
+                    "name": "Worden Stochastic",
+                    "config": "{\n    \"codeName\": \"Worden-Stochastic\",\n    \"singularVariableName\": \"WordStoch\",\n    \"pluralVariableName\": \"WordStochs\"\n}",
+                    "project": "Foundations",
+                    "datasets": [
+                        {
+                            "type": "Dataset Definition",
+                            "name": "Multi-Time-Frame-Market",
+                            "config": "{\n    \"codeName\": \"Multi-Time-Frame-Market\",\n    \"type\": \"Market Files\",\n    \"validTimeFrames\": [\n        \"24-hs\",\n        \"12-hs\",\n        \"08-hs\",\n        \"06-hs\",\n        \"04-hs\",\n        \"03-hs\",\n        \"02-hs\",\n        \"01-hs\"\n    ],\n    \"filePath\": \"Project/@Project/@MineType/@Mine/@Bot/@Exchange/@BaseAsset-@QuotedAsset/Output/@Product/@Dataset/@TimeFrame\",\n    \"fileName\": \"Data.json\"\n}",
+                            "project": "Foundations",
+                            "id": "069ad260-38ed-4e32-ba3d-600f3943b402",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 13278.981488293668,
+                                    "y": 17656.395990192774
+                                },
+                                "targetPosition": {
+                                    "x": 13590.004847704087,
+                                    "y": 17525.358896585443
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 2,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        },
+                        {
+                            "type": "Dataset Definition",
+                            "name": "Multi-Time-Frame-Daily",
+                            "config": "{\n    \"codeName\": \"Multi-Time-Frame-Daily\",\n    \"type\": \"Daily Files\",\n    \"validTimeFrames\": [\n        \"45-min\",\n        \"40-min\",\n        \"30-min\",\n        \"20-min\",\n        \"15-min\",\n        \"10-min\",\n        \"05-min\",\n        \"04-min\",\n        \"03-min\",\n        \"02-min\",\n        \"01-min\"\n    ],\n    \"filePath\": \"Project/@Project/@MineType/@Mine/@Bot/@Exchange/@BaseAsset-@QuotedAsset/Output/@Product/@Dataset/@TimeFrame/@Year/@Month/@Day\",\n    \"fileName\": \"Data.json\",\n    \"dataRange\": {\n        \"filePath\": \"Project/@Project/@MineType/@Mine/@Bot/@Exchange/@BaseAsset-@QuotedAsset/Output/@Product/@Dataset\",\n        \"fileName\": \"Data.Range.json\"\n    }\n}",
+                            "project": "Foundations",
+                            "id": "1c520884-db19-4eca-a0a3-7c4b6f0157a1",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 13261.359993167813,
+                                    "y": 17448.55518842737
+                                },
+                                "targetPosition": {
+                                    "x": 13590.004847704087,
+                                    "y": 17525.358896585443
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 2,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "record": {
+                        "type": "Record Definition",
+                        "name": "New Record Definition",
+                        "project": "Foundations",
+                        "properties": [
+                            {
+                                "type": "Record Property",
+                                "name": "Begin",
+                                "config": "{\n    \"codeName\": \"begin\",\n    \"isString\": false,\n    \"isCalculated\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Formula",
+                                    "code": "record.current.begin",
+                                    "project": "Foundations",
+                                    "id": "00d0e61f-2876-413f-b618-8fdca303555d",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 12644.094254531828,
+                                            "y": 17057.510955916532
+                                        },
+                                        "targetPosition": {
+                                            "x": 12812.240995284556,
+                                            "y": 17043.25486689342
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 1,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "id": "0d72e4cc-a8a0-4ae3-ab5e-23ab2ab82ba3",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 12812.240995284556,
+                                        "y": 17043.25486689342
+                                    },
+                                    "targetPosition": {
+                                        "x": 13148.534476790011,
+                                        "y": 17014.742688847196
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Record Property",
+                                "name": "End",
+                                "config": "{ \n\"codeName\": \"end\",\n\"isString\": false,\n\"isCalculated\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Formula",
+                                    "code": "record.current.end",
+                                    "project": "Foundations",
+                                    "id": "0f4cc6c7-8d3e-4bfc-8d72-b37a6aa0a198",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 12715.295207687404,
+                                            "y": 16752.840420419758
+                                        },
+                                        "targetPosition": {
+                                            "x": 12859.708297388273,
+                                            "y": 16840.141176562236
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 1,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "id": "51bad0d0-21e5-423b-8fc7-7f8c713e4f25",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 12859.708297388273,
+                                        "y": 16840.141176562236
+                                    },
+                                    "targetPosition": {
+                                        "x": 13148.534476790011,
+                                        "y": 17014.742688847196
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Record Property",
+                                "name": "K Smoothed",
+                                "config": "{\n  \"codeName\": \"StochK\",\n  \"isString\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Record Formula",
+                                    "code": "variable.StochK",
+                                    "project": "Foundations",
+                                    "id": "5b632863-7bd4-4af5-a52e-be00dad01c41",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 12951.978836379014,
+                                            "y": 16548.207649731565
+                                        },
+                                        "targetPosition": {
+                                            "x": 13017.49738318268,
+                                            "y": 16703.719329436775
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "id": "0fc5fdd8-36ab-48f3-8683-7d3ea65d96d9",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 13017.49738318268,
+                                        "y": 16703.719329436775
+                                    },
+                                    "targetPosition": {
+                                        "x": 13148.534476790011,
+                                        "y": 17014.742688847196
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Record Property",
+                                "name": "D smoothed",
+                                "config": "{\n  \"codeName\": \"StochD\",\n  \"isString\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Record Formula",
+                                    "code": "variable.StochD",
+                                    "project": "Foundations",
+                                    "id": "7ffd2f25-bb3a-4f67-8e7e-b236b6b28d9f",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 13263.740039027123,
+                                            "y": 16521.775407042784
+                                        },
+                                        "targetPosition": {
+                                            "x": 13225.338184948087,
+                                            "y": 16686.09783431092
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "id": "b2481f14-22a4-4ff3-bfbc-d2d261bc38be",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 13225.338184948087,
+                                        "y": 16686.09783431092
+                                    },
+                                    "targetPosition": {
+                                        "x": 13148.534476790011,
+                                        "y": 17014.742688847196
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "bb596f76-43ab-4137-8fb3-bb6c42076642",
+                        "savedPayload": {
+                            "position": {
+                                "x": 13148.534476790011,
+                                "y": 17014.742688847196
+                            },
+                            "targetPosition": {
+                                "x": 13590.004847704087,
+                                "y": 17525.358896585443
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": true,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "dataBuilding": {
+                        "type": "Data Building Procedure",
+                        "name": "New Data Building Procedure",
+                        "project": "Foundations",
+                        "loop": {
+                            "type": "Procedure Loop",
+                            "name": "New Procedure Loop",
+                            "project": "Foundations",
+                            "procedureJavascriptCode": {
+                                "type": "Procedure Javascript Code",
+                                "name": "New Procedure Javascript Code",
+                                "code": "/* Loop Code */\nlet pLength = 14     // Slow Channel length\nlet stochK_len = 3   // K smoothing length\nlet stochD_len = 5   // D smoothing length\n\nlet candle = record.current\nlet wStoch = 0\n\n// assemble previous closes\nvariable.closes.push(candle.close)\n\n\nif (variable.closes.length > pLength) {\n    variable.closes.splice(0, 1)  // keep the array at size of pLength\n\n    // sort array and find rank\n    var sorted = variable.closes.slice().sort(function (a, b) { return a - b })        // use b-a if wrong order\n    var ranks = variable.closes.map(function (v) { return sorted.indexOf(v) /*+ 1*/ })\n\n    // calculate the Worden Stoch: (100/n)*rank\n    wStoch = (100 / pLength) * ranks[ranks.length - 1]\n\n    //console.log(\"StochK_raw\")\n    variable.StochK_raw.push(wStoch)\n\n    // stoch K calc\n    if (variable.StochK_raw.length > stochK_len) {\n        variable.StochK_raw.splice(0, 1)  //keep at max size\n\n        var K_calc = calculateSMA(variable.StochK_raw, stochK_len)\n\n        //console.log(\"StochD_raw\")\n        variable.StochD_raw.push(K_calc)\n        variable.StochK = K_calc.toFixed(2)\n    }\n\n    // stoch D calc\n    if (variable.StochD_raw.length > stochD_len) {\n        variable.StochD_raw.splice(0, 1)  //keep at max size\n\n        var D_calc = calculateSMA(variable.StochD_raw, stochD_len)\n\n        variable.StochD = D_calc.toFixed(2)\n    }\n    ////////////////////////////////\n}\n\nvariable.value = wStoch\n\n\n//////////////\n// functions\n\n/* Calculate Simple Moving Average */\nfunction calculateSMA(values, length) {\n    /* Check we have enough values to make the calculation */\n    if (values.length < length) { return 0 }\n\n    let sum = 0 // Initialize sum variable. \n    for (let i = values.length - length; i < values.length; i++) { // Iterate through the last periods\n        sum = sum + values[i]\n    }\n\n    return sum / length\n}",
+                                "project": "Foundations",
+                                "id": "768065b9-8458-4fa9-bea9-86fce86d21da",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 13407.935679211692,
+                                        "y": 16968.505189324947
+                                    },
+                                    "targetPosition": {
+                                        "x": 13465.073164028872,
+                                        "y": 17050.574110536127
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            "id": "fe595b86-bb28-4f9e-b3fb-567708998e8f",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 13465.073164028872,
+                                    "y": 17050.574110536127
+                                },
+                                "targetPosition": {
+                                    "x": 13561.492669657864,
+                                    "y": 17189.06541507999
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 2,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        },
+                        "initialization": {
+                            "type": "Procedure Initialization",
+                            "name": "New Procedure Initialization",
+                            "project": "Foundations",
+                            "procedureJavascriptCode": {
+                                "type": "Procedure Javascript Code",
+                                "name": "New Procedure Javascript Code",
+                                "code": "/* Initialization Code*/\nvariable.value = 0  // raw value\nvariable.StochK = 0\nvariable.StochD = 0\n\nvariable.closes = []\n\nvariable.StochK_raw = []\nvariable.StochD_raw = []\n\n",
+                                "project": "Foundations",
+                                "id": "0e1c12dd-a37a-4b63-8a6f-2cc26d2cf180",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 13675.724933003075,
+                                        "y": 16945.8010475474
+                                    },
+                                    "targetPosition": {
+                                        "x": 13633.219904781601,
+                                        "y": 17036.318021513016
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            "id": "b08b3afd-bf98-4208-ae2a-dd2db2b5be16",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 13633.219904781601,
+                                    "y": 17036.318021513016
+                                },
+                                "targetPosition": {
+                                    "x": 13561.492669657864,
+                                    "y": 17189.06541507999
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 2,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        },
+                        "id": "d93cfeae-2e56-42e3-9111-ac12bdfc50db",
+                        "savedPayload": {
+                            "position": {
+                                "x": 13561.492669657864,
+                                "y": 17189.06541507999
+                            },
+                            "targetPosition": {
+                                "x": 13590.004847704087,
+                                "y": 17525.358896585443
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "df492d19-14e4-4953-9824-9ebfb88508b4",
+                    "savedPayload": {
+                        "position": {
+                            "x": 13590.004847704087,
+                            "y": 17525.358896585443
+                        },
+                        "targetPosition": {
+                            "x": 14167.657206507563,
+                            "y": 17874.56192115536
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 4,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Plotter Module",
+                            "name": "Worden Stochastic",
+                            "id": "c88535fb-b9e6-477a-827e-94f66fb763d4"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Test Mine",
+                                "Data Mine"
+                            ],
+                            [
+                                "Worden Stoch Plotter",
+                                "Plotter"
+                            ],
+                            [
+                                "Worden Stochastic",
+                                "Plotter Module"
+                            ]
+                        ]
+                    }
+                }
+            ],
+            "id": "e9f4f1d9-0015-4c94-8641-c1aeba81a31b",
+            "savedPayload": {
+                "position": {
+                    "x": 14167.657206507563,
+                    "y": 17874.56192115536
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -21633,8 +23043,8 @@
             "id": "8fe60d39-d610-486c-8a42-89f048a17de3",
             "savedPayload": {
                 "position": {
-                    "x": 14169.914402519205,
-                    "y": 17650.40130192982
+                    "x": 14167.657206507563,
+                    "y": 17659.177823296555
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -23590,8 +25000,8 @@
             "id": "a051f669-b997-4f2f-b341-c6ee2add14d9",
             "savedPayload": {
                 "position": {
-                    "x": 14214.86959264629,
-                    "y": 17541.869872225958
+                    "x": 14206.125812805343,
+                    "y": 17557.744444806263
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -25203,8 +26613,8 @@
             "id": "ae695d69-ab5b-4170-9777-b122426eb0c6",
             "savedPayload": {
                 "position": {
-                    "x": 14286.38297281534,
-                    "y": 17448.671820692012
+                    "x": 14267.751187672291,
+                    "y": 17468.4646760176
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -26372,8 +27782,8 @@
             "id": "7108addd-2d63-4aaa-ae39-cf7b28a882aa",
             "savedPayload": {
                 "position": {
-                    "x": 14379.581024349287,
-                    "y": 17377.15844052296
+                    "x": 14348.951888320267,
+                    "y": 17396.527132573814
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -26999,8 +28409,8 @@
             "id": "6a107be1-3ce7-48c5-9c4e-3b1b207353c6",
             "savedPayload": {
                 "position": {
-                    "x": 14488.112454053153,
-                    "y": 17332.203250395876
+                    "x": 14445.008825180146,
+                    "y": 17346.112563017523
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -28335,8 +29745,8 @@
             "id": "22b38c7f-a098-4eb5-8842-b5783be4ab31",
             "savedPayload": {
                 "position": {
-                    "x": 14604.581024349287,
-                    "y": 17316.869872225958
+                    "x": 14550.339518234392,
+                    "y": 17320.150878881832
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -34080,8 +35490,8 @@
             "id": "f196e94e-bf0f-47aa-8cd2-4f11a4d8cbdc",
             "savedPayload": {
                 "position": {
-                    "x": 14721.049594645421,
-                    "y": 17332.203250395876
+                    "x": 14658.822530464182,
+                    "y": 17320.150878881832
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -35024,8 +36434,8 @@
             "id": "007897b3-e1d4-470b-bfec-f3181af949fb",
             "savedPayload": {
                 "position": {
-                    "x": 14829.581024349287,
-                    "y": 17377.15844052296
+                    "x": 14764.153223518428,
+                    "y": 17346.112563017523
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -36392,8 +37802,8 @@
             "id": "f12425eb-8c23-4d5c-a2d4-e6f21e66bb8d",
             "savedPayload": {
                 "position": {
-                    "x": 14922.779075883233,
-                    "y": 17448.671820692012
+                    "x": 14860.210160378307,
+                    "y": 17396.527132573814
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -37646,8 +39056,8 @@
             "id": "d292eb51-5b76-40b6-8371-675f625d8890",
             "savedPayload": {
                 "position": {
-                    "x": 14994.292456052284,
-                    "y": 17541.869872225958
+                    "x": 14941.410861026283,
+                    "y": 17468.4646760176
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
@@ -39701,8 +41111,1743 @@
             "id": "17ee6439-f6f8-4aa8-8331-d35c54e18abf",
             "savedPayload": {
                 "position": {
-                    "x": 15039.247646179369,
-                    "y": 17650.40130192982
+                    "x": 15003.03623589323,
+                    "y": 17557.744444806263
+                },
+                "targetPosition": {
+                    "x": 14604.581024349287,
+                    "y": 17766.869872225958
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": true,
+                    "angleToParent": 1,
+                    "distanceToParent": 4,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        {
+            "type": "Plotter",
+            "name": "Worden Stoch Plotter",
+            "config": "{\n    \"codeName\": \"Plotter-Worden-Stoch\"\n}",
+            "project": "Foundations",
+            "modules": [
+                {
+                    "type": "Plotter Module",
+                    "name": "Worden Stochastic",
+                    "config": "{\n\t\"codeName\": \"W-Stoch\",\n\t\"icon\": \"oscillator\"\n}",
+                    "project": "Foundations",
+                    "shapes": {
+                        "type": "Shapes",
+                        "name": "New Shapes",
+                        "project": "Foundations",
+                        "chartPoints": [
+                            {
+                                "type": "Chart Points",
+                                "name": "Grid",
+                                "project": "Foundations",
+                                "points": [
+                                    {
+                                        "type": "Point",
+                                        "name": "Begin 0",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.begin\ny = 0",
+                                            "project": "Foundations",
+                                            "id": "f9c23d71-472d-44cc-b2f9-91e9221e10c5",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16609.484102755872,
+                                                    "y": 24179.548831198892
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16706.665259588226,
+                                                    "y": 24155.972937647948
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 1,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "23fa7032-89ce-4833-a8aa-6e447d78f4a0",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 16706.665259588226,
+                                                "y": 24155.972937647948
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "End 0",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.end\ny = 0",
+                                            "project": "Foundations",
+                                            "id": "07eb9465-a73d-42da-b638-b3d911db494c",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16598.661794412084,
+                                                    "y": 24066.21249066562
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16698.548528330386,
+                                                    "y": 24070.970682247997
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 1,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "9d3b8e56-e5d6-4556-ba74-8f3d384b62dc",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 16698.548528330386,
+                                                "y": 24070.970682247997
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Begin 20",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.begin\ny = 20",
+                                            "project": "Foundations",
+                                            "id": "57093d27-fe22-45b2-9d7f-0a8c21edaf00",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16572.95836166369,
+                                                    "y": 23938.064673502282
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16714.708484470888,
+                                                    "y": 23987.124867999893
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "cbd2b805-2334-4acb-9520-50147645099a",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 16714.708484470888,
+                                                "y": 23987.124867999893
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "End 20",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.end\ny = 20",
+                                            "project": "Foundations",
+                                            "id": "4fda4368-87a0-47f8-889a-e3a80815b18b",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16631.649551662635,
+                                                    "y": 23824.21964768808
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16753.835944470185,
+                                                    "y": 23911.22818412376
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "1b39f727-2e8f-40d7-93a4-3d75b191528a",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 16753.835944470185,
+                                                "y": 23911.22818412376
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Begin 80",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.begin\ny = 80",
+                                            "project": "Foundations",
+                                            "id": "523ecc5f-c333-4324-b770-ad7cb47b8c33",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16720.037186286012,
+                                                    "y": 23731.521364360866
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16812.761034219104,
+                                                    "y": 23849.429328572285
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "ce442a97-8a37-47b5-a648-0aa3b4ae0229",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 16812.761034219104,
+                                                "y": 23849.429328572285
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "End 80",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.end\ny = 80",
+                                            "project": "Foundations",
+                                            "id": "c2f08b47-1fc2-41a7-a8d3-d115f2d2f09f",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16830.96062503814,
+                                                    "y": 23667.479687137886
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16886.70999338719,
+                                                    "y": 23806.734877090297
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "a2237d1a-f1d0-4eb0-ad9e-832f9058f3d1",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 16886.70999338719,
+                                                "y": 23806.734877090297
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Stoch K Begin",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.begin\ny = record.previous.StochK",
+                                            "project": "Foundations",
+                                            "id": "de2e1baa-60bd-4b12-8f7f-3c216579de78",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16955.433510598403,
+                                                    "y": 23637.282891837232
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16969.69191709403,
+                                                    "y": 23786.603680223194
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "06aee742-6ea0-4085-841e-002d9dcd8f6c",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 16969.69191709403,
+                                                "y": 23786.603680223194
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Stoch K End",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.end\ny = record.StochK",
+                                            "project": "Foundations",
+                                            "id": "32342233-bf18-4e76-8a97-36c7136c804a",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 17083.371790047473,
+                                                    "y": 23643.377343226904
+                                                },
+                                                "targetPosition": {
+                                                    "x": 17054.98410339341,
+                                                    "y": 23790.66664781631
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "3a8562af-3300-433e-8aba-1d41a49b31fb",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17054.98410339341,
+                                                "y": 23790.66664781631
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Stoch D Begin",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.begin\ny = record.previous.StochD",
+                                            "project": "Foundations",
+                                            "id": "5b73fd30-698f-45b0-80df-7e9df890e3fc",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 17204.410664862622,
+                                                    "y": 23685.269305100406
+                                                },
+                                                "targetPosition": {
+                                                    "x": 17135.67668660351,
+                                                    "y": 23818.594622398643
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "4c82313c-4026-421e-a660-856905367137",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17135.67668660351,
+                                                "y": 23818.594622398643
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Stoch D End",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.end\ny = record.StochD",
+                                            "project": "Foundations",
+                                            "id": "32515b30-e17c-464c-88b6-21ceb0cb4509",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 17308.744285252236,
+                                                    "y": 23759.564939847838
+                                                },
+                                                "targetPosition": {
+                                                    "x": 17205.23243352992,
+                                                    "y": 23868.1250455636
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "67a2fca1-2c95-41a1-b3d8-5d3545a561fb",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17205.23243352992,
+                                                "y": 23868.1250455636
+                                            },
+                                            "targetPosition": {
+                                                "x": 16998.208730085287,
+                                                "y": 24085.24525699512
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    }
+                                ],
+                                "id": "f82a4478-de9d-42ff-b96c-b144cf10fbda",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 15695.27771240805,
+                                        "y": 16802.83599744612
+                                    },
+                                    "targetPosition": {
+                                        "x": 15802.96976133745,
+                                        "y": 17239.75981528784
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "polygons": [
+                            {
+                                "type": "Polygon",
+                                "name": "Box 20-80",
+                                "project": "Foundations",
+                                "polygonBody": {
+                                    "type": "Polygon Body",
+                                    "name": "New Polygon Body",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 0.25,\n        \"paletteColor\": \"UI_COLOR.DARK_TURQUOISE\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.35,\n        \"paletteColor\": \"UI_COLOR.DARK_TURQUOISE\"\n    }\n}",
+                                        "project": "Foundations",
+                                        "id": "2b2cd5a9-cb2a-4e07-a971-9a588a6bd67d",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17411.327988736877,
+                                                "y": 23752.844468836523
+                                            },
+                                            "targetPosition": {
+                                                "x": 17442.22968817437,
+                                                "y": 23847.950120466037
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "77fd9aa9-6ea6-4771-b57e-4817cef2ecca",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 17442.22968817437,
+                                            "y": 23847.950120466037
+                                        },
+                                        "targetPosition": {
+                                            "x": 17488.582237330615,
+                                            "y": 23990.60859791031
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 3,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Begin 20",
+                                        "project": "Foundations",
+                                        "id": "38487265-32b9-4f79-92e2-31ae843ed200",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17480.731843894173,
+                                                "y": 23840.814167697125
+                                            },
+                                            "targetPosition": {
+                                                "x": 17488.582237330615,
+                                                "y": 23990.60859791031
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Begin 20",
+                                                "id": "cbd2b805-2334-4acb-9520-50147645099a"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Begin 20",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid End 20",
+                                        "project": "Foundations",
+                                        "id": "ee664536-fd09-4302-8c31-d7bf334763cd",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17519.76899095328,
+                                                "y": 23843.88645780024
+                                            },
+                                            "targetPosition": {
+                                                "x": 17488.582237330615,
+                                                "y": 23990.60859791031
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "End 20",
+                                                "id": "1b39f727-2e8f-40d7-93a4-3d75b191528a"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "End 20",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid End 80",
+                                        "project": "Foundations",
+                                        "id": "2a9eee7b-6c94-4b98-a249-36a9b44463a4",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17556.680812291546,
+                                                "y": 23856.957619282057
+                                            },
+                                            "targetPosition": {
+                                                "x": 17488.582237330615,
+                                                "y": 23990.60859791031
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "End 80",
+                                                "id": "a2237d1a-f1d0-4eb0-ad9e-832f9058f3d1"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "End 80",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Begin 80",
+                                        "project": "Foundations",
+                                        "id": "17677e98-88e0-4931-a23c-1247b764a57e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17588.951828284444,
+                                                "y": 23879.1368740887
+                                            },
+                                            "targetPosition": {
+                                                "x": 17488.582237330615,
+                                                "y": 23990.60859791031
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Begin 80",
+                                                "id": "ce442a97-8a37-47b5-a648-0aa3b4ae0229"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Begin 80",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "996439ef-e0ef-4f25-97c6-f3164f99c36f",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 15928.167620099854,
+                                        "y": 16807.526665053723
+                                    },
+                                    "targetPosition": {
+                                        "x": 15802.96976133745,
+                                        "y": 17239.75981528784
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Polygon",
+                                "name": "Line 0",
+                                "project": "Foundations",
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 0.3,\n        \"lineWidth\": 1,\n        \"lineDash\": [3,3],\n        \"paletteColor\": \"UI_COLOR.MANGANESE_PURPLE\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.3,\n        \"lineWidth\": 1,\n        \"lineDash\": [0,0],\n        \"paletteColor\": \"UI_COLOR.MANGANESE_PURPLE\"\n    }\n}",
+                                        "project": "Foundations",
+                                        "id": "9ac7bbb4-645b-4c6d-8dcb-1a0cb60265aa",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17457.254397090164,
+                                                "y": 23963.796639352826
+                                            },
+                                            "targetPosition": {
+                                                "x": 17414.203287409335,
+                                                "y": 24054.05516778781
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "c13d8307-e9f9-4fe1-853c-72587f6fc8c5",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 17414.203287409335,
+                                            "y": 24054.05516778781
+                                        },
+                                        "targetPosition": {
+                                            "x": 17371.152177728505,
+                                            "y": 24144.313696222795
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 3,
+                                            "distanceToParent": 1,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Begin 0",
+                                        "project": "Foundations",
+                                        "id": "74bd35e0-5527-4fcb-b996-1743ad99e571",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17445.466660276245,
+                                                "y": 24077.40063558691
+                                            },
+                                            "targetPosition": {
+                                                "x": 17371.152177728505,
+                                                "y": 24144.313696222795
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 1,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Begin 0",
+                                                "id": "23fa7032-89ce-4833-a8aa-6e447d78f4a0"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Begin 0",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid End 0",
+                                        "project": "Foundations",
+                                        "id": "59e1a9e4-caf6-4f8f-9b01-71d29080a40f",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17465.416326837723,
+                                                "y": 24110.933010299417
+                                            },
+                                            "targetPosition": {
+                                                "x": 17371.152177728505,
+                                                "y": 24144.313696222795
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 1,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "End 0",
+                                                "id": "9d3b8e56-e5d6-4556-ba74-8f3d384b62dc"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "End 0",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "ae9907ae-1f6e-46bf-ad9c-2ac266e98f72",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 16127.510862642166,
+                                        "y": 16928.033856208524
+                                    },
+                                    "targetPosition": {
+                                        "x": 15802.96976133745,
+                                        "y": 17239.75981528784
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Polygon",
+                                "name": "Stoch K Line",
+                                "project": "Foundations",
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 0.8,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.PATINATED_TURQUOISE\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.9,\n        \"lineWidth\": 2,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\n    }\n}",
+                                        "project": "Foundations",
+                                        "id": "7aa2e3d2-b977-40bc-af58-602b5951e765",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17560.2067084728,
+                                                "y": 23996.714543057642
+                                            },
+                                            "targetPosition": {
+                                                "x": 17499.330565571927,
+                                                "y": 24076.049877086767
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "b9c45258-ebf0-49f6-87db-2d2a7be0d8b2",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 17499.330565571927,
+                                            "y": 24076.049877086767
+                                        },
+                                        "targetPosition": {
+                                            "x": 17408.01635122062,
+                                            "y": 24195.052878130453
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 3,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Stoch K Begin",
+                                        "project": "Foundations",
+                                        "id": "e4d445fb-aa06-4874-b8e7-27e1ba25aec6",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17537.920161788286,
+                                                "y": 24120.052878130453
+                                            },
+                                            "targetPosition": {
+                                                "x": 17408.01635122062,
+                                                "y": 24195.052878130453
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Stoch K Begin",
+                                                "id": "06aee742-6ea0-4085-841e-002d9dcd8f6c"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Stoch K Begin",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Stoch K End",
+                                        "project": "Foundations",
+                                        "id": "87dbdba4-89e2-4a0e-b4aa-266cc43b7c2a",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17556.733080426693,
+                                                "y": 24175.473949297444
+                                            },
+                                            "targetPosition": {
+                                                "x": 17408.01635122062,
+                                                "y": 24195.052878130453
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Stoch K End",
+                                                "id": "3a8562af-3300-433e-8aba-1d41a49b31fb"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Stoch K End",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "1ed80963-ca2a-417f-80d1-ded7e11ea641",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 16239.893579179174,
+                                        "y": 17132.067766358443
+                                    },
+                                    "targetPosition": {
+                                        "x": 15802.96976133745,
+                                        "y": 17239.75981528784
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Polygon",
+                                "name": "Stoch D Line",
+                                "project": "Foundations",
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 0.7,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.MANGANESE_PURPLE\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.9,\n        \"lineWidth\": 2,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\n    }\n}",
+                                        "project": "Foundations",
+                                        "id": "6f208d93-ed74-4c53-a173-62bc151cca30",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17679.17861321311,
+                                                "y": 24249.382020039182
+                                            },
+                                            "targetPosition": {
+                                                "x": 17586.790659961982,
+                                                "y": 24287.65036327569
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "500eedd6-a1c8-4530-ab7a-eebf32d27213",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 17586.790659961982,
+                                            "y": 24287.65036327569
+                                        },
+                                        "targetPosition": {
+                                            "x": 17448.208730085287,
+                                            "y": 24345.052878130453
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 3,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Stoch D Begin",
+                                        "project": "Foundations",
+                                        "id": "94cacfbc-124f-4437-8706-610d0beee99e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17598.208730085287,
+                                                "y": 24345.052878130453
+                                            },
+                                            "targetPosition": {
+                                                "x": 17448.208730085287,
+                                                "y": 24345.052878130453
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Stoch D Begin",
+                                                "id": "4c82313c-4026-421e-a660-856905367137"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Stoch D Begin",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Stoch D End",
+                                        "project": "Foundations",
+                                        "id": "9a175d22-6007-4c34-8c8f-dee987077d86",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 17586.790659961982,
+                                                "y": 24402.455392985215
+                                            },
+                                            "targetPosition": {
+                                                "x": 17448.208730085287,
+                                                "y": 24345.052878130453
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Stoch D End",
+                                                "id": "67a2fca1-2c95-41a1-b3d8-5d3545a561fb"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Test Mine",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Worden Stoch Plotter",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Worden Stochastic",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Stoch D End",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "f7fd3a4b-5cfa-4efd-80d0-788c3ac43ff2",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 16235.202911571567,
+                                        "y": 17364.957674050245
+                                    },
+                                    "targetPosition": {
+                                        "x": 15802.96976133745,
+                                        "y": 17239.75981528784
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "images": [],
+                        "texts": [],
+                        "id": "469ddd97-93ce-4d62-b896-926ccc5f5aca",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15802.96976133745,
+                                "y": 17239.75981528784
+                            },
+                            "targetPosition": {
+                                "x": 15478.428660032734,
+                                "y": 17551.48577436716
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "panels": [
+                        {
+                            "type": "Plotter Panel",
+                            "name": "Worden Stoch",
+                            "config": "{\n    \"codeName\": \"WordStoch-panel\"\n}",
+                            "project": "Foundations",
+                            "panelData": [
+                                {
+                                    "type": "Panel Data",
+                                    "name": "Value K",
+                                    "config": "{\n    \"valueDecimals\": 2\n}",
+                                    "project": "Foundations",
+                                    "dataFormula": {
+                                        "type": "Data Formula",
+                                        "name": "New Data Formula",
+                                        "code": "record.StochK",
+                                        "project": "Foundations",
+                                        "id": "ec9c64f5-a190-44d4-b7c8-f1f713433a9a",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 15914.179810972557,
+                                                "y": 17502.01620236071
+                                            },
+                                            "targetPosition": {
+                                                "x": 15750.33337928191,
+                                                "y": 17542.400720709236
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "33b32da3-eb44-40bd-bed8-921ec45b4de7",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 15750.33337928191,
+                                            "y": 17542.400720709236
+                                        },
+                                        "targetPosition": {
+                                            "x": 15586.486947591264,
+                                            "y": 17582.78523905776
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 4,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Panel Data",
+                                    "name": "Value D",
+                                    "config": "{\n  \"valueDecimals\": 2\n}",
+                                    "project": "Foundations",
+                                    "dataFormula": {
+                                        "type": "Data Formula",
+                                        "name": "New Data Formula",
+                                        "code": "record.StochD",
+                                        "project": "Foundations",
+                                        "id": "502c26e8-3b02-4451-947e-fcf5c26b9d14",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 15820.281416900754,
+                                                "y": 17826.1910650363
+                                            },
+                                            "targetPosition": {
+                                                "x": 15703.384182246009,
+                                                "y": 17704.48815204703
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "b403680d-e605-4cad-a6fa-3cba4d5aef42",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 15703.384182246009,
+                                            "y": 17704.48815204703
+                                        },
+                                        "targetPosition": {
+                                            "x": 15586.486947591264,
+                                            "y": 17582.78523905776
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 4,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "id": "7a81a90a-287a-472c-9375-e06ce75c422a",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 15586.486947591264,
+                                    "y": 17582.78523905776
+                                },
+                                "targetPosition": {
+                                    "x": 15478.428660032734,
+                                    "y": 17551.48577436716
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 1,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "id": "c88535fb-b9e6-477a-827e-94f66fb763d4",
+                    "savedPayload": {
+                        "position": {
+                            "x": 15478.428660032734,
+                            "y": 17551.48577436716
+                        },
+                        "targetPosition": {
+                            "x": 15041.50484219101,
+                            "y": 17659.17782329656
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false,
+                            "shortcutKey": ""
+                        }
+                    }
+                }
+            ],
+            "id": "dde02337-cebc-4045-9829-b46750cc2300",
+            "savedPayload": {
+                "position": {
+                    "x": 15041.50484219101,
+                    "y": 17659.17782329656
                 },
                 "targetPosition": {
                     "x": 14604.581024349287,
