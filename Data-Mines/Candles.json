@@ -2,13 +2,13 @@
     "type": "Data Mine",
     "name": "Candles",
     "config": "{\"codeName\":\"Candles\"}",
-    "project": "Foundations",
+    "project": "Data-Mining",
     "sensorBots": [
         {
             "type": "Sensor Bot",
             "name": "Exchange Raw Data",
             "config": "{\n    \"codeName\": \"Exchange-Raw-Data\"\n}",
-            "project": "Foundations",
+            "project": "Data-Mining",
             "processes": [
                 {
                     "type": "Process Definition",
@@ -24,12 +24,12 @@
                         "id": "dfe2556e-a765-4e38-9d30-7f91090c0069",
                         "savedPayload": {
                             "position": {
-                                "x": 15487.743173205079,
-                                "y": 11313.655651259447
+                                "x": 19743.480141906934,
+                                "y": 11178.920930635853
                             },
                             "targetPosition": {
-                                "x": 15448.585315539065,
-                                "y": 11611.08910967159
+                                "x": 19704.32228424092,
+                                "y": 11476.354389047996
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -57,12 +57,12 @@
                                 "id": "ea39c98b-18e2-44ce-9f7f-86a8a76a688a",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15813.8421729443,
-                                        "y": 11135.077105496846
+                                        "x": 20069.579141646154,
+                                        "y": 11000.342384873253
                                     },
                                     "targetPosition": {
-                                        "x": 15631.213744241682,
-                                        "y": 11373.083107584218
+                                        "x": 19886.950712943537,
+                                        "y": 11238.348386960624
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -77,37 +77,27 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                        "name": " Historic-OHLCVs",
                                         "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Exchange Raw Data",
-                                                "Sensor Bot",
-                                                "Foundations",
-                                                "af924204-66a2-47d4-9910-66ab78acb06f"
-                                            ],
-                                            [
-                                                "Historic-OHLCVs",
-                                                "Process Definition",
-                                                "Foundations",
-                                                "5eb11d6a-022e-4f60-97c4-d6cf90b249dc"
-                                            ],
-                                            [
-                                                "Exchange-Raw-Data Historic-OHLCVs Status Report",
-                                                "Status Report",
-                                                "Foundations",
-                                                "181c7c34-7243-497a-9ddb-1b0067c6d66e"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Historic-OHLCVs",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            " Historic-OHLCVs",
+                                            "Status Report"
                                         ]
-                                    }
+                                    ]
                                 }
                             }
                         ],
@@ -116,12 +106,12 @@
                         "id": "5c7fae5a-6da6-4864-a167-f2f21d578c72",
                         "savedPayload": {
                             "position": {
-                                "x": 15631.213744241682,
-                                "y": 11373.083107584218
+                                "x": 19886.950712943537,
+                                "y": 11238.348386960624
                             },
                             "targetPosition": {
-                                "x": 15448.585315539065,
-                                "y": 11611.08910967159
+                                "x": 19704.32228424092,
+                                "y": 11476.354389047996
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -138,17 +128,17 @@
                     },
                     "statusReport": {
                         "type": "Status Report",
-                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                        "name": " Historic-OHLCVs",
                         "project": "Foundations",
                         "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e",
                         "savedPayload": {
                             "position": {
-                                "x": 15725.74917529245,
-                                "y": 11496.284079962064
+                                "x": 19981.486143994305,
+                                "y": 11361.54935933847
                             },
                             "targetPosition": {
-                                "x": 15448.585315539065,
-                                "y": 11611.08910967159
+                                "x": 19704.32228424092,
+                                "y": 11476.354389047996
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -170,12 +160,12 @@
                         "id": "957e7e3a-b167-40be-93b5-9ba4ceff56e5",
                         "savedPayload": {
                             "position": {
-                                "x": 15746.018773951208,
-                                "y": 11650.246967337604
+                                "x": 20001.755742653062,
+                                "y": 11515.51224671401
                             },
                             "targetPosition": {
-                                "x": 15448.585315539065,
-                                "y": 11611.08910967159
+                                "x": 19704.32228424092,
+                                "y": 11476.354389047996
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -197,12 +187,12 @@
                         "id": "fe40a546-43ee-49df-908a-7e72f598f0cd",
                         "savedPayload": {
                             "position": {
-                                "x": 15686.591317626437,
-                                "y": 11793.717538374207
+                                "x": 19942.32828632829,
+                                "y": 11658.982817750613
                             },
                             "targetPosition": {
-                                "x": 15448.585315539065,
-                                "y": 11611.08910967159
+                                "x": 19704.32228424092,
+                                "y": 11476.354389047996
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -220,12 +210,12 @@
                     "id": "5eb11d6a-022e-4f60-97c4-d6cf90b249dc",
                     "savedPayload": {
                         "position": {
-                            "x": 15448.585315539065,
-                            "y": 11611.08910967159
+                            "x": 19704.32228424092,
+                            "y": 11476.354389047996
                         },
                         "targetPosition": {
-                            "x": 15171.42145578568,
-                            "y": 11725.894139381115
+                            "x": 19427.158424487534,
+                            "y": 11591.159418757521
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -256,12 +246,12 @@
                             "id": "1c3696e4-c28e-4744-9100-706d6dce0c3c",
                             "savedPayload": {
                                 "position": {
-                                    "x": 15621.42145578568,
-                                    "y": 11725.894139381115
+                                    "x": 19877.158424487534,
+                                    "y": 11591.159418757521
                                 },
                                 "targetPosition": {
-                                    "x": 15471.42145578568,
-                                    "y": 11725.894139381115
+                                    "x": 19727.158424487534,
+                                    "y": 11591.159418757521
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -280,12 +270,12 @@
                     "id": "2443883b-6959-42a3-ae3b-ef3102ffcdcc",
                     "savedPayload": {
                         "position": {
-                            "x": 15471.42145578568,
-                            "y": 11725.894139381115
+                            "x": 19727.158424487534,
+                            "y": 11591.159418757521
                         },
                         "targetPosition": {
-                            "x": 15171.42145578568,
-                            "y": 11725.894139381115
+                            "x": 19427.158424487534,
+                            "y": 11591.159418757521
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -314,12 +304,12 @@
                             "id": "73dcce78-c223-49e1-a93c-7e1ab7283f86",
                             "savedPayload": {
                                 "position": {
-                                    "x": 15587.16724541576,
-                                    "y": 11898.101683945406
+                                    "x": 19842.904214117614,
+                                    "y": 11763.366963321812
                                 },
                                 "targetPosition": {
-                                    "x": 15448.585315539065,
-                                    "y": 11840.699169090643
+                                    "x": 19704.32228424092,
+                                    "y": 11705.96444846705
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -338,12 +328,12 @@
                     "id": "3a43c6f3-bac0-404e-865f-822eb48c8660",
                     "savedPayload": {
                         "position": {
-                            "x": 15448.585315539065,
-                            "y": 11840.699169090643
+                            "x": 19704.32228424092,
+                            "y": 11705.96444846705
                         },
                         "targetPosition": {
-                            "x": 15171.42145578568,
-                            "y": 11725.894139381115
+                            "x": 19427.158424487534,
+                            "y": 11591.159418757521
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -362,12 +352,12 @@
             "id": "af924204-66a2-47d4-9910-66ab78acb06f",
             "savedPayload": {
                 "position": {
-                    "x": 14937.069268429528,
-                    "y": 10937.341121162674
+                    "x": 19192.806237131383,
+                    "y": 10802.60640053908
                 },
                 "targetPosition": {
-                    "x": 14637.069268429528,
-                    "y": 10937.341121162674
+                    "x": 18892.806237131383,
+                    "y": 10802.60640053908
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -389,7 +379,7 @@
             "type": "Indicator Bot",
             "name": "Candles Volumes",
             "config": "{\n    \"codeName\": \"Candles-Volumes\"\n}",
-            "project": "Foundations",
+            "project": "Data-Mining",
             "processes": [
                 {
                     "type": "Process Definition",
@@ -408,12 +398,12 @@
                                 "id": "5d82f670-e692-40ca-8d24-9273d0f5e08f",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 17138.05356677976,
-                                        "y": 13044.891176675388
+                                        "x": 21393.790535481614,
+                                        "y": 12910.156456051795
                                     },
                                     "targetPosition": {
-                                        "x": 16694.1099622561,
-                                        "y": 13080.289164039452
+                                        "x": 20949.846930957956,
+                                        "y": 12945.554443415858
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -431,34 +421,24 @@
                                         "name": "Multi-Time-Frame-Market",
                                         "id": "2b03494a-67d6-47f1-89b6-53fc4c9116a8"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Candles Volumes",
-                                                "Indicator Bot",
-                                                "Foundations",
-                                                "285a4618-0423-4ac9-9df9-7a78be6fd915"
-                                            ],
-                                            [
-                                                "Candles",
-                                                "Product Definition",
-                                                "Foundations",
-                                                "fe6065ec-4d2d-47a0-bae0-8647f0e195d7"
-                                            ],
-                                            [
-                                                "Multi-Time-Frame-Market",
-                                                "Dataset Definition",
-                                                "Foundations",
-                                                "2b03494a-67d6-47f1-89b6-53fc4c9116a8"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
                                         ]
-                                    }
+                                    ]
                                 }
                             },
                             {
@@ -468,12 +448,12 @@
                                 "id": "b198c9ea-3141-4407-9953-2b2ebb672450",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 17131.923629962956,
-                                        "y": 13161.680533822037
+                                        "x": 21387.66059866481,
+                                        "y": 13026.945813198443
                                     },
                                     "targetPosition": {
-                                        "x": 16694.1099622561,
-                                        "y": 13080.289164039452
+                                        "x": 20949.846930957956,
+                                        "y": 12945.554443415858
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -491,34 +471,24 @@
                                         "name": "Multi-Time-Frame-Market",
                                         "id": "9bf0483c-4825-4a46-9cf4-1b5262579fc1"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Candles Volumes",
-                                                "Indicator Bot",
-                                                "Foundations",
-                                                "285a4618-0423-4ac9-9df9-7a78be6fd915"
-                                            ],
-                                            [
-                                                "Volumes",
-                                                "Product Definition",
-                                                "Foundations",
-                                                "1a366aef-efef-470e-88e0-2a6fbe4dd91f"
-                                            ],
-                                            [
-                                                "Multi-Time-Frame-Market",
-                                                "Dataset Definition",
-                                                "Foundations",
-                                                "9bf0483c-4825-4a46-9cf4-1b5262579fc1"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Volumes",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
                                         ]
-                                    }
+                                    ]
                                 }
                             }
                         ],
@@ -526,12 +496,12 @@
                         "id": "d529ec20-8461-40d6-9dc3-14f9ab8b64be",
                         "savedPayload": {
                             "position": {
-                                "x": 16694.1099622561,
-                                "y": 13080.289164039452
+                                "x": 20949.846930957956,
+                                "y": 12945.554443415858
                             },
                             "targetPosition": {
-                                "x": 15805.038124299077,
-                                "y": 13034.534418484422
+                                "x": 20060.77509300093,
+                                "y": 12899.799697860828
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -559,12 +529,12 @@
                                 "id": "ff665e30-1d31-429b-88dc-f5e623b9a5f8",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 17566.907800308647,
-                                        "y": 13126.572461306478
+                                        "x": 21822.6447690105,
+                                        "y": 12991.837740682884
                                     },
                                     "targetPosition": {
-                                        "x": 16679.869980207295,
-                                        "y": 13196.906195981654
+                                        "x": 20935.60694890915,
+                                        "y": 13062.17147535806
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -579,37 +549,27 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                        "name": " Historic-OHLCVs",
                                         "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Exchange Raw Data",
-                                                "Sensor Bot",
-                                                "Foundations",
-                                                "af924204-66a2-47d4-9910-66ab78acb06f"
-                                            ],
-                                            [
-                                                "Historic-OHLCVs",
-                                                "Process Definition",
-                                                "Foundations",
-                                                "5eb11d6a-022e-4f60-97c4-d6cf90b249dc"
-                                            ],
-                                            [
-                                                "Exchange-Raw-Data Historic-OHLCVs Status Report",
-                                                "Status Report",
-                                                "Foundations",
-                                                "181c7c34-7243-497a-9ddb-1b0067c6d66e"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Historic-OHLCVs",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            " Historic-OHLCVs",
+                                            "Status Report"
                                         ]
-                                    }
+                                    ]
                                 }
                             },
                             {
@@ -620,12 +580,12 @@
                                 "id": "6d911e31-cef3-4c4f-82e3-d7b9b1ba9541",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 17568.502825307085,
-                                        "y": 13243.23144145533
+                                        "x": 21824.23979400894,
+                                        "y": 13108.496720831736
                                     },
                                     "targetPosition": {
-                                        "x": 16679.869980207295,
-                                        "y": 13196.906195981654
+                                        "x": 20935.60694890915,
+                                        "y": 13062.17147535806
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -640,37 +600,27 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                        "name": " Historic-OHLCVs",
                                         "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Exchange Raw Data",
-                                                "Sensor Bot",
-                                                "Foundations",
-                                                "af924204-66a2-47d4-9910-66ab78acb06f"
-                                            ],
-                                            [
-                                                "Historic-OHLCVs",
-                                                "Process Definition",
-                                                "Foundations",
-                                                "5eb11d6a-022e-4f60-97c4-d6cf90b249dc"
-                                            ],
-                                            [
-                                                "Exchange-Raw-Data Historic-OHLCVs Status Report",
-                                                "Status Report",
-                                                "Foundations",
-                                                "181c7c34-7243-497a-9ddb-1b0067c6d66e"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Historic-OHLCVs",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            " Historic-OHLCVs",
+                                            "Status Report"
                                         ]
-                                    }
+                                    ]
                                 }
                             },
                             {
@@ -681,12 +631,12 @@
                                 "id": "957ffa57-d4df-4866-b99f-86cf8add689d",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 17554.808559831625,
-                                        "y": 13358.984343690681
+                                        "x": 21810.54552853348,
+                                        "y": 13224.249623067088
                                     },
                                     "targetPosition": {
-                                        "x": 16679.869980207295,
-                                        "y": 13196.906195981654
+                                        "x": 20935.60694890915,
+                                        "y": 13062.17147535806
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -701,37 +651,27 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Candles Volumes Multi-Time-Frame-Market Status Report",
+                                        "name": " Multi-Time-Frame-Market",
                                         "id": "a0a61ba9-91cb-4ec7-92fe-134ff079de2d"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Candles Volumes",
-                                                "Indicator Bot",
-                                                "Foundations",
-                                                "285a4618-0423-4ac9-9df9-7a78be6fd915"
-                                            ],
-                                            [
-                                                "Multi-Time-Frame-Market",
-                                                "Process Definition",
-                                                "Foundations",
-                                                "9f683143-a33f-42c1-9fa8-c601f01ee4e1"
-                                            ],
-                                            [
-                                                "Candles Volumes Multi-Time-Frame-Market Status Report",
-                                                "Status Report",
-                                                "Foundations",
-                                                "a0a61ba9-91cb-4ec7-92fe-134ff079de2d"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            " Multi-Time-Frame-Market",
+                                            "Status Report"
                                         ]
-                                    }
+                                    ]
                                 }
                             }
                         ],
@@ -743,12 +683,12 @@
                                 "id": "982efbd9-6a54-4322-9a0f-52a6483d67d9",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 17526.096007422864,
-                                        "y": 13471.948297344054
+                                        "x": 21781.83297612472,
+                                        "y": 13337.21357672046
                                     },
                                     "targetPosition": {
-                                        "x": 16679.869980207295,
-                                        "y": 13196.906195981654
+                                        "x": 20935.60694890915,
+                                        "y": 13062.17147535806
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -766,34 +706,24 @@
                                         "name": "One-Min",
                                         "id": "1c3696e4-c28e-4744-9100-706d6dce0c3c"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Exchange Raw Data",
-                                                "Sensor Bot",
-                                                "Foundations",
-                                                "af924204-66a2-47d4-9910-66ab78acb06f"
-                                            ],
-                                            [
-                                                "Candles",
-                                                "Product Definition",
-                                                "Foundations",
-                                                "2443883b-6959-42a3-ae3b-ef3102ffcdcc"
-                                            ],
-                                            [
-                                                "One-Min",
-                                                "Dataset Definition",
-                                                "Foundations",
-                                                "1c3696e4-c28e-4744-9100-706d6dce0c3c"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "One-Min",
+                                            "Dataset Definition"
                                         ]
-                                    }
+                                    ]
                                 }
                             },
                             {
@@ -803,12 +733,12 @@
                                 "id": "fe28906a-90b1-4a5e-88b1-110d994cb397",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 17482.721320774035,
-                                        "y": 13580.464139305848
+                                        "x": 21738.45828947589,
+                                        "y": 13445.729418682255
                                     },
                                     "targetPosition": {
-                                        "x": 16679.869980207295,
-                                        "y": 13196.906195981654
+                                        "x": 20935.60694890915,
+                                        "y": 13062.17147535806
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -826,34 +756,24 @@
                                         "name": "One-Min",
                                         "id": "73dcce78-c223-49e1-a93c-7e1ab7283f86"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Exchange Raw Data",
-                                                "Sensor Bot",
-                                                "Foundations",
-                                                "af924204-66a2-47d4-9910-66ab78acb06f"
-                                            ],
-                                            [
-                                                "Volumes",
-                                                "Product Definition",
-                                                "Foundations",
-                                                "3a43c6f3-bac0-404e-865f-822eb48c8660"
-                                            ],
-                                            [
-                                                "One-Min",
-                                                "Dataset Definition",
-                                                "Foundations",
-                                                "73dcce78-c223-49e1-a93c-7e1ab7283f86"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Volumes",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "One-Min",
+                                            "Dataset Definition"
                                         ]
-                                    }
+                                    ]
                                 }
                             }
                         ],
@@ -861,12 +781,12 @@
                         "id": "09645f1b-96c2-4dbb-a99f-803c8ebe7a00",
                         "savedPayload": {
                             "position": {
-                                "x": 16679.869980207295,
-                                "y": 13196.906195981654
+                                "x": 20935.60694890915,
+                                "y": 13062.17147535806
                             },
                             "targetPosition": {
-                                "x": 15805.038124299077,
-                                "y": 13034.534418484422
+                                "x": 20060.77509300093,
+                                "y": 12899.799697860828
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -883,17 +803,17 @@
                     },
                     "statusReport": {
                         "type": "Status Report",
-                        "name": "Candles Volumes Multi-Time-Frame-Market Status Report",
+                        "name": " Multi-Time-Frame-Market",
                         "project": "Foundations",
                         "id": "a0a61ba9-91cb-4ec7-92fe-134ff079de2d",
                         "savedPayload": {
                             "position": {
-                                "x": 16651.21107282545,
-                                "y": 13309.638747233315
+                                "x": 20906.948041527303,
+                                "y": 13174.904026609722
                             },
                             "targetPosition": {
-                                "x": 15805.038124299077,
-                                "y": 13034.534418484422
+                                "x": 20060.77509300093,
+                                "y": 12899.799697860828
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -915,12 +835,12 @@
                         "id": "c086e5db-7777-45d9-bb4d-381f9566341f",
                         "savedPayload": {
                             "position": {
-                                "x": 16608.037253835908,
-                                "y": 13417.821243649585
+                                "x": 20863.774222537762,
+                                "y": 13283.086523025991
                             },
                             "targetPosition": {
-                                "x": 15805.038124299077,
-                                "y": 13034.534418484422
+                                "x": 20060.77509300093,
+                                "y": 12899.799697860828
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -938,34 +858,24 @@
                                 "name": "New Execution Finished Event",
                                 "id": "fe40a546-43ee-49df-908a-7e72f598f0cd"
                             },
-                            "referenceParentCombinedNodePath": {
-                                "path": [
-                                    [
-                                        "Candles",
-                                        "Data Mine",
-                                        "Foundations",
-                                        "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                    ],
-                                    [
-                                        "Exchange Raw Data",
-                                        "Sensor Bot",
-                                        "Foundations",
-                                        "af924204-66a2-47d4-9910-66ab78acb06f"
-                                    ],
-                                    [
-                                        "Historic-OHLCVs",
-                                        "Process Definition",
-                                        "Foundations",
-                                        "5eb11d6a-022e-4f60-97c4-d6cf90b249dc"
-                                    ],
-                                    [
-                                        "New Execution Finished Event",
-                                        "Execution Finished Event",
-                                        "Foundations",
-                                        "fe40a546-43ee-49df-908a-7e72f598f0cd"
-                                    ]
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Candles",
+                                    "Data Mine"
+                                ],
+                                [
+                                    "Exchange Raw Data",
+                                    "Sensor Bot"
+                                ],
+                                [
+                                    "Historic-OHLCVs",
+                                    "Process Definition"
+                                ],
+                                [
+                                    "New Execution Finished Event",
+                                    "Execution Finished Event"
                                 ]
-                            }
+                            ]
                         }
                     },
                     "executionFinishedEvent": {
@@ -975,12 +885,12 @@
                         "id": "1824fa00-dd30-4cdc-acc0-01c2f29056c5",
                         "savedPayload": {
                             "position": {
-                                "x": 16550.9005462481,
-                                "y": 13519.716047354239
+                                "x": 20806.637514949954,
+                                "y": 13384.981326730645
                             },
                             "targetPosition": {
-                                "x": 15805.038124299077,
-                                "y": 13034.534418484422
+                                "x": 20060.77509300093,
+                                "y": 12899.799697860828
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -998,12 +908,12 @@
                     "id": "9f683143-a33f-42c1-9fa8-c601f01ee4e1",
                     "savedPayload": {
                         "position": {
-                            "x": 15392.32350660417,
-                            "y": 11846.153853607178
+                            "x": 19648.060475306025,
+                            "y": 11711.419132983585
                         },
                         "targetPosition": {
-                            "x": 15101.234788721373,
-                            "y": 11918.730422287077
+                            "x": 19356.971757423227,
+                            "y": 11783.995701663483
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1035,12 +945,12 @@
                                 "id": "f60fba20-b9d6-4362-b667-020096340e38",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 16661.550934794876,
-                                        "y": 14123.654165352247
+                                        "x": 20917.28790349673,
+                                        "y": 13988.919444728654
                                     },
                                     "targetPosition": {
-                                        "x": 16281.524683276719,
-                                        "y": 13891.344610425462
+                                        "x": 20537.261651978573,
+                                        "y": 13756.609889801868
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1058,34 +968,24 @@
                                         "name": "Multi-Time-Frame-Daily",
                                         "id": "678a567c-f08d-49b9-813b-4e54fd6afadb"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Candles Volumes",
-                                                "Indicator Bot",
-                                                "Foundations",
-                                                "285a4618-0423-4ac9-9df9-7a78be6fd915"
-                                            ],
-                                            [
-                                                "Candles",
-                                                "Product Definition",
-                                                "Foundations",
-                                                "fe6065ec-4d2d-47a0-bae0-8647f0e195d7"
-                                            ],
-                                            [
-                                                "Multi-Time-Frame-Daily",
-                                                "Dataset Definition",
-                                                "Foundations",
-                                                "678a567c-f08d-49b9-813b-4e54fd6afadb"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
                                         ]
-                                    }
+                                    ]
                                 }
                             },
                             {
@@ -1095,12 +995,12 @@
                                 "id": "a507b588-ce8f-4d5c-9053-d130015560b5",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 16587.820030863026,
-                                        "y": 14214.684306552666
+                                        "x": 20843.55699956488,
+                                        "y": 14079.949585929073
                                     },
                                     "targetPosition": {
-                                        "x": 16281.524683276719,
-                                        "y": 13891.344610425462
+                                        "x": 20537.261651978573,
+                                        "y": 13756.609889801868
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1118,34 +1018,24 @@
                                         "name": "Multi-Time-Frame-Daily",
                                         "id": "2e683057-f911-4105-bc77-16f2706d1915"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Candles Volumes",
-                                                "Indicator Bot",
-                                                "Foundations",
-                                                "285a4618-0423-4ac9-9df9-7a78be6fd915"
-                                            ],
-                                            [
-                                                "Volumes",
-                                                "Product Definition",
-                                                "Foundations",
-                                                "1a366aef-efef-470e-88e0-2a6fbe4dd91f"
-                                            ],
-                                            [
-                                                "Multi-Time-Frame-Daily",
-                                                "Dataset Definition",
-                                                "Foundations",
-                                                "2e683057-f911-4105-bc77-16f2706d1915"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Volumes",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
                                         ]
-                                    }
+                                    ]
                                 }
                             }
                         ],
@@ -1153,12 +1043,12 @@
                         "id": "4d806ace-6f82-449d-b908-afcd7d029a68",
                         "savedPayload": {
                             "position": {
-                                "x": 16281.524683276719,
-                                "y": 13891.344610425462
+                                "x": 20537.261651978573,
+                                "y": 13756.609889801868
                             },
                             "targetPosition": {
-                                "x": 15589.230451130927,
-                                "y": 13331.565494195886
+                                "x": 19844.96741983278,
+                                "y": 13196.830773572292
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1186,12 +1076,12 @@
                                 "id": "14730a16-e01e-4bc5-9886-0eed386152f2",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 16960.503383931107,
-                                        "y": 14441.722533399221
+                                        "x": 21216.24035263296,
+                                        "y": 14306.987812775627
                                     },
                                     "targetPosition": {
-                                        "x": 16201.472745482748,
-                                        "y": 13977.290474436999
+                                        "x": 20457.209714184602,
+                                        "y": 13842.555753813405
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1206,53 +1096,43 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                        "name": " Historic-OHLCVs",
                                         "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Exchange Raw Data",
-                                                "Sensor Bot",
-                                                "Foundations",
-                                                "af924204-66a2-47d4-9910-66ab78acb06f"
-                                            ],
-                                            [
-                                                "Historic-OHLCVs",
-                                                "Process Definition",
-                                                "Foundations",
-                                                "5eb11d6a-022e-4f60-97c4-d6cf90b249dc"
-                                            ],
-                                            [
-                                                "Exchange-Raw-Data Historic-OHLCVs Status Report",
-                                                "Status Report",
-                                                "Foundations",
-                                                "181c7c34-7243-497a-9ddb-1b0067c6d66e"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Historic-OHLCVs",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            " Historic-OHLCVs",
+                                            "Status Report"
                                         ]
-                                    }
+                                    ]
                                 }
                             },
                             {
                                 "type": "Status Dependency",
-                                "name": "",
+                                "name": "Candles Volumes Multi-Time-Frame-Daily",
                                 "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
                                 "project": "Foundations",
                                 "id": "1baff60d-84c4-4e27-b03d-663158ca6bba",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 16893.10240197985,
-                                        "y": 14537.195586232294
+                                        "x": 21148.839370681704,
+                                        "y": 14402.4608656087
                                     },
                                     "targetPosition": {
-                                        "x": 16201.472745482748,
-                                        "y": 13977.290474436999
+                                        "x": 20457.209714184602,
+                                        "y": 13842.555753813405
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1267,37 +1147,27 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "New Status Report",
+                                        "name": " Multi-Time-Frame-Daily",
                                         "id": "2a021da8-9feb-475e-90ab-1586968c17c7"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Candles Volumes",
-                                                "Indicator Bot",
-                                                "Foundations",
-                                                "285a4618-0423-4ac9-9df9-7a78be6fd915"
-                                            ],
-                                            [
-                                                "Multi-Time-Frame-Daily",
-                                                "Process Definition",
-                                                "Foundations",
-                                                "980ceb1d-7be6-454f-90d9-01ba1fd4a65d"
-                                            ],
-                                            [
-                                                "New Status Report",
-                                                "Status Report",
-                                                "Foundations",
-                                                "2a021da8-9feb-475e-90ab-1586968c17c7"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            " Multi-Time-Frame-Daily",
+                                            "Status Report"
                                         ]
-                                    }
+                                    ]
                                 }
                             },
                             {
@@ -1308,12 +1178,12 @@
                                 "id": "4e77c03b-367c-450c-82ca-c7211c2fab8e",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 16813.982407509808,
-                                        "y": 14622.788729140775
+                                        "x": 21069.719376211662,
+                                        "y": 14488.054008517182
                                     },
                                     "targetPosition": {
-                                        "x": 16201.472745482748,
-                                        "y": 13977.290474436999
+                                        "x": 20457.209714184602,
+                                        "y": 13842.555753813405
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1328,37 +1198,27 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                        "name": " Historic-OHLCVs",
                                         "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Exchange Raw Data",
-                                                "Sensor Bot",
-                                                "Foundations",
-                                                "af924204-66a2-47d4-9910-66ab78acb06f"
-                                            ],
-                                            [
-                                                "Historic-OHLCVs",
-                                                "Process Definition",
-                                                "Foundations",
-                                                "5eb11d6a-022e-4f60-97c4-d6cf90b249dc"
-                                            ],
-                                            [
-                                                "Exchange-Raw-Data Historic-OHLCVs Status Report",
-                                                "Status Report",
-                                                "Foundations",
-                                                "181c7c34-7243-497a-9ddb-1b0067c6d66e"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Historic-OHLCVs",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            " Historic-OHLCVs",
+                                            "Status Report"
                                         ]
-                                    }
+                                    ]
                                 }
                             }
                         ],
@@ -1370,12 +1230,12 @@
                                 "id": "2d324ca2-acc5-4390-ae37-0d350fe8e8fa",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 16724.352511841826,
-                                        "y": 14697.298411147924
+                                        "x": 20980.08948054368,
+                                        "y": 14562.56369052433
                                     },
                                     "targetPosition": {
-                                        "x": 16201.472745482748,
-                                        "y": 13977.290474436999
+                                        "x": 20457.209714184602,
+                                        "y": 13842.555753813405
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1393,34 +1253,24 @@
                                         "name": "One-Min",
                                         "id": "1c3696e4-c28e-4744-9100-706d6dce0c3c"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Exchange Raw Data",
-                                                "Sensor Bot",
-                                                "Foundations",
-                                                "af924204-66a2-47d4-9910-66ab78acb06f"
-                                            ],
-                                            [
-                                                "Candles",
-                                                "Product Definition",
-                                                "Foundations",
-                                                "2443883b-6959-42a3-ae3b-ef3102ffcdcc"
-                                            ],
-                                            [
-                                                "One-Min",
-                                                "Dataset Definition",
-                                                "Foundations",
-                                                "1c3696e4-c28e-4744-9100-706d6dce0c3c"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "One-Min",
+                                            "Dataset Definition"
                                         ]
-                                    }
+                                    ]
                                 }
                             },
                             {
@@ -1430,12 +1280,12 @@
                                 "id": "4051019a-9548-4541-a7e7-11097fe3f103",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 16625.47286483264,
-                                        "y": 14759.59348114239
+                                        "x": 20881.209833534496,
+                                        "y": 14624.858760518797
                                     },
                                     "targetPosition": {
-                                        "x": 16201.472745482748,
-                                        "y": 13977.290474436999
+                                        "x": 20457.209714184602,
+                                        "y": 13842.555753813405
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1453,34 +1303,24 @@
                                         "name": "One-Min",
                                         "id": "73dcce78-c223-49e1-a93c-7e1ab7283f86"
                                     },
-                                    "referenceParentCombinedNodePath": {
-                                        "path": [
-                                            [
-                                                "Candles",
-                                                "Data Mine",
-                                                "Foundations",
-                                                "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                            ],
-                                            [
-                                                "Exchange Raw Data",
-                                                "Sensor Bot",
-                                                "Foundations",
-                                                "af924204-66a2-47d4-9910-66ab78acb06f"
-                                            ],
-                                            [
-                                                "Volumes",
-                                                "Product Definition",
-                                                "Foundations",
-                                                "3a43c6f3-bac0-404e-865f-822eb48c8660"
-                                            ],
-                                            [
-                                                "One-Min",
-                                                "Dataset Definition",
-                                                "Foundations",
-                                                "73dcce78-c223-49e1-a93c-7e1ab7283f86"
-                                            ]
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Volumes",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "One-Min",
+                                            "Dataset Definition"
                                         ]
-                                    }
+                                    ]
                                 }
                             }
                         ],
@@ -1488,12 +1328,12 @@
                         "id": "1e4c5a40-0c64-423f-968d-31b178056cf3",
                         "savedPayload": {
                             "position": {
-                                "x": 16201.472745482748,
-                                "y": 13977.290474436999
+                                "x": 20457.209714184602,
+                                "y": 13842.555753813405
                             },
                             "targetPosition": {
-                                "x": 15589.230451130927,
-                                "y": 13331.565494195886
+                                "x": 19844.96741983278,
+                                "y": 13196.830773572292
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1510,17 +1350,17 @@
                     },
                     "statusReport": {
                         "type": "Status Report",
-                        "name": "New Status Report",
+                        "name": " Multi-Time-Frame-Daily",
                         "project": "Foundations",
                         "id": "2a021da8-9feb-475e-90ab-1586968c17c7",
                         "savedPayload": {
                             "position": {
-                                "x": 16112.037041508935,
-                                "y": 14051.638254234022
+                                "x": 20367.77401021079,
+                                "y": 13916.903533610428
                             },
                             "targetPosition": {
-                                "x": 15589.230451130927,
-                                "y": 13331.565494195886
+                                "x": 19844.96741983278,
+                                "y": 13196.830773572292
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1542,12 +1382,12 @@
                         "id": "fa826f1b-2a52-4542-89b2-7190e137ef56",
                         "savedPayload": {
                             "position": {
-                                "x": 16013.540055455487,
-                                "y": 14113.775288828478
+                                "x": 20269.27702415734,
+                                "y": 13979.040568204884
                             },
                             "targetPosition": {
-                                "x": 15589.230451130927,
-                                "y": 13331.565494195886
+                                "x": 19844.96741983278,
+                                "y": 13196.830773572292
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1565,34 +1405,24 @@
                                 "name": "New Execution Finished Event",
                                 "id": "fe40a546-43ee-49df-908a-7e72f598f0cd"
                             },
-                            "referenceParentCombinedNodePath": {
-                                "path": [
-                                    [
-                                        "Candles",
-                                        "Data Mine",
-                                        "Foundations",
-                                        "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                    ],
-                                    [
-                                        "Exchange Raw Data",
-                                        "Sensor Bot",
-                                        "Foundations",
-                                        "af924204-66a2-47d4-9910-66ab78acb06f"
-                                    ],
-                                    [
-                                        "Historic-OHLCVs",
-                                        "Process Definition",
-                                        "Foundations",
-                                        "5eb11d6a-022e-4f60-97c4-d6cf90b249dc"
-                                    ],
-                                    [
-                                        "New Execution Finished Event",
-                                        "Execution Finished Event",
-                                        "Foundations",
-                                        "fe40a546-43ee-49df-908a-7e72f598f0cd"
-                                    ]
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Candles",
+                                    "Data Mine"
+                                ],
+                                [
+                                    "Exchange Raw Data",
+                                    "Sensor Bot"
+                                ],
+                                [
+                                    "Historic-OHLCVs",
+                                    "Process Definition"
+                                ],
+                                [
+                                    "New Execution Finished Event",
+                                    "Execution Finished Event"
                                 ]
-                            }
+                            ]
                         }
                     },
                     "executionFinishedEvent": {
@@ -1602,12 +1432,12 @@
                         "id": "f29d08f9-e7c8-490c-8fca-14851a0d3dc3",
                         "savedPayload": {
                             "position": {
-                                "x": 15907.445262373418,
-                                "y": 14162.628226603141
+                                "x": 20163.182231075272,
+                                "y": 14027.893505979548
                             },
                             "targetPosition": {
-                                "x": 15589.230451130927,
-                                "y": 13331.565494195886
+                                "x": 19844.96741983278,
+                                "y": 13196.830773572292
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1625,12 +1455,12 @@
                     "id": "980ceb1d-7be6-454f-90d9-01ba1fd4a65d",
                     "savedPayload": {
                         "position": {
-                            "x": 15379.38994509141,
-                            "y": 12031.11240031185
+                            "x": 19635.126913793265,
+                            "y": 11896.377679688256
                         },
                         "targetPosition": {
-                            "x": 15101.234788721373,
-                            "y": 11918.730422287077
+                            "x": 19356.971757423227,
+                            "y": 11783.995701663483
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1661,12 +1491,12 @@
                             "id": "2b03494a-67d6-47f1-89b6-53fc4c9116a8",
                             "savedPayload": {
                                 "position": {
-                                    "x": 15378.810059318694,
-                                    "y": 12456.907226404484
+                                    "x": 19634.547028020548,
+                                    "y": 12322.17250578089
                                 },
                                 "targetPosition": {
-                                    "x": 15196.181630616076,
-                                    "y": 12218.901224317113
+                                    "x": 19451.91859931793,
+                                    "y": 12084.16650369352
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -1689,12 +1519,12 @@
                             "id": "678a567c-f08d-49b9-813b-4e54fd6afadb",
                             "savedPayload": {
                                 "position": {
-                                    "x": 15339.32925869396,
-                                    "y": 12482.546358115702
+                                    "x": 19595.066227395815,
+                                    "y": 12347.811637492108
                                 },
                                 "targetPosition": {
-                                    "x": 15196.181630616076,
-                                    "y": 12218.901224317113
+                                    "x": 19451.91859931793,
+                                    "y": 12084.16650369352
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -1723,12 +1553,12 @@
                                 "id": "95264fe8-6089-4a70-bf6d-158bc43c04f3",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15461.042410677583,
-                                        "y": 12649.098326319941
+                                        "x": 19716.779379379437,
+                                        "y": 12514.363605696348
                                     },
                                     "targetPosition": {
-                                        "x": 15396.46574615634,
-                                        "y": 12784.486118972422
+                                        "x": 19652.202714858195,
+                                        "y": 12649.751398348828
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1751,12 +1581,12 @@
                                 "id": "b716bfaa-d785-45e3-b8ca-370284ac901c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15537.861969820166,
-                                        "y": 12734.415090087357
+                                        "x": 19793.59893852202,
+                                        "y": 12599.680369463764
                                     },
                                     "targetPosition": {
-                                        "x": 15396.46574615634,
-                                        "y": 12784.486118972422
+                                        "x": 19652.202714858195,
+                                        "y": 12649.751398348828
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1779,12 +1609,12 @@
                                 "id": "7d809ac3-9b7d-4687-83bb-40b851e522d0",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15531.85353880882,
-                                        "y": 12849.062783493664
+                                        "x": 19787.590507510675,
+                                        "y": 12714.32806287007
                                     },
                                     "targetPosition": {
-                                        "x": 15396.46574615634,
-                                        "y": 12784.486118972422
+                                        "x": 19652.202714858195,
+                                        "y": 12649.751398348828
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1807,12 +1637,12 @@
                                 "id": "b0ea41f8-03da-454e-8d0f-bb0f2fc5d328",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15446.536775041404,
-                                        "y": 12925.882342636247
+                                        "x": 19702.27374374326,
+                                        "y": 12791.147622012653
                                     },
                                     "targetPosition": {
-                                        "x": 15396.46574615634,
-                                        "y": 12784.486118972422
+                                        "x": 19652.202714858195,
+                                        "y": 12649.751398348828
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1835,12 +1665,12 @@
                                 "id": "21b8be1f-0437-4fc8-9bc0-31779a9ea47e",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15331.889081635098,
-                                        "y": 12919.873911624902
+                                        "x": 19587.626050336952,
+                                        "y": 12785.139191001308
                                     },
                                     "targetPosition": {
-                                        "x": 15396.46574615634,
-                                        "y": 12784.486118972422
+                                        "x": 19652.202714858195,
+                                        "y": 12649.751398348828
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1863,12 +1693,12 @@
                                 "id": "91ba9479-fdb4-42b7-ad02-1b2ac24b13d6",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15255.069522492515,
-                                        "y": 12834.557147857486
+                                        "x": 19510.80649119437,
+                                        "y": 12699.822427233892
                                     },
                                     "targetPosition": {
-                                        "x": 15396.46574615634,
-                                        "y": 12784.486118972422
+                                        "x": 19652.202714858195,
+                                        "y": 12649.751398348828
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1895,12 +1725,12 @@
                                     "id": "becdde12-efb6-464b-bfb0-ac98e3c2b8e3",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15125.69016085138,
-                                            "y": 12655.332789929937
+                                            "x": 19381.427129553234,
+                                            "y": 12520.598069306343
                                         },
                                         "targetPosition": {
-                                            "x": 15261.07795350386,
-                                            "y": 12719.909454451179
+                                            "x": 19516.814922205715,
+                                            "y": 12585.174733827585
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -1918,12 +1748,12 @@
                                 "id": "aafd0a4b-da5d-40c1-94b8-e79f0b1eca9b",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15261.07795350386,
-                                        "y": 12719.909454451179
+                                        "x": 19516.814922205715,
+                                        "y": 12585.174733827585
                                     },
                                     "targetPosition": {
-                                        "x": 15396.46574615634,
-                                        "y": 12784.486118972422
+                                        "x": 19652.202714858195,
+                                        "y": 12649.751398348828
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1942,12 +1772,12 @@
                         "id": "65ea4bea-6b8f-4df9-8716-d8af0ce2044c",
                         "savedPayload": {
                             "position": {
-                                "x": 15396.46574615634,
-                                "y": 12784.486118972422
+                                "x": 19652.202714858195,
+                                "y": 12649.751398348828
                             },
                             "targetPosition": {
-                                "x": 15196.181630616076,
-                                "y": 12218.901224317113
+                                "x": 19451.91859931793,
+                                "y": 12084.16650369352
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1978,12 +1808,12 @@
                                 "id": "798bc1e0-90d2-435f-980d-b457b30046dd",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 15305.522945911362,
-                                        "y": 12808.854168855483
+                                        "x": 19561.259914613216,
+                                        "y": 12674.11944823189
                                     },
                                     "targetPosition": {
-                                        "x": 15278.18761708754,
-                                        "y": 12661.365932720892
+                                        "x": 19533.924585789395,
+                                        "y": 12526.631212097298
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2001,12 +1831,12 @@
                             "id": "abbcb291-c048-49e7-b0d0-fdf20891faea",
                             "savedPayload": {
                                 "position": {
-                                    "x": 15278.18761708754,
-                                    "y": 12661.365932720892
+                                    "x": 19533.924585789395,
+                                    "y": 12526.631212097298
                                 },
                                 "targetPosition": {
-                                    "x": 15250.852288263719,
-                                    "y": 12513.8776965863
+                                    "x": 19506.589256965573,
+                                    "y": 12379.142975962706
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -2024,12 +1854,12 @@
                         "id": "f7846b50-ae42-46b4-aeb6-9f6217477a1b",
                         "savedPayload": {
                             "position": {
-                                "x": 15250.852288263719,
-                                "y": 12513.8776965863
+                                "x": 19506.589256965573,
+                                "y": 12379.142975962706
                             },
                             "targetPosition": {
-                                "x": 15196.181630616076,
-                                "y": 12218.901224317113
+                                "x": 19451.91859931793,
+                                "y": 12084.16650369352
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -2047,12 +1877,12 @@
                     "id": "fe6065ec-4d2d-47a0-bae0-8647f0e195d7",
                     "savedPayload": {
                         "position": {
-                            "x": 15260.210567991333,
-                            "y": 12173.144851134006
+                            "x": 19515.947536693187,
+                            "y": 12038.410130510412
                         },
                         "targetPosition": {
-                            "x": 15101.234788721373,
-                            "y": 11918.730422287077
+                            "x": 19356.971757423227,
+                            "y": 11783.995701663483
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -2070,28 +1900,20 @@
                             "name": "Candles",
                             "id": "0aed75a3-fee8-4ddc-97ff-b6768e6f12a3"
                         },
-                        "referenceParentCombinedNodePath": {
-                            "path": [
-                                [
-                                    "Candles",
-                                    "Data Mine",
-                                    "Foundations",
-                                    "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                ],
-                                [
-                                    "Plotters Candles Volumes",
-                                    "Plotter",
-                                    "Foundations",
-                                    "e4347543-21b5-4274-b690-e6b3b5899862"
-                                ],
-                                [
-                                    "Candles",
-                                    "Plotter Module",
-                                    "Foundations",
-                                    "0aed75a3-fee8-4ddc-97ff-b6768e6f12a3"
-                                ]
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Candles",
+                                "Data Mine"
+                            ],
+                            [
+                                "Plotters Candles Volumes",
+                                "Plotter"
+                            ],
+                            [
+                                "Candles",
+                                "Plotter Module"
                             ]
-                        }
+                        ]
                     }
                 },
                 {
@@ -2108,12 +1930,12 @@
                             "id": "2e683057-f911-4105-bc77-16f2706d1915",
                             "savedPayload": {
                                 "position": {
-                                    "x": 15066.457788095653,
-                                    "y": 12533.25833951366
+                                    "x": 19322.194756797508,
+                                    "y": 12398.523618890067
                                 },
                                 "targetPosition": {
-                                    "x": 15011.78713044801,
-                                    "y": 12238.281867244474
+                                    "x": 19267.524099149865,
+                                    "y": 12103.54714662088
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -2136,12 +1958,12 @@
                             "id": "9bf0483c-4825-4a46-9cf4-1b5262579fc1",
                             "savedPayload": {
                                 "position": {
-                                    "x": 14949.413623202683,
-                                    "y": 12531.726147464615
+                                    "x": 19205.150591904538,
+                                    "y": 12396.991426841021
                                 },
                                 "targetPosition": {
-                                    "x": 15011.78713044801,
-                                    "y": 12238.281867244474
+                                    "x": 19267.524099149865,
+                                    "y": 12103.54714662088
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -2170,12 +1992,12 @@
                                 "id": "bc8405e2-4a80-416c-bccf-1334e53d371b",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 14864.77154400451,
-                                        "y": 12641.090378403573
+                                        "x": 19120.508512706365,
+                                        "y": 12506.355657779979
                                     },
                                     "targetPosition": {
-                                        "x": 14756.904323831837,
-                                        "y": 12609.13865212438
+                                        "x": 19012.64129253369,
+                                        "y": 12474.403931500787
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2198,12 +2020,12 @@
                                 "id": "f08f11a8-d092-4b7e-a7e6-c67adac04a33",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 14759.849230516473,
-                                        "y": 12721.600101184129
+                                        "x": 19015.586199218327,
+                                        "y": 12586.865380560535
                                     },
                                     "targetPosition": {
-                                        "x": 14756.904323831837,
-                                        "y": 12609.13865212438
+                                        "x": 19012.64129253369,
+                                        "y": 12474.403931500787
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2226,12 +2048,12 @@
                                 "id": "8e2624b0-48ee-4d00-821e-0c6a72b3838f",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 14650.857156083966,
-                                        "y": 12646.691923788181
+                                        "x": 18906.59412478582,
+                                        "y": 12511.957203164588
                                     },
                                     "targetPosition": {
-                                        "x": 14756.904323831837,
-                                        "y": 12609.13865212438
+                                        "x": 19012.64129253369,
+                                        "y": 12474.403931500787
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2254,12 +2076,12 @@
                                 "id": "62964ed9-14c4-442d-b272-602d0c714654",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 14688.418663068354,
-                                        "y": 12519.886401341617
+                                        "x": 18944.15563177021,
+                                        "y": 12385.151680718023
                                     },
                                     "targetPosition": {
-                                        "x": 14756.904323831837,
-                                        "y": 12609.13865212438
+                                        "x": 19012.64129253369,
+                                        "y": 12474.403931500787
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2278,12 +2100,12 @@
                         "id": "7edf78c7-c63d-4e7e-a643-99aaf52ac967",
                         "savedPayload": {
                             "position": {
-                                "x": 14756.904323831837,
-                                "y": 12609.13865212438
+                                "x": 19012.64129253369,
+                                "y": 12474.403931500787
                             },
                             "targetPosition": {
-                                "x": 15011.78713044801,
-                                "y": 12238.281867244474
+                                "x": 19267.524099149865,
+                                "y": 12103.54714662088
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -2301,12 +2123,12 @@
                     "id": "1a366aef-efef-470e-88e0-2a6fbe4dd91f",
                     "savedPayload": {
                         "position": {
-                            "x": 15080.307846598134,
-                            "y": 12217.999637365025
+                            "x": 19336.04481529999,
+                            "y": 12083.264916741431
                         },
                         "targetPosition": {
-                            "x": 15101.234788721373,
-                            "y": 11918.730422287077
+                            "x": 19356.971757423227,
+                            "y": 11783.995701663483
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -2324,40 +2146,32 @@
                             "name": "Volumes",
                             "id": "a6177fb7-51d1-4b7c-bcbb-04861a5bf0c1"
                         },
-                        "referenceParentCombinedNodePath": {
-                            "path": [
-                                [
-                                    "Candles",
-                                    "Data Mine",
-                                    "Foundations",
-                                    "70c7eea3-a786-4dda-b526-0514e2cb14cc"
-                                ],
-                                [
-                                    "Plotters Candles Volumes",
-                                    "Plotter",
-                                    "Foundations",
-                                    "e4347543-21b5-4274-b690-e6b3b5899862"
-                                ],
-                                [
-                                    "Volumes",
-                                    "Plotter Module",
-                                    "Foundations",
-                                    "a6177fb7-51d1-4b7c-bcbb-04861a5bf0c1"
-                                ]
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Candles",
+                                "Data Mine"
+                            ],
+                            [
+                                "Plotters Candles Volumes",
+                                "Plotter"
+                            ],
+                            [
+                                "Volumes",
+                                "Plotter Module"
                             ]
-                        }
+                        ]
                     }
                 }
             ],
             "id": "285a4618-0423-4ac9-9df9-7a78be6fd915",
             "savedPayload": {
                 "position": {
-                    "x": 14487.069268429528,
-                    "y": 11197.148742298006
+                    "x": 18742.806237131383,
+                    "y": 11062.414021674413
                 },
                 "targetPosition": {
-                    "x": 14637.069268429528,
-                    "y": 10937.341121162674
+                    "x": 18892.806237131383,
+                    "y": 10802.60640053908
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -2374,6 +2188,7 @@
             }
         }
     ],
+    "studyBots": [],
     "plotters": [
         {
             "type": "Plotter",
@@ -2396,12 +2211,12 @@
                             "id": "9336f4e6-d56b-4ed4-819d-0bb762ba1fdd",
                             "savedPayload": {
                                 "position": {
-                                    "x": 13998.629017742584,
-                                    "y": 11725.477002983574
+                                    "x": 18254.365986444438,
+                                    "y": 11590.74228235998
                                 },
                                 "targetPosition": {
-                                    "x": 14294.071343646247,
-                                    "y": 11673.382549683494
+                                    "x": 18549.8083123481,
+                                    "y": 11538.6478290599
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -2420,12 +2235,12 @@
                     "id": "0aed75a3-fee8-4ddc-97ff-b6768e6f12a3",
                     "savedPayload": {
                         "position": {
-                            "x": 14294.071343646247,
-                            "y": 11673.382549683494
+                            "x": 18549.8083123481,
+                            "y": 11538.6478290599
                         },
                         "targetPosition": {
-                            "x": 14589.513669549906,
-                            "y": 11621.288096383414
+                            "x": 18845.25063825176,
+                            "y": 11486.55337575982
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -2455,12 +2270,12 @@
                             "id": "42dbd098-4550-44a0-987f-54a28dd5f40b",
                             "savedPayload": {
                                 "position": {
-                                    "x": 14203.841103737985,
-                                    "y": 11161.661430512027
+                                    "x": 18459.57807243984,
+                                    "y": 11026.926709888434
                                 },
                                 "targetPosition": {
-                                    "x": 14396.677386643947,
-                                    "y": 11391.47476344772
+                                    "x": 18652.4143553458,
+                                    "y": 11256.740042824127
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -2479,12 +2294,12 @@
                     "id": "a6177fb7-51d1-4b7c-bcbb-04861a5bf0c1",
                     "savedPayload": {
                         "position": {
-                            "x": 14396.677386643947,
-                            "y": 11391.47476344772
+                            "x": 18652.4143553458,
+                            "y": 11256.740042824127
                         },
                         "targetPosition": {
-                            "x": 14589.513669549906,
-                            "y": 11621.288096383414
+                            "x": 18845.25063825176,
+                            "y": 11486.55337575982
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -2503,12 +2318,12 @@
             "id": "e4347543-21b5-4274-b690-e6b3b5899862",
             "savedPayload": {
                 "position": {
-                    "x": 14487.069268429528,
-                    "y": 10677.53350002734
+                    "x": 18742.806237131383,
+                    "y": 10542.798779403747
                 },
                 "targetPosition": {
-                    "x": 14637.069268429528,
-                    "y": 10937.341121162674
+                    "x": 18892.806237131383,
+                    "y": 10802.60640053908
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -2528,12 +2343,12 @@
     "id": "70c7eea3-a786-4dda-b526-0514e2cb14cc",
     "savedPayload": {
         "position": {
-            "x": 14637.069268429528,
-            "y": 10937.341121162674
+            "x": 18892.806237131383,
+            "y": 10802.60640053908
         },
         "targetPosition": {
-            "x": 14637.069268429528,
-            "y": 10937.341121162674
+            "x": 18892.806237131383,
+            "y": 10802.60640053908
         },
         "floatingObject": {
             "isPinned": false,
