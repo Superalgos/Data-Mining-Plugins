@@ -5958,7 +5958,7 @@
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
                                 "name": "New Procedure Javascript Code",
-                                "code": "let candle = record.current\r\nlet len = 10\r\nlet P = 21\r\nlet T = 20\r\nlet up = 1.6\r\nlet low = 1.6\r\n\r\nif(variable.prevEMA === undefined){\r\n    variable.prevEMA = candle.close\r\n}\r\n\r\nvariable.ema = calculateEMA(P, candle.close, variable.prevEMA)\r\n\r\nvariable.allClose.push(candle.close)\r\nif(variable.allClose.length > len){\r\n    variable.allClose.splice(0,1)\r\n}\r\n\r\nif(variable.allClose.length === len){\r\n    variable.roc = candle.close / variable.allClose[0]\r\n}else{\r\n    variable.roc = 1\r\n}\r\n\r\nvariable.E = 1/2 * len * variable.roc + 1/2 * P * variable.ema\r\n\r\nvariable.allE.push(variable.E)\r\n\r\nif(variable.allE.length > T){\r\n    variable.allE.splice(0,1)\r\n}\r\n\r\nvariable.sum = 0\r\nvariable.SQ = 0\r\nif(variable.allE.length === T){\r\n    for(var i = 0 ; i < T ; i++){\r\n        variable.sum += variable.allE[i]\r\n    }\r\n     variable.MA = variable.sum / T\r\n     \r\n     for(var i = 0 ; i < T ; i++){\r\n         variable.SQ += Math.pow(variable.allE[i] - variable.MA , 2)\r\n     }\r\n     variable.sigma = Math.sqrt(variable.SQ / T)\r\n     \r\n     variable.Z = (variable.E - variable.MA) / variable.sigma\r\n}else{\r\n    variable.Z = 0\r\n}\r\n\r\nvariable.allZ.push(variable.Z)\r\nif(variable.allZ.length > T){\r\n    variable.allZ.splice(0,1)\r\n}\r\n\r\nvariable.sum = 0\r\nvariable.SQ = 0\r\nif(variable.allZ.length === T){\r\n    for(var i = 0 ; i < T ; i++){\r\n        variable.sum += variable.allZ[i]\r\n    }\r\n    variable.MAZ = variable.sum / T\r\n    \r\n    for(var i = 0 ; i < T ; i++){\r\n        variable.SQ += Math.pow(variable.allZ[i] - variable.MAZ , 2)\r\n    }\r\n    variable.sigZ = Math.sqrt(variable.SQ / T)\r\n}else{\r\n    variable.MAZ = variable.Z\r\n    variable.sigZ = variable.MAZ * 0.02\r\n}\r\n\r\nvariable.upper = variable.MAZ + up * variable.sigZ\r\nvariable.lower = variable.MAZ - low * variable.sigZ\r\n\r\n\r\n//EMA calculation\r\n\tfunction calculateEMA(periods, price, previousEMA) {\r\n\t\tlet k = 2 / (periods + 1)\r\n\t\treturn price * k + previousEMA * (1-k)\r\n    }",
+                                "code": "let candle = record.current\r\nlet len = 10\r\nlet P = 21\r\nlet T = 20\r\nlet up = 1.6\r\nlet low = 1.6\r\n\r\nif (variable.prevEMA === undefined) {\r\n    variable.prevEMA = candle.close\r\n}\r\n\r\nvariable.ema = calculateEMA(P, candle.close, variable.prevEMA)\r\n\r\nvariable.allClose.push(candle.close)\r\nif (variable.allClose.length > len) {\r\n    variable.allClose.splice(0, 1)\r\n}\r\n\r\nif (variable.allClose.length === len) {\r\n    variable.roc = candle.close / variable.allClose[0]\r\n} else {\r\n    variable.roc = 1\r\n}\r\n\r\nvariable.E = 1 / 2 * len * variable.roc + 1 / 2 * P * candle.close / variable.ema\r\n\r\nvariable.allE.push(variable.E)\r\n\r\nif (variable.allE.length > T) {\r\n    variable.allE.splice(0, 1)\r\n}\r\n\r\nvariable.sum = 0\r\nvariable.SQ = 0\r\nif (variable.allE.length === T) {\r\n    for (var i = 0; i < T; i++) {\r\n        variable.sum += variable.allE[i]\r\n    }\r\n    variable.MA = variable.sum / T\r\n\r\n    for (var i = 0; i < T; i++) {\r\n        variable.SQ += Math.pow(variable.allE[i] - variable.MA, 2)\r\n    }\r\n    variable.sigma = Math.sqrt(variable.SQ / T)\r\n\r\n    variable.Z = (variable.E - variable.MA) / variable.sigma\r\n} else {\r\n    variable.Z = 0\r\n}\r\n\r\nvariable.allZ.push(variable.Z)\r\nif (variable.allZ.length > T) {\r\n    variable.allZ.splice(0, 1)\r\n}\r\n\r\nvariable.sum = 0\r\nvariable.SQ = 0\r\nif (variable.allZ.length === T) {\r\n    for (var i = 0; i < T; i++) {\r\n        variable.sum += variable.allZ[i]\r\n    }\r\n    variable.MAZ = variable.sum / T\r\n\r\n    for (var i = 0; i < T; i++) {\r\n        variable.SQ += Math.pow(variable.allZ[i] - variable.MAZ, 2)\r\n    }\r\n    variable.sigZ = Math.sqrt(variable.SQ / T)\r\n} else {\r\n    variable.MAZ = variable.Z\r\n    variable.sigZ = variable.MAZ * 0.02\r\n}\r\n\r\nvariable.upper = variable.MAZ + up * variable.sigZ\r\nvariable.lower = variable.MAZ - low * variable.sigZ\r\n\r\n\r\nvariable.prevEMA = variable.EMA\r\n\r\n//EMA calculation\r\nfunction calculateEMA(periods, price, previousEMA) {\r\n    let k = 2 / (periods + 1)\r\n    return price * k + previousEMA * (1 - k)\r\n}",
                                 "project": "Foundations",
                                 "id": "72bc851f-0167-4b8e-ac11-8b0405ab15b7",
                                 "savedPayload": {
@@ -6097,7 +6097,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": true,
+                            "isCollapsed": false,
                             "angleToParent": 1,
                             "distanceToParent": 2,
                             "arrangementStyle": 0
@@ -6140,7 +6140,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 1,
                     "distanceToParent": 4,
                     "arrangementStyle": 0
@@ -13717,7 +13717,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": true,
+            "isCollapsed": false,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
