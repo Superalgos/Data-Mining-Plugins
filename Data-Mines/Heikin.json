@@ -147,7 +147,7 @@
                                             "Process Definition"
                                         ],
                                         [
-                                            "Heikin Supertrend",
+                                            " Multi-Time-Frame-Market",
                                             "Status Report"
                                         ]
                                     ]
@@ -543,7 +543,7 @@
                                             "Process Definition"
                                         ],
                                         [
-                                            "Heikin Supertrend",
+                                            " Multi-Time-Frame-Daily",
                                             "Status Report"
                                         ]
                                     ]
@@ -1331,7 +1331,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 5,
                                 "arrangementStyle": 0
@@ -1352,7 +1352,7 @@
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
                                 "name": "New Procedure Javascript Code",
-                                "code": "/* Loop Code */\n\n//calculating Hei\nlet candle = record.current\n\nvariable.lastOpen.push(candle.open)\nvariable.lastClose.push(candle.close)\n\nif(variable.lastOpen.length > 2) {\n\tvariable.lastOpen.splice(0,1)\n}\nif(variable.lastClose.length > 2) {\n\tvariable.lastClose.splice(0,1)\n}\nif(variable.lastOpen.length === 2 && variable.lastClose.length === 2){\n\tvariable.HeikinOpen = (variable.lastOpen[0] + variable.lastClose[0])/2\n}\nelse {\n\tvariable.HeikinOpen = candle.open\n}\nvariable.HeikinClose = 1/4 * (candle.open + candle.close + candle.max + candle.min)\nvariable.HeikinMax = Math.max(candle.open, candle.close)\nvariable.HeikinMin = Math.min(candle.open, candle.close)\n\nif (variable.HeikinClose > variable.HeikinOpen) {\n    variable.directionHeikin = 1\n}\n\nif (variable.HeikinClose < variable.HeikinOpen) {\n    variable.directionHeikin = -1\n}\n\nif (variable.HeikinClose === variable.HeikinOpen) {\n    variable.directionHeikin = 0\n}\n\n// Set parameters to be used for ATR Period and Multiplier\nlet Nperiod = 10 // ATR Period\nlet multiplier = 3 // ATR Multiplier\n\n\n/* We need to build the price source\nFor current price there is no problem, we have data\nFor previous price we must check if exist\nSource price is defined as OHCL4*/\n\n// OHCL4 Source for current price\nvariable.currClose = variable.HeikinClose\nvariable.ohcl4 = (variable.HeikinMax + variable.HeikinMin + variable.HeikinClose + variable.HeikinOpen)/4\n\n// OHCL4 Source for previous candle price - make sure data exists\nvariable.lastHeikinClose.push(variable.HeikinClose)\nvariable.lastHeikinMax.push(variable.HeikinMax)\nvariable.lastHeikinMin.push(variable.HeikinMin)\nvariable.lastHeikinOpen.push(variable.HeikinOpen)\nif(variable.lastHeikinClose.length > 2) {\n\tvariable.lastHeikinClose.splice(0,1)\n\tvariable.lastHeikinMax.splice(0,1)\n\tvariable.lastHeikinMin.splice(0,1)\n\tvariable.lastHeikinOpen.splice(0,1)\n}\nif (variable.lastHeikinClose.length < 2) {\n    variable.prevClose = variable.HeikinClose\n    variable.prev_ohcl4 = 0    \n} else {\nvariable.prevClose = variable.lastHeikinClose[0]\n    variable.prev_ohcl4 = (variable.lastHeikinMax[0] + variable.lastHeikinMin[0] + variable.lastHeikinClose[0] + variable.lastHeikinOpen[0])/4\n}\n\n/* Define variables we need and build functions */\n/* True Range and ATR - Average True Range */\n\nvariable.trueRange = calculateTR()\nvariable.atrNPeriod = calculateATR(Nperiod)\nvariable.prevAtrNperiod = variable.atrNPeriod // Store ATR value for calcs in RMA\n\n/* To keep lastNperiodTR array to a fixed length\nwe remove the first element of the array if length is > Nperiod */\n\nvariable.lastNPeriodTR.push(calculateTR())\nif (variable.lastNPeriodTR.length > Nperiod) {\n    variable.lastNPeriodTR.splice(0, 1)\n}\n\n/* Calculate ATR */\nfunction calculateATR(length) {\n    return calculateRMA(variable.trueRange, length)\n}\n\n/* Calculate True Range */\nfunction calculateTR() {\n    let hl = variable.HeikinMax - variable.HeikinMin    \n    if (variable.prevClose === 0) { return hl } // Return High-Low when previous Close is 0    \n    let hcp = Math.abs(variable.HeikinMax - variable.prevClose)\n    let lcp = Math.abs(variable.HeikinMin - variable.prevClose)    \n    return Math.max(hl, hcp, lcp)\n}\n\n/* Calculate RMA */\nfunction calculateRMA(src, length) {    \n    if (src.length < length) { return 0 } // We check we have enough values to make the calcs. If not, set value to zero \n    let alpha=1/length // It's a constant\n    if (isNaN(variable.prevAtrNperiod)) {\n        return 0    \n    } else {\n        return alpha * src + (1 - alpha) * variable.prevAtrNperiod            \n    }  \n    \n}\n\n// Build Up Trend function\n\nvariable.up = variable.ohcl4 - (multiplier * variable.atrNPeriod)\n\nif (variable.last2uptrend.length > 2) {\n    variable.last2uptrend.splice(0, 1)\n}\n\nvariable.up1 = variable.last2uptrend[variable.last2uptrend.length - 1] // Previous Up Trend \n\nvariable.uptrend = calculateUpTrend()\n\nvariable.last2uptrend.push(variable.uptrend) \n\nfunction calculateUpTrend() {\n    if (variable.prevClose > variable.up1) {\n        return Math.max(variable.up, variable.up1)\n    } else {\n        return variable.up\n    }\n}\n\n// Build Down Trend function\n\nvariable.dn = variable.ohcl4 + (multiplier * variable.atrNPeriod)\n\nif (variable.last2downtrend.length > 2) {\n    variable.last2downtrend.splice(0, 1)\n}\n\nvariable.dn1 = variable.last2downtrend[variable.last2downtrend.length - 1] // Previous Down Trend\n\nvariable.downtrend = calculateDnTrend()\n\nvariable.last2downtrend.push(variable.downtrend) \n\nfunction calculateDnTrend() {\n    if (variable.prevClose < variable.dn1) {\n        return Math.min(variable.dn, variable.dn1)\n    } else {\n        return variable.dn\n    }\n}\n\n\n// Build Trend function\n\nif (variable.last2Trend.length > 2) {\n    variable.last2Trend.splice(0, 1)\n}\n\nvariable.prevTrend = variable.last2Trend[variable.last2Trend.length - 1]\nif(variable.last2Trend.length === 2){\n\tvariable.trend = calculateTrend()\n}\nelse {\n\tvariable.trend = 1\n}\n\nvariable.last2Trend.push(variable.trend)\n\nfunction calculateTrend() {\n\n    if (variable.trend = -1 && variable.HeikinClose > variable.dn1) {\n        return 1\n    }\n    else if (variable.trend = 1 && variable.HeikinClose < variable.up1) {\n        return -1\n    }    \n    else {\n        return variable.prevTrend\n    }\n}\n\n// End of code :-)",
+                                "code": "/* Loop Code */\n\n//calculating Hei\nlet candle = record.current\n\nvariable.lastOpen.push(candle.open)\nvariable.lastClose.push(candle.close)\n\nif (variable.lastOpen.length > 2) {\n    variable.lastOpen.splice(0, 1)\n}\nif (variable.lastClose.length > 2) {\n    variable.lastClose.splice(0, 1)\n}\nif (variable.lastOpen.length === 2 && variable.lastClose.length === 2) {\n    variable.HeikinOpen = (variable.lastOpen[0] + variable.lastClose[0]) / 2\n}\nelse {\n    variable.HeikinOpen = candle.open\n}\nvariable.HeikinClose = 1 / 4 * (candle.open + candle.close + candle.max + candle.min)\nvariable.HeikinMax = Math.max(candle.max, variable.HeikinOpen, variable.HeikinClose)\nvariable.HeikinMin = Math.min(candle.min, variable.HeikinOpen, variable.HeikinClose)\n\nif (variable.HeikinClose > variable.HeikinOpen) {\n    variable.directionHeikin = 1\n}\n\nif (variable.HeikinClose < variable.HeikinOpen) {\n    variable.directionHeikin = -1\n}\n\nif (variable.HeikinClose === variable.HeikinOpen) {\n    variable.directionHeikin = 0\n}\n\n// Set parameters to be used for ATR Period and Multiplier\nlet Nperiod = 10 // ATR Period\nlet multiplier = 3 // ATR Multiplier\n\n\n/* We need to build the price source\nFor current price there is no problem, we have data\nFor previous price we must check if exist\nSource price is defined as OHCL4*/\n\n// OHCL4 Source for current price\nvariable.currClose = variable.HeikinClose\nvariable.ohcl4 = (variable.HeikinMax + variable.HeikinMin + variable.HeikinClose + variable.HeikinOpen) / 4\n\n// OHCL4 Source for previous candle price - make sure data exists\nvariable.lastHeikinClose.push(variable.HeikinClose)\nvariable.lastHeikinMax.push(variable.HeikinMax)\nvariable.lastHeikinMin.push(variable.HeikinMin)\nvariable.lastHeikinOpen.push(variable.HeikinOpen)\nif (variable.lastHeikinClose.length > 2) {\n    variable.lastHeikinClose.splice(0, 1)\n    variable.lastHeikinMax.splice(0, 1)\n    variable.lastHeikinMin.splice(0, 1)\n    variable.lastHeikinOpen.splice(0, 1)\n}\nif (variable.lastHeikinClose.length < 2) {\n    variable.prevClose = variable.HeikinClose\n    variable.prev_ohcl4 = 0\n} else {\n    variable.prevClose = variable.lastHeikinClose[0]\n    variable.prev_ohcl4 = (variable.lastHeikinMax[0] + variable.lastHeikinMin[0] + variable.lastHeikinClose[0] + variable.lastHeikinOpen[0]) / 4\n}\n\n/* Define variables we need and build functions */\n/* True Range and ATR - Average True Range */\n\nvariable.trueRange = calculateTR()\nvariable.atrNPeriod = calculateATR(Nperiod)\nvariable.prevAtrNperiod = variable.atrNPeriod // Store ATR value for calcs in RMA\n\n/* To keep lastNperiodTR array to a fixed length\nwe remove the first element of the array if length is > Nperiod */\n\nvariable.lastNPeriodTR.push(calculateTR())\nif (variable.lastNPeriodTR.length > Nperiod) {\n    variable.lastNPeriodTR.splice(0, 1)\n}\n\n/* Calculate ATR */\nfunction calculateATR(length) {\n    return calculateRMA(variable.trueRange, length)\n}\n\n/* Calculate True Range */\nfunction calculateTR() {\n    let hl = variable.HeikinMax - variable.HeikinMin\n    if (variable.prevClose === 0) { return hl } // Return High-Low when previous Close is 0    \n    let hcp = Math.abs(variable.HeikinMax - variable.prevClose)\n    let lcp = Math.abs(variable.HeikinMin - variable.prevClose)\n    return Math.max(hl, hcp, lcp)\n}\n\n/* Calculate RMA */\nfunction calculateRMA(src, length) {\n    if (src.length < length) { return 0 } // We check we have enough values to make the calcs. If not, set value to zero \n    let alpha = 1 / length // It's a constant\n    if (isNaN(variable.prevAtrNperiod)) {\n        return 0\n    } else {\n        return alpha * src + (1 - alpha) * variable.prevAtrNperiod\n    }\n\n}\n\n// Build Up Trend function\n\nvariable.up = variable.ohcl4 - (multiplier * variable.atrNPeriod)\n\nif (variable.last2uptrend.length > 2) {\n    variable.last2uptrend.splice(0, 1)\n}\n\nvariable.up1 = variable.last2uptrend[variable.last2uptrend.length - 1] // Previous Up Trend \n\nvariable.uptrend = calculateUpTrend()\n\nvariable.last2uptrend.push(variable.uptrend)\n\nfunction calculateUpTrend() {\n    if (variable.prevClose > variable.up1) {\n        return Math.max(variable.up, variable.up1)\n    } else {\n        return variable.up\n    }\n}\n\n// Build Down Trend function\n\nvariable.dn = variable.ohcl4 + (multiplier * variable.atrNPeriod)\n\nif (variable.last2downtrend.length > 2) {\n    variable.last2downtrend.splice(0, 1)\n}\n\nvariable.dn1 = variable.last2downtrend[variable.last2downtrend.length - 1] // Previous Down Trend\n\nvariable.downtrend = calculateDnTrend()\n\nvariable.last2downtrend.push(variable.downtrend)\n\nfunction calculateDnTrend() {\n    if (variable.prevClose < variable.dn1) {\n        return Math.min(variable.dn, variable.dn1)\n    } else {\n        return variable.dn\n    }\n}\n\n\n// Build Trend function\n\nif (variable.last2Trend.length > 2) {\n    variable.last2Trend.splice(0, 1)\n}\n\nvariable.prevTrend = variable.last2Trend[variable.last2Trend.length - 1]\nif (variable.last2Trend.length === 2) {\n    variable.trend = calculateTrend()\n}\nelse {\n    variable.trend = 1\n}\n\nvariable.last2Trend.push(variable.trend)\n\nfunction calculateTrend() {\n\n    if (variable.trend = -1 && variable.HeikinClose > variable.dn1) {\n        return 1\n    }\n    else if (variable.trend = 1 && variable.HeikinClose < variable.up1) {\n        return -1\n    }\n    else {\n        return variable.prevTrend\n    }\n}\n\n// End of code :-)",
                                 "project": "Foundations",
                                 "id": "b05d9254-7597-42ac-9f82-744e58040b7d",
                                 "savedPayload": {
@@ -1491,7 +1491,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": false,
+                            "isCollapsed": true,
                             "angleToParent": 2,
                             "distanceToParent": 4,
                             "arrangementStyle": 0
@@ -1685,7 +1685,7 @@
                                             "Process Definition"
                                         ],
                                         [
-                                            "Heikin",
+                                            " Multi-Time-Frame-Market",
                                             "Status Report"
                                         ]
                                     ]
@@ -2081,7 +2081,7 @@
                                             "Process Definition"
                                         ],
                                         [
-                                            "Heikin",
+                                            " Multi-Time-Frame-Daily",
                                             "Status Report"
                                         ]
                                     ]
@@ -3029,7 +3029,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": false,
+                            "isCollapsed": true,
                             "angleToParent": 2,
                             "distanceToParent": 4,
                             "arrangementStyle": 0
@@ -4807,17 +4807,17 @@
                                     "style": {
                                         "type": "Style",
                                         "name": "New Style",
-                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREY\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.8,\n        \"lineWidth\": 2,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\n    }\n}",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREY\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.8,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.TITANIUM_YELLOW\"\n    }\n}",
                                         "project": "Foundations",
                                         "id": "02cf5614-4618-4d64-b7d2-228cd983651b",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13598.795757877275,
-                                                "y": 24495.71753489902
+                                                "x": 13683.128831504036,
+                                                "y": 23952.16239183811
                                             },
                                             "targetPosition": {
-                                                "x": 13850.396928260901,
-                                                "y": 24332.325824394513
+                                                "x": 13982.71769193041,
+                                                "y": 23936.461604965225
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -4836,12 +4836,12 @@
                                     "id": "84844d81-b40a-4489-8676-ee08ebe553d1",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 13850.396928260901,
-                                            "y": 24332.325824394513
+                                            "x": 13982.71769193041,
+                                            "y": 23936.461604965225
                                         },
                                         "targetPosition": {
-                                            "x": 14101.998098644528,
-                                            "y": 24168.934113890005
+                                            "x": 14282.306552356782,
+                                            "y": 23920.76081809234
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -4864,12 +4864,12 @@
                                         "id": "e408247e-d975-403d-a8bf-6537df144a43",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13808.553818424387,
-                                                "y": 24106.560606644678
+                                                "x": 14059.363104713564,
+                                                "y": 23720.021636184683
                                             },
                                             "targetPosition": {
-                                                "x": 14101.998098644528,
-                                                "y": 24168.934113890005
+                                                "x": 14282.306552356782,
+                                                "y": 23920.76081809234
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -4922,12 +4922,12 @@
                                         "id": "90510fa7-bf90-405d-bb48-e4329d1d4d50",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13938.60638814002,
-                                                "y": 23917.33294350638
+                                                "x": 14266.605765483899,
+                                                "y": 23621.17195766597
                                             },
                                             "targetPosition": {
-                                                "x": 14101.998098644528,
-                                                "y": 24168.934113890005
+                                                "x": 14282.306552356782,
+                                                "y": 23920.76081809234
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5008,17 +5008,17 @@
                                     "style": {
                                         "type": "Style",
                                         "name": "New Style",
-                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREY\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.8,\n        \"lineWidth\": 2,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\n    }\n}",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREY\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.8,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.TITANIUM_YELLOW\"\n    }\n}",
                                         "project": "Foundations",
                                         "id": "a81599b8-b029-449f-a5a0-b6f7e105bdd2",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13595.525476104267,
-                                                "y": 23976.962599746348
+                                                "x": 13939.67415198742,
+                                                "y": 23501.272298770844
                                             },
                                             "targetPosition": {
-                                                "x": 13895.11433653064,
-                                                "y": 23992.66338661923
+                                                "x": 14191.275322371046,
+                                                "y": 23664.66400927535
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5037,17 +5037,17 @@
                                     "id": "e6a3dbf3-5042-4b0f-905b-0141625fd1d2",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 13895.11433653064,
-                                            "y": 23992.66338661923
+                                            "x": 14191.275322371046,
+                                            "y": 23664.66400927535
                                         },
                                         "targetPosition": {
-                                            "x": 14194.703196957013,
-                                            "y": 24008.364173492115
+                                            "x": 14442.876492754673,
+                                            "y": 23828.05571977986
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
                                             "isFrozen": false,
-                                            "isCollapsed": false,
+                                            "isCollapsed": true,
                                             "angleToParent": 2,
                                             "distanceToParent": 3,
                                             "arrangementStyle": 0
@@ -5065,12 +5065,12 @@
                                         "id": "26b1efa1-8981-4042-93fa-06a699437e3e",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13993.964015049354,
-                                                "y": 23785.420725848897
+                                                "x": 14380.502985509345,
+                                                "y": 23534.611439559718
                                             },
                                             "targetPosition": {
-                                                "x": 14194.703196957013,
-                                                "y": 24008.364173492115
+                                                "x": 14442.876492754673,
+                                                "y": 23828.05571977986
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5123,12 +5123,12 @@
                                         "id": "87f79174-cd90-4fb1-9a71-c3410040d6ef",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14210.403983829896,
-                                                "y": 23708.775313065744
+                                                "x": 14606.26820325918,
+                                                "y": 23576.454549396232
                                             },
                                             "targetPosition": {
-                                                "x": 14194.703196957013,
-                                                "y": 24008.364173492115
+                                                "x": 14442.876492754673,
+                                                "y": 23828.05571977986
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5214,12 +5214,12 @@
                                         "id": "a997826f-871e-4f31-a1ab-86348e4de7a1",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13786.489023306514,
-                                                "y": 23885.319124749596
+                                                "x": 14150.875172559729,
+                                                "y": 23517.388494933693
                                             },
                                             "targetPosition": {
-                                                "x": 14081.667899886103,
-                                                "y": 23831.752056310004
+                                                "x": 14433.291112558,
+                                                "y": 23618.58749114854
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5248,12 +5248,12 @@
                                                 "id": "c525dc02-d346-42c1-8bd9-c1f9820a907b",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 13693.70813915662,
-                                                        "y": 23374.054313192646
+                                                        "x": 14326.156975678816,
+                                                        "y": 23028.22973798936
                                                     },
                                                     "targetPosition": {
-                                                        "x": 13887.688019521362,
-                                                        "y": 23602.903184751325
+                                                        "x": 14379.724044118408,
+                                                        "y": 23323.40861456895
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -5271,12 +5271,12 @@
                                             "id": "239ca4f7-62d7-463d-83d9-57f52f31ed73",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 13887.688019521362,
-                                                    "y": 23602.903184751325
+                                                    "x": 14379.724044118408,
+                                                    "y": 23323.40861456895
                                                 },
                                                 "targetPosition": {
-                                                    "x": 14081.667899886103,
-                                                    "y": 23831.752056310004
+                                                    "x": 14433.291112558,
+                                                    "y": 23618.58749114854
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
@@ -5295,12 +5295,12 @@
                                     "id": "4fbdeb9a-7716-4041-b79b-d38ffbae3d6e",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 14081.667899886103,
-                                            "y": 23831.752056310004
+                                            "x": 14433.291112558,
+                                            "y": 23618.58749114854
                                         },
                                         "targetPosition": {
-                                            "x": 14364.083839884373,
-                                            "y": 23932.95105252485
+                                            "x": 14627.27099292274,
+                                            "y": 23847.43636270722
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -5408,12 +5408,12 @@
                                     "id": "e059f13b-ccb6-415a-9f6f-6b8582af2b0e",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 14153.544469019176,
-                                            "y": 23719.238223439446
+                                            "x": 14551.794963799388,
+                                            "y": 23557.08593817202
                                         },
                                         "targetPosition": {
-                                            "x": 14364.083839884373,
-                                            "y": 23932.95105252485
+                                            "x": 14627.27099292274,
+                                            "y": 23847.43636270722
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -5436,12 +5436,12 @@
                                         "id": "db52cd58-a1e1-4003-906b-c4b695885946",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14267.120942648035,
-                                                "y": 23649.0528373851
+                                                "x": 14685.247768261406,
+                                                "y": 23553.091847688967
                                             },
                                             "targetPosition": {
-                                                "x": 14364.083839884373,
-                                                "y": 23932.95105252485
+                                                "x": 14627.27099292274,
+                                                "y": 23847.43636270722
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5494,12 +5494,12 @@
                                         "id": "af8d7a2a-83bc-49a8-862c-d6109267ba10",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14399.902107246447,
-                                                "y": 23635.0969746223
+                                                "x": 14807.217561329115,
+                                                "y": 23607.39629830386
                                             },
                                             "targetPosition": {
-                                                "x": 14364.083839884373,
-                                                "y": 23932.95105252485
+                                                "x": 14627.27099292274,
+                                                "y": 23847.43636270722
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5552,12 +5552,12 @@
                                         "id": "f63f78cd-cd98-42b4-8275-374fd10510ac",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14525.589024711579,
-                                                "y": 23680.13476492864
+                                                "x": 14893.546729624106,
+                                                "y": 23709.24362757203
                                             },
                                             "targetPosition": {
-                                                "x": 14364.083839884373,
-                                                "y": 23932.95105252485
+                                                "x": 14627.27099292274,
+                                                "y": 23847.43636270722
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5610,12 +5610,12 @@
                                         "id": "8f48f032-ab3f-4231-b834-3436ee34be12",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14619.287859590575,
-                                                "y": 23775.2459215817
+                                                "x": 14927.136722607791,
+                                                "y": 23838.4617228564
                                             },
                                             "targetPosition": {
-                                                "x": 14364.083839884373,
-                                                "y": 23932.95105252485
+                                                "x": 14627.27099292274,
+                                                "y": 23847.43636270722
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5701,7 +5701,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": true,
+                                "isCollapsed": false,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -6152,7 +6152,7 @@
                                 "floatingObject": {
                                     "isPinned": false,
                                     "isFrozen": false,
-                                    "isCollapsed": false,
+                                    "isCollapsed": true,
                                     "angleToParent": 2,
                                     "distanceToParent": 3,
                                     "arrangementStyle": 0
@@ -6176,7 +6176,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": false,
+                            "isCollapsed": true,
                             "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
