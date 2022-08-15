@@ -55,27 +55,19 @@
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Heikin",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Heikin-Ashi Supertrend",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "49d46742-243a-4434-aa02-65bfa73d3a1f"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Super Trend Heikin",
-                                            "Product Definition",
-                                            "Foundations",
-                                            "0fba45ea-43b0-492e-aab6-5c7655ea7829"
+                                            "Product Definition"
                                         ],
                                         [
                                             "Multi-Time-Frame-Market",
-                                            "Dataset Definition",
-                                            "Foundations",
-                                            "a98715ab-e1e9-40a4-ad90-ee46860f19c8"
+                                            "Dataset Definition"
                                         ]
                                     ]
                                 }
@@ -138,33 +130,25 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Heikin Supertrend",
+                                        "name": " Multi-Time-Frame-Market",
                                         "id": "39d95332-5d16-4d55-b1a7-1e7251165268"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Heikin",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Heikin-Ashi Supertrend",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "49d46742-243a-4434-aa02-65bfa73d3a1f"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Multi-Time-Frame-Market",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "118cf402-e1a1-4ebb-bd6f-0abcea1f61a2"
+                                            "Process Definition"
                                         ],
                                         [
-                                            "Heikin Supertrend",
-                                            "Status Report",
-                                            "Foundations",
-                                            "39d95332-5d16-4d55-b1a7-1e7251165268"
+                                            " Multi-Time-Frame-Market",
+                                            "Status Report"
                                         ]
                                     ]
                                 }
@@ -197,33 +181,25 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Candles Volumes Multi-Time-Frame-Market Status Report",
+                                        "name": " Multi-Time-Frame-Market",
                                         "id": "a0a61ba9-91cb-4ec7-92fe-134ff079de2d"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Candles Volumes",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Multi-Time-Frame-Market",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "9f683143-a33f-42c1-9fa8-c601f01ee4e1"
+                                            "Process Definition"
                                         ],
                                         [
                                             "Candles Volumes Multi-Time-Frame-Market Status Report",
-                                            "Status Report",
-                                            "Foundations",
-                                            "a0a61ba9-91cb-4ec7-92fe-134ff079de2d"
+                                            "Status Report"
                                         ]
                                     ]
                                 }
@@ -263,27 +239,19 @@
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Candles Volumes",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Candles",
-                                            "Product Definition",
-                                            "Foundations",
-                                            "fe6065ec-4d2d-47a0-bae0-8647f0e195d7"
+                                            "Product Definition"
                                         ],
                                         [
                                             "Multi-Time-Frame-Market",
-                                            "Dataset Definition",
-                                            "Foundations",
-                                            "2b03494a-67d6-47f1-89b6-53fc4c9116a8"
+                                            "Dataset Definition"
                                         ]
                                     ]
                                 }
@@ -315,7 +283,7 @@
                     },
                     "statusReport": {
                         "type": "Status Report",
-                        "name": "Heikin Supertrend",
+                        "name": " Multi-Time-Frame-Market",
                         "project": "Foundations",
                         "id": "39d95332-5d16-4d55-b1a7-1e7251165268",
                         "savedPayload": {
@@ -373,27 +341,19 @@
                             "referenceParentCombinedNodePath": [
                                 [
                                     "Candles",
-                                    "Data Mine",
-                                    "Data-Mining",
-                                    "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                    "Data Mine"
                                 ],
                                 [
                                     "Candles Volumes",
-                                    "Indicator Bot",
-                                    "Data-Mining",
-                                    "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                    "Indicator Bot"
                                 ],
                                 [
                                     "Multi-Time-Frame-Market",
-                                    "Process Definition",
-                                    "Foundations",
-                                    "9f683143-a33f-42c1-9fa8-c601f01ee4e1"
+                                    "Process Definition"
                                 ],
                                 [
                                     "New Execution Finished Event",
-                                    "Execution Finished Event",
-                                    "Foundations",
-                                    "1824fa00-dd30-4cdc-acc0-01c2f29056c5"
+                                    "Execution Finished Event"
                                 ]
                             ]
                         }
@@ -491,27 +451,19 @@
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Heikin",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Heikin-Ashi Supertrend",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "49d46742-243a-4434-aa02-65bfa73d3a1f"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Super Trend Heikin",
-                                            "Product Definition",
-                                            "Foundations",
-                                            "0fba45ea-43b0-492e-aab6-5c7655ea7829"
+                                            "Product Definition"
                                         ],
                                         [
                                             "Multi-Time-Frame-Daily",
-                                            "Dataset Definition",
-                                            "Foundations",
-                                            "b183930e-1364-4f39-bf31-9d1324b53441"
+                                            "Dataset Definition"
                                         ]
                                     ]
                                 }
@@ -574,40 +526,32 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Heikin Supertrend",
+                                        "name": " Multi-Time-Frame-Daily",
                                         "id": "1dba9fd4-9183-4245-b121-71b5c8b84953"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Heikin",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Heikin-Ashi Supertrend",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "49d46742-243a-4434-aa02-65bfa73d3a1f"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Multi-Time-Frame-Daily",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "f5659ca0-427d-4b74-8c1b-734203123fdc"
+                                            "Process Definition"
                                         ],
                                         [
-                                            "Heikin Supertrend",
-                                            "Status Report",
-                                            "Foundations",
-                                            "1dba9fd4-9183-4245-b121-71b5c8b84953"
+                                            " Multi-Time-Frame-Daily",
+                                            "Status Report"
                                         ]
                                     ]
                                 }
                             },
                             {
                                 "type": "Status Dependency",
-                                "name": "",
+                                "name": "Candles Volumes Multi-Time-Frame-Daily",
                                 "config": "{ \n\"mainUtility\": \"Market Ending Point\"\n}",
                                 "project": "Foundations",
                                 "id": "ab4237b9-ccbd-40aa-a05c-eee8977703d2",
@@ -633,33 +577,25 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "New Status Report",
+                                        "name": " Multi-Time-Frame-Daily",
                                         "id": "2a021da8-9feb-475e-90ab-1586968c17c7"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Candles Volumes",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Multi-Time-Frame-Daily",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "980ceb1d-7be6-454f-90d9-01ba1fd4a65d"
+                                            "Process Definition"
                                         ],
                                         [
                                             "New Status Report",
-                                            "Status Report",
-                                            "Foundations",
-                                            "2a021da8-9feb-475e-90ab-1586968c17c7"
+                                            "Status Report"
                                         ]
                                     ]
                                 }
@@ -692,33 +628,25 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                        "name": " Historic-OHLCVs",
                                         "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Exchange Raw Data",
-                                            "Sensor Bot",
-                                            "Data-Mining",
-                                            "af924204-66a2-47d4-9910-66ab78acb06f"
+                                            "Sensor Bot"
                                         ],
                                         [
                                             "Historic-OHLCVs",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "5eb11d6a-022e-4f60-97c4-d6cf90b249dc"
+                                            "Process Definition"
                                         ],
                                         [
                                             "Exchange-Raw-Data Historic-OHLCVs Status Report",
-                                            "Status Report",
-                                            "Foundations",
-                                            "181c7c34-7243-497a-9ddb-1b0067c6d66e"
+                                            "Status Report"
                                         ]
                                     ]
                                 }
@@ -758,27 +686,19 @@
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Candles Volumes",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Candles",
-                                            "Product Definition",
-                                            "Foundations",
-                                            "fe6065ec-4d2d-47a0-bae0-8647f0e195d7"
+                                            "Product Definition"
                                         ],
                                         [
                                             "Multi-Time-Frame-Daily",
-                                            "Dataset Definition",
-                                            "Foundations",
-                                            "678a567c-f08d-49b9-813b-4e54fd6afadb"
+                                            "Dataset Definition"
                                         ]
                                     ]
                                 }
@@ -810,7 +730,7 @@
                     },
                     "statusReport": {
                         "type": "Status Report",
-                        "name": "Heikin Supertrend",
+                        "name": " Multi-Time-Frame-Daily",
                         "project": "Foundations",
                         "id": "1dba9fd4-9183-4245-b121-71b5c8b84953",
                         "savedPayload": {
@@ -868,27 +788,19 @@
                             "referenceParentCombinedNodePath": [
                                 [
                                     "Candles",
-                                    "Data Mine",
-                                    "Data-Mining",
-                                    "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                    "Data Mine"
                                 ],
                                 [
                                     "Candles Volumes",
-                                    "Indicator Bot",
-                                    "Data-Mining",
-                                    "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                    "Indicator Bot"
                                 ],
                                 [
                                     "Multi-Time-Frame-Daily",
-                                    "Process Definition",
-                                    "Foundations",
-                                    "980ceb1d-7be6-454f-90d9-01ba1fd4a65d"
+                                    "Process Definition"
                                 ],
                                 [
                                     "New Execution Finished Event",
-                                    "Execution Finished Event",
-                                    "Foundations",
-                                    "f29d08f9-e7c8-490c-8fca-14851a0d3dc3"
+                                    "Execution Finished Event"
                                 ]
                             ]
                         }
@@ -1419,7 +1331,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 5,
                                 "arrangementStyle": 0
@@ -1440,7 +1352,7 @@
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
                                 "name": "New Procedure Javascript Code",
-                                "code": "/* Loop Code */\n\n//calculating Hei\nlet candle = record.current\n\nvariable.lastOpen.push(candle.open)\nvariable.lastClose.push(candle.close)\n\nif(variable.lastOpen.length > 2) {\n\tvariable.lastOpen.splice(0,1)\n}\nif(variable.lastClose.length > 2) {\n\tvariable.lastClose.splice(0,1)\n}\nif(variable.lastOpen.length === 2 && variable.lastClose.length === 2){\n\tvariable.HeikinOpen = (variable.lastOpen[0] + variable.lastClose[0])/2\n}\nelse {\n\tvariable.HeikinOpen = candle.open\n}\nvariable.HeikinClose = 1/4 * (candle.open + candle.close + candle.max + candle.min)\nvariable.HeikinMax = Math.max(candle.open, candle.close)\nvariable.HeikinMin = Math.min(candle.open, candle.close)\n\nif (variable.HeikinClose > variable.HeikinOpen) {\n    variable.directionHeikin = 1\n}\n\nif (variable.HeikinClose < variable.HeikinOpen) {\n    variable.directionHeikin = -1\n}\n\nif (variable.HeikinClose === variable.HeikinOpen) {\n    variable.directionHeikin = 0\n}\n\n// Set parameters to be used for ATR Period and Multiplier\nlet Nperiod = 10 // ATR Period\nlet multiplier = 3 // ATR Multiplier\n\n\n/* We need to build the price source\nFor current price there is no problem, we have data\nFor previous price we must check if exist\nSource price is defined as OHCL4*/\n\n// OHCL4 Source for current price\nvariable.currClose = variable.HeikinClose\nvariable.ohcl4 = (variable.HeikinMax + variable.HeikinMin + variable.HeikinClose + variable.HeikinOpen)/4\n\n// OHCL4 Source for previous candle price - make sure data exists\nvariable.lastHeikinClose.push(variable.HeikinClose)\nvariable.lastHeikinMax.push(variable.HeikinMax)\nvariable.lastHeikinMin.push(variable.HeikinMin)\nvariable.lastHeikinOpen.push(variable.HeikinOpen)\nif(variable.lastHeikinClose.length > 2) {\n\tvariable.lastHeikinClose.splice(0,1)\n\tvariable.lastHeikinMax.splice(0,1)\n\tvariable.lastHeikinMin.splice(0,1)\n\tvariable.lastHeikinOpen.splice(0,1)\n}\nif (variable.lastHeikinClose.length < 2) {\n    variable.prevClose = variable.HeikinClose\n    variable.prev_ohcl4 = 0    \n} else {\nvariable.prevClose = variable.lastHeikinClose[0]\n    variable.prev_ohcl4 = (variable.lastHeikinMax[0] + variable.lastHeikinMin[0] + variable.lastHeikinClose[0] + variable.lastHeikinOpen[0])/4\n}\n\n/* Define variables we need and build functions */\n/* True Range and ATR - Average True Range */\n\nvariable.trueRange = calculateTR()\nvariable.atrNPeriod = calculateATR(Nperiod)\nvariable.prevAtrNperiod = variable.atrNPeriod // Store ATR value for calcs in RMA\n\n/* To keep lastNperiodTR array to a fixed length\nwe remove the first element of the array if length is > Nperiod */\n\nvariable.lastNPeriodTR.push(calculateTR())\nif (variable.lastNPeriodTR.length > Nperiod) {\n    variable.lastNPeriodTR.splice(0, 1)\n}\n\n/* Calculate ATR */\nfunction calculateATR(length) {\n    return calculateRMA(variable.trueRange, length)\n}\n\n/* Calculate True Range */\nfunction calculateTR() {\n    let hl = variable.HeikinMax - variable.HeikinMin    \n    if (variable.prevClose === 0) { return hl } // Return High-Low when previous Close is 0    \n    let hcp = Math.abs(variable.HeikinMax - variable.prevClose)\n    let lcp = Math.abs(variable.HeikinMin - variable.prevClose)    \n    return Math.max(hl, hcp, lcp)\n}\n\n/* Calculate RMA */\nfunction calculateRMA(src, length) {    \n    if (src.length < length) { return 0 } // We check we have enough values to make the calcs. If not, set value to zero \n    let alpha=1/length // It's a constant\n    if (isNaN(variable.prevAtrNperiod)) {\n        return 0    \n    } else {\n        return alpha * src + (1 - alpha) * variable.prevAtrNperiod            \n    }  \n    \n}\n\n// Build Up Trend function\n\nvariable.up = variable.ohcl4 - (multiplier * variable.atrNPeriod)\n\nif (variable.last2uptrend.length > 2) {\n    variable.last2uptrend.splice(0, 1)\n}\n\nvariable.up1 = variable.last2uptrend[variable.last2uptrend.length - 1] // Previous Up Trend \n\nvariable.uptrend = calculateUpTrend()\n\nvariable.last2uptrend.push(variable.uptrend) \n\nfunction calculateUpTrend() {\n    if (variable.prevClose > variable.up1) {\n        return Math.max(variable.up, variable.up1)\n    } else {\n        return variable.up\n    }\n}\n\n// Build Down Trend function\n\nvariable.dn = variable.ohcl4 + (multiplier * variable.atrNPeriod)\n\nif (variable.last2downtrend.length > 2) {\n    variable.last2downtrend.splice(0, 1)\n}\n\nvariable.dn1 = variable.last2downtrend[variable.last2downtrend.length - 1] // Previous Down Trend\n\nvariable.downtrend = calculateDnTrend()\n\nvariable.last2downtrend.push(variable.downtrend) \n\nfunction calculateDnTrend() {\n    if (variable.prevClose < variable.dn1) {\n        return Math.min(variable.dn, variable.dn1)\n    } else {\n        return variable.dn\n    }\n}\n\n\n// Build Trend function\n\nif (variable.last2Trend.length > 2) {\n    variable.last2Trend.splice(0, 1)\n}\n\nvariable.prevTrend = variable.last2Trend[variable.last2Trend.length - 1]\nif(variable.last2Trend.length === 2){\n\tvariable.trend = calculateTrend()\n}\nelse {\n\tvariable.trend = 1\n}\n\nvariable.last2Trend.push(variable.trend)\n\nfunction calculateTrend() {\n\n    if (variable.trend = -1 && variable.HeikinClose > variable.dn1) {\n        return 1\n    }\n    else if (variable.trend = 1 && variable.HeikinClose < variable.up1) {\n        return -1\n    }    \n    else {\n        return variable.prevTrend\n    }\n}\n\n// End of code :-)",
+                                "code": "/* Loop Code */\n\n//calculating Hei\nlet candle = record.current\n\nvariable.lastOpen.push(candle.open)\nvariable.lastClose.push(candle.close)\n\nif (variable.lastOpen.length > 2) {\n    variable.lastOpen.splice(0, 1)\n}\nif (variable.lastClose.length > 2) {\n    variable.lastClose.splice(0, 1)\n}\nif (variable.lastOpen.length === 2 && variable.lastClose.length === 2) {\n    variable.HeikinOpen = (variable.lastOpen[0] + variable.lastClose[0]) / 2\n}\nelse {\n    variable.HeikinOpen = candle.open\n}\nvariable.HeikinClose = 1 / 4 * (candle.open + candle.close + candle.max + candle.min)\nvariable.HeikinMax = Math.max(candle.max, variable.HeikinOpen, variable.HeikinClose)\nvariable.HeikinMin = Math.min(candle.min, variable.HeikinOpen, variable.HeikinClose)\n\nif (variable.HeikinClose > variable.HeikinOpen) {\n    variable.directionHeikin = 1\n}\n\nif (variable.HeikinClose < variable.HeikinOpen) {\n    variable.directionHeikin = -1\n}\n\nif (variable.HeikinClose === variable.HeikinOpen) {\n    variable.directionHeikin = 0\n}\n\n// Set parameters to be used for ATR Period and Multiplier\nlet Nperiod = 10 // ATR Period\nlet multiplier = 3 // ATR Multiplier\n\n\n/* We need to build the price source\nFor current price there is no problem, we have data\nFor previous price we must check if exist\nSource price is defined as OHCL4*/\n\n// OHCL4 Source for current price\nvariable.currClose = variable.HeikinClose\nvariable.ohcl4 = (variable.HeikinMax + variable.HeikinMin + variable.HeikinClose + variable.HeikinOpen) / 4\n\n// OHCL4 Source for previous candle price - make sure data exists\nvariable.lastHeikinClose.push(variable.HeikinClose)\nvariable.lastHeikinMax.push(variable.HeikinMax)\nvariable.lastHeikinMin.push(variable.HeikinMin)\nvariable.lastHeikinOpen.push(variable.HeikinOpen)\nif (variable.lastHeikinClose.length > 2) {\n    variable.lastHeikinClose.splice(0, 1)\n    variable.lastHeikinMax.splice(0, 1)\n    variable.lastHeikinMin.splice(0, 1)\n    variable.lastHeikinOpen.splice(0, 1)\n}\nif (variable.lastHeikinClose.length < 2) {\n    variable.prevClose = variable.HeikinClose\n    variable.prev_ohcl4 = 0\n} else {\n    variable.prevClose = variable.lastHeikinClose[0]\n    variable.prev_ohcl4 = (variable.lastHeikinMax[0] + variable.lastHeikinMin[0] + variable.lastHeikinClose[0] + variable.lastHeikinOpen[0]) / 4\n}\n\n/* Define variables we need and build functions */\n/* True Range and ATR - Average True Range */\n\nvariable.trueRange = calculateTR()\nvariable.atrNPeriod = calculateATR(Nperiod)\nvariable.prevAtrNperiod = variable.atrNPeriod // Store ATR value for calcs in RMA\n\n/* To keep lastNperiodTR array to a fixed length\nwe remove the first element of the array if length is > Nperiod */\n\nvariable.lastNPeriodTR.push(calculateTR())\nif (variable.lastNPeriodTR.length > Nperiod) {\n    variable.lastNPeriodTR.splice(0, 1)\n}\n\n/* Calculate ATR */\nfunction calculateATR(length) {\n    return calculateRMA(variable.trueRange, length)\n}\n\n/* Calculate True Range */\nfunction calculateTR() {\n    let hl = variable.HeikinMax - variable.HeikinMin\n    if (variable.prevClose === 0) { return hl } // Return High-Low when previous Close is 0    \n    let hcp = Math.abs(variable.HeikinMax - variable.prevClose)\n    let lcp = Math.abs(variable.HeikinMin - variable.prevClose)\n    return Math.max(hl, hcp, lcp)\n}\n\n/* Calculate RMA */\nfunction calculateRMA(src, length) {\n    if (src.length < length) { return 0 } // We check we have enough values to make the calcs. If not, set value to zero \n    let alpha = 1 / length // It's a constant\n    if (isNaN(variable.prevAtrNperiod)) {\n        return 0\n    } else {\n        return alpha * src + (1 - alpha) * variable.prevAtrNperiod\n    }\n\n}\n\n// Build Up Trend function\n\nvariable.up = variable.ohcl4 - (multiplier * variable.atrNPeriod)\n\nif (variable.last2uptrend.length > 2) {\n    variable.last2uptrend.splice(0, 1)\n}\n\nvariable.up1 = variable.last2uptrend[variable.last2uptrend.length - 1] // Previous Up Trend \n\nvariable.uptrend = calculateUpTrend()\n\nvariable.last2uptrend.push(variable.uptrend)\n\nfunction calculateUpTrend() {\n    if (variable.prevClose > variable.up1) {\n        return Math.max(variable.up, variable.up1)\n    } else {\n        return variable.up\n    }\n}\n\n// Build Down Trend function\n\nvariable.dn = variable.ohcl4 + (multiplier * variable.atrNPeriod)\n\nif (variable.last2downtrend.length > 2) {\n    variable.last2downtrend.splice(0, 1)\n}\n\nvariable.dn1 = variable.last2downtrend[variable.last2downtrend.length - 1] // Previous Down Trend\n\nvariable.downtrend = calculateDnTrend()\n\nvariable.last2downtrend.push(variable.downtrend)\n\nfunction calculateDnTrend() {\n    if (variable.prevClose < variable.dn1) {\n        return Math.min(variable.dn, variable.dn1)\n    } else {\n        return variable.dn\n    }\n}\n\n\n// Build Trend function\n\nif (variable.last2Trend.length > 2) {\n    variable.last2Trend.splice(0, 1)\n}\n\nvariable.prevTrend = variable.last2Trend[variable.last2Trend.length - 1]\nif (variable.last2Trend.length === 2) {\n    variable.trend = calculateTrend()\n}\nelse {\n    variable.trend = 1\n}\n\nvariable.last2Trend.push(variable.trend)\n\nfunction calculateTrend() {\n\n    if (variable.trend = -1 && variable.HeikinClose > variable.dn1) {\n        return 1\n    }\n    else if (variable.trend = 1 && variable.HeikinClose < variable.up1) {\n        return -1\n    }\n    else {\n        return variable.prevTrend\n    }\n}\n\n// End of code :-)",
                                 "project": "Foundations",
                                 "id": "b05d9254-7597-42ac-9f82-744e58040b7d",
                                 "savedPayload": {
@@ -1579,7 +1491,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": false,
+                            "isCollapsed": true,
                             "angleToParent": 2,
                             "distanceToParent": 4,
                             "arrangementStyle": 0
@@ -1595,21 +1507,15 @@
                         "referenceParentCombinedNodePath": [
                             [
                                 "Heikin",
-                                "Data Mine",
-                                "Data-Mining",
-                                "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                "Data Mine"
                             ],
                             [
                                 "Super Trend",
-                                "Plotter",
-                                "Foundations",
-                                "d4af0508-212b-45df-bcc2-b5e66f242098"
+                                "Plotter"
                             ],
                             [
                                 "Super Trend Heikin",
-                                "Plotter Module",
-                                "Foundations",
-                                "da84e3f3-3eb4-4956-bee2-2baa12d9ef34"
+                                "Plotter Module"
                             ]
                         ]
                     }
@@ -1687,27 +1593,19 @@
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Heikin",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Heikin-Ashi-Candles",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "0e766c92-0e03-44f4-acf0-af747f1baeb6"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Heikin-Ashi Candles",
-                                            "Product Definition",
-                                            "Foundations",
-                                            "99a9789b-159d-44be-874f-9bc2785f0d72"
+                                            "Product Definition"
                                         ],
                                         [
                                             "Multi-Time-Frame-Market",
-                                            "Dataset Definition",
-                                            "Foundations",
-                                            "5f2945e9-8c77-4e90-9774-bf710ffc7fd7"
+                                            "Dataset Definition"
                                         ]
                                     ]
                                 }
@@ -1727,7 +1625,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 2,
                                 "arrangementStyle": 0
@@ -1770,33 +1668,25 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Heikin",
+                                        "name": " Multi-Time-Frame-Market",
                                         "id": "bc83d9df-02f7-44fa-9228-81789bbb4c57"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Heikin",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Heikin-Ashi-Candles",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "0e766c92-0e03-44f4-acf0-af747f1baeb6"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Multi-Time-Frame-Market",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "5cb62715-40d5-401c-9b3f-390425f1df19"
+                                            "Process Definition"
                                         ],
                                         [
-                                            "Heikin",
-                                            "Status Report",
-                                            "Foundations",
-                                            "bc83d9df-02f7-44fa-9228-81789bbb4c57"
+                                            " Multi-Time-Frame-Market",
+                                            "Status Report"
                                         ]
                                     ]
                                 }
@@ -1829,33 +1719,25 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Candles Volumes Multi-Time-Frame-Market Status Report",
+                                        "name": " Multi-Time-Frame-Market",
                                         "id": "a0a61ba9-91cb-4ec7-92fe-134ff079de2d"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Candles Volumes",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Multi-Time-Frame-Market",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "9f683143-a33f-42c1-9fa8-c601f01ee4e1"
+                                            "Process Definition"
                                         ],
                                         [
                                             "Candles Volumes Multi-Time-Frame-Market Status Report",
-                                            "Status Report",
-                                            "Foundations",
-                                            "a0a61ba9-91cb-4ec7-92fe-134ff079de2d"
+                                            "Status Report"
                                         ]
                                     ]
                                 }
@@ -1895,27 +1777,19 @@
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Candles Volumes",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Candles",
-                                            "Product Definition",
-                                            "Foundations",
-                                            "fe6065ec-4d2d-47a0-bae0-8647f0e195d7"
+                                            "Product Definition"
                                         ],
                                         [
                                             "Multi-Time-Frame-Market",
-                                            "Dataset Definition",
-                                            "Foundations",
-                                            "2b03494a-67d6-47f1-89b6-53fc4c9116a8"
+                                            "Dataset Definition"
                                         ]
                                     ]
                                 }
@@ -1935,7 +1809,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -1947,7 +1821,7 @@
                     },
                     "statusReport": {
                         "type": "Status Report",
-                        "name": "Heikin",
+                        "name": " Multi-Time-Frame-Market",
                         "project": "Foundations",
                         "id": "bc83d9df-02f7-44fa-9228-81789bbb4c57",
                         "savedPayload": {
@@ -2005,27 +1879,19 @@
                             "referenceParentCombinedNodePath": [
                                 [
                                     "Candles",
-                                    "Data Mine",
-                                    "Data-Mining",
-                                    "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                    "Data Mine"
                                 ],
                                 [
                                     "Candles Volumes",
-                                    "Indicator Bot",
-                                    "Data-Mining",
-                                    "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                    "Indicator Bot"
                                 ],
                                 [
                                     "Multi-Time-Frame-Market",
-                                    "Process Definition",
-                                    "Foundations",
-                                    "9f683143-a33f-42c1-9fa8-c601f01ee4e1"
+                                    "Process Definition"
                                 ],
                                 [
                                     "New Execution Finished Event",
-                                    "Execution Finished Event",
-                                    "Foundations",
-                                    "1824fa00-dd30-4cdc-acc0-01c2f29056c5"
+                                    "Execution Finished Event"
                                 ]
                             ]
                         }
@@ -2123,27 +1989,19 @@
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Heikin",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Heikin-Ashi-Candles",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "0e766c92-0e03-44f4-acf0-af747f1baeb6"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Heikin-Ashi Candles",
-                                            "Product Definition",
-                                            "Foundations",
-                                            "99a9789b-159d-44be-874f-9bc2785f0d72"
+                                            "Product Definition"
                                         ],
                                         [
                                             "Multi-Time-Frame-Daily",
-                                            "Dataset Definition",
-                                            "Foundations",
-                                            "3437a0af-1e2b-403d-853c-f2bde366d552"
+                                            "Dataset Definition"
                                         ]
                                     ]
                                 }
@@ -2163,7 +2021,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -2206,40 +2064,32 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Heikin",
+                                        "name": " Multi-Time-Frame-Daily",
                                         "id": "1d9f2673-ca97-4667-bab5-1d512ee4e6e9"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Heikin",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Heikin-Ashi-Candles",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "0e766c92-0e03-44f4-acf0-af747f1baeb6"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Multi-Time-Frame-Daily",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "ab0b53f1-06b6-4775-a92d-01975f8f08ed"
+                                            "Process Definition"
                                         ],
                                         [
-                                            "Heikin",
-                                            "Status Report",
-                                            "Foundations",
-                                            "1d9f2673-ca97-4667-bab5-1d512ee4e6e9"
+                                            " Multi-Time-Frame-Daily",
+                                            "Status Report"
                                         ]
                                     ]
                                 }
                             },
                             {
                                 "type": "Status Dependency",
-                                "name": "",
+                                "name": "Candles Volumes Multi-Time-Frame-Daily",
                                 "config": "{ \n\"mainUtility\": \"Market Ending Point\"\n}",
                                 "project": "Foundations",
                                 "id": "0b5f1c5e-e532-4a6f-a928-cf83640d8c08",
@@ -2265,33 +2115,25 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "New Status Report",
+                                        "name": " Multi-Time-Frame-Daily",
                                         "id": "2a021da8-9feb-475e-90ab-1586968c17c7"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Candles Volumes",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Multi-Time-Frame-Daily",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "980ceb1d-7be6-454f-90d9-01ba1fd4a65d"
+                                            "Process Definition"
                                         ],
                                         [
                                             "New Status Report",
-                                            "Status Report",
-                                            "Foundations",
-                                            "2a021da8-9feb-475e-90ab-1586968c17c7"
+                                            "Status Report"
                                         ]
                                     ]
                                 }
@@ -2324,33 +2166,25 @@
                                     },
                                     "referenceParent": {
                                         "type": "Status Report",
-                                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                        "name": " Historic-OHLCVs",
                                         "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Exchange Raw Data",
-                                            "Sensor Bot",
-                                            "Data-Mining",
-                                            "af924204-66a2-47d4-9910-66ab78acb06f"
+                                            "Sensor Bot"
                                         ],
                                         [
                                             "Historic-OHLCVs",
-                                            "Process Definition",
-                                            "Foundations",
-                                            "5eb11d6a-022e-4f60-97c4-d6cf90b249dc"
+                                            "Process Definition"
                                         ],
                                         [
                                             "Exchange-Raw-Data Historic-OHLCVs Status Report",
-                                            "Status Report",
-                                            "Foundations",
-                                            "181c7c34-7243-497a-9ddb-1b0067c6d66e"
+                                            "Status Report"
                                         ]
                                     ]
                                 }
@@ -2390,27 +2224,19 @@
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Candles",
-                                            "Data Mine",
-                                            "Data-Mining",
-                                            "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                            "Data Mine"
                                         ],
                                         [
                                             "Candles Volumes",
-                                            "Indicator Bot",
-                                            "Data-Mining",
-                                            "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                            "Indicator Bot"
                                         ],
                                         [
                                             "Candles",
-                                            "Product Definition",
-                                            "Foundations",
-                                            "fe6065ec-4d2d-47a0-bae0-8647f0e195d7"
+                                            "Product Definition"
                                         ],
                                         [
                                             "Multi-Time-Frame-Daily",
-                                            "Dataset Definition",
-                                            "Foundations",
-                                            "678a567c-f08d-49b9-813b-4e54fd6afadb"
+                                            "Dataset Definition"
                                         ]
                                     ]
                                 }
@@ -2430,7 +2256,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -2442,7 +2268,7 @@
                     },
                     "statusReport": {
                         "type": "Status Report",
-                        "name": "Heikin",
+                        "name": " Multi-Time-Frame-Daily",
                         "project": "Foundations",
                         "id": "1d9f2673-ca97-4667-bab5-1d512ee4e6e9",
                         "savedPayload": {
@@ -2500,27 +2326,19 @@
                             "referenceParentCombinedNodePath": [
                                 [
                                     "Candles",
-                                    "Data Mine",
-                                    "Data-Mining",
-                                    "70c7eea3-a786-4dda-b526-0514e2cb14cc"
+                                    "Data Mine"
                                 ],
                                 [
                                     "Candles Volumes",
-                                    "Indicator Bot",
-                                    "Data-Mining",
-                                    "285a4618-0423-4ac9-9df9-7a78be6fd915"
+                                    "Indicator Bot"
                                 ],
                                 [
                                     "Multi-Time-Frame-Daily",
-                                    "Process Definition",
-                                    "Foundations",
-                                    "980ceb1d-7be6-454f-90d9-01ba1fd4a65d"
+                                    "Process Definition"
                                 ],
                                 [
                                     "New Execution Finished Event",
-                                    "Execution Finished Event",
-                                    "Foundations",
-                                    "f29d08f9-e7c8-490c-8fca-14851a0d3dc3"
+                                    "Execution Finished Event"
                                 ]
                             ]
                         }
@@ -3072,7 +2890,7 @@
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
                                 "name": "New Procedure Javascript Code",
-                                "code": "let candle = record.current\n\nvariable.lastOpen.push(candle.open)\nvariable.lastClose.push(candle.close)\n\nif(variable.lastOpen.length > 2) {\n\tvariable.lastOpen.splice(0,1)\n}\nif(variable.lastClose.length > 2) {\n\tvariable.lastClose.splice(0,1)\n}\nif(variable.lastOpen.length === 2 && variable.lastClose.length === 2){\n\tvariable.HeikinOpen = (variable.lastOpen[0] + variable.lastClose[0])/2\n}\nelse {\n\tvariable.HeikinOpen = candle.open\n}\nvariable.HeikinClose = 1/4 * (candle.open + candle.close + candle.max + candle.min)\nvariable.HeikinMax = Math.max(candle.open, candle.close)\nvariable.HeikinMin = Math.min(candle.open, candle.close)\n\nif (variable.HeikinClose > variable.HeikinOpen) {\n    variable.directionHeikin = 1\n}\n\nif (variable.HeikinClose < variable.HeikinOpen) {\n    variable.directionHeikin = -1\n}\n\nif (variable.HeikinClose === variable.HeikinOpen) {\n    variable.directionHeikin = 0\n}",
+                                "code": "let candle = record.current\n\nvariable.lastOpen.push(candle.open)\nvariable.lastClose.push(candle.close)\n\nif (variable.lastOpen.length > 2) {\n\tvariable.lastOpen.splice(0, 1)\n}\nif (variable.lastClose.length > 2) {\n\tvariable.lastClose.splice(0, 1)\n}\nif (variable.lastOpen.length === 2 && variable.lastClose.length === 2) {\n\tvariable.HeikinOpen = (variable.lastOpen[0] + variable.lastClose[0]) / 2\n}\nelse {\n\tvariable.HeikinOpen = candle.open\n}\nvariable.HeikinClose = 1 / 4 * (candle.open + candle.close + candle.max + candle.min)\nvariable.HeikinMax = Math.max(candle.max, variable.HeikinOpen, variable.HeikinClose)\nvariable.HeikinMin = Math.min(candle.min, variable.HeikinOpen, variable.HeikinClose)\n\nif (variable.HeikinClose > variable.HeikinOpen) {\n\tvariable.directionHeikin = 1\n}\n\nif (variable.HeikinClose < variable.HeikinOpen) {\n\tvariable.directionHeikin = -1\n}\n\nif (variable.HeikinClose === variable.HeikinOpen) {\n\tvariable.directionHeikin = 0\n}",
                                 "project": "Foundations",
                                 "id": "f70f5c3b-ae95-40fe-b4c3-70fc12eb44a2",
                                 "savedPayload": {
@@ -3211,7 +3029,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": false,
+                            "isCollapsed": true,
                             "angleToParent": 2,
                             "distanceToParent": 4,
                             "arrangementStyle": 0
@@ -3227,21 +3045,15 @@
                         "referenceParentCombinedNodePath": [
                             [
                                 "Heikin",
-                                "Data Mine",
-                                "Data-Mining",
-                                "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                "Data Mine"
                             ],
                             [
                                 "Plotters Candles Heikin",
-                                "Plotter",
-                                "Foundations",
-                                "00f9ae2f-9c0f-4588-963b-dc5b80a04b95"
+                                "Plotter"
                             ],
                             [
                                 "Candles-Heikin",
-                                "Plotter Module",
-                                "Foundations",
-                                "f137164b-3b19-4b09-89eb-9053138717f7"
+                                "Plotter Module"
                             ]
                         ]
                     }
@@ -3271,6 +3083,7 @@
             }
         }
     ],
+    "studyBots": [],
     "plotters": [
         {
             "type": "Plotter",
@@ -3690,39 +3503,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Super Trend",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "d4af0508-212b-45df-bcc2-b5e66f242098"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Super Trend Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "da84e3f3-3eb4-4956-bee2-2baa12d9ef34"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "c8e38f65-03ce-4821-ad9e-5d9f1fe5f1a5"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "296c4d5d-90c4-40c1-85b0-c6947f01597d"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "UP Trend Begin",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "e7253fa3-03f5-46b4-94f0-a914632bfa2e"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -3760,39 +3561,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Super Trend",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "d4af0508-212b-45df-bcc2-b5e66f242098"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Super Trend Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "da84e3f3-3eb4-4956-bee2-2baa12d9ef34"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "c8e38f65-03ce-4821-ad9e-5d9f1fe5f1a5"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "296c4d5d-90c4-40c1-85b0-c6947f01597d"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "UP Trend End",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "c3b3c4a6-5d41-4ccf-bbca-eae043fffb7c"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -3972,39 +3761,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Super Trend",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "d4af0508-212b-45df-bcc2-b5e66f242098"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Super Trend Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "da84e3f3-3eb4-4956-bee2-2baa12d9ef34"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "c8e38f65-03ce-4821-ad9e-5d9f1fe5f1a5"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "296c4d5d-90c4-40c1-85b0-c6947f01597d"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Down Trend Begin",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "aa6ed4c9-e21a-41a6-bb2a-e35e37c70915"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -4042,39 +3819,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Super Trend",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "d4af0508-212b-45df-bcc2-b5e66f242098"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Super Trend Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "da84e3f3-3eb4-4956-bee2-2baa12d9ef34"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "c8e38f65-03ce-4821-ad9e-5d9f1fe5f1a5"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "296c4d5d-90c4-40c1-85b0-c6947f01597d"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Down Trend End",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "1a562f53-6ec1-454f-83d0-93f11998e218"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -4577,12 +4342,12 @@
                                             "id": "33a4d1ae-2948-445c-a498-5aa5cd3ed8eb",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 13967.875323783375,
-                                                    "y": 24495.355016160076
+                                                    "x": 14841.897729313196,
+                                                    "y": 24842.703459895394
                                                 },
                                                 "targetPosition": {
-                                                    "x": 13731.472097701359,
-                                                    "y": 24680.053458757775
+                                                    "x": 14587.483300466269,
+                                                    "y": 24683.727680625434
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
@@ -4600,18 +4365,18 @@
                                         "id": "e2a641d3-5a40-4998-8690-ea516a814d98",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13731.472097701359,
-                                                "y": 24680.053458757775
+                                                "x": 14587.483300466269,
+                                                "y": 24683.727680625434
                                             },
                                             "targetPosition": {
-                                                "x": 13495.068871619342,
-                                                "y": 24864.751901355474
+                                                "x": 14333.068871619342,
+                                                "y": 24524.751901355474
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -4632,12 +4397,12 @@
                                             "id": "9087e4da-8c50-4680-93a5-77519aef9878",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 14094.703367830798,
-                                                    "y": 24885.691599376976
+                                                    "x": 14702.465756814736,
+                                                    "y": 24997.558353519507
                                                 },
                                                 "targetPosition": {
-                                                    "x": 13794.88611972507,
-                                                    "y": 24875.221750366225
+                                                    "x": 14517.767314217039,
+                                                    "y": 24761.15512743749
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
@@ -4655,18 +4420,18 @@
                                         "id": "8ba8d7b5-e755-4986-aad1-d75fb956048f",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13794.88611972507,
-                                                "y": 24875.221750366225
+                                                "x": 14517.767314217039,
+                                                "y": 24761.15512743749
                                             },
                                             "targetPosition": {
-                                                "x": 13495.068871619342,
-                                                "y": 24864.751901355474
+                                                "x": 14333.068871619342,
+                                                "y": 24524.751901355474
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -4687,12 +4452,12 @@
                                             "id": "d4c82623-516d-490c-9fd3-f5d6afb0c6cd",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 13940.955766905778,
-                                                    "y": 25266.23026517079
+                                                    "x": 14518.47906824431,
+                                                    "y": 25095.385811132564
                                                 },
                                                 "targetPosition": {
-                                                    "x": 13718.01231926256,
-                                                    "y": 25065.491083263132
+                                                    "x": 14425.773969931826,
+                                                    "y": 24810.06885624402
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
@@ -4710,18 +4475,18 @@
                                         "id": "09baf6b0-941e-46ca-8ce4-92ad814f498c",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13718.01231926256,
-                                                "y": 25065.491083263132
+                                                "x": 14425.773969931826,
+                                                "y": 24810.06885624402
                                             },
                                             "targetPosition": {
-                                                "x": 13495.068871619342,
-                                                "y": 24864.751901355474
+                                                "x": 14333.068871619342,
+                                                "y": 24524.751901355474
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -4742,12 +4507,12 @@
                                             "id": "992e9450-7db3-44a9-b38b-dc8ce986f546",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 13578.57273219538,
-                                                    "y": 25458.912742600416
+                                                    "x": 14312.129173597843,
+                                                    "y": 25124.386397566934
                                                 },
                                                 "targetPosition": {
-                                                    "x": 13536.82080190736,
-                                                    "y": 25161.832321977945
+                                                    "x": 14322.599022608592,
+                                                    "y": 24824.569149461204
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
@@ -4765,18 +4530,18 @@
                                         "id": "554dbca0-a97f-4924-808f-645036c26c55",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13536.82080190736,
-                                                "y": 25161.832321977945
+                                                "x": 14322.599022608592,
+                                                "y": 24824.569149461204
                                             },
                                             "targetPosition": {
-                                                "x": 13495.068871619342,
-                                                "y": 24864.751901355474
+                                                "x": 14333.068871619342,
+                                                "y": 24524.751901355474
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -4797,12 +4562,12 @@
                                             "id": "30dae9f2-3a6c-4668-82d2-c8ac3a2cf304",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 13177.117313079418,
-                                                    "y": 25373.58075904933
+                                                    "x": 14108.304915569794,
+                                                    "y": 25081.06221409555
                                                 },
                                                 "targetPosition": {
-                                                    "x": 13336.09309234938,
-                                                    "y": 25119.166330202403
+                                                    "x": 14220.686893594568,
+                                                    "y": 24802.90705772551
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
@@ -4820,18 +4585,18 @@
                                         "id": "57e9fc3e-8f94-4ea6-b644-1d8c23fd06df",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13336.09309234938,
-                                                "y": 25119.166330202403
+                                                "x": 14220.686893594568,
+                                                "y": 24802.90705772551
                                             },
                                             "targetPosition": {
-                                                "x": 13495.068871619342,
-                                                "y": 24864.751901355474
+                                                "x": 14333.068871619342,
+                                                "y": 24524.751901355474
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -4852,12 +4617,12 @@
                                             "id": "04be2dfb-db99-4a8e-b7b4-35d80a45bf8d",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 12924.434961842251,
-                                                    "y": 25050.16209798044
+                                                    "x": 13931.590507804025,
+                                                    "y": 24970.63879664191
                                                 },
                                                 "targetPosition": {
-                                                    "x": 13209.751916730796,
-                                                    "y": 24957.456999667957
+                                                    "x": 14132.329689711683,
+                                                    "y": 24747.69534899869
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
@@ -4875,18 +4640,18 @@
                                         "id": "dbd3e48b-7631-479a-8d44-c8cdec953781",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13209.751916730796,
-                                                "y": 24957.456999667957
+                                                "x": 14132.329689711683,
+                                                "y": 24747.69534899869
                                             },
                                             "targetPosition": {
-                                                "x": 13495.068871619342,
-                                                "y": 24864.751901355474
+                                                "x": 14333.068871619342,
+                                                "y": 24524.751901355474
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -4907,12 +4672,12 @@
                                             "id": "bdb521fe-55fd-4a4f-a7fa-1c0e69cf4089",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 12938.75855887927,
-                                                    "y": 24639.98794530593
+                                                    "x": 13803.300315903985,
+                                                    "y": 24806.434839027006
                                                 },
                                                 "targetPosition": {
-                                                    "x": 13216.913715249306,
-                                                    "y": 24752.3699233307
+                                                    "x": 14068.184593761664,
+                                                    "y": 24665.59337019124
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
@@ -4930,18 +4695,18 @@
                                         "id": "efd60ed6-5cad-48c6-ad5b-8702481fd073",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13216.913715249306,
-                                                "y": 24752.3699233307
+                                                "x": 14068.184593761664,
+                                                "y": 24665.59337019124
                                             },
                                             "targetPosition": {
-                                                "x": 13495.068871619342,
-                                                "y": 24864.751901355474
+                                                "x": 14333.068871619342,
+                                                "y": 24524.751901355474
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -4962,12 +4727,12 @@
                                             "id": "1140fe0a-fac2-4752-a117-7cbc0e78e08a",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 13213.385933947806,
-                                                    "y": 24334.98334564012
+                                                    "x": 13738.9080303744,
+                                                    "y": 24608.255761931516
                                                 },
                                                 "targetPosition": {
-                                                    "x": 13354.227402783574,
-                                                    "y": 24599.867623497797
+                                                    "x": 14035.98845099687,
+                                                    "y": 24566.503831643495
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
@@ -4985,18 +4750,18 @@
                                         "id": "57270329-d321-4c88-bebc-4dd1c2479f84",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13354.227402783574,
-                                                "y": 24599.867623497797
+                                                "x": 14035.98845099687,
+                                                "y": 24566.503831643495
                                             },
                                             "targetPosition": {
-                                                "x": 13495.068871619342,
-                                                "y": 24864.751901355474
+                                                "x": 14333.068871619342,
+                                                "y": 24524.751901355474
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -5009,17 +4774,17 @@
                                 "id": "3977488b-9a46-41b6-94f7-35e97be66f0f",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 13495.068871619342,
-                                        "y": 24864.751901355474
+                                        "x": 14304.510818092342,
+                                        "y": 24344.443447643218
                                     },
                                     "targetPosition": {
-                                        "x": 14395.442378864669,
-                                        "y": 24231.307621135333
+                                        "x": 14505.25,
+                                        "y": 24121.5
                                     },
                                     "floatingObject": {
-                                        "isPinned": true,
+                                        "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": false,
+                                        "isCollapsed": true,
                                         "angleToParent": 1,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
@@ -5042,17 +4807,17 @@
                                     "style": {
                                         "type": "Style",
                                         "name": "New Style",
-                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREY\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.3,\n        \"lineWidth\": 2,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\n    }\n}",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREY\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.8,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.TITANIUM_YELLOW\"\n    }\n}",
                                         "project": "Foundations",
                                         "id": "02cf5614-4618-4d64-b7d2-228cd983651b",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13598.795757877275,
-                                                "y": 24495.71753489902
+                                                "x": 13683.128831504036,
+                                                "y": 23952.16239183811
                                             },
                                             "targetPosition": {
-                                                "x": 13850.396928260901,
-                                                "y": 24332.325824394513
+                                                "x": 13982.71769193041,
+                                                "y": 23936.461604965225
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5071,12 +4836,12 @@
                                     "id": "84844d81-b40a-4489-8676-ee08ebe553d1",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 13850.396928260901,
-                                            "y": 24332.325824394513
+                                            "x": 13982.71769193041,
+                                            "y": 23936.461604965225
                                         },
                                         "targetPosition": {
-                                            "x": 14101.998098644528,
-                                            "y": 24168.934113890005
+                                            "x": 14282.306552356782,
+                                            "y": 23920.76081809234
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -5099,12 +4864,12 @@
                                         "id": "e408247e-d975-403d-a8bf-6537df144a43",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13808.553818424387,
-                                                "y": 24106.560606644678
+                                                "x": 14059.363104713564,
+                                                "y": 23720.021636184683
                                             },
                                             "targetPosition": {
-                                                "x": 14101.998098644528,
-                                                "y": 24168.934113890005
+                                                "x": 14282.306552356782,
+                                                "y": 23920.76081809234
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5125,39 +4890,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Plotters Candles Heikin",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "00f9ae2f-9c0f-4588-963b-dc5b80a04b95"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Candles-Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "f137164b-3b19-4b09-89eb-9053138717f7"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "db3d3e1a-55e7-42ea-a22d-f8e882822c64"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "3977488b-9a46-41b6-94f7-35e97be66f0f"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Max Vert Begin",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "09baf6b0-941e-46ca-8ce4-92ad814f498c"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -5169,12 +4922,12 @@
                                         "id": "90510fa7-bf90-405d-bb48-e4329d1d4d50",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13938.60638814002,
-                                                "y": 23917.33294350638
+                                                "x": 14266.605765483899,
+                                                "y": 23621.17195766597
                                             },
                                             "targetPosition": {
-                                                "x": 14101.998098644528,
-                                                "y": 24168.934113890005
+                                                "x": 14282.306552356782,
+                                                "y": 23920.76081809234
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5195,39 +4948,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Plotters Candles Heikin",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "00f9ae2f-9c0f-4588-963b-dc5b80a04b95"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Candles-Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "f137164b-3b19-4b09-89eb-9053138717f7"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "db3d3e1a-55e7-42ea-a22d-f8e882822c64"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "3977488b-9a46-41b6-94f7-35e97be66f0f"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Max Vert End",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "554dbca0-a97f-4924-808f-645036c26c55"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -5236,12 +4977,12 @@
                                 "id": "9bc630d4-7693-4c55-a0f7-17f6ebb49596",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 14101.998098644528,
-                                        "y": 24168.934113890005
+                                        "x": 14282.306552356782,
+                                        "y": 23920.76081809234
                                     },
                                     "targetPosition": {
-                                        "x": 14395.442378864669,
-                                        "y": 24231.307621135333
+                                        "x": 14505.25,
+                                        "y": 24121.5
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -5267,17 +5008,17 @@
                                     "style": {
                                         "type": "Style",
                                         "name": "New Style",
-                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREY\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.3,\n        \"lineWidth\": 2,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\n    }\n}",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREY\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.8,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.TITANIUM_YELLOW\"\n    }\n}",
                                         "project": "Foundations",
                                         "id": "a81599b8-b029-449f-a5a0-b6f7e105bdd2",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13748.816301670577,
-                                                "y": 24409.84253730743
+                                                "x": 13939.67415198742,
+                                                "y": 23501.272298770844
                                             },
                                             "targetPosition": {
-                                                "x": 13971.759749313795,
-                                                "y": 24209.103355399773
+                                                "x": 14191.275322371046,
+                                                "y": 23664.66400927535
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -5296,18 +5037,18 @@
                                     "id": "e6a3dbf3-5042-4b0f-905b-0141625fd1d2",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 13971.759749313795,
-                                            "y": 24209.103355399773
+                                            "x": 14191.275322371046,
+                                            "y": 23664.66400927535
                                         },
                                         "targetPosition": {
-                                            "x": 14194.703196957013,
-                                            "y": 24008.364173492115
+                                            "x": 14442.876492754673,
+                                            "y": 23828.05571977986
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
                                             "isFrozen": false,
-                                            "isCollapsed": false,
-                                            "angleToParent": 1,
+                                            "isCollapsed": true,
+                                            "angleToParent": 2,
                                             "distanceToParent": 3,
                                             "arrangementStyle": 0
                                         },
@@ -5324,18 +5065,18 @@
                                         "id": "26b1efa1-8981-4042-93fa-06a699437e3e",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13993.964015049354,
-                                                "y": 23785.420725848897
+                                                "x": 14380.502985509345,
+                                                "y": 23534.611439559718
                                             },
                                             "targetPosition": {
-                                                "x": 14194.703196957013,
-                                                "y": 24008.364173492115
+                                                "x": 14442.876492754673,
+                                                "y": 23828.05571977986
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -5350,39 +5091,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Plotters Candles Heikin",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "00f9ae2f-9c0f-4588-963b-dc5b80a04b95"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Candles-Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "f137164b-3b19-4b09-89eb-9053138717f7"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "db3d3e1a-55e7-42ea-a22d-f8e882822c64"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "3977488b-9a46-41b6-94f7-35e97be66f0f"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Min Vert Begin",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "57e9fc3e-8f94-4ea6-b644-1d8c23fd06df"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -5394,18 +5123,18 @@
                                         "id": "87f79174-cd90-4fb1-9a71-c3410040d6ef",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14417.64664460023,
-                                                "y": 23807.624991584456
+                                                "x": 14606.26820325918,
+                                                "y": 23576.454549396232
                                             },
                                             "targetPosition": {
-                                                "x": 14194.703196957013,
-                                                "y": 24008.364173492115
+                                                "x": 14442.876492754673,
+                                                "y": 23828.05571977986
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -5420,39 +5149,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Plotters Candles Heikin",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "00f9ae2f-9c0f-4588-963b-dc5b80a04b95"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Candles-Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "f137164b-3b19-4b09-89eb-9053138717f7"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "db3d3e1a-55e7-42ea-a22d-f8e882822c64"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "3977488b-9a46-41b6-94f7-35e97be66f0f"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Min Vert End",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "dbd3e48b-7631-479a-8d44-c8cdec953781"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -5461,12 +5178,12 @@
                                 "id": "147605bf-3b78-4250-a04f-16f6527b3efe",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 14194.703196957013,
-                                        "y": 24008.364173492115
+                                        "x": 14442.876492754673,
+                                        "y": 23828.05571977986
                                     },
                                     "targetPosition": {
-                                        "x": 14395.442378864669,
-                                        "y": 24231.307621135333
+                                        "x": 14505.25,
+                                        "y": 24121.5
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -5492,23 +5209,23 @@
                                     "style": {
                                         "type": "Style",
                                         "name": "New Style",
-                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREEN\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.3,\n        \"lineWidth\": 2,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.TITANIUM_YELLOW\"\n    }\n}",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.GREEN\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.8,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.TITANIUM_YELLOW\"\n    }\n}",
                                         "project": "Foundations",
                                         "id": "a997826f-871e-4f31-a1ab-86348e4de7a1",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14282.798107433013,
-                                                "y": 24446.1689689111
+                                                "x": 14150.875172559729,
+                                                "y": 23517.388494933693
                                             },
                                             "targetPosition": {
-                                                "x": 14175.287722569423,
-                                                "y": 24166.09484096194
+                                                "x": 14433.291112558,
+                                                "y": 23618.58749114854
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -5531,12 +5248,12 @@
                                                 "id": "c525dc02-d346-42c1-8bd9-c1f9820a907b",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 13582.674718212342,
-                                                        "y": 24072.234161937802
+                                                        "x": 14326.156975678816,
+                                                        "y": 23028.22973798936
                                                     },
                                                     "targetPosition": {
-                                                        "x": 13878.981220390882,
-                                                        "y": 24119.16450144987
+                                                        "x": 14379.724044118408,
+                                                        "y": 23323.40861456895
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -5554,18 +5271,18 @@
                                             "id": "239ca4f7-62d7-463d-83d9-57f52f31ed73",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 13878.981220390882,
-                                                    "y": 24119.16450144987
+                                                    "x": 14379.724044118408,
+                                                    "y": 23323.40861456895
                                                 },
                                                 "targetPosition": {
-                                                    "x": 14175.287722569423,
-                                                    "y": 24166.09484096194
+                                                    "x": 14433.291112558,
+                                                    "y": 23618.58749114854
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
                                                     "isFrozen": false,
                                                     "isCollapsed": false,
-                                                    "angleToParent": 1,
+                                                    "angleToParent": 2,
                                                     "distanceToParent": 3,
                                                     "arrangementStyle": 0
                                                 },
@@ -5578,18 +5295,18 @@
                                     "id": "4fbdeb9a-7716-4041-b79b-d38ffbae3d6e",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 14175.287722569423,
-                                            "y": 24166.09484096194
+                                            "x": 14433.291112558,
+                                            "y": 23618.58749114854
                                         },
                                         "targetPosition": {
-                                            "x": 14364.083839884373,
-                                            "y": 23932.95105252485
+                                            "x": 14627.27099292274,
+                                            "y": 23847.43636270722
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
                                             "isFrozen": false,
                                             "isCollapsed": true,
-                                            "angleToParent": 1,
+                                            "angleToParent": 2,
                                             "distanceToParent": 3,
                                             "arrangementStyle": 0
                                         },
@@ -5605,23 +5322,23 @@
                                     "style": {
                                         "type": "Style",
                                         "name": "New Style",
-                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.APPLE_GREEN\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.1,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.TITANIUM_YELLOW\"\n    }\n}",
+                                        "config": "{\n    \"default\": {\n        \"opacity\": 1,\n        \"lineWidth\": 1.5,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.APPLE_GREEN\"\n    },\n    \"atMousePosition\": {\n        \"opacity\": 0.8,\n        \"lineWidth\": 1,\n        \"lineDash\": [\n            0,\n            0\n        ],\n        \"paletteColor\": \"UI_COLOR.TITANIUM_YELLOW\"\n    }\n}",
                                         "project": "Foundations",
                                         "id": "99f7d70b-bf88-4771-aa04-e3ed38647e9d",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 13943.706278351152,
-                                                "y": 24238.37322879793
+                                                "x": 13864.35561081042,
+                                                "y": 23639.427169769442
                                             },
                                             "targetPosition": {
-                                                "x": 14065.727271273892,
-                                                "y": 23964.30959150515
+                                                "x": 14153.544469019176,
+                                                "y": 23719.238223439446
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": true,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -5644,12 +5361,12 @@
                                                 "id": "c53db5e9-97cf-43f2-8644-b2ab20631043",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 13713.056119898407,
-                                                        "y": 23478.899394880184
+                                                        "x": 14002.592410772471,
+                                                        "y": 23138.537374369043
                                                     },
                                                     "targetPosition": {
-                                                        "x": 13889.39169558615,
-                                                        "y": 23721.604493192666
+                                                        "x": 14078.068439895824,
+                                                        "y": 23428.887798904245
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -5667,18 +5384,18 @@
                                             "id": "37072a83-bbad-4860-b8be-903d6d1f30d7",
                                             "savedPayload": {
                                                 "position": {
-                                                    "x": 13889.39169558615,
-                                                    "y": 23721.604493192666
+                                                    "x": 14078.068439895824,
+                                                    "y": 23428.887798904245
                                                 },
                                                 "targetPosition": {
-                                                    "x": 14065.727271273892,
-                                                    "y": 23964.30959150515
+                                                    "x": 14153.544469019176,
+                                                    "y": 23719.238223439446
                                                 },
                                                 "floatingObject": {
                                                     "isPinned": false,
                                                     "isFrozen": false,
                                                     "isCollapsed": false,
-                                                    "angleToParent": 1,
+                                                    "angleToParent": 2,
                                                     "distanceToParent": 3,
                                                     "arrangementStyle": 0
                                                 },
@@ -5691,18 +5408,18 @@
                                     "id": "e059f13b-ccb6-415a-9f6f-6b8582af2b0e",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 14065.727271273892,
-                                            "y": 23964.30959150515
+                                            "x": 14551.794963799388,
+                                            "y": 23557.08593817202
                                         },
                                         "targetPosition": {
-                                            "x": 14364.083839884373,
-                                            "y": 23932.95105252485
+                                            "x": 14627.27099292274,
+                                            "y": 23847.43636270722
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
                                             "isFrozen": false,
-                                            "isCollapsed": false,
-                                            "angleToParent": 1,
+                                            "isCollapsed": true,
+                                            "angleToParent": 2,
                                             "distanceToParent": 3,
                                             "arrangementStyle": 0
                                         },
@@ -5719,18 +5436,18 @@
                                         "id": "db52cd58-a1e1-4003-906b-c4b695885946",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14130.940051447282,
-                                                "y": 23744.1549352099
+                                                "x": 14685.247768261406,
+                                                "y": 23553.091847688967
                                             },
                                             "targetPosition": {
-                                                "x": 14364.083839884373,
-                                                "y": 23932.95105252485
+                                                "x": 14627.27099292274,
+                                                "y": 23847.43636270722
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -5745,39 +5462,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Plotters Candles Heikin",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "00f9ae2f-9c0f-4588-963b-dc5b80a04b95"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Candles-Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "f137164b-3b19-4b09-89eb-9053138717f7"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "db3d3e1a-55e7-42ea-a22d-f8e882822c64"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "3977488b-9a46-41b6-94f7-35e97be66f0f"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Candle Open Begin",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "e2a641d3-5a40-4998-8690-ea516a814d98"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -5789,18 +5494,18 @@
                                         "id": "af8d7a2a-83bc-49a8-862c-d6109267ba10",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14332.725300904078,
-                                                "y": 23634.59448391437
+                                                "x": 14807.217561329115,
+                                                "y": 23607.39629830386
                                             },
                                             "targetPosition": {
-                                                "x": 14364.083839884373,
-                                                "y": 23932.95105252485
+                                                "x": 14627.27099292274,
+                                                "y": 23847.43636270722
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -5815,39 +5520,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Plotters Candles Heikin",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "00f9ae2f-9c0f-4588-963b-dc5b80a04b95"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Candles-Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "f137164b-3b19-4b09-89eb-9053138717f7"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "db3d3e1a-55e7-42ea-a22d-f8e882822c64"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "3977488b-9a46-41b6-94f7-35e97be66f0f"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Candle Open End",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "8ba8d7b5-e755-4986-aad1-d75fb956048f"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -5859,18 +5552,18 @@
                                         "id": "f63f78cd-cd98-42b4-8275-374fd10510ac",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14552.879957199324,
-                                                "y": 23699.80726408776
+                                                "x": 14893.546729624106,
+                                                "y": 23709.24362757203
                                             },
                                             "targetPosition": {
-                                                "x": 14364.083839884373,
-                                                "y": 23932.95105252485
+                                                "x": 14627.27099292274,
+                                                "y": 23847.43636270722
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -5885,39 +5578,27 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Plotters Candles Heikin",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "00f9ae2f-9c0f-4588-963b-dc5b80a04b95"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Candles-Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "f137164b-3b19-4b09-89eb-9053138717f7"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "db3d3e1a-55e7-42ea-a22d-f8e882822c64"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "3977488b-9a46-41b6-94f7-35e97be66f0f"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Candle Close End",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "efd60ed6-5cad-48c6-ad5b-8702481fd073"
+                                                    "Point"
                                                 ]
                                             ]
                                         }
@@ -5929,18 +5610,18 @@
                                         "id": "8f48f032-ab3f-4231-b834-3436ee34be12",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14662.440408494855,
-                                                "y": 23901.592513544554
+                                                "x": 14927.136722607791,
+                                                "y": 23838.4617228564
                                             },
                                             "targetPosition": {
-                                                "x": 14364.083839884373,
-                                                "y": 23932.95105252485
+                                                "x": 14627.27099292274,
+                                                "y": 23847.43636270722
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -5955,85 +5636,46 @@
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Heikin",
-                                                    "Data Mine",
-                                                    "Data-Mining",
-                                                    "2daee36a-1aa2-48f0-91e9-ad08aa205429"
+                                                    "Data Mine"
                                                 ],
                                                 [
                                                     "Plotters Candles Heikin",
-                                                    "Plotter",
-                                                    "Foundations",
-                                                    "00f9ae2f-9c0f-4588-963b-dc5b80a04b95"
+                                                    "Plotter"
                                                 ],
                                                 [
                                                     "Candles-Heikin",
-                                                    "Plotter Module",
-                                                    "Foundations",
-                                                    "f137164b-3b19-4b09-89eb-9053138717f7"
+                                                    "Plotter Module"
                                                 ],
                                                 [
                                                     "New Shapes",
-                                                    "Shapes",
-                                                    "Foundations",
-                                                    "db3d3e1a-55e7-42ea-a22d-f8e882822c64"
+                                                    "Shapes"
                                                 ],
                                                 [
                                                     "New Chart Points",
-                                                    "Chart Points",
-                                                    "Foundations",
-                                                    "3977488b-9a46-41b6-94f7-35e97be66f0f"
+                                                    "Chart Points"
                                                 ],
                                                 [
                                                     "Candle Close Begin",
-                                                    "Point",
-                                                    "Foundations",
-                                                    "57270329-d321-4c88-bebc-4dd1c2479f84"
+                                                    "Point"
                                                 ]
                                             ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Polygon Vertex",
-                                        "name": "",
-                                        "project": "Foundations",
-                                        "id": "49380728-94b0-4f35-bf5b-0557a985e6d4",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 14597.227628321465,
-                                                "y": 24121.747169839804
-                                            },
-                                            "targetPosition": {
-                                                "x": 14364.083839884373,
-                                                "y": 23932.95105252485
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 1,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            }
                                         }
                                     }
                                 ],
                                 "id": "92c579f1-d0d5-4ad1-9a3e-fae8f54e4c75",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 14364.083839884373,
-                                        "y": 23932.95105252485
+                                        "x": 14627.27099292274,
+                                        "y": 23847.43636270722
                                     },
                                     "targetPosition": {
-                                        "x": 14395.442378864669,
-                                        "y": 24231.307621135333
+                                        "x": 14505.25,
+                                        "y": 24121.5
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": false,
+                                        "isCollapsed": true,
                                         "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
@@ -6049,8 +5691,8 @@
                         "id": "db3d3e1a-55e7-42ea-a22d-f8e882822c64",
                         "savedPayload": {
                             "position": {
-                                "x": 14395.442378864669,
-                                "y": 24231.307621135333
+                                "x": 14505.25,
+                                "y": 24121.5
                             },
                             "targetPosition": {
                                 "x": 14655.25,
@@ -6059,8 +5701,8 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": true,
-                                "angleToParent": 1,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
                             },
@@ -6090,17 +5732,17 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 14395.442378864669,
-                                                "y": 24231.307621135333
+                                                "y": 23711.692378864667
                                             },
                                             "targetPosition": {
                                                 "x": 14655.25,
-                                                "y": 24081.307621135333
+                                                "y": 23861.692378864667
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -6118,17 +5760,17 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 14655.25,
-                                                "y": 23781.307621135333
+                                                "y": 23561.692378864667
                                             },
                                             "targetPosition": {
                                                 "x": 14655.25,
-                                                "y": 24081.307621135333
+                                                "y": 23861.692378864667
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -6141,101 +5783,17 @@
                                     "savedPayload": {
                                         "position": {
                                             "x": 14655.25,
-                                            "y": 24081.307621135333
+                                            "y": 23861.692378864667
                                         },
                                         "targetPosition": {
-                                            "x": 14915.057621135331,
-                                            "y": 24231.307621135333
+                                            "x": 14805.25,
+                                            "y": 24121.5
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
                                             "isFrozen": false,
                                             "isCollapsed": true,
-                                            "angleToParent": 1,
-                                            "distanceToParent": 3,
-                                            "arrangementStyle": 0
-                                        },
-                                        "uiObject": {
-                                            "isRunning": false
-                                        }
-                                    }
-                                },
-                                {
-                                    "type": "Panel Data",
-                                    "name": "Min",
-                                    "config": "{\n    \"valueDecimals\": 0\n}",
-                                    "project": "Foundations",
-                                    "dataFormula": {
-                                        "type": "Data Formula",
-                                        "name": "New Data Formula",
-                                        "code": "record.min",
-                                        "project": "Foundations",
-                                        "id": "20de0746-65d8-4c01-ac4e-683b2178583b",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 15014.25,
-                                                "y": 23783.307621135333
-                                            },
-                                            "targetPosition": {
-                                                "x": 15274.057621135331,
-                                                "y": 23933.307621135333
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 1,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            }
-                                        }
-                                    },
-                                    "textStyle": {
-                                        "type": "Text Style",
-                                        "name": "New Text Style",
-                                        "config": "{\n    \"paletteColor\": \"UI_COLOR.BLACK\",\n    \"opacity\": 1,\n    \"fontSize\": 14\n}",
-                                        "project": "Foundations",
-                                        "id": "6b4909b2-91aa-40aa-abd9-51ce5d9aca09",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 15533.865242270662,
-                                                "y": 23783.307621135333
-                                            },
-                                            "targetPosition": {
-                                                "x": 15274.057621135331,
-                                                "y": 23933.307621135333
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 1,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            }
-                                        }
-                                    },
-                                    "id": "2be7e16c-2dc0-4ebf-bea5-27f814062c19",
-                                    "savedPayload": {
-                                        "position": {
-                                            "x": 14915.057621135331,
-                                            "y": 23931.307621135333
-                                        },
-                                        "targetPosition": {
-                                            "x": 14915.057621135331,
-                                            "y": 24231.307621135333
-                                        },
-                                        "floatingObject": {
-                                            "isPinned": false,
-                                            "isFrozen": false,
-                                            "isCollapsed": true,
-                                            "angleToParent": 1,
+                                            "angleToParent": 2,
                                             "distanceToParent": 3,
                                             "arrangementStyle": 0
                                         },
@@ -6257,18 +5815,18 @@
                                         "id": "ed20fd2a-02e5-4ce9-9fd9-197cef970c89",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 15533.865242270662,
-                                                "y": 23783.307621135333
+                                                "x": 14655.25,
+                                                "y": 23561.692378864667
                                             },
                                             "targetPosition": {
-                                                "x": 15533.865242270662,
-                                                "y": 24083.307621135333
+                                                "x": 14805.25,
+                                                "y": 23821.5
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -6285,18 +5843,18 @@
                                         "id": "1beab99d-c50c-43b5-8f19-8cc54ce41ecc",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 15793.672863405993,
-                                                "y": 24233.307621135333
+                                                "x": 14955.25,
+                                                "y": 23561.692378864667
                                             },
                                             "targetPosition": {
-                                                "x": 15533.865242270662,
-                                                "y": 24083.307621135333
+                                                "x": 14805.25,
+                                                "y": 23821.5
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -6308,18 +5866,18 @@
                                     "id": "5cd96aef-f24f-4e03-a6e2-ded1e8e978ec",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15174.865242270662,
-                                            "y": 24081.307621135333
+                                            "x": 14805.25,
+                                            "y": 23821.5
                                         },
                                         "targetPosition": {
-                                            "x": 14915.057621135331,
-                                            "y": 24231.307621135333
+                                            "x": 14805.25,
+                                            "y": 24121.5
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
                                             "isFrozen": false,
                                             "isCollapsed": true,
-                                            "angleToParent": 1,
+                                            "angleToParent": 2,
                                             "distanceToParent": 3,
                                             "arrangementStyle": 0
                                         },
@@ -6341,12 +5899,12 @@
                                         "id": "6eaba2f5-e177-43db-8496-6a53b5f4b02e",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 16182.672863405993,
-                                                "y": 24177.307621135333
+                                                "x": 14805.25,
+                                                "y": 23601.884757729335
                                             },
                                             "targetPosition": {
-                                                "x": 15922.865242270662,
-                                                "y": 24327.307621135333
+                                                "x": 14955.25,
+                                                "y": 23861.692378864667
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -6369,18 +5927,18 @@
                                         "id": "2e26d4b8-4c16-4dd2-a5d2-08ea79078d8c",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 15922.865242270662,
-                                                "y": 24627.307621135333
+                                                "x": 15215.057621135331,
+                                                "y": 23711.692378864667
                                             },
                                             "targetPosition": {
-                                                "x": 15922.865242270662,
-                                                "y": 24327.307621135333
+                                                "x": 14955.25,
+                                                "y": 23861.692378864667
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -6392,18 +5950,18 @@
                                     "id": "4546389a-79ec-4175-a992-c577653c3acb",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15174.865242270662,
-                                            "y": 24381.307621135333
+                                            "x": 14955.25,
+                                            "y": 23861.692378864667
                                         },
                                         "targetPosition": {
-                                            "x": 14915.057621135331,
-                                            "y": 24231.307621135333
+                                            "x": 14805.25,
+                                            "y": 24121.5
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
                                             "isFrozen": false,
                                             "isCollapsed": true,
-                                            "angleToParent": 1,
+                                            "angleToParent": 2,
                                             "distanceToParent": 3,
                                             "arrangementStyle": 0
                                         },
@@ -6425,18 +5983,18 @@
                                         "id": "b1355d3d-0d4d-48a4-a15c-bb4754400e57",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 15174.865242270662,
-                                                "y": 24681.307621135333
+                                                "x": 15365.057621135331,
+                                                "y": 23971.5
                                             },
                                             "targetPosition": {
-                                                "x": 14915.057621135331,
-                                                "y": 24531.307621135333
+                                                "x": 15105.25,
+                                                "y": 24121.5
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -6453,18 +6011,18 @@
                                         "id": "1a06f245-8a5b-4e31-acba-6ac1f9db4c50",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 14655.25,
-                                                "y": 24681.307621135333
+                                                "x": 15365.057621135331,
+                                                "y": 24271.5
                                             },
                                             "targetPosition": {
-                                                "x": 14915.057621135331,
-                                                "y": 24531.307621135333
+                                                "x": 15105.25,
+                                                "y": 24121.5
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
-                                                "angleToParent": 1,
+                                                "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
@@ -6476,18 +6034,102 @@
                                     "id": "dce970ee-332c-4785-b99a-81158037a3bd",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 14915.057621135331,
-                                            "y": 24531.307621135333
+                                            "x": 15065.057621135331,
+                                            "y": 23971.5
                                         },
                                         "targetPosition": {
-                                            "x": 14915.057621135331,
-                                            "y": 24231.307621135333
+                                            "x": 14805.25,
+                                            "y": 24121.5
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
                                             "isFrozen": false,
-                                            "isCollapsed": false,
-                                            "angleToParent": 1,
+                                            "isCollapsed": true,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Panel Data",
+                                    "name": "Min",
+                                    "config": "{\n    \"valueDecimals\": 0\n}",
+                                    "project": "Foundations",
+                                    "dataFormula": {
+                                        "type": "Data Formula",
+                                        "name": "New Data Formula",
+                                        "code": "record.min",
+                                        "project": "Foundations",
+                                        "id": "20de0746-65d8-4c01-ac4e-683b2178583b",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 15365.057621135331,
+                                                "y": 23971.5
+                                            },
+                                            "targetPosition": {
+                                                "x": 15105.25,
+                                                "y": 24121.5
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "textStyle": {
+                                        "type": "Text Style",
+                                        "name": "New Text Style",
+                                        "config": "{\n    \"paletteColor\": \"UI_COLOR.BLACK\",\n    \"opacity\": 1,\n    \"fontSize\": 14\n}",
+                                        "project": "Foundations",
+                                        "id": "6b4909b2-91aa-40aa-abd9-51ce5d9aca09",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 15365.057621135331,
+                                                "y": 24271.5
+                                            },
+                                            "targetPosition": {
+                                                "x": 15105.25,
+                                                "y": 24121.5
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "2be7e16c-2dc0-4ebf-bea5-27f814062c19",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 15105.25,
+                                            "y": 24121.5
+                                        },
+                                        "targetPosition": {
+                                            "x": 14805.25,
+                                            "y": 24121.5
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": true,
+                                            "angleToParent": 2,
                                             "distanceToParent": 3,
                                             "arrangementStyle": 0
                                         },
@@ -6500,8 +6142,8 @@
                             "id": "a05e42a3-4c14-4115-a2ea-b02ef18e4645",
                             "savedPayload": {
                                 "position": {
-                                    "x": 14915.057621135331,
-                                    "y": 24231.307621135333
+                                    "x": 14805.25,
+                                    "y": 24121.5
                                 },
                                 "targetPosition": {
                                     "x": 14655.25,
@@ -6511,7 +6153,7 @@
                                     "isPinned": false,
                                     "isFrozen": false,
                                     "isCollapsed": true,
-                                    "angleToParent": 1,
+                                    "angleToParent": 2,
                                     "distanceToParent": 3,
                                     "arrangementStyle": 0
                                 },
@@ -6534,7 +6176,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": false,
+                            "isCollapsed": true,
                             "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
@@ -6583,7 +6225,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": true,
+            "isCollapsed": false,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
