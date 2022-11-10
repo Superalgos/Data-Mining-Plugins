@@ -860,7 +860,7 @@
                 {
                     "type": "Product Definition",
                     "name": "RSI14",
-                    "config": "{\n  \"codeName\": \"RSI-14\",\n  \"singularVariableName\": \"rsi14\",\n  \"pluralVariableName\": \"rsi14s\"\n}",
+                    "config": "{\n  \"codeName\": \"Rsi14\",\n  \"singularVariableName\": \"rsi14\",\n  \"pluralVariableName\": \"rsi14s\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -1799,12 +1799,12 @@
                     "id": "da37b79e-96d6-4201-a975-e7385c1295b4",
                     "savedPayload": {
                         "position": {
-                            "x": 20117.43480815924,
-                            "y": 17990.72153864347
+                            "x": 19639.43480815924,
+                            "y": 17616.72153864347
                         },
                         "targetPosition": {
-                            "x": 19736.408918506513,
-                            "y": 18230.135973075372
+                            "x": 19258.408918506513,
+                            "y": 17856.135973075372
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -2347,12 +2347,12 @@
                     "id": "c3a4e230-7a29-4261-9837-17248b03abc5",
                     "savedPayload": {
                         "position": {
-                            "x": 20175.126478988335,
-                            "y": 18330.270393355713
+                            "x": 19697.126478988335,
+                            "y": 17956.270393355713
                         },
                         "targetPosition": {
-                            "x": 19736.408918506513,
-                            "y": 18230.135973075372
+                            "x": 19258.408918506513,
+                            "y": 17856.135973075372
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -2372,7 +2372,7 @@
                 {
                     "type": "Product Definition",
                     "name": "RSI Divergence",
-                    "config": "{\n  \"codeName\": \"RSI-Div\",\n  \"singularVariableName\": \"rsiDiv\",\n  \"pluralVariableName\": \"rsiDiv\"\n}",
+                    "config": "{\n  \"codeName\": \"RSI_Div\",\n  \"singularVariableName\": \"rsiDiv\",\n  \"pluralVariableName\": \"rsiDiv\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -3662,12 +3662,12 @@
                     "id": "989c7280-4b54-4cbb-92f4-617e6bc5f772",
                     "savedPayload": {
                         "position": {
-                            "x": 19975.823352938416,
-                            "y": 18611.1618627281
+                            "x": 19497.823352938416,
+                            "y": 18237.1618627281
                         },
                         "targetPosition": {
-                            "x": 19736.408918506513,
-                            "y": 18230.135973075372
+                            "x": 19258.408918506513,
+                            "y": 17856.135973075372
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -5520,12 +5520,12 @@
                     "id": "a0a46799-4124-43ec-a120-e0e0c1eb21d9",
                     "savedPayload": {
                         "position": {
-                            "x": 19963.686019587265,
-                            "y": 18410.187949384974
+                            "x": 19618.686019587265,
+                            "y": 17986.187949384974
                         },
                         "targetPosition": {
-                            "x": 19516.515525135306,
-                            "y": 18460.57196363146
+                            "x": 19171.515525135306,
+                            "y": 18036.57196363146
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6068,12 +6068,12 @@
                     "id": "ccddad89-7298-4abd-97d6-a45276eba849",
                     "savedPayload": {
                         "position": {
-                            "x": 19868.33969224592,
-                            "y": 18741.14237446789
+                            "x": 19523.33969224592,
+                            "y": 18317.14237446789
                         },
                         "targetPosition": {
-                            "x": 19516.515525135306,
-                            "y": 18460.57196363146
+                            "x": 19171.515525135306,
+                            "y": 18036.57196363146
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6093,7 +6093,7 @@
                 {
                     "type": "Product Definition",
                     "name": "CCI Divergence",
-                    "config": "{\n  \"codeName\": \"CCI-Div\",\n  \"singularVariableName\": \"cciDiv\",\n  \"pluralVariableName\": \"cciDivs\"\n}",
+                    "config": "{\n  \"codeName\": \"CciDiv\",\n  \"singularVariableName\": \"cciDiv\",\n  \"pluralVariableName\": \"cciDivs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -7383,12 +7383,12 @@
                     "id": "1ef5c757-213a-44b5-8d87-90f6dd37e058",
                     "savedPayload": {
                         "position": {
-                            "x": 19566.899539381793,
-                            "y": 18907.74245808342
+                            "x": 19221.899539381793,
+                            "y": 18483.74245808342
                         },
                         "targetPosition": {
-                            "x": 19516.515525135306,
-                            "y": 18460.57196363146
+                            "x": 19171.515525135306,
+                            "y": 18036.57196363146
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -9453,12 +9453,12 @@
                     "id": "68e4f0cc-5ebc-4596-9b10-726bd12170b3",
                     "savedPayload": {
                         "position": {
-                            "x": 19394.686539266357,
-                            "y": 18901.063121230945
+                            "x": 19439.686539266357,
+                            "y": 18310.063121230945
                         },
                         "targetPosition": {
-                            "x": 18969.939040627592,
-                            "y": 18752.43754335112
+                            "x": 19014.939040627592,
+                            "y": 18161.43754335112
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -10001,12 +10001,12 @@
                     "id": "758ef041-5958-4a5d-b26e-d3eef5439546",
                     "savedPayload": {
                         "position": {
-                            "x": 19165.186723230494,
-                            "y": 19157.87353390721
+                            "x": 19210.186723230494,
+                            "y": 18566.87353390721
                         },
                         "targetPosition": {
-                            "x": 18969.939040627592,
-                            "y": 18752.43754335112
+                            "x": 19014.939040627592,
+                            "y": 18161.43754335112
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -10026,7 +10026,7 @@
                 {
                     "type": "Product Definition",
                     "name": "MFI Divergence",
-                    "config": "{\n  \"codeName\": \"MFI-Div\",\n  \"singularVariableName\": \"mfiDiv\",\n  \"pluralVariableName\": \"mfiDivs\"\n}",
+                    "config": "{\n  \"codeName\": \"MfiDiv\",\n  \"singularVariableName\": \"mfiDiv\",\n  \"pluralVariableName\": \"mfiDivs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -11316,12 +11316,12 @@
                     "id": "345cf43d-234d-41ac-9692-a69a8929a08d",
                     "savedPayload": {
                         "position": {
-                            "x": 18821.313462747767,
-                            "y": 19177.185041989884
+                            "x": 18866.313462747767,
+                            "y": 18586.185041989884
                         },
                         "targetPosition": {
-                            "x": 18969.939040627592,
-                            "y": 18752.43754335112
+                            "x": 19014.939040627592,
+                            "y": 18161.43754335112
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -13174,12 +13174,12 @@
                     "id": "0da4b46b-e7cc-41f6-a261-26cfa5e9c8b2",
                     "savedPayload": {
                         "position": {
-                            "x": 18826.889409558637,
-                            "y": 18999.199604328976
+                            "x": 19137.889409558637,
+                            "y": 18524.199604328976
                         },
                         "targetPosition": {
-                            "x": 18508.69135802469,
-                            "y": 18681.00155279503
+                            "x": 18819.69135802469,
+                            "y": 18206.00155279503
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -13722,12 +13722,12 @@
                     "id": "5ea06265-f912-4b70-b651-cf00598ceae3",
                     "savedPayload": {
                         "position": {
-                            "x": 18508.69135802469,
-                            "y": 19131.00155279503
+                            "x": 18819.69135802469,
+                            "y": 18656.00155279503
                         },
                         "targetPosition": {
-                            "x": 18508.69135802469,
-                            "y": 18681.00155279503
+                            "x": 18819.69135802469,
+                            "y": 18206.00155279503
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -13747,7 +13747,7 @@
                 {
                     "type": "Product Definition",
                     "name": "Awesome Divergence",
-                    "config": "{\n  \"codeName\": \"awe-Div\",\n  \"singularVariableName\": \"aweDiv\",\n  \"pluralVariableName\": \"aweDivs\"\n}",
+                    "config": "{\n  \"codeName\": \"aweDiv\",\n  \"singularVariableName\": \"aweDiv\",\n  \"pluralVariableName\": \"aweDivs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -15037,12 +15037,12 @@
                     "id": "5b3d4e02-b06f-4b05-b933-d9a688297a5e",
                     "savedPayload": {
                         "position": {
-                            "x": 18190.493306490745,
-                            "y": 18999.199604328976
+                            "x": 18501.493306490745,
+                            "y": 18524.199604328976
                         },
                         "targetPosition": {
-                            "x": 18508.69135802469,
-                            "y": 18681.00155279503
+                            "x": 18819.69135802469,
+                            "y": 18206.00155279503
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -17163,12 +17163,12 @@
                     "id": "c77acc3c-6b18-46fa-bdc4-e1f8738ec427",
                     "savedPayload": {
                         "position": {
-                            "x": 18212.069253301615,
-                            "y": 18795.185041989884
+                            "x": 18773.069253301615,
+                            "y": 18586.185041989884
                         },
                         "targetPosition": {
-                            "x": 18063.44367542179,
-                            "y": 18370.43754335112
+                            "x": 18624.44367542179,
+                            "y": 18161.43754335112
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -17711,12 +17711,12 @@
                     "id": "04e81431-5d90-4c3d-8ff7-a6fb212c9034",
                     "savedPayload": {
                         "position": {
-                            "x": 17868.195992818888,
-                            "y": 18775.87353390721
+                            "x": 18429.195992818888,
+                            "y": 18566.87353390721
                         },
                         "targetPosition": {
-                            "x": 18063.44367542179,
-                            "y": 18370.43754335112
+                            "x": 18624.44367542179,
+                            "y": 18161.43754335112
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -17736,7 +17736,7 @@
                 {
                     "type": "Product Definition",
                     "name": "Klinger Divergence",
-                    "config": "{\n  \"codeName\": \"kvo-Div\",\n  \"singularVariableName\": \"kvoDiv\",\n  \"pluralVariableName\": \"kvoDivs\"\n}",
+                    "config": "{\n  \"codeName\": \"kvo_Div\",\n  \"singularVariableName\": \"kvoDiv\",\n  \"pluralVariableName\": \"kvoDivs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -19026,12 +19026,12 @@
                     "id": "c4610ba5-251f-4632-9b87-21cd91ba39c1",
                     "savedPayload": {
                         "position": {
-                            "x": 17638.696176783025,
-                            "y": 18519.063121230945
+                            "x": 18199.696176783025,
+                            "y": 18310.063121230945
                         },
                         "targetPosition": {
-                            "x": 18063.44367542179,
-                            "y": 18370.43754335112
+                            "x": 18624.44367542179,
+                            "y": 18161.43754335112
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -20938,12 +20938,12 @@
                     "id": "0c5bb581-0c54-4380-9e54-980f01638d15",
                     "savedPayload": {
                         "position": {
-                            "x": 17628.48317666759,
-                            "y": 18516.74245808342
+                            "x": 18417.48317666759,
+                            "y": 18483.74245808342
                         },
                         "targetPosition": {
-                            "x": 17678.867190914076,
-                            "y": 18069.57196363146
+                            "x": 18467.867190914076,
+                            "y": 18036.57196363146
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -21486,12 +21486,12 @@
                     "id": "0c332285-080a-46ea-82c5-748a58ec2010",
                     "savedPayload": {
                         "position": {
-                            "x": 17327.04302380346,
-                            "y": 18350.14237446789
+                            "x": 18116.04302380346,
+                            "y": 18317.14237446789
                         },
                         "targetPosition": {
-                            "x": 17678.867190914076,
-                            "y": 18069.57196363146
+                            "x": 18467.867190914076,
+                            "y": 18036.57196363146
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -21511,7 +21511,7 @@
                 {
                     "type": "Product Definition",
                     "name": "Stochastic Divergence",
-                    "config": "{\n  \"codeName\": \"Stoch-Div\",\n  \"singularVariableName\": \"stochDiv\",\n  \"pluralVariableName\": \"stochDivs\"\n}",
+                    "config": "{\n  \"codeName\": \"StochDiv\",\n  \"singularVariableName\": \"stochDiv\",\n  \"pluralVariableName\": \"stochDivs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -22801,12 +22801,12 @@
                     "id": "dbc5469a-b1b4-4d23-a593-701000ccfba4",
                     "savedPayload": {
                         "position": {
-                            "x": 17231.696696462117,
-                            "y": 18019.187949384974
+                            "x": 18020.696696462117,
+                            "y": 17986.187949384974
                         },
                         "targetPosition": {
-                            "x": 17678.867190914076,
-                            "y": 18069.57196363146
+                            "x": 18467.867190914076,
+                            "y": 18036.57196363146
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -24759,12 +24759,12 @@
                     "id": "6e242d79-93ba-4bbc-a031-2973e78fb07a",
                     "savedPayload": {
                         "position": {
-                            "x": 17513.559363110966,
-                            "y": 18116.1618627281
+                            "x": 18141.559363110966,
+                            "y": 18237.1618627281
                         },
                         "targetPosition": {
-                            "x": 17752.97379754287,
-                            "y": 17735.135973075372
+                            "x": 18380.97379754287,
+                            "y": 17856.135973075372
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -25307,12 +25307,12 @@
                     "id": "73bf20ac-9293-44f5-886e-97781b4d3c9d",
                     "savedPayload": {
                         "position": {
-                            "x": 17314.256237061047,
-                            "y": 17835.270393355713
+                            "x": 17942.256237061047,
+                            "y": 17956.270393355713
                         },
                         "targetPosition": {
-                            "x": 17752.97379754287,
-                            "y": 17735.135973075372
+                            "x": 18380.97379754287,
+                            "y": 17856.135973075372
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -25332,7 +25332,7 @@
                 {
                     "type": "Product Definition",
                     "name": "Ultimate Divergence",
-                    "config": "{\n  \"codeName\": \"uo-Div\",\n  \"singularVariableName\": \"uoDiv\",\n  \"pluralVariableName\": \"uoDivs\"\n}",
+                    "config": "{\n  \"codeName\": \"UoDiv\",\n  \"singularVariableName\": \"uoDiv\",\n  \"pluralVariableName\": \"uoDivs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -26622,12 +26622,12 @@
                     "id": "173c3a18-f8e1-4821-9bee-891d323905d5",
                     "savedPayload": {
                         "position": {
-                            "x": 17371.947907890142,
-                            "y": 17495.72153864347
+                            "x": 17999.947907890142,
+                            "y": 17616.72153864347
                         },
                         "targetPosition": {
-                            "x": 17752.97379754287,
-                            "y": 17735.135973075372
+                            "x": 18380.97379754287,
+                            "y": 17856.135973075372
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -27539,7 +27539,7 @@
                 {
                     "type": "Product Definition",
                     "name": "CCI Stoch",
-                    "config": "{\n  \"codeName\": \"Cci-Stoch\",\n  \"singularVariableName\": \"CciStoch\",\n  \"pluralVariableName\": \"CciStochs\"\n}",
+                    "config": "{\n  \"codeName\": \"Cci_Stoch\",\n  \"singularVariableName\": \"CciStoch\",\n  \"pluralVariableName\": \"CciStochs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -28536,12 +28536,12 @@
                     "id": "a32ccce3-a05e-4f79-b138-8428e549d2b6",
                     "savedPayload": {
                         "position": {
-                            "x": 17532.947907890142,
-                            "y": 17591.281566946593
+                            "x": 17999.947907890142,
+                            "y": 17895.281566946593
                         },
                         "targetPosition": {
-                            "x": 17913.97379754287,
-                            "y": 17351.86713251469
+                            "x": 18380.97379754287,
+                            "y": 17655.86713251469
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -29084,12 +29084,12 @@
                     "id": "6ae9f265-63fe-4530-b0cb-b2ee34e1c87d",
                     "savedPayload": {
                         "position": {
-                            "x": 17475.256237061047,
-                            "y": 17251.73271223435
+                            "x": 17942.256237061047,
+                            "y": 17555.73271223435
                         },
                         "targetPosition": {
-                            "x": 17913.97379754287,
-                            "y": 17351.86713251469
+                            "x": 18380.97379754287,
+                            "y": 17655.86713251469
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -29109,7 +29109,7 @@
                 {
                     "type": "Product Definition",
                     "name": "CCI Stoch Divergence",
-                    "config": "{\n  \"codeName\": \"cci-Stoch-Div\",\n  \"singularVariableName\": \"cci-stoch-Div\",\n  \"pluralVariableName\": \"cci-stoch-Divs\"\n}",
+                    "config": "{\n  \"codeName\": \"cciStochDiv\",\n  \"singularVariableName\": \"cciStochDiv\",\n  \"pluralVariableName\": \"cciStochDivs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -30399,12 +30399,12 @@
                     "id": "91942670-1b31-4e2e-aa14-447024082a61",
                     "savedPayload": {
                         "position": {
-                            "x": 17674.559363110966,
-                            "y": 16970.841242861963
+                            "x": 18141.559363110966,
+                            "y": 17274.841242861963
                         },
                         "targetPosition": {
-                            "x": 17913.97379754287,
-                            "y": 17351.86713251469
+                            "x": 18380.97379754287,
+                            "y": 17655.86713251469
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -32593,12 +32593,12 @@
                     "id": "df234603-3169-45fd-ac45-6a5e50fdd1a0",
                     "savedPayload": {
                         "position": {
-                            "x": 17718.69669646212,
-                            "y": 17013.815156205088
+                            "x": 18020.69669646212,
+                            "y": 17525.815156205088
                         },
                         "targetPosition": {
-                            "x": 18165.86719091408,
-                            "y": 16963.4311419586
+                            "x": 18467.86719091408,
+                            "y": 17475.4311419586
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -32630,12 +32630,12 @@
                                 "id": "cd7e8f5f-0a2e-421a-a622-332ab4f590ed",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 17499.873133636043,
-                                        "y": 16806.16332684583
+                                        "x": 17801.873133636043,
+                                        "y": 17318.16332684583
                                     },
                                     "targetPosition": {
-                                        "x": 17604.596430358517,
-                                        "y": 16765.06246160461
+                                        "x": 17906.596430358517,
+                                        "y": 17277.06246160461
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -32678,12 +32678,12 @@
                         "id": "c51b9b57-3a03-41b2-9eeb-b15de6ac157c",
                         "savedPayload": {
                             "position": {
-                                "x": 17604.596430358517,
-                                "y": 16765.06246160461
+                                "x": 17906.596430358517,
+                                "y": 17277.06246160461
                             },
                             "targetPosition": {
-                                "x": 17814.043023803464,
-                                "y": 16682.86073112217
+                                "x": 18116.043023803464,
+                                "y": 17194.86073112217
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -33014,12 +33014,12 @@
                         "id": "251478d9-6d3b-472a-8712-ee69ba327e3b",
                         "savedPayload": {
                             "position": {
-                                "x": 17369.069152002157,
-                                "y": 16615.791711342892
+                                "x": 17671.069152002157,
+                                "y": 17127.791711342892
                             },
                             "targetPosition": {
-                                "x": 17814.043023803464,
-                                "y": 16682.86073112217
+                                "x": 18116.043023803464,
+                                "y": 17194.86073112217
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -33041,12 +33041,12 @@
                         "id": "7de75c6e-6a29-4f82-8bee-fc0ea863b566",
                         "savedPayload": {
                             "position": {
-                                "x": 17638.130940248157,
-                                "y": 16542.575525703956
+                                "x": 17940.130940248157,
+                                "y": 17054.575525703956
                             },
                             "targetPosition": {
-                                "x": 17814.043023803464,
-                                "y": 16682.86073112217
+                                "x": 18116.043023803464,
+                                "y": 17194.86073112217
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -33068,12 +33068,12 @@
                         "id": "7102ba14-fbed-4177-8a71-3a7d16a2d884",
                         "savedPayload": {
                             "position": {
-                                "x": 17731.841293321024,
-                                "y": 16473.414137677224
+                                "x": 18033.841293321024,
+                                "y": 16985.414137677224
                             },
                             "targetPosition": {
-                                "x": 17814.043023803464,
-                                "y": 16682.86073112217
+                                "x": 18116.043023803464,
+                                "y": 17194.86073112217
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -33118,12 +33118,12 @@
                         "id": "8045fa2b-33d3-4688-8ccb-ae70f55db1da",
                         "savedPayload": {
                             "position": {
-                                "x": 17847.577533693104,
-                                "y": 16460.373795221516
+                                "x": 18149.577533693104,
+                                "y": 16972.373795221516
                             },
                             "targetPosition": {
-                                "x": 17814.043023803464,
-                                "y": 16682.86073112217
+                                "x": 18116.043023803464,
+                                "y": 17194.86073112217
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -33141,12 +33141,12 @@
                     "id": "2061fc97-6a7b-4a73-9d0b-37fa85ac5830",
                     "savedPayload": {
                         "position": {
-                            "x": 17814.043023803464,
-                            "y": 16682.86073112217
+                            "x": 18116.043023803464,
+                            "y": 17194.86073112217
                         },
                         "targetPosition": {
-                            "x": 18165.86719091408,
-                            "y": 16963.4311419586
+                            "x": 18467.86719091408,
+                            "y": 17475.4311419586
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -33166,7 +33166,7 @@
                 {
                     "type": "Product Definition",
                     "name": "KST Divergence",
-                    "config": "{\n  \"codeName\": \"kst-Div\",\n  \"singularVariableName\": \"kst-Div\",\n  \"pluralVariableName\": \"kst-Divs\"\n}",
+                    "config": "{\n  \"codeName\": \"kstDiv\",\n  \"singularVariableName\": \"kstDiv\",\n  \"pluralVariableName\": \"kstDivs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -34456,12 +34456,12 @@
                     "id": "56f30201-876e-49f7-8bd3-d1be2a53ed96",
                     "savedPayload": {
                         "position": {
-                            "x": 18115.483176667592,
-                            "y": 16516.260647506642
+                            "x": 18417.483176667592,
+                            "y": 17028.260647506642
                         },
                         "targetPosition": {
-                            "x": 18165.86719091408,
-                            "y": 16963.4311419586
+                            "x": 18467.86719091408,
+                            "y": 17475.4311419586
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -34476,18 +34476,10 @@
                         },
                         "referenceParent": {
                             "type": "Plotter Module",
-                            "name": "UO Divergence Plotter",
-                            "id": "04e712be-5d90-48cc-a67a-ce37ee8e7078"
+                            "name": "KST Divergence Plotter",
+                            "id": "cdf97cc0-0a5e-45fa-8170-22a65aa6b838"
                         },
                         "referenceParentCombinedNodePath": [
-                            [
-                                "Oscillators and Divergences",
-                                "Data Mine"
-                            ],
-                            [
-                                "Divergences",
-                                "Plotter"
-                            ],
                             [
                                 "UO Divergence Plotter",
                                 "Plotter Module"
@@ -36268,12 +36260,12 @@
                     "id": "f8df5a33-cc45-4425-8bd7-fb94226bd81b",
                     "savedPayload": {
                         "position": {
-                            "x": 18041.03236517252,
-                            "y": 17313.024058762374
+                            "x": 18112.55364141305,
+                            "y": 17547.496378297677
                         },
                         "targetPosition": {
-                            "x": 18468.004027749314,
-                            "y": 17170.914244335614
+                            "x": 18539.12094718826,
+                            "y": 17404.17738568442
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -38029,12 +38021,12 @@
                     "id": "f79a3754-4636-4cf8-8322-7c6696143b65",
                     "savedPayload": {
                         "position": {
-                            "x": 18019.1505761747,
-                            "y": 17138.81161189596
+                            "x": 18089.260815287893,
+                            "y": 17392.958574402288
                         },
                         "targetPosition": {
-                            "x": 18468.004027749314,
-                            "y": 17170.914244335614
+                            "x": 18539.12094718826,
+                            "y": 17404.17738568442
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -39790,12 +39782,12 @@
                     "id": "e63ba7f9-81f5-4ee5-a59d-16a027f8fb71",
                     "savedPayload": {
                         "position": {
-                            "x": 18065.602656312443,
-                            "y": 16969.486499807394
+                            "x": 18120.22776029837,
+                            "y": 17239.773924719542
                         },
                         "targetPosition": {
-                            "x": 18468.004027749314,
-                            "y": 17170.914244335614
+                            "x": 18539.12094718826,
+                            "y": 17404.17738568442
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -41551,12 +41543,12 @@
                     "id": "9def5f58-16b7-4886-8976-86f4eb41a7a4",
                     "savedPayload": {
                         "position": {
-                            "x": 18173.316697473936,
-                            "y": 16830.826935876197
+                            "x": 18201.719405852782,
+                            "y": 17106.41875876583
                         },
                         "targetPosition": {
-                            "x": 18468.004027749314,
-                            "y": 17170.914244335614
+                            "x": 18539.12094718826,
+                            "y": 17404.17738568442
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -43312,12 +43304,12 @@
                     "id": "45193bb6-b61b-4144-9ed8-0bb89ddf4c11",
                     "savedPayload": {
                         "position": {
-                            "x": 18325.894213322554,
-                            "y": 16743.94258175882
+                            "x": 18323.906656808667,
+                            "y": 17008.977677667815
                         },
                         "targetPosition": {
-                            "x": 18468.004027749314,
-                            "y": 17170.914244335614
+                            "x": 18539.12094718826,
+                            "y": 17404.17738568442
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -45073,12 +45065,12 @@
                     "id": "0fd16511-8ca4-4dec-8122-c98e05df3f1e",
                     "savedPayload": {
                         "position": {
-                            "x": 18500.10666018897,
-                            "y": 16722.060792761
+                            "x": 18472.051927408982,
+                            "y": 16959.203513883112
                         },
                         "targetPosition": {
-                            "x": 18468.004027749314,
-                            "y": 17170.914244335614
+                            "x": 18539.12094718826,
+                            "y": 17404.17738568442
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -45443,12 +45435,12 @@
                                 "id": "546672ed-584f-4d6c-a221-9923920fe50c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18454.851515594102,
-                                        "y": 16443.197159411564
+                                        "x": 18439.088405555438,
+                                        "y": 16308.233231045106
                                     },
                                     "targetPosition": {
-                                        "x": 18642.67263034754,
-                                        "y": 16319.309190452606
+                                        "x": 18587.96771901473,
+                                        "y": 16139.532460377366
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -45730,12 +45722,12 @@
                                 "id": "905c0a4e-783c-4076-a29a-bb1559fc90c1",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18394.896692429626,
-                                        "y": 15943.66696094573
+                                        "x": 18250.56617767925,
+                                        "y": 15841.77383345878
                                     },
                                     "targetPosition": {
-                                        "x": 18642.67263034754,
-                                        "y": 16319.309190452606
+                                        "x": 18587.96771901473,
+                                        "y": 16139.532460377366
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -46015,12 +46007,12 @@
                                 "id": "ded91fd5-d7ae-4513-aa83-e5480a299e05",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18615.913488417547,
-                                        "y": 15870.105508006469
+                                        "x": 18444.648726401472,
+                                        "y": 15712.965154602156
                                     },
                                     "targetPosition": {
-                                        "x": 18642.67263034754,
-                                        "y": 16319.309190452606
+                                        "x": 18587.96771901473,
+                                        "y": 16139.532460377366
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -46300,12 +46292,12 @@
                                 "id": "4c579240-df68-4424-965e-2acce3096558",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18844.10037487576,
-                                        "y": 15916.907819015736
+                                        "x": 18677.13348345446,
+                                        "y": 15698.454840845521
                                     },
                                     "targetPosition": {
-                                        "x": 18642.67263034754,
-                                        "y": 16319.309190452606
+                                        "x": 18587.96771901473,
+                                        "y": 16139.532460377366
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -46585,12 +46577,12 @@
                                 "id": "0cf6ec4c-5e14-445d-b3d5-6f69395c960d",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19018.314859854418,
-                                        "y": 16071.53325253469
+                                        "x": 18885.72634593332,
+                                        "y": 15802.130919041885
                                     },
                                     "targetPosition": {
-                                        "x": 18642.67263034754,
-                                        "y": 16319.309190452606
+                                        "x": 18587.96771901473,
+                                        "y": 16139.532460377366
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -46611,12 +46603,12 @@
                         "id": "4cb0647b-bbf7-405f-b326-a6fc8b31cb3e",
                         "savedPayload": {
                             "position": {
-                                "x": 18642.67263034754,
-                                "y": 16319.309190452606
+                                "x": 18587.96771901473,
+                                "y": 16139.532460377366
                             },
                             "targetPosition": {
-                                "x": 18669.431772277534,
-                                "y": 16768.512872898744
+                                "x": 18731.28671162799,
+                                "y": 16566.099766152576
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -46810,12 +46802,12 @@
                             "id": "e347f3a7-a7eb-4116-bc4e-1b8d54d1abad",
                             "savedPayload": {
                                 "position": {
-                                    "x": 18857.252887030972,
-                                    "y": 16644.624903939784
+                                    "x": 18880.16602508728,
+                                    "y": 16397.398995484837
                                 },
                                 "targetPosition": {
-                                    "x": 18669.431772277534,
-                                    "y": 16768.512872898744
+                                    "x": 18731.28671162799,
+                                    "y": 16566.099766152576
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -46834,12 +46826,1709 @@
                     "id": "04e712be-5d90-48cc-a67a-ce37ee8e7078",
                     "savedPayload": {
                         "position": {
-                            "x": 18669.431772277534,
-                            "y": 16768.512872898744
+                            "x": 18628.28671162799,
+                            "y": 16963.099766152576
                         },
                         "targetPosition": {
-                            "x": 18468.004027749314,
-                            "y": 17170.914244335614
+                            "x": 18539.12094718826,
+                            "y": 17404.17738568442
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false,
+                            "shortcutKey": ""
+                        }
+                    }
+                },
+                {
+                    "type": "Plotter Module",
+                    "name": "KST Divergence Plotter",
+                    "config": "{\n\t\"codeName\": \"KST_Divergence\",\n\t\"slot\": {\n\t\t\"number\": 3,\n\t\t\"minValue\": 0,\n\t\t\"maxValue\": 100\n\t},\n\t\"banner\": \"Oscillator\"\n}",
+                    "project": "Foundations",
+                    "shapes": {
+                        "type": "Shapes",
+                        "name": "New Shapes",
+                        "project": "Foundations",
+                        "chartPoints": [
+                            {
+                                "type": "Chart Points",
+                                "name": "Grid",
+                                "project": "Foundations",
+                                "points": [
+                                    {
+                                        "type": "Point",
+                                        "name": "Osc High",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.oscHighLoc\ny = record.oscHighVal",
+                                            "project": "Foundations",
+                                            "id": "674cb40b-2ba6-4bee-be8f-6ef1afc41d28",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 19042.907300860545,
+                                                    "y": 16951.439894137908
+                                                },
+                                                "targetPosition": {
+                                                    "x": 19029.517667267108,
+                                                    "y": 16852.3403597685
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 1,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "3dfd7f77-f26d-48f6-b4e3-87adb14acd35",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19029.517667267108,
+                                                "y": 16852.3403597685
+                                            },
+                                            "targetPosition": {
+                                                "x": 18999.390991681874,
+                                                "y": 16629.36640743733
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Osc Low",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.oscLowLoc\ny = record.oscLowVal",
+                                            "project": "Foundations",
+                                            "id": "dfb697c8-5959-440a-978f-98075cbdd8a4",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 18894.988628630508,
+                                                    "y": 16950.312503517795
+                                                },
+                                                "targetPosition": {
+                                                    "x": 18929.789416314296,
+                                                    "y": 16843.330471490972
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "247addde-3528-4d1d-bed4-3a084d685529",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 18929.789416314296,
+                                                "y": 16843.330471490972
+                                            },
+                                            "targetPosition": {
+                                                "x": 18999.390991681874,
+                                                "y": 16629.36640743733
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Osc H Prev",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.oscHiPrevLoc\ny = record.oscHighValPrev",
+                                            "project": "Foundations",
+                                            "id": "72882128-778a-47e1-9616-ea57b7e6e3d4",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 18766.074420614572,
+                                                    "y": 16873.230360627214
+                                                },
+                                                "targetPosition": {
+                                                    "x": 18843.84661097034,
+                                                    "y": 16791.942376230585
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "bc79def2-7a43-44f7-a897-6151288f4666",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 18843.84661097034,
+                                                "y": 16791.942376230585
+                                            },
+                                            "targetPosition": {
+                                                "x": 18999.390991681874,
+                                                "y": 16629.36640743733
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "OSC H",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.oscHighLoc\ny = record.oscHighVal",
+                                            "project": "Foundations",
+                                            "id": "b1720b7d-b42e-4e97-8605-e5e3d6e3b29a",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 18683.371420938478,
+                                                    "y": 16747.84797101226
+                                                },
+                                                "targetPosition": {
+                                                    "x": 18788.711277852944,
+                                                    "y": 16708.354116487284
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "c078a5ce-ecbb-44b8-90db-40e243773a85",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 18788.711277852944,
+                                                "y": 16708.354116487284
+                                            },
+                                            "targetPosition": {
+                                                "x": 18999.390991681874,
+                                                "y": 16629.36640743733
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Osc L",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.oscLowLoc\ny = record.oscLowVal",
+                                            "project": "Foundations",
+                                            "id": "866af1fe-fa92-4358-99ec-d1e5588c872d",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 18663.259972973803,
+                                                    "y": 16598.998854650272
+                                                },
+                                                "targetPosition": {
+                                                    "x": 18775.303645876495,
+                                                    "y": 16609.121372245958
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "085e9327-a7a6-4c5b-aba3-23b2fdc45d68",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 18775.303645876495,
+                                                "y": 16609.121372245958
+                                            },
+                                            "targetPosition": {
+                                                "x": 18999.390991681874,
+                                                "y": 16629.36640743733
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "Osc L Prev",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.oscLoPrevLoc\ny = record.oscLowValPrev",
+                                            "project": "Foundations",
+                                            "id": "662e41f4-a01d-4247-a06e-691d10799d1a",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 18709.723395640674,
+                                                    "y": 16456.164404551357
+                                                },
+                                                "targetPosition": {
+                                                    "x": 18806.27926098774,
+                                                    "y": 16513.898405513348
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 2,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "652b034a-6bbd-460a-900a-1b378273e7b8",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 18806.27926098774,
+                                                "y": 16513.898405513348
+                                            },
+                                            "targetPosition": {
+                                                "x": 18999.390991681874,
+                                                "y": 16629.36640743733
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    }
+                                ],
+                                "id": "23526e99-a35e-49d6-a80f-22fc169c3620",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 18690.385745982865,
+                                        "y": 16280.94350223938
+                                    },
+                                    "targetPosition": {
+                                        "x": 18887.985599991167,
+                                        "y": 16173.336357049584
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 1,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "polygons": [
+                            {
+                                "type": "Polygon",
+                                "name": "Bearish Div",
+                                "project": "Foundations",
+                                "polygonCondition": {
+                                    "type": "Polygon Condition",
+                                    "name": "New Polygon Condition",
+                                    "code": "record.oscHighVal < record.oscHighValPrev && record.candleHighVal > record.candleHighValPrev && (record.oscHighVal > 70 || record.oscHighValPrev > 70)",
+                                    "project": "Foundations",
+                                    "id": "ad550cca-8e10-4876-9ac3-10bd3d4edad8",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 18714.834327294328,
+                                            "y": 16143.215779936492
+                                        },
+                                        "targetPosition": {
+                                            "x": 18939.436168517397,
+                                            "y": 16129.836208971496
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonBody": {
+                                    "type": "Polygon Body",
+                                    "name": "New Polygon Body",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 0.2,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.DARK_TURQUOISE\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "6e4de47d-51d6-42ea-bb00-359f91535311",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 18637.635139939746,
+                                                "y": 15978.76540057533
+                                            },
+                                            "targetPosition": {
+                                                "x": 18738.235482798962,
+                                                "y": 16029.122336707385
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "b978b6e1-b90f-4032-a489-763c03da21c9",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 18738.235482798962,
+                                            "y": 16029.122336707385
+                                        },
+                                        "targetPosition": {
+                                            "x": 18939.436168517397,
+                                            "y": 16129.836208971496
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 0.2,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RED\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "1831011b-053b-4ac2-b70e-7f3ac8b781a5",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 18753.604215078958,
+                                                "y": 15848.104536841338
+                                            },
+                                            "targetPosition": {
+                                                "x": 18815.548199558438,
+                                                "y": 15942.015094218057
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "4bca7df2-b973-44ba-a454-78f1c4ea8d93",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 18815.548199558438,
+                                            "y": 15942.015094218057
+                                        },
+                                        "targetPosition": {
+                                            "x": 18939.436168517397,
+                                            "y": 16129.836208971496
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Osc H Prev",
+                                        "project": "Foundations",
+                                        "id": "e7f06951-72ef-4ba0-80f2-dfb73b48bc84",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 18926.0565975524,
+                                                "y": 15905.234367748426
+                                            },
+                                            "targetPosition": {
+                                                "x": 18939.436168517397,
+                                                "y": 16129.836208971496
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Osc H Prev",
+                                                "id": "bc79def2-7a43-44f7-a897-6151288f4666"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "UO Divergence Plotter",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Osc H Prev",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid OSC H",
+                                        "project": "Foundations",
+                                        "id": "45e551dd-7125-4f26-8fe6-681e3699fc95",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19040.150040781507,
+                                                "y": 15928.63552325306
+                                            },
+                                            "targetPosition": {
+                                                "x": 18939.436168517397,
+                                                "y": 16129.836208971496
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "OSC H",
+                                                "id": "c078a5ce-ecbb-44b8-90db-40e243773a85"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "UO Divergence Plotter",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "OSC H",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "d3a1af63-f549-490f-85c9-60e713978450",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 18672.771309611573,
+                                        "y": 15778.136649032982
+                                    },
+                                    "targetPosition": {
+                                        "x": 18887.985599991167,
+                                        "y": 16173.336357049584
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Polygon",
+                                "name": "Bullish Div",
+                                "project": "Foundations",
+                                "polygonCondition": {
+                                    "type": "Polygon Condition",
+                                    "name": "New Polygon Condition",
+                                    "code": "record.oscLowVal > record.oscLowValPrev && record.candleLowVal < record.candleLowValPrev && (record.oscLowVal < 30 || record.oscLowValPrev < 30)",
+                                    "project": "Foundations",
+                                    "id": "d855839b-6417-4197-9715-15b9e029e2fa",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 18758.05159306845,
+                                            "y": 15854.847011504015
+                                        },
+                                        "targetPosition": {
+                                            "x": 19160.45296450532,
+                                            "y": 16056.274756032235
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonBody": {
+                                    "type": "Polygon Body",
+                                    "name": "New Polygon Body",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 0.2,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.GREEN\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "698de147-bd8d-4922-a98d-5a245ade77fa",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 18974.62101106688,
+                                                "y": 15774.543083902077
+                                            },
+                                            "targetPosition": {
+                                                "x": 19036.56499554636,
+                                                "y": 15868.453641278797
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "2d221b2f-6e09-4e69-a338-be8d9041c1c4",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19036.56499554636,
+                                            "y": 15868.453641278797
+                                        },
+                                        "targetPosition": {
+                                            "x": 19160.45296450532,
+                                            "y": 16056.274756032235
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 0.2,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.GREEN\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "f7ee1543-e04e-466b-b8c4-d7c04609076e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19140.383608057822,
+                                                "y": 15719.37199419763
+                                            },
+                                            "targetPosition": {
+                                                "x": 19147.073393540322,
+                                                "y": 15831.672914809165
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "d125e732-79e8-4e1d-b63c-4a5f9b50e252",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19147.073393540322,
+                                            "y": 15831.672914809165
+                                        },
+                                        "targetPosition": {
+                                            "x": 19160.45296450532,
+                                            "y": 16056.274756032235
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Osc L Prev",
+                                        "project": "Foundations",
+                                        "id": "949e7745-70c9-4698-b9f8-216d7929f0df",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19261.16683676943,
+                                                "y": 15855.0740703138
+                                            },
+                                            "targetPosition": {
+                                                "x": 19160.45296450532,
+                                                "y": 16056.274756032235
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Osc L Prev",
+                                                "id": "652b034a-6bbd-460a-900a-1b378273e7b8"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "UO Divergence Plotter",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Osc L Prev",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Osc L",
+                                        "project": "Foundations",
+                                        "id": "8cf60f48-a417-4f2a-8e82-f32186cf24d4",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19348.274079258757,
+                                                "y": 15932.386787073276
+                                            },
+                                            "targetPosition": {
+                                                "x": 19160.45296450532,
+                                                "y": 16056.274756032235
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Osc L",
+                                                "id": "085e9327-a7a6-4c5b-aba3-23b2fdc45d68"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "UO Divergence Plotter",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Osc L",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "541d0d1c-8be5-43c8-ae04-7a6bfdc3ee1d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 18899.2044112733,
+                                        "y": 15723.476225149217
+                                    },
+                                    "targetPosition": {
+                                        "x": 18887.985599991167,
+                                        "y": 16173.336357049584
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Polygon",
+                                "name": "Bullish Continuation",
+                                "project": "Foundations",
+                                "polygonCondition": {
+                                    "type": "Polygon Condition",
+                                    "name": "New Polygon Condition",
+                                    "code": "record.oscLowValPrev > record.oscLowVal && record.candleLowValPrev < record.candleLowVal && (record.oscLowValPrev < 30 && record.oscLowVal < 30)",
+                                    "project": "Foundations",
+                                    "id": "9e80e45f-2847-4442-89cd-601c6dced746",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19264.751882004573,
+                                            "y": 15915.255952288064
+                                        },
+                                        "targetPosition": {
+                                            "x": 19388.639850963533,
+                                            "y": 16103.077067041502
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonBody": {
+                                    "type": "Polygon Body",
+                                    "name": "New Polygon Body",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 0.2,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            5,\r\n            5\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.APPLE_GREEN\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            5,\r\n            5\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "0fb0e0df-4f59-4a44-8986-17785cb881c2",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19368.570494516036,
+                                                "y": 15766.174305206898
+                                            },
+                                            "targetPosition": {
+                                                "x": 19375.260279998536,
+                                                "y": 15878.475225818433
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "d5c630d1-0e88-4799-8814-30ed71226e77",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19375.260279998536,
+                                            "y": 15878.475225818433
+                                        },
+                                        "targetPosition": {
+                                            "x": 19388.639850963533,
+                                            "y": 16103.077067041502
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 0.2,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            5,\r\n            5\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.APPLE_GREEN\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            5,\r\n            5\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "a9ff126c-2ff9-456b-ae0e-47dbe63818a6",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19539.7106593597,
+                                                "y": 15801.27603846385
+                                            },
+                                            "targetPosition": {
+                                                "x": 19489.353723227643,
+                                                "y": 15901.876381323067
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "3fb32c4a-b3fc-4857-9561-c0d48dfcbe88",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19489.353723227643,
+                                            "y": 15901.876381323067
+                                        },
+                                        "targetPosition": {
+                                            "x": 19388.639850963533,
+                                            "y": 16103.077067041502
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Osc L Prev",
+                                        "project": "Foundations",
+                                        "id": "cb3ed5b3-b367-49ce-ab4c-520d91b66722",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19576.46096571697,
+                                                "y": 15979.189098082545
+                                            },
+                                            "targetPosition": {
+                                                "x": 19388.639850963533,
+                                                "y": 16103.077067041502
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Osc L Prev",
+                                                "id": "652b034a-6bbd-460a-900a-1b378273e7b8"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "UO Divergence Plotter",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Osc L Prev",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Osc L",
+                                        "project": "Foundations",
+                                        "id": "696f19b2-53cb-4f55-8d34-d21ff72f5f1d",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19613.241692186602,
+                                                "y": 16089.697496076506
+                                            },
+                                            "targetPosition": {
+                                                "x": 19388.639850963533,
+                                                "y": 16103.077067041502
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Osc L",
+                                                "id": "085e9327-a7a6-4c5b-aba3-23b2fdc45d68"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "UO Divergence Plotter",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Osc L",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "f54481d2-5465-4aa4-8a27-773d82926225",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19122.63144151194,
+                                        "y": 15789.355460315113
+                                    },
+                                    "targetPosition": {
+                                        "x": 18887.985599991167,
+                                        "y": 16173.336357049584
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Polygon",
+                                "name": "Bearish Continuation",
+                                "project": "Foundations",
+                                "polygonCondition": {
+                                    "type": "Polygon Condition",
+                                    "name": "New Polygon Condition",
+                                    "code": "record.oscHighValPrev < record.oscHighVal && record.candleHighValPrev > record.candleHighVal && (record.oscHighValPrev > 70 && record.oscHighVal > 70)",
+                                    "project": "Foundations",
+                                    "id": "0563a520-b86a-48fb-bdc5-d597721a8fc6",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19549.474764977193,
+                                            "y": 16033.100659337386
+                                        },
+                                        "targetPosition": {
+                                            "x": 19562.85433594219,
+                                            "y": 16257.702500560456
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonBody": {
+                                    "type": "Polygon Body",
+                                    "name": "New Polygon Body",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 0.2,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            5,\r\n            5\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            5,\r\n            5\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "edfadb4c-2320-41a7-88f4-e429e011793e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19713.925144338355,
+                                                "y": 15955.901471982803
+                                            },
+                                            "targetPosition": {
+                                                "x": 19663.5682082063,
+                                                "y": 16056.50181484202
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "503a90ff-ddf1-4c1f-8974-d3fadd4b163b",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19663.5682082063,
+                                            "y": 16056.50181484202
+                                        },
+                                        "targetPosition": {
+                                            "x": 19562.85433594219,
+                                            "y": 16257.702500560456
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 0.2,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            5,\r\n            5\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            5,\r\n            5\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.RUSTED_RED\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "6af4b09c-b899-4a2c-81b6-c13b00e180e7",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19844.586008072347,
+                                                "y": 16071.870547122016
+                                            },
+                                            "targetPosition": {
+                                                "x": 19750.675450695628,
+                                                "y": 16133.814531601496
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "cd5c4c54-19e3-43e6-a9fa-00ecee1fcb00",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19750.675450695628,
+                                            "y": 16133.814531601496
+                                        },
+                                        "targetPosition": {
+                                            "x": 19562.85433594219,
+                                            "y": 16257.702500560456
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid Osc H Prev",
+                                        "project": "Foundations",
+                                        "id": "8dc358fd-3043-4c40-9ec0-81a87b8b0918",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19787.45617716526,
+                                                "y": 16244.322929595459
+                                            },
+                                            "targetPosition": {
+                                                "x": 19562.85433594219,
+                                                "y": 16257.702500560456
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "Osc H Prev",
+                                                "id": "bc79def2-7a43-44f7-a897-6151288f4666"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "UO Divergence Plotter",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "Osc H Prev",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Grid OSC H",
+                                        "project": "Foundations",
+                                        "id": "96d57b61-785e-4ada-b98d-f8f33277e7d6",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19764.055021660624,
+                                                "y": 16358.416372824566
+                                            },
+                                            "targetPosition": {
+                                                "x": 19562.85433594219,
+                                                "y": 16257.702500560456
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 2,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "OSC H",
+                                                "id": "c078a5ce-ecbb-44b8-90db-40e243773a85"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "UO Divergence Plotter",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "New Shapes",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Grid",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "OSC H",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "163303eb-9373-4fa5-84e7-660ff971b40d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19283.18530800777,
+                                        "y": 15958.12206666999
+                                    },
+                                    "targetPosition": {
+                                        "x": 18887.985599991167,
+                                        "y": 16173.336357049584
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "images": [],
+                        "texts": [],
+                        "id": "45660ba4-3d39-4fa5-94ff-baeb5291bc86",
+                        "savedPayload": {
+                            "position": {
+                                "x": 18887.985599991167,
+                                "y": 16173.336357049584
+                            },
+                            "targetPosition": {
+                                "x": 18876.766788709036,
+                                "y": 16623.19648894995
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": true,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "panels": [
+                        {
+                            "type": "Plotter Panel",
+                            "name": "KST Divergence",
+                            "config": "{\n    \"codeName\": \"kst-div\"\n}",
+                            "project": "Foundations",
+                            "panelData": [
+                                {
+                                    "type": "Panel Data",
+                                    "name": "Div Status",
+                                    "config": "{}",
+                                    "project": "Foundations",
+                                    "dataFormula": {
+                                        "type": "Data Formula",
+                                        "name": "New Data Formula",
+                                        "code": "record.status",
+                                        "project": "Foundations",
+                                        "id": "d5e536af-c954-4929-9fe4-32a9e78863c7",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19201.63555204316,
+                                                "y": 16083.961466163011
+                                            },
+                                            "targetPosition": {
+                                                "x": 19138.00109738025,
+                                                "y": 16299.775404961583
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "0c07d34c-2410-4c40-915d-8b85232ac50f",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19138.00109738025,
+                                            "y": 16299.775404961583
+                                        },
+                                        "targetPosition": {
+                                            "x": 19074.366642717338,
+                                            "y": 16515.589343760155
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Panel Data",
+                                    "name": "Div Strength",
+                                    "config": "{}",
+                                    "project": "Foundations",
+                                    "dataFormula": {
+                                        "type": "Data Formula",
+                                        "name": "New Data Formula",
+                                        "code": "record.strength",
+                                        "project": "Foundations",
+                                        "id": "0d2c4295-b4ec-48d1-b454-5c8529f367c6",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19469.56635073394,
+                                                "y": 16300.375053380563
+                                            },
+                                            "targetPosition": {
+                                                "x": 19271.96649672564,
+                                                "y": 16407.98219857036
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "9466ec22-7883-48d1-95ba-9c76ef103ad4",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19271.96649672564,
+                                            "y": 16407.98219857036
+                                        },
+                                        "targetPosition": {
+                                            "x": 19074.366642717338,
+                                            "y": 16515.589343760155
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Panel Data",
+                                    "name": "Strength Percentage",
+                                    "config": "{\n  \"valueDecimals\": 2\n}",
+                                    "project": "Foundations",
+                                    "dataFormula": {
+                                        "type": "Data Formula",
+                                        "name": "New Data Formula",
+                                        "code": "record.divPerc",
+                                        "project": "Foundations",
+                                        "id": "534ccf1c-5178-4385-849c-8072ace9d2e9",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 19505.99452031448,
+                                                "y": 16642.85825308598
+                                            },
+                                            "targetPosition": {
+                                                "x": 19290.18058151591,
+                                                "y": 16579.223798423067
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "785088b4-40d4-4ee1-9c88-d0cb595011d5",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 19290.18058151591,
+                                            "y": 16579.223798423067
+                                        },
+                                        "targetPosition": {
+                                            "x": 19074.366642717338,
+                                            "y": 16515.589343760155
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "id": "cef45c52-77c2-4bf1-bfce-4e70d994873f",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 19074.366642717338,
+                                    "y": 16515.589343760155
+                                },
+                                "targetPosition": {
+                                    "x": 18876.766788709036,
+                                    "y": 16623.19648894995
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": true,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 2,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "id": "cdf97cc0-0a5e-45fa-8170-22a65aa6b838",
+                    "savedPayload": {
+                        "position": {
+                            "x": 18773.766788709036,
+                            "y": 17020.19648894995
+                        },
+                        "targetPosition": {
+                            "x": 18539.12094718826,
+                            "y": 17404.17738568442
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -65225,12 +66914,12 @@
                         "id": "ca97f553-621b-4c23-b4bc-0b2e72466d19",
                         "savedPayload": {
                             "position": {
-                                "x": 20022.749880254407,
-                                "y": 17239.638532085908
+                                "x": 20026.999821311758,
+                                "y": 17249.654980237436
                             },
                             "targetPosition": {
-                                "x": 19695.431741546534,
-                                "y": 17548.44726912684
+                                "x": 19697.126478988335,
+                                "y": 17555.73271223435
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -65265,12 +66954,12 @@
                                         "id": "c6c4f8a0-5678-45ab-a497-3f3a306805b5",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 20131.60820550272,
-                                                "y": 17502.879776431266
+                                                "x": 20133.666590000645,
+                                                "y": 17513.79185414532
                                             },
                                             "targetPosition": {
-                                                "x": 19967.40688359237,
-                                                "y": 17541.79620461905
+                                                "x": 19969.14750481996,
+                                                "y": 17551.342261750448
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -65288,12 +66977,12 @@
                                     "id": "24c789f9-feca-4767-aaac-2e0aa203c882",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 19967.40688359237,
-                                            "y": 17541.79620461905
+                                            "x": 19969.14750481996,
+                                            "y": 17551.342261750448
                                         },
                                         "targetPosition": {
-                                            "x": 19803.205561682025,
-                                            "y": 17580.712632806837
+                                            "x": 19804.628419639277,
+                                            "y": 17588.892669355577
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -65321,12 +67010,12 @@
                                         "id": "c6e20a63-a4f4-4102-8c37-20ef1ed89db6",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 20034.812114462726,
-                                                "y": 17826.201236837744
+                                                "x": 20034.18671863696,
+                                                "y": 17836.29767609814
                                             },
                                             "targetPosition": {
-                                                "x": 19919.008838072376,
-                                                "y": 17703.45693482229
+                                                "x": 19919.40756913812,
+                                                "y": 17712.59517272686
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -65344,12 +67033,12 @@
                                     "id": "8d0dcf36-dba9-40ed-bd1a-03459daac598",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 19919.008838072376,
-                                            "y": 17703.45693482229
+                                            "x": 19919.40756913812,
+                                            "y": 17712.59517272686
                                         },
                                         "targetPosition": {
-                                            "x": 19803.205561682025,
-                                            "y": 17580.712632806837
+                                            "x": 19804.628419639277,
+                                            "y": 17588.892669355577
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -65368,12 +67057,12 @@
                             "id": "20a05217-4496-4f7a-bb18-19dadee51a3c",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19803.205561682025,
-                                    "y": 17580.712632806837
+                                    "x": 19804.628419639277,
+                                    "y": 17588.892669355577
                                 },
                                 "targetPosition": {
-                                    "x": 19695.431741546534,
-                                    "y": 17548.44726912684
+                                    "x": 19697.126478988335,
+                                    "y": 17555.73271223435
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -65392,17 +67081,17 @@
                     "id": "fc3b266d-85c3-4cda-b48c-22db2ca3f077",
                     "savedPayload": {
                         "position": {
-                            "x": 19695.431741546534,
-                            "y": 17548.44726912684
+                            "x": 19697.126478988335,
+                            "y": 17555.73271223435
                         },
                         "targetPosition": {
-                            "x": 19257.561549785612,
-                            "y": 17652.224410960935
+                            "x": 19258.408918506513,
+                            "y": 17655.86713251469
                         },
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": true,
+                            "isCollapsed": false,
                             "angleToParent": 1,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
