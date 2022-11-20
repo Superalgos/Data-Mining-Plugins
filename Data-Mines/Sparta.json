@@ -26,21 +26,21 @@
                                 "type": "Output Dataset",
                                 "name": "Multi-Time-Frame-Market Popular SMAs",
                                 "project": "Foundations",
-                                "id": "6b361e67-c005-4c68-8e60-9561afea7995",
+                                "id": "0d776263-8a1e-437c-8c89-e051d83bd787",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18820.205391236494,
-                                        "y": 24226.416339260315
+                                        "x": 18861.59412608915,
+                                        "y": 24440.818576708793
                                     },
                                     "targetPosition": {
-                                        "x": 19207.051009136172,
-                                        "y": 24337.840416315114
+                                        "x": 19285.78279708063,
+                                        "y": 24290.605490053596
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
                                         "isCollapsed": false,
-                                        "angleToParent": 3,
+                                        "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
@@ -74,73 +74,23 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Market Base11 SMAs",
-                                "project": "Foundations",
-                                "id": "5d513ab5-6e74-4b56-9ff9-889c8fea55b6",
-                                "savedPayload": {
-                                    "position": {
-                                        "x": 18863.67586498336,
-                                        "y": 24122.475106367754
-                                    },
-                                    "targetPosition": {
-                                        "x": 19207.051009136172,
-                                        "y": 24337.840416315114
-                                    },
-                                    "floatingObject": {
-                                        "isPinned": false,
-                                        "isFrozen": false,
-                                        "isCollapsed": false,
-                                        "angleToParent": 3,
-                                        "distanceToParent": 3,
-                                        "arrangementStyle": 0
-                                    },
-                                    "uiObject": {
-                                        "isRunning": false
-                                    },
-                                    "referenceParent": {
-                                        "type": "Dataset Definition",
-                                        "name": "Multi-Time-Frame-Market",
-                                        "id": "b2698fb2-3dee-406f-9bd6-461771adb181"
-                                    },
-                                    "referenceParentCombinedNodePath": [
-                                        [
-                                            "Sparta",
-                                            "Data Mine"
-                                        ],
-                                        [
-                                            "Simple Moving Average (SMA)",
-                                            "Indicator Bot"
-                                        ],
-                                        [
-                                            "Base11 SMAs",
-                                            "Product Definition"
-                                        ],
-                                        [
-                                            "Multi-Time-Frame-Market",
-                                            "Dataset Definition"
-                                        ]
-                                    ]
-                                }
-                            },
-                            {
-                                "type": "Output Dataset",
                                 "name": "Multi-Time-Frame-Market Base7 SMAs",
                                 "project": "Foundations",
-                                "id": "36eca54d-9b12-494b-89d1-63da6b41d84f",
+                                "id": "69d894b8-0767-485b-b37a-a166f7a2e347",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18932.835762906718,
-                                        "y": 24037.584550800224
+                                        "x": 18836.39950644107,
+                                        "y": 24267.05430974427
                                     },
                                     "targetPosition": {
-                                        "x": 19207.051009136172,
-                                        "y": 24337.840416315114
+                                        "x": 19285.78279708063,
+                                        "y": 24290.605490053596
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
                                         "isCollapsed": false,
-                                        "angleToParent": 3,
+                                        "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
@@ -174,23 +124,123 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Market Base6 SMAs",
+                                "name": "Multi-Time-Frame-Market Base11 SMAs",
                                 "project": "Foundations",
-                                "id": "3cf7431e-358e-4fe7-b3e9-4b0825f8382b",
+                                "id": "f4e65f9b-cad3-48d5-8f00-1d3800833563",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19021.117145025986,
-                                        "y": 23975.542315039776
+                                        "x": 18879.61941912319,
+                                        "y": 24096.875496489865
                                     },
                                     "targetPosition": {
-                                        "x": 19207.051009136172,
-                                        "y": 24337.840416315114
+                                        "x": 19285.78279708063,
+                                        "y": 24290.605490053596
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
                                         "isCollapsed": false,
-                                        "angleToParent": 3,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "b2698fb2-3dee-406f-9bd6-461771adb181"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Simple Moving Average (SMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base11 SMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Market Base5 SMAs",
+                                "project": "Foundations",
+                                "id": "2345c8ef-d318-4e8f-8421-17c4108b832a",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 18984.67402421914,
+                                        "y": 23956.190318588768
+                                    },
+                                    "targetPosition": {
+                                        "x": 19285.78279708063,
+                                        "y": 24290.605490053596
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "bda8eb74-bd2b-42d8-b008-03caa80d16d6"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Simple Moving Average (SMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base5 SMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Market Base6 SMAs",
+                                "project": "Foundations",
+                                "id": "37fee8f9-b9e9-43c3-a31e-c59b5a6d39cc",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19135.569710425432,
+                                        "y": 23866.416819062117
+                                    },
+                                    "targetPosition": {
+                                        "x": 19285.78279708063,
+                                        "y": 24290.605490053596
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
@@ -224,23 +274,23 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Market Base5 SMAs",
+                                "name": "Multi-Time-Frame-Market Base12 SMAs",
                                 "project": "Foundations",
-                                "id": "09d7bdff-7ce9-44f2-98eb-6e2846be35d8",
+                                "id": "e26952ab-f81f-46a7-a63e-4c657c4e5e75",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19147.7456181511,
-                                        "y": 23938.9172816303
+                                        "x": 19309.333977389953,
+                                        "y": 23841.22219941404
                                     },
                                     "targetPosition": {
-                                        "x": 19207.051009136172,
-                                        "y": 24337.840416315114
+                                        "x": 19285.78279708063,
+                                        "y": 24290.605490053596
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
                                         "isCollapsed": false,
-                                        "angleToParent": 3,
+                                        "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
@@ -250,7 +300,7 @@
                                     "referenceParent": {
                                         "type": "Dataset Definition",
                                         "name": "Multi-Time-Frame-Market",
-                                        "id": "bda8eb74-bd2b-42d8-b008-03caa80d16d6"
+                                        "id": "7a5661e9-3a10-409f-b3f3-8f24e7a95429"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -262,7 +312,57 @@
                                             "Indicator Bot"
                                         ],
                                         [
-                                            "Base5 SMAs",
+                                            "Base12 SMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Market Base30 SMAs",
+                                "project": "Foundations",
+                                "id": "6c10526c-2d8a-4675-a3e8-d43fc85ab105",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19479.51279064436,
+                                        "y": 23884.44211209616
+                                    },
+                                    "targetPosition": {
+                                        "x": 19285.78279708063,
+                                        "y": 24290.605490053596
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "b3baf8e8-71e8-47a7-8416-badf212e875d"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Simple Moving Average (SMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base30 SMAs",
                                             "Product Definition"
                                         ],
                                         [
@@ -274,20 +374,20 @@
                             }
                         ],
                         "outputDatasetFolders": [],
-                        "id": "0102062f-55a7-40b2-bb5a-5fdec10094d3",
+                        "id": "5f8ef698-ce10-44ca-aa6b-5087da63532c",
                         "savedPayload": {
                             "position": {
-                                "x": 19207.051009136172,
-                                "y": 24337.840416315114
+                                "x": 19285.78279708063,
+                                "y": 24290.605490053596
                             },
                             "targetPosition": {
-                                "x": 19513.71609602225,
-                                "y": 24678.47008775239
+                                "x": 19586.891569942116,
+                                "y": 24625.020661518425
                             },
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -310,12 +410,12 @@
                                 "id": "b10b3a53-b2a3-419d-895a-6970ca5f6d64",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19278.77963585817,
-                                        "y": 24064.98969657029
+                                        "x": 19365.88990576604,
+                                        "y": 23999.42584874826
                                     },
                                     "targetPosition": {
-                                        "x": 19416.86870708746,
-                                        "y": 24219.755888569056
+                                        "x": 19493.331309074125,
+                                        "y": 24184.85424118821
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -361,12 +461,12 @@
                                 "id": "7a5e25af-1d32-40ee-9d15-904395addd9c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19362.26252621613,
-                                        "y": 24006.212822763922
+                                        "x": 19446.55117864013,
+                                        "y": 23964.771031023105
                                     },
                                     "targetPosition": {
-                                        "x": 19416.86870708746,
-                                        "y": 24219.755888569056
+                                        "x": 19493.331309074125,
+                                        "y": 24184.85424118821
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -413,12 +513,12 @@
                                 "id": "78f1f09b-0d4b-4e53-a1ba-8c3ca794647d",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19492.510708522153,
-                                        "y": 24029.72619820038
+                                        "x": 19534.334302309857,
+                                        "y": 23963.621886986322
                                     },
                                     "targetPosition": {
-                                        "x": 19416.86870708746,
-                                        "y": 24219.755888569056
+                                        "x": 19493.331309074125,
+                                        "y": 24184.85424118821
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -461,17 +561,17 @@
                         "id": "ab9653b9-75c3-41c0-983d-07261bcae5d6",
                         "savedPayload": {
                             "position": {
-                                "x": 19416.86870708746,
-                                "y": 24219.755888569056
+                                "x": 19493.331309074125,
+                                "y": 24184.85424118821
                             },
                             "targetPosition": {
-                                "x": 19513.71609602225,
-                                "y": 24678.47008775239
+                                "x": 19586.891569942116,
+                                "y": 24625.020661518425
                             },
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -488,12 +588,12 @@
                         "id": "d8c4906e-d779-4637-af38-c3e44751ec62",
                         "savedPayload": {
                             "position": {
-                                "x": 19659.15658998045,
-                                "y": 24232.489293829687
+                                "x": 19725.94921741084,
+                                "y": 24197.045229185605
                             },
                             "targetPosition": {
-                                "x": 19513.71609602225,
-                                "y": 24678.47008775239
+                                "x": 19586.891569942116,
+                                "y": 24625.020661518425
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -515,12 +615,12 @@
                         "id": "8714a4ff-f76a-484c-84d1-6cd7415111a6",
                         "savedPayload": {
                             "position": {
-                                "x": 19862.589976707626,
-                                "y": 24364.684563407158
+                                "x": 19921.306741406945,
+                                "y": 24323.911888656938
                             },
                             "targetPosition": {
-                                "x": 19513.71609602225,
-                                "y": 24678.47008775239
+                                "x": 19586.891569942116,
+                                "y": 24625.020661518425
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -565,12 +665,12 @@
                         "id": "ab67533c-1d45-45ea-8b57-3b53b15204fa",
                         "savedPayload": {
                             "position": {
-                                "x": 19973.09214435746,
-                                "y": 24580.957628226228
+                                "x": 20027.05799027233,
+                                "y": 24531.460400650434
                             },
                             "targetPosition": {
-                                "x": 19513.71609602225,
-                                "y": 24678.47008775239
+                                "x": 19586.891569942116,
+                                "y": 24625.020661518425
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -622,21 +722,21 @@
                                 "type": "Output Dataset",
                                 "name": "Multi-Time-Frame-Daily Popular SMAs",
                                 "project": "Foundations",
-                                "id": "f807ce3f-a9f1-4ee5-b62b-dc4bcb7839eb",
+                                "id": "a0fb31aa-ae7b-4bf4-ba32-61a24bf1e900",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19119.16168210328,
-                                        "y": 24087.128020964723
+                                        "x": 19079.460000381892,
+                                        "y": 24289.62261718189
                                     },
                                     "targetPosition": {
-                                        "x": 19452.64725594626,
-                                        "y": 24312.866671814667
+                                        "x": 19529.305796620894,
+                                        "y": 24277.842990443347
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
                                         "isCollapsed": false,
-                                        "angleToParent": 3,
+                                        "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
@@ -670,73 +770,23 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Daily Base11 SMAs",
-                                "project": "Foundations",
-                                "id": "3c2d5c05-e96f-4a5e-93e8-4436b9dc17af",
-                                "savedPayload": {
-                                    "position": {
-                                        "x": 19192.434730381014,
-                                        "y": 24001.264592059815
-                                    },
-                                    "targetPosition": {
-                                        "x": 19452.64725594626,
-                                        "y": 24312.866671814667
-                                    },
-                                    "floatingObject": {
-                                        "isPinned": false,
-                                        "isFrozen": false,
-                                        "isCollapsed": false,
-                                        "angleToParent": 3,
-                                        "distanceToParent": 3,
-                                        "arrangementStyle": 0
-                                    },
-                                    "uiObject": {
-                                        "isRunning": false
-                                    },
-                                    "referenceParent": {
-                                        "type": "Dataset Definition",
-                                        "name": "Multi-Time-Frame-Daily",
-                                        "id": "3fe1f916-855f-47bc-9aa8-e0886622a572"
-                                    },
-                                    "referenceParentCombinedNodePath": [
-                                        [
-                                            "Sparta",
-                                            "Data Mine"
-                                        ],
-                                        [
-                                            "Simple Moving Average (SMA)",
-                                            "Indicator Bot"
-                                        ],
-                                        [
-                                            "Base11 SMAs",
-                                            "Product Definition"
-                                        ],
-                                        [
-                                            "Multi-Time-Frame-Daily",
-                                            "Dataset Definition"
-                                        ]
-                                    ]
-                                }
-                            },
-                            {
-                                "type": "Output Dataset",
                                 "name": "Multi-Time-Frame-Daily Base7 SMAs",
                                 "project": "Foundations",
-                                "id": "aca89429-4baf-4cb2-896c-afac478044ab",
+                                "id": "bc163b18-09be-4297-b7be-38b77e03d42d",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19284.6768804878,
-                                        "y": 23942.212886173456
+                                        "x": 19109.194604697153,
+                                        "y": 24116.577413147963
                                     },
                                     "targetPosition": {
-                                        "x": 19452.64725594626,
-                                        "y": 24312.866671814667
+                                        "x": 19529.305796620894,
+                                        "y": 24277.842990443347
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
                                         "isCollapsed": false,
-                                        "angleToParent": 3,
+                                        "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
@@ -770,23 +820,123 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Daily Base6 SMAs",
+                                "name": "Multi-Time-Frame-Daily Base11 SMAs",
                                 "project": "Foundations",
-                                "id": "478336d9-fed6-4527-91f6-15b0196b30e2",
+                                "id": "3073017b-f7b8-4974-8951-1e07f9da5245",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19387.83850831695,
-                                        "y": 23910.495646181218
+                                        "x": 19202.887329665366,
+                                        "y": 23968.083431381157
                                     },
                                     "targetPosition": {
-                                        "x": 19452.64725594626,
-                                        "y": 24312.866671814667
+                                        "x": 19529.305796620894,
+                                        "y": 24277.842990443347
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
                                         "isCollapsed": false,
-                                        "angleToParent": 3,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "3fe1f916-855f-47bc-9aa8-e0886622a572"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Simple Moving Average (SMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base11 SMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Daily Base5 SMAs",
+                                "project": "Foundations",
+                                "id": "9df67692-f8b9-4faa-bebf-d9e85af23b09",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19346.274307236785,
+                                        "y": 23866.747534504175
+                                    },
+                                    "targetPosition": {
+                                        "x": 19529.305796620894,
+                                        "y": 24277.842990443347
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "87bf9691-6101-4040-8b27-6540b188fa1b"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Simple Moving Average (SMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base5 SMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Daily Base6 SMAs",
+                                "project": "Foundations",
+                                "id": "5810e7d2-d149-4502-ba00-47545da60db0",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19517.526169882352,
+                                        "y": 23827.997194204345
+                                    },
+                                    "targetPosition": {
+                                        "x": 19529.305796620894,
+                                        "y": 24277.842990443347
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
@@ -820,23 +970,23 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Daily Base5 SMAs",
+                                "name": "Multi-Time-Frame-Daily Base12 SMAs",
                                 "project": "Foundations",
-                                "id": "44b7cf5e-729b-497e-8a76-0e902b74d254",
+                                "id": "e483f31b-fe82-44f7-8e4c-34efd6f629f9",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19519.556268944936,
-                                        "y": 23915.032196646986
+                                        "x": 19690.57137391628,
+                                        "y": 23857.731798519606
                                     },
                                     "targetPosition": {
-                                        "x": 19452.64725594626,
-                                        "y": 24312.866671814667
+                                        "x": 19529.305796620894,
+                                        "y": 24277.842990443347
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
                                         "isCollapsed": false,
-                                        "angleToParent": 3,
+                                        "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
@@ -846,7 +996,7 @@
                                     "referenceParent": {
                                         "type": "Dataset Definition",
                                         "name": "Multi-Time-Frame-Daily",
-                                        "id": "87bf9691-6101-4040-8b27-6540b188fa1b"
+                                        "id": "88bd54f9-1bd3-4d3b-a21e-2ae9f782c1d2"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -858,7 +1008,57 @@
                                             "Indicator Bot"
                                         ],
                                         [
-                                            "Base5 SMAs",
+                                            "Base12 SMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Daily Base30 SMAs",
+                                "project": "Foundations",
+                                "id": "2bde7639-3fb7-4f54-b780-cf3c26887929",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19839.065355683084,
+                                        "y": 23951.424523487818
+                                    },
+                                    "targetPosition": {
+                                        "x": 19529.305796620894,
+                                        "y": 24277.842990443347
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "40f46850-0aa7-4bf9-9afa-4c4319d92fe6"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Simple Moving Average (SMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base30 SMAs",
                                             "Product Definition"
                                         ],
                                         [
@@ -870,20 +1070,20 @@
                             }
                         ],
                         "outputDatasetFolders": [],
-                        "id": "d3add40c-8743-43b9-b1ee-e04376cb10ef",
+                        "id": "44454cef-7310-4f98-a68d-e3b8b10b4bb8",
                         "savedPayload": {
                             "position": {
-                                "x": 19452.64725594626,
-                                "y": 24312.866671814667
+                                "x": 19529.305796620894,
+                                "y": 24277.842990443347
                             },
                             "targetPosition": {
-                                "x": 19639.084631327853,
-                                "y": 24731.642383616727
+                                "x": 19712.337286005004,
+                                "y": 24688.93844638252
                             },
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -906,12 +1106,12 @@
                                 "id": "246732e0-a114-497c-a832-cbb3d0a14b56",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19583.552647113836,
-                                        "y": 24084.54016410246
+                                        "x": 19678.742305827753,
+                                        "y": 24031.347997504927
                                     },
                                     "targetPosition": {
-                                        "x": 19688.756584562994,
-                                        "y": 24266.094013375685
+                                        "x": 19759.375094475447,
+                                        "y": 24241.403593466795
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -957,12 +1157,12 @@
                                 "id": "327cbf41-1999-407d-96d6-ad2a52ae0cd8",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19668.862523921245,
-                                        "y": 24034.11493674431
+                                        "x": 19747.599504320784,
+                                        "y": 24016.711948147018
                                     },
                                     "targetPosition": {
-                                        "x": 19688.756584562994,
-                                        "y": 24266.094013375685
+                                        "x": 19759.375094475447,
+                                        "y": 24241.403593466795
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1008,12 +1208,12 @@
                                 "id": "8c0d98e0-bd5f-47de-9cd6-4dcc41d77317",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19727.40160510091,
-                                        "y": 24083.449829083536
+                                        "x": 19817.609379623515,
+                                        "y": 24024.070282551755
                                     },
                                     "targetPosition": {
-                                        "x": 19688.756584562994,
-                                        "y": 24266.094013375685
+                                        "x": 19759.375094475447,
+                                        "y": 24241.403593466795
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1060,12 +1260,12 @@
                                 "id": "62ddfb1d-d956-41df-9960-2616f91535ae",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19857.728548770934,
-                                        "y": 24108.525327753196
+                                        "x": 19881.918877353826,
+                                        "y": 24052.702715679075
                                     },
                                     "targetPosition": {
-                                        "x": 19688.756584562994,
-                                        "y": 24266.094013375685
+                                        "x": 19759.375094475447,
+                                        "y": 24241.403593466795
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1108,12 +1308,12 @@
                         "id": "b48091f2-9db5-41cd-9e27-1c7b761a4ae6",
                         "savedPayload": {
                             "position": {
-                                "x": 19688.756584562994,
-                                "y": 24266.094013375685
+                                "x": 19759.375094475447,
+                                "y": 24241.403593466795
                             },
                             "targetPosition": {
-                                "x": 19639.084631327853,
-                                "y": 24731.642383616727
+                                "x": 19712.337286005004,
+                                "y": 24688.93844638252
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1135,12 +1335,12 @@
                         "id": "f2e8ee3c-a8c0-4deb-8e1b-b88b18c26e2a",
                         "savedPayload": {
                             "position": {
-                                "x": 19892.00947858777,
-                                "y": 24385.55329272885
+                                "x": 19844.58896777081,
+                                "y": 24506.909622648156
                             },
                             "targetPosition": {
-                                "x": 19639.084631327853,
-                                "y": 24731.642383616727
+                                "x": 19712.337286005004,
+                                "y": 24688.93844638252
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1162,12 +1362,12 @@
                         "id": "748e9e81-5af9-496b-8a8a-85f1765fa04a",
                         "savedPayload": {
                             "position": {
-                                "x": 20031.65070454276,
-                                "y": 24557.518033610184
+                                "x": 19917.88501397459,
+                                "y": 24597.422701690462
                             },
                             "targetPosition": {
-                                "x": 19639.084631327853,
-                                "y": 24731.642383616727
+                                "x": 19712.337286005004,
+                                "y": 24688.93844638252
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1212,12 +1412,12 @@
                         "id": "4f85f6b2-6f17-4067-b7d8-6a1dddc23640",
                         "savedPayload": {
                             "position": {
-                                "x": 20065.441856842648,
-                                "y": 24776.46601113406
+                                "x": 19936.104712462864,
+                                "y": 24712.45735061774
                             },
                             "targetPosition": {
-                                "x": 19639.084631327853,
-                                "y": 24731.642383616727
+                                "x": 19712.337286005004,
+                                "y": 24688.93844638252
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1235,7 +1435,7 @@
                     "id": "478ec908-bf05-4780-b467-4030dd4a31d7",
                     "savedPayload": {
                         "position": {
-                            "x": 19712.337286005,
+                            "x": 19712.337286005004,
                             "y": 24688.93844638252
                         },
                         "targetPosition": {
@@ -5642,11 +5842,11 @@
                             "id": "7a5661e9-3a10-409f-b3f3-8f24e7a95429",
                             "savedPayload": {
                                 "position": {
-                                    "x": 20162.337286005,
+                                    "x": 20162.337286005004,
                                     "y": 25417.05374131997
                                 },
                                 "targetPosition": {
-                                    "x": 19712.337286005,
+                                    "x": 19712.337286005004,
                                     "y": 25417.05374131997
                                 },
                                 "floatingObject": {
@@ -5670,11 +5870,11 @@
                             "id": "88bd54f9-1bd3-4d3b-a21e-2ae9f782c1d2",
                             "savedPayload": {
                                 "position": {
-                                    "x": 20076.394933473726,
+                                    "x": 20076.39493347373,
                                     "y": 25681.557104851585
                                 },
                                 "targetPosition": {
-                                    "x": 19712.337286005,
+                                    "x": 19712.337286005004,
                                     "y": 25417.05374131997
                                 },
                                 "floatingObject": {
@@ -5708,12 +5908,12 @@
                                     "id": "dc3c0fc5-ae9b-49e7-8000-d486124753f7",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 20479.698579423813,
-                                            "y": 25958.178461678905
+                                            "x": 19966.227484421554,
+                                            "y": 25724.571345222517
                                         },
                                         "targetPosition": {
-                                            "x": 20444.719852454524,
-                                            "y": 26211.515801717636
+                                            "x": 19943.575620814823,
+                                            "y": 25891.794117520858
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -5731,12 +5931,12 @@
                                 "id": "02db8da1-75ac-4ec4-aee0-391b341e3840",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20444.719852454524,
-                                        "y": 26211.515801717636
+                                        "x": 19943.575620814823,
+                                        "y": 25891.794117520858
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -5763,12 +5963,12 @@
                                     "id": "8c502ea3-2640-4338-b24a-113d984ba613",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 20739.62964449338,
-                                            "y": 26058.094074627483
+                                            "x": 20106.851488448177,
+                                            "y": 25777.348416688263
                                         },
                                         "targetPosition": {
-                                            "x": 20599.955135216984,
-                                            "y": 26268.639774035797
+                                            "x": 20013.887622828137,
+                                            "y": 25918.18265325373
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -5786,12 +5986,12 @@
                                 "id": "2add83f3-38b1-4dab-9432-1ed11f5fd636",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20599.955135216984,
-                                        "y": 26268.639774035797
+                                        "x": 20013.887622828137,
+                                        "y": 25918.18265325373
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -5818,12 +6018,12 @@
                                     "id": "a9ff1644-7bbf-4afa-8dd1-c987d5c282e8",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 20932.783959376633,
-                                            "y": 26258.025157342938
+                                            "x": 20210.65022504872,
+                                            "y": 25885.913383694708
                                         },
                                         "targetPosition": {
-                                            "x": 20712.01229981875,
-                                            "y": 26389.498469684793
+                                            "x": 20065.786991128407,
+                                            "y": 25972.465136756953
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -5841,12 +6041,12 @@
                                 "id": "a4c99463-b837-4e4a-be5c-840465640374",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20712.01229981875,
-                                        "y": 26389.498469684793
+                                        "x": 20065.786991128407,
+                                        "y": 25972.465136756953
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -5873,12 +6073,12 @@
                                     "id": "0f30f7bb-759c-4364-823a-a883bda54256",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 21019.68271849753,
-                                            "y": 26522.85808559815
+                                            "x": 20257.065081431483,
+                                            "y": 26028.76362306429
                                         },
                                         "targetPosition": {
-                                            "x": 20763.15054767566,
-                                            "y": 26545.49102996072
+                                            "x": 20088.994419319788,
+                                            "y": 26043.890256441744
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -5896,12 +6096,12 @@
                                 "id": "baefcf33-679c-4980-910d-7c4e5cd8ebcd",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20763.15054767566,
-                                        "y": 26545.49102996072
+                                        "x": 20088.994419319788,
+                                        "y": 26043.890256441744
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -5928,12 +6128,12 @@
                                     "id": "e548b5d2-c5f6-4f82-a955-72bd0f7e7002",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 20982.35304328483,
-                                            "y": 26798.75443222474
+                                            "x": 20236.903026049007,
+                                            "y": 26177.605892946653
                                         },
                                         "targetPosition": {
-                                            "x": 20741.945385446106,
-                                            "y": 26708.406861932912
+                                            "x": 20078.91339162855,
+                                            "y": 26118.311391382926
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -5951,12 +6151,12 @@
                                 "id": "11c516bd-1054-49b7-afae-00f92c7e3b6e",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20741.945385446106,
-                                        "y": 26708.406861932912
+                                        "x": 20078.91339162855,
+                                        "y": 26118.311391382926
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -5983,12 +6183,12 @@
                                     "id": "e7afb34d-2a3f-4be3-a271-a7df9e3d86a0",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 20827.17356715604,
-                                            "y": 27030.020358327572
+                                            "x": 20154.157401241162,
+                                            "y": 26302.960156360947
                                         },
                                         "targetPosition": {
-                                            "x": 20651.918615449675,
-                                            "y": 26846.74502776428
+                                            "x": 20037.540579224627,
+                                            "y": 26180.988523090073
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -6006,12 +6206,12 @@
                                 "id": "6818f6f8-e651-4847-89b3-0f1a86fa3428",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20651.918615449675,
-                                        "y": 26846.74502776428
+                                        "x": 20037.540579224627,
+                                        "y": 26180.988523090073
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -6038,12 +6238,12 @@
                                     "id": "02a5cf29-6c69-4919-9039-8790acfb2c7a",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 20588.700476806047,
-                                            "y": 27173.25806143756
+                                            "x": 20025.216992809637,
+                                            "y": 26379.998464068813
                                         },
                                         "targetPosition": {
-                                            "x": 20509.4566825719,
-                                            "y": 26929.4773842118
+                                            "x": 19973.070375008865,
+                                            "y": 26219.507676944006
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -6061,12 +6261,12 @@
                                 "id": "67f08f64-0594-4515-9128-e8b161c36e2e",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20509.4566825719,
-                                        "y": 26929.4773842118
+                                        "x": 19973.070375008865,
+                                        "y": 26219.507676944006
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -6093,12 +6293,12 @@
                                     "id": "60d11e57-2912-4ebd-bb34-406629fd86f5",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 20311.75934793595,
-                                            "y": 27199.523555690932
+                                            "x": 19875.620029994632,
+                                            "y": 26393.46243441588
                                         },
                                         "targetPosition": {
-                                            "x": 20346.044562015948,
-                                            "y": 26944.101331110138
+                                            "x": 19898.271893601363,
+                                            "y": 26226.23966211754
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -6116,12 +6316,12 @@
                                 "id": "5b1746b9-70e2-4906-ad74-655e74911266",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20346.044562015948,
-                                        "y": 26944.101331110138
+                                        "x": 19898.271893601363,
+                                        "y": 26226.23966211754
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -6148,12 +6348,12 @@
                                     "id": "72d7e282-d154-4799-8cb2-bd4a6807797c",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 20050.70664021779,
-                                            "y": 27101.425596237408
+                                            "x": 19734.996025968005,
+                                            "y": 26340.685362950135
                                         },
                                         "targetPosition": {
-                                            "x": 20191.5304432752,
-                                            "y": 26887.301463196818
+                                            "x": 19827.95989158805,
+                                            "y": 26199.851126384667
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -6171,12 +6371,12 @@
                                 "id": "7283c683-1d42-4284-b9c5-b6e57208b422",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20191.5304432752,
-                                        "y": 26887.301463196818
+                                        "x": 19827.95989158805,
+                                        "y": 26199.851126384667
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -6203,12 +6403,12 @@
                                     "id": "36d8fa03-ac04-41f4-afed-87f484be37c6",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 19858.529585375007,
-                                            "y": 26900.154470404093
+                                            "x": 19631.197289367465,
+                                            "y": 26232.12039594369
                                         },
                                         "targetPosition": {
-                                            "x": 20077.60724099815,
-                                            "y": 26768.45988508406
+                                            "x": 19776.06052328778,
+                                            "y": 26145.568642881444
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -6226,12 +6426,12 @@
                                 "id": "354e7cf4-a8ac-438e-9bd6-ac7d408ac9ae",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20077.60724099815,
-                                        "y": 26768.45988508406
+                                        "x": 19776.06052328778,
+                                        "y": 26145.568642881444
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -6258,12 +6458,12 @@
                                     "id": "2d0991c6-c2da-4b15-a550-555dde4db9ff",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 19772.07265278616,
-                                            "y": 26634.30364533213
+                                            "x": 19584.782432984703,
+                                            "y": 26089.270156574108
                                         },
                                         "targetPosition": {
-                                            "x": 20027.107050610775,
-                                            "y": 26611.616657839048
+                                            "x": 19752.853095096398,
+                                            "y": 26074.143523196653
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -6281,12 +6481,12 @@
                                 "id": "586edcf0-858a-4b0e-8440-1a3b65c339b1",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20027.107050610775,
-                                        "y": 26611.616657839048
+                                        "x": 19752.853095096398,
+                                        "y": 26074.143523196653
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -6313,12 +6513,12 @@
                                     "id": "69cad789-e4ce-4fa1-9eb1-eeb4d8e51987",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 19809.172065359304,
-                                            "y": 26359.626266167445
+                                            "x": 19604.94448836718,
+                                            "y": 25940.427886691745
                                         },
                                         "targetPosition": {
-                                            "x": 20049.347953388773,
-                                            "y": 26448.79898013478
+                                            "x": 19762.934122787636,
+                                            "y": 25999.72238825547
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -6336,12 +6536,12 @@
                                 "id": "de9dfbd6-21f6-4c58-a080-d94e46adde2c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20049.347953388773,
-                                        "y": 26448.79898013478
+                                        "x": 19762.934122787636,
+                                        "y": 25999.72238825547
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -6368,12 +6568,12 @@
                                     "id": "24c832cc-4409-455b-b7ab-1b2247972d66",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 19952.422425390523,
-                                            "y": 26135.279201988906
+                                            "x": 19687.690113175024,
+                                            "y": 25815.073623277458
                                         },
                                         "targetPosition": {
-                                            "x": 20140.74337829499,
-                                            "y": 26311.245497902684
+                                            "x": 19804.30693519156,
+                                            "y": 25937.04525654833
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -6391,12 +6591,12 @@
                                 "id": "a9d3aec7-b7cd-4e8c-ac55-0c6e2b84e101",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20140.74337829499,
-                                        "y": 26311.245497902684
+                                        "x": 19804.30693519156,
+                                        "y": 25937.04525654833
                                     },
                                     "targetPosition": {
-                                        "x": 20395.15310462093,
-                                        "y": 26578.16111790993
+                                        "x": 19920.923757208093,
+                                        "y": 26059.0168898192
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -6415,11 +6615,11 @@
                         "id": "19f19a94-ce1a-489a-85c5-5d45a06272d8",
                         "savedPayload": {
                             "position": {
-                                "x": 19920.92375720809,
+                                "x": 19920.923757208093,
                                 "y": 26059.0168898192
                             },
                             "targetPosition": {
-                                "x": 19712.337286005,
+                                "x": 19712.337286005004,
                                 "y": 25417.05374131997
                             },
                             "floatingObject": {
@@ -6450,11 +6650,11 @@
                                 "id": "85c09013-59b5-4165-84d3-678aea0c7ae0",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19666.839899404265,
+                                        "x": 19666.83989940427,
                                         "y": 26285.195593983004
                                     },
                                     "targetPosition": {
-                                        "x": 19620.05976897027,
+                                        "x": 19620.059768970274,
                                         "y": 26065.112383817897
                                     },
                                     "floatingObject": {
@@ -6473,11 +6673,11 @@
                             "id": "89bc92c0-8479-426d-935e-b07c25abf910",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19620.05976897027,
+                                    "x": 19620.059768970274,
                                     "y": 26065.112383817897
                                 },
                                 "targetPosition": {
-                                    "x": 19573.279638536274,
+                                    "x": 19573.279638536278,
                                     "y": 25845.02917365279
                                 },
                                 "floatingObject": {
@@ -6504,11 +6704,11 @@
                                 "id": "599f4d0f-4f66-4409-9a37-3337213ae5fd",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19238.86446707145,
+                                        "x": 19238.864467071453,
                                         "y": 26146.137946514278
                                     },
                                     "targetPosition": {
-                                        "x": 19406.072052803862,
+                                        "x": 19406.072052803866,
                                         "y": 25995.583560083534
                                     },
                                     "floatingObject": {
@@ -6527,11 +6727,11 @@
                             "id": "013c389d-9b28-4a50-a9fc-885a01b94565",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19406.072052803862,
+                                    "x": 19406.072052803866,
                                     "y": 25995.583560083534
                                 },
                                 "targetPosition": {
-                                    "x": 19573.279638536274,
+                                    "x": 19573.279638536278,
                                     "y": 25845.02917365279
                                 },
                                 "floatingObject": {
@@ -6550,11 +6750,11 @@
                         "id": "991a7c98-ccc8-4ac5-9990-a464f9468b88",
                         "savedPayload": {
                             "position": {
-                                "x": 19573.279638536274,
+                                "x": 19573.279638536278,
                                 "y": 25845.02917365279
                             },
                             "targetPosition": {
-                                "x": 19712.337286005,
+                                "x": 19712.337286005004,
                                 "y": 25417.05374131997
                             },
                             "floatingObject": {
@@ -6573,7 +6773,7 @@
                     "id": "ae01a690-1f44-4d95-a58f-c89ee39230be",
                     "savedPayload": {
                         "position": {
-                            "x": 19712.337286005,
+                            "x": 19712.337286005004,
                             "y": 25417.05374131997
                         },
                         "targetPosition": {
@@ -7547,11 +7747,11 @@
                                 "type": "Output Dataset",
                                 "name": "Multi-Time-Frame-Market Popular EMAs",
                                 "project": "Foundations",
-                                "id": "736efcda-7471-439e-b702-08c8d848c24c",
+                                "id": "0c57ef5e-f73e-4568-a7ad-639daf908b91",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19565.678248873606,
-                                        "y": 24575.918041876623
+                                        "x": 19334.37271224399,
+                                        "y": 24523.785136299106
                                     },
                                     "targetPosition": {
                                         "x": 19740.536090201425,
@@ -7562,7 +7762,7 @@
                                         "isFrozen": false,
                                         "isCollapsed": false,
                                         "angleToParent": 2,
-                                        "distanceToParent": 2,
+                                        "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
                                     "uiObject": {
@@ -7595,13 +7795,13 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Market Base7 EMAs",
+                                "name": "Multi-Time-Frame-Market Base5 EMAs",
                                 "project": "Foundations",
-                                "id": "05ad0d6f-f8c3-4413-9e97-c1baca0d3d21",
+                                "id": "9967f746-9859-4f5e-b34c-063e0ad47e9c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19682.301805053357,
-                                        "y": 24500.181818947796
+                                        "x": 19439.427317339938,
+                                        "y": 24383.09995839801
                                     },
                                     "targetPosition": {
                                         "x": 19740.536090201425,
@@ -7612,7 +7812,107 @@
                                         "isFrozen": false,
                                         "isCollapsed": false,
                                         "angleToParent": 2,
-                                        "distanceToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "86c91781-e7fd-4386-94e4-3fbe975e6828"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exponential Moving Average (EMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base5 EMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Market Base6 EMAs",
+                                "project": "Foundations",
+                                "id": "f50491f1-1eb5-4c17-83de-406932373808",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19590.32300354623,
+                                        "y": 24293.326458871357
+                                    },
+                                    "targetPosition": {
+                                        "x": 19740.536090201425,
+                                        "y": 24717.515129862837
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "2523677a-0ecc-4cc0-99e5-73fd37c25c51"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exponential Moving Average (EMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base6 EMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Market Base7 EMAs",
+                                "project": "Foundations",
+                                "id": "36bdddd8-492b-4bf5-85c8-da71194d8460",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19764.08727051075,
+                                        "y": 24268.13183922328
+                                    },
+                                    "targetPosition": {
+                                        "x": 19740.536090201425,
+                                        "y": 24717.515129862837
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
                                     "uiObject": {
@@ -7647,11 +7947,11 @@
                                 "type": "Output Dataset",
                                 "name": "Multi-Time-Frame-Market Base11 EMAs",
                                 "project": "Foundations",
-                                "id": "c17c9673-38aa-4a65-a3d1-de484f691e11",
+                                "id": "9c62d50b-e545-4aa2-b0ea-9f9984bfdc26",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19821.168878849116,
-                                        "y": 24507.45953390097
+                                        "x": 19934.266083765157,
+                                        "y": 24311.3517519054
                                     },
                                     "targetPosition": {
                                         "x": 19740.536090201425,
@@ -7662,7 +7962,7 @@
                                         "isFrozen": false,
                                         "isCollapsed": false,
                                         "angleToParent": 2,
-                                        "distanceToParent": 2,
+                                        "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
                                     "uiObject": {
@@ -7695,13 +7995,13 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Market Base5 EMAs",
+                                "name": "Multi-Time-Frame-Market Base12 EMAs",
                                 "project": "Foundations",
-                                "id": "e1cee9a7-6092-4ffb-b0f9-6c6015336b5a",
+                                "id": "91ba2128-ba4b-42cd-ad94-2963b481c641",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19929.236967989145,
-                                        "y": 24594.971346984457
+                                        "x": 20074.951261666254,
+                                        "y": 24416.40635700135
                                     },
                                     "targetPosition": {
                                         "x": 19740.536090201425,
@@ -7712,7 +8012,7 @@
                                         "isFrozen": false,
                                         "isCollapsed": false,
                                         "angleToParent": 2,
-                                        "distanceToParent": 2,
+                                        "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
                                     "uiObject": {
@@ -7721,7 +8021,7 @@
                                     "referenceParent": {
                                         "type": "Dataset Definition",
                                         "name": "Multi-Time-Frame-Market",
-                                        "id": "86c91781-e7fd-4386-94e4-3fbe975e6828"
+                                        "id": "1d0a210c-3e18-4880-a465-ff12f28b8e15"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -7733,7 +8033,57 @@
                                             "Indicator Bot"
                                         ],
                                         [
-                                            "Base5 EMAs",
+                                            "Base12 EMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Market Base30 EMAs",
+                                "project": "Foundations",
+                                "id": "394f0c37-2ba7-4326-9bf6-359e9759e172",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 20164.724761192905,
+                                        "y": 24567.30204320764
+                                    },
+                                    "targetPosition": {
+                                        "x": 19740.536090201425,
+                                        "y": 24717.515129862837
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "0f1d28de-9c7d-40d9-907a-cbbfbaa1b3b2"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exponential Moving Average (EMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base30 EMAs",
                                             "Product Definition"
                                         ],
                                         [
@@ -7745,7 +8095,7 @@
                             }
                         ],
                         "outputDatasetFolders": [],
-                        "id": "b000bcc9-cb94-4981-8d96-22680305ae96",
+                        "id": "f879c5fe-7f50-42b6-899e-ed068763fd91",
                         "savedPayload": {
                             "position": {
                                 "x": 19740.536090201425,
@@ -7832,7 +8182,7 @@
                                 "id": "dca92f11-871d-4b88-a77e-45410de7c76e",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20023.34436708805,
+                                        "x": 20023.344367088055,
                                         "y": 24695.146226033095
                                     },
                                     "targetPosition": {
@@ -7942,7 +8292,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -8093,14 +8443,14 @@
                                 "type": "Output Dataset",
                                 "name": "Multi-Time-Frame-Daily Popular EMAs",
                                 "project": "Foundations",
-                                "id": "b50414d7-9740-4a1f-be67-744692b67b67",
+                                "id": "16d7f153-e6a3-494f-aa66-20166c9db803",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19799.213521692152,
-                                        "y": 24691.986566405627
+                                        "x": 19595.338837615003,
+                                        "y": 24570.927885131157
                                     },
                                     "targetPosition": {
-                                        "x": 19921.757304570536,
+                                        "x": 19921.757304570532,
                                         "y": 24880.687444193347
                                     },
                                     "floatingObject": {
@@ -8108,7 +8458,7 @@
                                         "isFrozen": false,
                                         "isCollapsed": false,
                                         "angleToParent": 2,
-                                        "distanceToParent": 2,
+                                        "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
                                     "uiObject": {
@@ -8141,16 +8491,16 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Daily Base11 EMAs",
+                                "name": "Multi-Time-Frame-Daily Base5 EMAs",
                                 "project": "Foundations",
-                                "id": "4797ce1a-d321-47ff-8c63-eba5b7a2e2b8",
+                                "id": "9299904a-d0c2-400c-81a0-8431f7a0d0a6",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19933.5328947252,
-                                        "y": 24655.99579887357
+                                        "x": 19738.725815186423,
+                                        "y": 24469.591988254175
                                     },
                                     "targetPosition": {
-                                        "x": 19921.757304570536,
+                                        "x": 19921.757304570532,
                                         "y": 24880.687444193347
                                     },
                                     "floatingObject": {
@@ -8158,7 +8508,7 @@
                                         "isFrozen": false,
                                         "isCollapsed": false,
                                         "angleToParent": 2,
-                                        "distanceToParent": 2,
+                                        "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
                                     "uiObject": {
@@ -8167,7 +8517,7 @@
                                     "referenceParent": {
                                         "type": "Dataset Definition",
                                         "name": "Multi-Time-Frame-Daily",
-                                        "id": "1aa7b3bf-5c36-4a3b-9e8d-335153025634"
+                                        "id": "d5e4394d-53f1-4ad6-88b4-573106658488"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -8179,7 +8529,57 @@
                                             "Indicator Bot"
                                         ],
                                         [
-                                            "Base11 EMAs",
+                                            "Base5 EMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Daily Base6 EMAs",
+                                "project": "Foundations",
+                                "id": "9ba24932-99a1-4422-a2fc-fdaf699a8c24",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 19909.97767783199,
+                                        "y": 24430.841647954345
+                                    },
+                                    "targetPosition": {
+                                        "x": 19921.757304570532,
+                                        "y": 24880.687444193347
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "81365e5b-be43-4260-b014-150d3f6ee0f7"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exponential Moving Average (EMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base6 EMAs",
                                             "Product Definition"
                                         ],
                                         [
@@ -8193,14 +8593,14 @@
                                 "type": "Output Dataset",
                                 "name": "Multi-Time-Frame-Daily Base7 EMAs",
                                 "project": "Foundations",
-                                "id": "26f0c62c-3ed1-47a0-9630-b2d627ec9796",
+                                "id": "8cfedc01-abc2-4b82-9365-34c566a25e65",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20063.35439255675,
-                                        "y": 24705.829602865528
+                                        "x": 20083.022881865916,
+                                        "y": 24460.576252269606
                                     },
                                     "targetPosition": {
-                                        "x": 19921.757304570536,
+                                        "x": 19921.757304570532,
                                         "y": 24880.687444193347
                                     },
                                     "floatingObject": {
@@ -8208,7 +8608,7 @@
                                         "isFrozen": false,
                                         "isCollapsed": false,
                                         "angleToParent": 2,
-                                        "distanceToParent": 2,
+                                        "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
                                     "uiObject": {
@@ -8241,16 +8641,16 @@
                             },
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Daily Base5 EMAs",
+                                "name": "Multi-Time-Frame-Daily Base11 EMAs",
                                 "project": "Foundations",
-                                "id": "6dda6a70-d082-4dfe-807a-b9542ca8b087",
+                                "id": "fe5b8e7f-fad7-4532-b780-da86416591ea",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20139.090615485577,
-                                        "y": 24822.45315904528
+                                        "x": 20231.51686363272,
+                                        "y": 24554.268977237818
                                     },
                                     "targetPosition": {
-                                        "x": 19921.757304570536,
+                                        "x": 19921.757304570532,
                                         "y": 24880.687444193347
                                     },
                                     "floatingObject": {
@@ -8258,7 +8658,7 @@
                                         "isFrozen": false,
                                         "isCollapsed": false,
                                         "angleToParent": 2,
-                                        "distanceToParent": 2,
+                                        "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
                                     "uiObject": {
@@ -8267,7 +8667,7 @@
                                     "referenceParent": {
                                         "type": "Dataset Definition",
                                         "name": "Multi-Time-Frame-Daily",
-                                        "id": "d5e4394d-53f1-4ad6-88b4-573106658488"
+                                        "id": "1aa7b3bf-5c36-4a3b-9e8d-335153025634"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -8279,7 +8679,107 @@
                                             "Indicator Bot"
                                         ],
                                         [
-                                            "Base5 EMAs",
+                                            "Base11 EMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Daily Base12 EMAs",
+                                "project": "Foundations",
+                                "id": "340b6035-7f77-48a6-95dd-834f4a9c648d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 20332.852760509704,
+                                        "y": 24697.655954809237
+                                    },
+                                    "targetPosition": {
+                                        "x": 19921.757304570532,
+                                        "y": 24880.687444193347
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "6728ff43-3ba4-448e-8ba7-2403732961b1"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exponential Moving Average (EMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base12 EMAs",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Daily Base30 EMAs",
+                                "project": "Foundations",
+                                "id": "d61d984c-0554-4370-9ba7-7a8e7df7cea3",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 20371.603100809534,
+                                        "y": 24868.907817454805
+                                    },
+                                    "targetPosition": {
+                                        "x": 19921.757304570532,
+                                        "y": 24880.687444193347
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "28f0f7e8-de79-4e87-b46c-6818784ff3b2"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Sparta",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exponential Moving Average (EMA)",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Base30 EMAs",
                                             "Product Definition"
                                         ],
                                         [
@@ -8291,10 +8791,10 @@
                             }
                         ],
                         "outputDatasetFolders": [],
-                        "id": "f147c25b-ca8d-43f7-b85c-e1a39e424d0e",
+                        "id": "a63bdacc-d770-4e30-acd4-8919d2e53b06",
                         "savedPayload": {
                             "position": {
-                                "x": 19921.757304570536,
+                                "x": 19921.757304570532,
                                 "y": 24880.687444193347
                             },
                             "targetPosition": {
@@ -8634,7 +9134,7 @@
                         "id": "3186797a-b7b0-497e-84aa-02612c209263",
                         "savedPayload": {
                             "position": {
-                                "x": 20043.685903247577,
+                                "x": 20043.685903247573,
                                 "y": 25650.514318772726
                             },
                             "targetPosition": {
@@ -52617,7 +53117,7 @@
         "floatingObject": {
             "isPinned": true,
             "isFrozen": false,
-            "isCollapsed": true,
+            "isCollapsed": false,
             "angleToParent": 1,
             "distanceToParent": 4,
             "arrangementStyle": 0
