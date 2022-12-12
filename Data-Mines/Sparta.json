@@ -1499,7 +1499,7 @@
                             "id": "f6a486fc-4b6d-4a18-8059-8d48606686fd",
                             "savedPayload": {
                                 "position": {
-                                    "x": 20076.394933473726,
+                                    "x": 20076.39493347373,
                                     "y": 24424.435082850905
                                 },
                                 "targetPosition": {
@@ -2934,7 +2934,7 @@
                                 "id": "62668030-d7e9-4b18-a71d-61a29e2835a7",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20687.40185519066,
+                                        "x": 20687.401855190656,
                                         "y": 25225.479618384576
                                     },
                                     "targetPosition": {
@@ -2988,7 +2988,7 @@
                                 "id": "d6b9bd51-590b-4ac5-b858-720b86dda004",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20422.898491659045,
+                                        "x": 20422.89849165905,
                                         "y": 25589.5372658533
                                     },
                                     "targetPosition": {
@@ -3110,7 +3110,7 @@
                             "id": "b2698fb2-3dee-406f-9bd6-461771adb181",
                             "savedPayload": {
                                 "position": {
-                                    "x": 20162.337286005,
+                                    "x": 20162.337286005004,
                                     "y": 24688.93844638252
                                 },
                                 "targetPosition": {
@@ -3588,7 +3588,7 @@
                                 "id": "27acaf78-8ba7-4ef8-bb1f-4875da544362",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20573.432741944176,
+                                        "x": 20573.432741944172,
                                         "y": 25600.085230704084
                                     },
                                     "targetPosition": {
@@ -3615,7 +3615,7 @@
                                     "y": 25508.569486012027
                                 },
                                 "targetPosition": {
-                                    "x": 20162.337286005,
+                                    "x": 20162.337286005004,
                                     "y": 25417.05374131997
                                 },
                                 "floatingObject": {
@@ -3642,11 +3642,11 @@
                                 "id": "87ac2bed-4c98-4a33-afc6-e208fc061685",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20209.375094475443,
+                                        "x": 20209.375094475447,
                                         "y": 25864.58859423569
                                     },
                                     "targetPosition": {
-                                        "x": 20185.85619024022,
+                                        "x": 20185.856190240225,
                                         "y": 25640.82116777783
                                     },
                                     "floatingObject": {
@@ -3665,11 +3665,11 @@
                             "id": "f5b11660-7fa0-4ce4-97cf-49587c74b981",
                             "savedPayload": {
                                 "position": {
-                                    "x": 20185.85619024022,
+                                    "x": 20185.856190240225,
                                     "y": 25640.82116777783
                                 },
                                 "targetPosition": {
-                                    "x": 20162.337286005,
+                                    "x": 20162.337286005004,
                                     "y": 25417.05374131997
                                 },
                                 "floatingObject": {
@@ -3688,7 +3688,7 @@
                         "id": "4f2c911e-f57d-4ea6-bd3b-681ef1dbe9ab",
                         "savedPayload": {
                             "position": {
-                                "x": 20162.337286005,
+                                "x": 20162.337286005004,
                                 "y": 25417.05374131997
                             },
                             "targetPosition": {
@@ -4627,11 +4627,11 @@
                                 "id": "f8ddc0cd-b2ef-4041-b644-ec78aa12992c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 20349.282173739764,
+                                        "x": 20349.28217373976,
                                         "y": 25921.137946514278
                                     },
                                     "targetPosition": {
-                                        "x": 20182.074588007352,
+                                        "x": 20182.07458800735,
                                         "y": 25770.583560083534
                                     },
                                     "floatingObject": {
@@ -4650,7 +4650,7 @@
                             "id": "9b8564dd-0446-41d8-bc01-dce34645f131",
                             "savedPayload": {
                                 "position": {
-                                    "x": 20182.074588007352,
+                                    "x": 20182.07458800735,
                                     "y": 25770.583560083534
                                 },
                                 "targetPosition": {
@@ -6835,7 +6835,7 @@
                             "id": "40f46850-0aa7-4bf9-9afa-4c4319d92fe6",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19851.394933473726,
+                                    "x": 19851.39493347373,
                                     "y": 25845.02917365279
                                 },
                                 "targetPosition": {
@@ -7560,11 +7560,11 @@
                                 "id": "a4c34659-d899-49f3-8311-c3455c80891c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19275.350397940063,
+                                        "x": 19275.35039794006,
                                         "y": 26292.56402656851
                                     },
                                     "targetPosition": {
-                                        "x": 19298.869302175284,
+                                        "x": 19298.86930217528,
                                         "y": 26068.79660011065
                                     },
                                     "floatingObject": {
@@ -7583,11 +7583,11 @@
                             "id": "ce675be3-f2dd-4a39-ae60-bd2532421892",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19298.869302175284,
+                                    "x": 19298.86930217528,
                                     "y": 26068.79660011065
                                 },
                                 "targetPosition": {
-                                    "x": 19322.388206410506,
+                                    "x": 19322.388206410502,
                                     "y": 25845.02917365279
                                 },
                                 "floatingObject": {
@@ -7614,7 +7614,7 @@
                                 "id": "a39a61bf-acf0-431d-9077-cff84f72038c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18911.29275047133,
+                                        "x": 18911.292750471333,
                                         "y": 26028.060663036904
                                     },
                                     "targetPosition": {
@@ -7641,7 +7641,7 @@
                                     "y": 25936.544918344847
                                 },
                                 "targetPosition": {
-                                    "x": 19322.388206410506,
+                                    "x": 19322.388206410502,
                                     "y": 25845.02917365279
                                 },
                                 "floatingObject": {
@@ -7660,7 +7660,7 @@
                         "id": "54cb291b-6818-411f-874d-4b5ab8b50289",
                         "savedPayload": {
                             "position": {
-                                "x": 19322.388206410506,
+                                "x": 19322.388206410502,
                                 "y": 25845.02917365279
                             },
                             "targetPosition": {
@@ -9221,7 +9221,7 @@
                             "id": "78d41812-18af-4c1f-9968-1515e52203ab",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19982.721603909056,
+                                    "x": 19982.721603909053,
                                     "y": 25406.39190001924
                                 },
                                 "targetPosition": {
@@ -9612,7 +9612,7 @@
                             "project": "Foundations",
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
-                                "code": "/* Loop Code */\n\nlet candle = record.current \n\nvariable.ema20 = calculateEMA(20, candle.close, variable.previousEMA20)\nvariable.previousEMA20 = variable.ema20 \n \nvariable.ema50 = calculateEMA(50, candle.close, variable.previousEMA50)\nvariable.previousEMA50 = variable.ema50 \n\nvariable.ema100 = calculateEMA(100, candle.close, variable.previousEMA100)\nvariable.previousEMA100 = variable.ema100 \n\nvariable.ema200 = calculateEMA(200, candle.close, variable.previousEMA200)\nvariable.previousEMA200 = variable.ema200 \n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1-k)\n}",
+                                "code": "/* Loop Code */\n\nlet candle = record.current\n\nvariable.ema20 = calculateEMA(20, candle.close, variable.previousEMA20)\nvariable.previousEMA20 = variable.ema20\n\nvariable.ema50 = calculateEMA(50, candle.close, variable.previousEMA50)\nvariable.previousEMA50 = variable.ema50\n\nvariable.ema100 = calculateEMA(100, candle.close, variable.previousEMA100)\nvariable.previousEMA100 = variable.ema100\n\nvariable.ema200 = calculateEMA(200, candle.close, variable.previousEMA200)\nvariable.previousEMA200 = variable.ema200\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1 - k)\n}",
                                 "project": "Foundations",
                                 "id": "ca0332a2-af49-4397-84ad-fd43a5d7e45a",
                                 "savedPayload": {
@@ -10651,7 +10651,7 @@
                             "project": "Foundations",
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
-                                "code": "/* Loop Code */\n\nlet candle = record.current \n\nvariable.ema5 = calculateEMA(5, candle.close, variable.previousEMA5)\nvariable.previousEMA5 = variable.ema5\n\nvariable.ema10 = calculateEMA(10, candle.close, variable.previousEMA10)\nvariable.previousEMA10 = variable.ema10\n\nvariable.ema15 = calculateEMA(15, candle.close, variable.previousEMA15)\nvariable.previousEMA15 = variable.ema15\n\nvariable.ema20 = calculateEMA(20, candle.close, variable.previousEMA20)\nvariable.previousEMA20 = variable.ema20\n\nvariable.ema25 = calculateEMA(25, candle.close, variable.previousEMA25)\nvariable.previousEMA25 = variable.ema25\n\nvariable.ema50 = calculateEMA(50, candle.close, variable.previousEMA50)\nvariable.previousEMA50 = variable.ema50\n\nvariable.ema100 = calculateEMA(100, candle.close, variable.previousEMA100)\nvariable.previousEMA100 = variable.ema100\n\nvariable.ema150 = calculateEMA(150, candle.close, variable.previousEMA150)\nvariable.previousEMA150 = variable.ema150\n\nvariable.ema200 = calculateEMA(200, candle.close, variable.previousEMA200)\nvariable.previousEMA200 = variable.ema200\n\nvariable.ema250 = calculateEMA(250, candle.close, variable.previousEMA250)\nvariable.previousEMA250 = variable.ema250\n\nvariable.ema500 = calculateEMA(500, candle.close, variable.previousEMA500)\nvariable.previousEMA500 = variable.ema500\n\nvariable.ema1000 = calculateEMA(1000, candle.close, variable.previousEMA1000)\nvariable.previousEMA1000 = variable.ema1000\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1-k)\n}\n",
+                                "code": "/* Loop Code */\n\nlet candle = record.current\n\nvariable.ema5 = calculateEMA(5, candle.close, variable.previousEMA5)\nvariable.previousEMA5 = variable.ema5\n\nvariable.ema10 = calculateEMA(10, candle.close, variable.previousEMA10)\nvariable.previousEMA10 = variable.ema10\n\nvariable.ema15 = calculateEMA(15, candle.close, variable.previousEMA15)\nvariable.previousEMA15 = variable.ema15\n\nvariable.ema20 = calculateEMA(20, candle.close, variable.previousEMA20)\nvariable.previousEMA20 = variable.ema20\n\nvariable.ema25 = calculateEMA(25, candle.close, variable.previousEMA25)\nvariable.previousEMA25 = variable.ema25\n\nvariable.ema50 = calculateEMA(50, candle.close, variable.previousEMA50)\nvariable.previousEMA50 = variable.ema50\n\nvariable.ema100 = calculateEMA(100, candle.close, variable.previousEMA100)\nvariable.previousEMA100 = variable.ema100\n\nvariable.ema150 = calculateEMA(150, candle.close, variable.previousEMA150)\nvariable.previousEMA150 = variable.ema150\n\nvariable.ema200 = calculateEMA(200, candle.close, variable.previousEMA200)\nvariable.previousEMA200 = variable.ema200\n\nvariable.ema250 = calculateEMA(250, candle.close, variable.previousEMA250)\nvariable.previousEMA250 = variable.ema250\n\nvariable.ema500 = calculateEMA(500, candle.close, variable.previousEMA500)\nvariable.previousEMA500 = variable.ema500\n\nvariable.ema1000 = calculateEMA(1000, candle.close, variable.previousEMA1000)\nvariable.previousEMA1000 = variable.ema1000\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1 - k)\n}\n",
                                 "project": "Foundations",
                                 "id": "552741f7-ba87-4f28-a8f5-1265308d6c2a",
                                 "savedPayload": {
@@ -10710,11 +10710,11 @@
                                 "id": "7f389713-b1f0-47d7-99ec-8f327a106de2",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19626.114841864823,
+                                        "x": 19626.114841864815,
                                         "y": 26440.060815459536
                                     },
                                     "targetPosition": {
-                                        "x": 19706.747630512513,
+                                        "x": 19706.74763051251,
                                         "y": 26230.005219497667
                                     },
                                     "floatingObject": {
@@ -10733,7 +10733,7 @@
                             "id": "2f9ec799-1801-4a5f-ac67-f13e14167086",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19706.747630512513,
+                                    "x": 19706.74763051251,
                                     "y": 26230.005219497667
                                 },
                                 "targetPosition": {
@@ -11671,16 +11671,16 @@
                             "project": "Foundations",
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
-                                "code": "/* Loop Code */\n\nlet candle = record.current \n\nvariable.ema6 = calculateEMA(6, candle.close, variable.previousEMA6)\nvariable.previousEMA6 = variable.ema6\n\nvariable.ema12 = calculateEMA(12, candle.close, variable.previousEMA12)\nvariable.previousEMA12 = variable.ema12\n\nvariable.ema18 = calculateEMA(18, candle.close, variable.previousEMA18)\nvariable.previousEMA18 = variable.ema18\n\nvariable.ema24 = calculateEMA(24, candle.close, variable.previousEMA24)\nvariable.previousEMA24 = variable.ema24\n\nvariable.ema30 = calculateEMA(30, candle.close, variable.previousEMA30)\nvariable.previousEMA30 = variable.ema30\n\nvariable.ema60 = calculateEMA(60, candle.close, variable.previousEMA60)\nvariable.previousEMA60 = variable.ema60\n\nvariable.ema120 = calculateEMA(120, candle.close, variable.previousEMA120)\nvariable.previousEMA120 = variable.ema120\n\nvariable.ema180 = calculateEMA(180, candle.close, variable.previousEMA180)\nvariable.previousEMA180 = variable.ema180\n\nvariable.ema240 = calculateEMA(240, candle.close, variable.previousEMA240)\nvariable.previousEMA240 = variable.ema240\n\nvariable.ema300 = calculateEMA(300, candle.close, variable.previousEMA300)\nvariable.previousEMA300 = variable.ema300\n\nvariable.ema600 = calculateEMA(600, candle.close, variable.previousEMA600)\nvariable.previousEMA600 = variable.ema600\n\nvariable.ema1200 = calculateEMA(1200, candle.close, variable.previousEMA1200)\nvariable.previousEMA1200 = variable.ema1200\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1-k)\n}",
+                                "code": "/* Loop Code */\n\nlet candle = record.current\n\nvariable.ema6 = calculateEMA(6, candle.close, variable.previousEMA6)\nvariable.previousEMA6 = variable.ema6\n\nvariable.ema12 = calculateEMA(12, candle.close, variable.previousEMA12)\nvariable.previousEMA12 = variable.ema12\n\nvariable.ema18 = calculateEMA(18, candle.close, variable.previousEMA18)\nvariable.previousEMA18 = variable.ema18\n\nvariable.ema24 = calculateEMA(24, candle.close, variable.previousEMA24)\nvariable.previousEMA24 = variable.ema24\n\nvariable.ema30 = calculateEMA(30, candle.close, variable.previousEMA30)\nvariable.previousEMA30 = variable.ema30\n\nvariable.ema60 = calculateEMA(60, candle.close, variable.previousEMA60)\nvariable.previousEMA60 = variable.ema60\n\nvariable.ema120 = calculateEMA(120, candle.close, variable.previousEMA120)\nvariable.previousEMA120 = variable.ema120\n\nvariable.ema180 = calculateEMA(180, candle.close, variable.previousEMA180)\nvariable.previousEMA180 = variable.ema180\n\nvariable.ema240 = calculateEMA(240, candle.close, variable.previousEMA240)\nvariable.previousEMA240 = variable.ema240\n\nvariable.ema300 = calculateEMA(300, candle.close, variable.previousEMA300)\nvariable.previousEMA300 = variable.ema300\n\nvariable.ema600 = calculateEMA(600, candle.close, variable.previousEMA600)\nvariable.previousEMA600 = variable.ema600\n\nvariable.ema1200 = calculateEMA(1200, candle.close, variable.previousEMA1200)\nvariable.previousEMA1200 = variable.ema1200\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1 - k)\n}",
                                 "project": "Foundations",
                                 "id": "81b84b7d-f5eb-4aff-b635-78f6c98fee39",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 19725.10009356856,
+                                        "x": 19725.100093568566,
                                         "y": 26553.963142110686
                                     },
                                     "targetPosition": {
-                                        "x": 19644.46730492087,
+                                        "x": 19644.467304920872,
                                         "y": 26343.907546148817
                                     },
                                     "floatingObject": {
@@ -11699,7 +11699,7 @@
                             "id": "123acb30-9b82-4298-a398-08bfc4228d7b",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19644.46730492087,
+                                    "x": 19644.467304920872,
                                     "y": 26343.907546148817
                                 },
                                 "targetPosition": {
@@ -12691,7 +12691,7 @@
                             "project": "Foundations",
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
-                                "code": "/* Loop Code */\n\nlet candle = record.current \n\nvariable.ema7 = calculateEMA(7, candle.close, variable.previousEMA7)\nvariable.previousEMA7 = variable.ema7\n\nvariable.ema14 = calculateEMA(14, candle.close, variable.previousEMA14)\nvariable.previousEMA14 = variable.ema14\n\nvariable.ema21 = calculateEMA(21, candle.close, variable.previousEMA21)\nvariable.previousEMA21 = variable.ema21\n\nvariable.ema28 = calculateEMA(28, candle.close, variable.previousEMA28)\nvariable.previousEMA28 = variable.ema28\n\nvariable.ema35 = calculateEMA(35, candle.close, variable.previousEMA35)\nvariable.previousEMA35 = variable.ema35\n\nvariable.ema70 = calculateEMA(70, candle.close, variable.previousEMA70)\nvariable.previousEMA70 = variable.ema70\n\nvariable.ema140 = calculateEMA(140, candle.close, variable.previousEMA140)\nvariable.previousEMA140 = variable.ema140\n\nvariable.ema210 = calculateEMA(210, candle.close, variable.previousEMA210)\nvariable.previousEMA210 = variable.ema210\n\nvariable.ema280 = calculateEMA(280, candle.close, variable.previousEMA280)\nvariable.previousEMA280 = variable.ema280\n\nvariable.ema350 = calculateEMA(350, candle.close, variable.previousEMA350)\nvariable.previousEMA350 = variable.ema350\n\nvariable.ema700 = calculateEMA(700, candle.close, variable.previousEMA700)\nvariable.previousEMA700 = variable.ema700\n\nvariable.ema1400 = calculateEMA(1400, candle.close, variable.previousEMA1400)\nvariable.previousEMA1400 = variable.ema1400\n\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1-k)\n}",
+                                "code": "/* Loop Code */\n\nlet candle = record.current\n\nvariable.ema7 = calculateEMA(7, candle.close, variable.previousEMA7)\nvariable.previousEMA7 = variable.ema7\n\nvariable.ema14 = calculateEMA(14, candle.close, variable.previousEMA14)\nvariable.previousEMA14 = variable.ema14\n\nvariable.ema21 = calculateEMA(21, candle.close, variable.previousEMA21)\nvariable.previousEMA21 = variable.ema21\n\nvariable.ema28 = calculateEMA(28, candle.close, variable.previousEMA28)\nvariable.previousEMA28 = variable.ema28\n\nvariable.ema35 = calculateEMA(35, candle.close, variable.previousEMA35)\nvariable.previousEMA35 = variable.ema35\n\nvariable.ema70 = calculateEMA(70, candle.close, variable.previousEMA70)\nvariable.previousEMA70 = variable.ema70\n\nvariable.ema140 = calculateEMA(140, candle.close, variable.previousEMA140)\nvariable.previousEMA140 = variable.ema140\n\nvariable.ema210 = calculateEMA(210, candle.close, variable.previousEMA210)\nvariable.previousEMA210 = variable.ema210\n\nvariable.ema280 = calculateEMA(280, candle.close, variable.previousEMA280)\nvariable.previousEMA280 = variable.ema280\n\nvariable.ema350 = calculateEMA(350, candle.close, variable.previousEMA350)\nvariable.previousEMA350 = variable.ema350\n\nvariable.ema700 = calculateEMA(700, candle.close, variable.previousEMA700)\nvariable.previousEMA700 = variable.ema700\n\nvariable.ema1400 = calculateEMA(1400, candle.close, variable.previousEMA1400)\nvariable.previousEMA1400 = variable.ema1400\n\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1 - k)\n}",
                                 "project": "Foundations",
                                 "id": "28266ad4-261c-4466-a180-f7acd8c858b2",
                                 "savedPayload": {
@@ -12900,7 +12900,7 @@
                             "id": "1aa7b3bf-5c36-4a3b-9e8d-335153025634",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19590.723208158237,
+                                    "x": 19590.723208158233,
                                     "y": 26216.606834537768
                                 },
                                 "targetPosition": {
@@ -13345,7 +13345,7 @@
                             "project": "Foundations",
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
-                                "code": "/* Loop Code */\n\nlet candle = record.current \n\nvariable.ema11 = calculateEMA(11, candle.close, variable.previousEMA11)\nvariable.previousEMA11 = variable.ema11\n\nvariable.ema22 = calculateEMA(22, candle.close, variable.previousEMA22)\nvariable.previousEMA22 = variable.ema22\n\nvariable.ema33 = calculateEMA(33, candle.close, variable.previousEMA33)\nvariable.previousEMA33 = variable.ema33\n\nvariable.ema55 = calculateEMA(55, candle.close, variable.previousEMA55)\nvariable.previousEMA55 = variable.ema55\n\nvariable.ema111 = calculateEMA(111, candle.close, variable.previousEMA111)\nvariable.previousEMA111 = variable.ema111\n\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1-k)\n}",
+                                "code": "/* Loop Code */\n\nlet candle = record.current\n\nvariable.ema11 = calculateEMA(11, candle.close, variable.previousEMA11)\nvariable.previousEMA11 = variable.ema11\n\nvariable.ema22 = calculateEMA(22, candle.close, variable.previousEMA22)\nvariable.previousEMA22 = variable.ema22\n\nvariable.ema33 = calculateEMA(33, candle.close, variable.previousEMA33)\nvariable.previousEMA33 = variable.ema33\n\nvariable.ema55 = calculateEMA(55, candle.close, variable.previousEMA55)\nvariable.previousEMA55 = variable.ema55\n\nvariable.ema111 = calculateEMA(111, candle.close, variable.previousEMA111)\nvariable.previousEMA111 = variable.ema111\n\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1 - k)\n}",
                                 "project": "Foundations",
                                 "id": "7402595e-de4e-41b7-99d4-74d2814f575d",
                                 "savedPayload": {
@@ -13354,7 +13354,7 @@
                                         "y": 26568.51857201703
                                     },
                                     "targetPosition": {
-                                        "x": 19009.99514659343,
+                                        "x": 19009.995146593425,
                                         "y": 26351.18526110199
                                     },
                                     "floatingObject": {
@@ -13373,7 +13373,7 @@
                             "id": "78b0a7a0-3240-48d5-b70f-fc36a28c33ff",
                             "savedPayload": {
                                 "position": {
-                                    "x": 19009.99514659343,
+                                    "x": 19009.995146593425,
                                     "y": 26351.18526110199
                                 },
                                 "targetPosition": {
@@ -14299,7 +14299,7 @@
                         "id": "13f1ff55-4167-4fce-9741-888cde42f09f",
                         "savedPayload": {
                             "position": {
-                                "x": 18939.192877415036,
+                                "x": 18939.19287741504,
                                 "y": 26417.08330248015
                             },
                             "targetPosition": {
@@ -14329,16 +14329,16 @@
                             "project": "Foundations",
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
-                                "code": "/* Loop Code */\n\nlet candle = record.current \n\nvariable.ema12 = calculateEMA(12, candle.close, variable.previousEMA12)\nvariable.previousEMA12 = variable.ema12\n\nvariable.ema24 = calculateEMA(24, candle.close, variable.previousEMA24)\nvariable.previousEMA24 = variable.ema24\n\nvariable.ema36 = calculateEMA(36, candle.close, variable.previousEMA36)\nvariable.previousEMA36 = variable.ema36\n\nvariable.ema48 = calculateEMA(48, candle.close, variable.previousEMA48)\nvariable.previousEMA48 = variable.ema48\n\nvariable.ema60 = calculateEMA(60, candle.close, variable.previousEMA60)\nvariable.previousEMA60 = variable.ema60\n\nvariable.ema120 = calculateEMA(120, candle.close, variable.previousEMA120)\nvariable.previousEMA120 = variable.ema120\n\nvariable.ema240 = calculateEMA(240, candle.close, variable.previousEMA240)\nvariable.previousEMA240 = variable.ema240\n\nvariable.ema360 = calculateEMA(360, candle.close, variable.previousEMA360)\nvariable.previousEMA360 = variable.ema360\n\nvariable.ema480 = calculateEMA(480, candle.close, variable.previousEMA480)\nvariable.previousEMA480 = variable.ema480\n\nvariable.ema600 = calculateEMA(600, candle.close, variable.previousEMA600)\nvariable.previousEMA600 = variable.ema600\n\nvariable.ema1200 = calculateEMA(1200, candle.close, variable.previousEMA1200)\nvariable.previousEMA1200 = variable.ema1200\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1-k)\n}",
+                                "code": "/* Loop Code */\n\nlet candle = record.current\n\nvariable.ema12 = calculateEMA(12, candle.close, variable.previousEMA12)\nvariable.previousEMA12 = variable.ema12\n\nvariable.ema24 = calculateEMA(24, candle.close, variable.previousEMA24)\nvariable.previousEMA24 = variable.ema24\n\nvariable.ema36 = calculateEMA(36, candle.close, variable.previousEMA36)\nvariable.previousEMA36 = variable.ema36\n\nvariable.ema48 = calculateEMA(48, candle.close, variable.previousEMA48)\nvariable.previousEMA48 = variable.ema48\n\nvariable.ema60 = calculateEMA(60, candle.close, variable.previousEMA60)\nvariable.previousEMA60 = variable.ema60\n\nvariable.ema120 = calculateEMA(120, candle.close, variable.previousEMA120)\nvariable.previousEMA120 = variable.ema120\n\nvariable.ema240 = calculateEMA(240, candle.close, variable.previousEMA240)\nvariable.previousEMA240 = variable.ema240\n\nvariable.ema360 = calculateEMA(360, candle.close, variable.previousEMA360)\nvariable.previousEMA360 = variable.ema360\n\nvariable.ema480 = calculateEMA(480, candle.close, variable.previousEMA480)\nvariable.previousEMA480 = variable.ema480\n\nvariable.ema600 = calculateEMA(600, candle.close, variable.previousEMA600)\nvariable.previousEMA600 = variable.ema600\n\nvariable.ema1200 = calculateEMA(1200, candle.close, variable.previousEMA1200)\nvariable.previousEMA1200 = variable.ema1200\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1 - k)\n}",
                                 "project": "Foundations",
                                 "id": "446a66de-2496-4e13-96a8-b6a2f0d8a4a8",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18599.5959630977,
+                                        "x": 18599.59596309771,
                                         "y": 26397.35137911124
                                     },
                                     "targetPosition": {
-                                        "x": 18722.139745976085,
+                                        "x": 18722.13974597609,
                                         "y": 26208.65050132352
                                     },
                                     "floatingObject": {
@@ -14357,7 +14357,7 @@
                             "id": "41c362af-eccc-44ec-afca-13a65169f190",
                             "savedPayload": {
                                 "position": {
-                                    "x": 18722.139745976085,
+                                    "x": 18722.13974597609,
                                     "y": 26208.65050132352
                                 },
                                 "targetPosition": {
@@ -14388,11 +14388,11 @@
                                 "id": "822bad39-1e88-4f6a-90f3-35f47eed21c6",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18395.300238214906,
+                                        "x": 18395.300238214913,
                                         "y": 25996.398443226473
                                     },
                                     "targetPosition": {
-                                        "x": 18619.991883534687,
+                                        "x": 18619.99188353469,
                                         "y": 26008.174033381136
                                     },
                                     "floatingObject": {
@@ -14411,7 +14411,7 @@
                             "id": "a9c9f589-d0ab-418e-8e3f-1e8d757c49ca",
                             "savedPayload": {
                                 "position": {
-                                    "x": 18619.991883534687,
+                                    "x": 18619.99188353469,
                                     "y": 26008.174033381136
                                 },
                                 "targetPosition": {
@@ -15239,7 +15239,7 @@
                             "project": "Foundations",
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
-                                "code": "/* Loop Code */\n\nvariable.ema30 = calculateEMA(30, candle.close, variable.previousEMA30)\nvariable.previousEMA30 = variable.ema30\n\nvariable.ema60 = calculateEMA(60, candle.close, variable.previousEMA60)\nvariable.previousEMA60 = variable.ema60\n\nvariable.ema90 = calculateEMA(90, candle.close, variable.previousEMA90)\nvariable.previousEMA90 = variable.ema90\n\nvariable.ema120 = calculateEMA(120, candle.close, variable.previousEMA120)\nvariable.previousEMA120 = variable.ema120\n\nvariable.ema150 = calculateEMA(150, candle.close, variable.previousEMA150)\nvariable.previousEMA150 = variable.ema150\n\nvariable.ema300 = calculateEMA(300, candle.close, variable.previousEMA300)\nvariable.previousEMA300 = variable.ema300\n\nvariable.ema600 = calculateEMA(600, candle.close, variable.previousEMA600)\nvariable.previousEMA600 = variable.ema600\n\nvariable.ema900 = calculateEMA(900, candle.close, variable.previousEMA900)\nvariable.previousEMA900 = variable.ema900\n\nvariable.ema1200 = calculateEMA(1200, candle.close, variable.previousEMA1200)\nvariable.previousEMA1200 = variable.ema1200\n\nvariable.ema1500 = calculateEMA(1500, candle.close, variable.previousEMA1500)\nvariable.previousEMA1500 = variable.ema1500\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1-k)\n}",
+                                "code": "/* Loop Code */\n\nlet candle = record.current\n\nvariable.ema30 = calculateEMA(30, candle.close, variable.previousEMA30)\nvariable.previousEMA30 = variable.ema30\n\nvariable.ema60 = calculateEMA(60, candle.close, variable.previousEMA60)\nvariable.previousEMA60 = variable.ema60\n\nvariable.ema90 = calculateEMA(90, candle.close, variable.previousEMA90)\nvariable.previousEMA90 = variable.ema90\n\nvariable.ema120 = calculateEMA(120, candle.close, variable.previousEMA120)\nvariable.previousEMA120 = variable.ema120\n\nvariable.ema150 = calculateEMA(150, candle.close, variable.previousEMA150)\nvariable.previousEMA150 = variable.ema150\n\nvariable.ema300 = calculateEMA(300, candle.close, variable.previousEMA300)\nvariable.previousEMA300 = variable.ema300\n\nvariable.ema600 = calculateEMA(600, candle.close, variable.previousEMA600)\nvariable.previousEMA600 = variable.ema600\n\nvariable.ema900 = calculateEMA(900, candle.close, variable.previousEMA900)\nvariable.previousEMA900 = variable.ema900\n\nvariable.ema1200 = calculateEMA(1200, candle.close, variable.previousEMA1200)\nvariable.previousEMA1200 = variable.ema1200\n\nvariable.ema1500 = calculateEMA(1500, candle.close, variable.previousEMA1500)\nvariable.previousEMA1500 = variable.ema1500\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1 - k)\n}",
                                 "project": "Foundations",
                                 "id": "9e2d74ff-7119-4cff-a5c8-8e7432e7c218",
                                 "savedPayload": {
@@ -15298,11 +15298,11 @@
                                 "id": "fae60974-1d56-4ff8-b87e-cea1a3167a3c",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18247.165303932987,
+                                        "x": 18247.16530393299,
                                         "y": 25681.27701324267
                                     },
                                     "targetPosition": {
-                                        "x": 18457.220899894855,
+                                        "x": 18457.22089989486,
                                         "y": 25761.909801890364
                                     },
                                     "floatingObject": {
@@ -15321,7 +15321,7 @@
                             "id": "25a022fe-1a05-43e8-846a-f8050266517e",
                             "savedPayload": {
                                 "position": {
-                                    "x": 18457.220899894855,
+                                    "x": 18457.22089989486,
                                     "y": 25761.909801890364
                                 },
                                 "targetPosition": {
