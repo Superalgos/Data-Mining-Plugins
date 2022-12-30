@@ -213,8 +213,8 @@
             "products": [
                 {
                     "type": "Product Definition",
-                    "name": "Forcasted-Candles",
-                    "config": "{\n  \"codeName\": \"Forcasted-Candles\",\n  \"singularVariableName\": \"forcastedCandle\",\n  \"pluralVariableName\": \"forcastedCandles\"\n}",
+                    "name": "Forecasted-Candles",
+                    "config": "{\n  \"codeName\": \"Forecasted-Candles\",\n  \"singularVariableName\": \"forecastedCandle\",\n  \"pluralVariableName\": \"forecastedCandles\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
