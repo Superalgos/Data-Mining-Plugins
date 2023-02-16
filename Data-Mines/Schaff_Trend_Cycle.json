@@ -1,6 +1,6 @@
 {
     "type": "Data Mine",
-    "name": "Schaff Trend Cycle",
+    "name": "Schaff_Trend_Cycle",
     "config": "{\r\n    \"codeName\": \"Schaff_Trend_Cycle\"\r\n}",
     "project": "Data-Mining",
     "sensorBots": [],
@@ -54,7 +54,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Schaff Trend Cycle",
+                                            "Schaff_Trend_Cycle",
                                             "Data Mine"
                                         ],
                                         [
@@ -135,7 +135,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Schaff Trend Cycle",
+                                            "Schaff_Trend_Cycle",
                                             "Data Mine"
                                         ],
                                         [
@@ -450,7 +450,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Schaff Trend Cycle",
+                                            "Schaff_Trend_Cycle",
                                             "Data Mine"
                                         ],
                                         [
@@ -531,7 +531,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Schaff Trend Cycle",
+                                            "Schaff_Trend_Cycle",
                                             "Data Mine"
                                         ],
                                         [
@@ -1282,7 +1282,7 @@
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Schaff Trend Cycle",
+                                "Schaff_Trend_Cycle",
                                 "Data Mine"
                             ],
                             [
@@ -1630,7 +1630,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Schaff Trend Cycle",
+                                                    "Schaff_Trend_Cycle",
                                                     "Data Mine"
                                                 ],
                                                 [
@@ -1688,7 +1688,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Schaff Trend Cycle",
+                                                    "Schaff_Trend_Cycle",
                                                     "Data Mine"
                                                 ],
                                                 [
@@ -1767,13 +1767,13 @@
                     "panels": [
                         {
                             "type": "Plotter Panel",
-                            "name": "Schaff Trend Cycle",
+                            "name": "Schaff_Trend_Cycle",
                             "config": "{\n    \"codeName\": \"panelSTC\",\n    \"isLegacy\": false\n}",
                             "project": "Foundations",
                             "panelData": [
                                 {
                                     "type": "Panel Data",
-                                    "name": "Schaff Trend Cycle",
+                                    "name": "Schaff_Trend_Cycle",
                                     "config": "{\n  \"valueDecimals\": 2\n}",
                                     "project": "Foundations",
                                     "dataFormula": {
