@@ -1,6 +1,6 @@
 {
     "type": "Data Mine",
-    "name": "Expontential Moving Averages",
+    "name": "Expontential_Moving_Averages",
     "config": "{\r\n    \"codeName\": \"Expontential_Moving_Averages\"\r\n}",
     "project": "Data-Mining",
     "sensorBots": [],
@@ -54,7 +54,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -135,7 +135,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -450,7 +450,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -531,7 +531,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -1282,7 +1282,7 @@
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Expontential Moving Averages",
+                                "Expontential_Moving_Averages",
                                 "Data Mine"
                             ],
                             [
@@ -1368,7 +1368,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -1449,7 +1449,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -1764,7 +1764,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -1845,7 +1845,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -2596,7 +2596,7 @@
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Expontential Moving Averages",
+                                "Expontential_Moving_Averages",
                                 "Data Mine"
                             ],
                             [
@@ -2682,7 +2682,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -2763,7 +2763,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -3078,7 +3078,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -3159,7 +3159,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -3910,7 +3910,7 @@
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Expontential Moving Averages",
+                                "Expontential_Moving_Averages",
                                 "Data Mine"
                             ],
                             [
@@ -3996,7 +3996,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -4077,7 +4077,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -4392,7 +4392,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -4473,7 +4473,7 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Expontential Moving Averages",
+                                            "Expontential_Moving_Averages",
                                             "Data Mine"
                                         ],
                                         [
@@ -5224,7 +5224,7 @@
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Expontential Moving Averages",
+                                "Expontential_Moving_Averages",
                                 "Data Mine"
                             ],
                             [
@@ -5515,7 +5515,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Expontential Moving Averages",
+                                                    "Expontential_Moving_Averages",
                                                     "Data Mine"
                                                 ],
                                                 [
@@ -5573,7 +5573,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Expontential Moving Averages",
+                                                    "Expontential_Moving_Averages",
                                                     "Data Mine"
                                                 ],
                                                 [
@@ -6062,7 +6062,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Expontential Moving Averages",
+                                                    "Expontential_Moving_Averages",
                                                     "Data Mine"
                                                 ],
                                                 [
@@ -6120,7 +6120,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Expontential Moving Averages",
+                                                    "Expontential_Moving_Averages",
                                                     "Data Mine"
                                                 ],
                                                 [
@@ -6609,7 +6609,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Expontential Moving Averages",
+                                                    "Expontential_Moving_Averages",
                                                     "Data Mine"
                                                 ],
                                                 [
@@ -6667,7 +6667,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Expontential Moving Averages",
+                                                    "Expontential_Moving_Averages",
                                                     "Data Mine"
                                                 ],
                                                 [
@@ -7156,7 +7156,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Expontential Moving Averages",
+                                                    "Expontential_Moving_Averages",
                                                     "Data Mine"
                                                 ],
                                                 [
@@ -7214,7 +7214,7 @@
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Expontential Moving Averages",
+                                                    "Expontential_Moving_Averages",
                                                     "Data Mine"
                                                 ],
                                                 [
