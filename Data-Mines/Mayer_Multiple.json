@@ -1,6 +1,6 @@
 {
     "type": "Data Mine",
-    "name": "Mayer Multiple",
+    "name": "Mayer_Multiple",
     "config": "{\r\n    \"codeName\": \"Mayer_Multiple\"\r\n}",
     "project": "Data-Mining",
     "sensorBots": [],
@@ -8,8 +8,8 @@
     "indicatorBots": [
         {
             "type": "Indicator Bot",
-            "name": "Mayer Multiple",
-            "config": "{\n    \"codeName\": \"MayerMultiple\"\n}",
+            "name": "Mayer_Multiple",
+            "config": "{\n    \"codeName\": \"Mayer_Multiple\"\n}",
             "project": "Data-Mining",
             "processes": [
                 {
@@ -24,7 +24,7 @@
                         "outputDatasets": [
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Market Mayer Multiple",
+                                "name": "Multi-Time-Frame-Market Mayer_Multiple",
                                 "project": "Foundations",
                                 "id": "32383f5e-e042-4b35-a39a-c9e37c3eac16",
                                 "savedPayload": {
@@ -54,15 +54,15 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Data Mine"
                                         ],
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Indicator Bot"
                                         ],
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Product Definition"
                                         ],
                                         [
@@ -104,7 +104,7 @@
                         "statusDependencies": [
                             {
                                 "type": "Status Dependency",
-                                "name": "Mayer Multiple Multi-Time-Frame-Market",
+                                "name": "Mayer_Multiple Multi-Time-Frame-Market",
                                 "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
                                 "project": "Foundations",
                                 "id": "682f2173-e970-429d-bf06-010cf1321f39",
@@ -135,11 +135,11 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Data Mine"
                                         ],
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Indicator Bot"
                                         ],
                                         [
@@ -420,7 +420,7 @@
                         "outputDatasets": [
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Daily Mayer Multiple",
+                                "name": "Multi-Time-Frame-Daily Mayer_Multiple",
                                 "project": "Foundations",
                                 "id": "8f4bd4b6-28b9-4e9d-810a-6d1d6a66d221",
                                 "savedPayload": {
@@ -450,15 +450,15 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Data Mine"
                                         ],
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Indicator Bot"
                                         ],
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Product Definition"
                                         ],
                                         [
@@ -500,7 +500,7 @@
                         "statusDependencies": [
                             {
                                 "type": "Status Dependency",
-                                "name": "Mayer Multiple Multi-Time-Frame-Daily",
+                                "name": "Mayer_Multiple Multi-Time-Frame-Daily",
                                 "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
                                 "project": "Foundations",
                                 "id": "2d941342-7167-470c-bf08-417d577be998",
@@ -531,11 +531,11 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Data Mine"
                                         ],
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Indicator Bot"
                                         ],
                                         [
@@ -859,8 +859,8 @@
             "products": [
                 {
                     "type": "Product Definition",
-                    "name": "Mayer Multiple",
-                    "config": "{\n    \"codeName\": \"MayerMultiple\",\n    \"singularVariableName\": \"MayerMultiple\",\n    \"pluralVariableName\": \"MayerMultiples\"\n}",
+                    "name": "Mayer_Multiple",
+                    "config": "{\n    \"codeName\": \"Mayer_Multiple\",\n    \"singularVariableName\": \"Mayer_Multiple\",\n    \"pluralVariableName\": \"Mayer_Multiples\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -1040,12 +1040,12 @@
                             {
                                 "type": "Record Property",
                                 "name": "MeyerMultiple",
-                                "config": "{\n  \"codeName\": \"MayerMultiple\",\n  \"isString\": false,\n  \"isCalculated\": false\n}",
+                                "config": "{\n  \"codeName\": \"Mayer_Multiple\",\n  \"isString\": false,\n  \"isCalculated\": false\n}",
                                 "project": "Foundations",
                                 "recordFormula": {
                                     "type": "Record Formula",
                                     "name": "New Record Formula",
-                                    "code": "variable.MayerMultiple",
+                                    "code": "variable.Mayer_Multiple",
                                     "project": "Foundations",
                                     "id": "df8e42a5-dc3a-45ac-b6db-65a43871a460",
                                     "savedPayload": {
@@ -1128,7 +1128,7 @@
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
                                 "name": "New Procedure Javascript Code",
-                                "code": "/* Loop Code. This goes at the Code of the Procedure Loop Object */\n\nlet candle = record.current // Our main dependencies are candles \nvariable.last200.push(candle.close) // Add the current close value to the last 200 array.\n\nif (variable.last200.length > 200) {\n    variable.last200.splice(0, 1) // Remove the first element of the array to keep it at a maximun of 200 elements.\n}\n\nlet sma200 = calculateSMA(200)\n\nvariable.MayerMultiple = candle.close / sma200\n\n\nfunction calculateSMA(periods) {  // Having a function avoids us to repeat code.\n    /* We check we have enough values to make the calculation */\n    if (variable.last200.length < periods) { return 0 } // If we dont, we define the value is zero.\n\n    let sum = 0 // Initialize sum variable. \n    for (let i = variable.last200.length - periods; i < variable.last200.length; i++) { // Iterate through the last periods\n        sum = sum + variable.last200[i]\n        /*\n        if (index > 18 && index < 22) { // You can debug what is going on by console logging whatever you need. \n            console.log(\"index=\" + index + \"   i=\" + i + \"   variable.last200.length=\" + variable.last200.length + \"   periods=\" + periods + \"   sum=\" + sum + \"    sum/periods=\" + (sum / periods) + \"    currentValue=\" + (variable.last200[i]))\n        }\n        */\n    }\n    let sma = sum / periods\n    return sma\n}\n\n\nvariable.MayerMultiple = isFinite(variable.MayerMultiple) && variable.MayerMultiple || 0",
+                                "code": "/* Loop Code. This goes at the Code of the Procedure Loop Object */\n\nlet candle = record.current // Our main dependencies are candles \nvariable.last200.push(candle.close) // Add the current close value to the last 200 array.\n\nif (variable.last200.length > 200) {\n    variable.last200.splice(0, 1) // Remove the first element of the array to keep it at a maximun of 200 elements.\n}\n\nlet sma200 = calculateSMA(200)\n\nvariable.Mayer_Multiple = candle.close / sma200\n\n\nfunction calculateSMA(periods) {  // Having a function avoids us to repeat code.\n    /* We check we have enough values to make the calculation */\n    if (variable.last200.length < periods) { return 0 } // If we dont, we define the value is zero.\n\n    let sum = 0 // Initialize sum variable. \n    for (let i = variable.last200.length - periods; i < variable.last200.length; i++) { // Iterate through the last periods\n        sum = sum + variable.last200[i]\n        /*\n        if (index > 18 && index < 22) { // You can debug what is going on by console logging whatever you need. \n            console.log(\"index=\" + index + \"   i=\" + i + \"   variable.last200.length=\" + variable.last200.length + \"   periods=\" + periods + \"   sum=\" + sum + \"    sum/periods=\" + (sum / periods) + \"    currentValue=\" + (variable.last200[i]))\n        }\n        */\n    }\n    let sma = sum / periods\n    return sma\n}\n\n\nvariable.Mayer_Multiple = isFinite(variable.Mayer_Multiple) && variable.Mayer_Multiple || 0",
                                 "project": "Foundations",
                                 "id": "65fc5a41-3411-49b1-9036-7bdf941b591b",
                                 "savedPayload": {
@@ -1183,7 +1183,7 @@
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
                                 "name": "New Procedure Javascript Code",
-                                "code": "variable.last200 = []\r\nvariable.MayerMultiple = 0",
+                                "code": "variable.last200 = []\r\nvariable.Mayer_Multiple = 0",
                                 "project": "Foundations",
                                 "id": "5f9f5410-e300-4cff-be73-2787f5872c9b",
                                 "savedPayload": {
@@ -1277,20 +1277,20 @@
                         },
                         "referenceParent": {
                             "type": "Plotter Module",
-                            "name": "Mayer Multiple",
+                            "name": "Mayer_Multiple",
                             "id": "986e4658-5594-4ec2-8512-ec015faedf98"
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Mayer Multiple",
+                                "Mayer_Multiple",
                                 "Data Mine"
                             ],
                             [
-                                "Mayer Multiple",
+                                "Mayer_Multiple",
                                 "Plotter"
                             ],
                             [
-                                "Mayer Multiple",
+                                "Mayer_Multiple",
                                 "Plotter Module"
                             ]
                         ]
@@ -1322,8 +1322,8 @@
         },
         {
             "type": "Indicator Bot",
-            "name": "Mayer Multiple EMA",
-            "config": "{\n    \"codeName\": \"MayerMultipleEMA\"\n}",
+            "name": "Mayer_Multiple EMA",
+            "config": "{\n    \"codeName\": \"Mayer_MultipleEMA\"\n}",
             "project": "Data-Mining",
             "processes": [
                 {
@@ -1338,7 +1338,7 @@
                         "outputDatasets": [
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Market Mayer Multiple EMA",
+                                "name": "Multi-Time-Frame-Market Mayer_Multiple EMA",
                                 "project": "Foundations",
                                 "id": "47c15422-12d7-4c71-ad6c-ac762f76f7ea",
                                 "savedPayload": {
@@ -1368,15 +1368,15 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Data Mine"
                                         ],
                                         [
-                                            "Mayer Multiple EMA",
+                                            "Mayer_Multiple EMA",
                                             "Indicator Bot"
                                         ],
                                         [
-                                            "Mayer Multiple EMA",
+                                            "Mayer_Multiple EMA",
                                             "Product Definition"
                                         ],
                                         [
@@ -1418,7 +1418,7 @@
                         "statusDependencies": [
                             {
                                 "type": "Status Dependency",
-                                "name": "Mayer Multiple EMA Multi-Time-Frame-Market",
+                                "name": "Mayer_Multiple EMA Multi-Time-Frame-Market",
                                 "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
                                 "project": "Foundations",
                                 "id": "de8edaaa-bb25-4b0f-a1bb-36d16c3b2f07",
@@ -1449,11 +1449,11 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Data Mine"
                                         ],
                                         [
-                                            "Mayer Multiple EMA",
+                                            "Mayer_Multiple EMA",
                                             "Indicator Bot"
                                         ],
                                         [
@@ -1734,7 +1734,7 @@
                         "outputDatasets": [
                             {
                                 "type": "Output Dataset",
-                                "name": "Multi-Time-Frame-Daily Mayer Multiple EMA",
+                                "name": "Multi-Time-Frame-Daily Mayer_Multiple EMA",
                                 "project": "Foundations",
                                 "id": "444240de-78ce-4295-8281-fb71a0833cd5",
                                 "savedPayload": {
@@ -1764,15 +1764,15 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Data Mine"
                                         ],
                                         [
-                                            "Mayer Multiple EMA",
+                                            "Mayer_Multiple EMA",
                                             "Indicator Bot"
                                         ],
                                         [
-                                            "Mayer Multiple EMA",
+                                            "Mayer_Multiple EMA",
                                             "Product Definition"
                                         ],
                                         [
@@ -1814,7 +1814,7 @@
                         "statusDependencies": [
                             {
                                 "type": "Status Dependency",
-                                "name": "Mayer Multiple EMA Multi-Time-Frame-Daily",
+                                "name": "Mayer_Multiple EMA Multi-Time-Frame-Daily",
                                 "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
                                 "project": "Foundations",
                                 "id": "81d18dad-49c6-44d5-b9bb-bb4ab30102a4",
@@ -1845,11 +1845,11 @@
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "Mayer Multiple",
+                                            "Mayer_Multiple",
                                             "Data Mine"
                                         ],
                                         [
-                                            "Mayer Multiple EMA",
+                                            "Mayer_Multiple EMA",
                                             "Indicator Bot"
                                         ],
                                         [
@@ -2173,8 +2173,8 @@
             "products": [
                 {
                     "type": "Product Definition",
-                    "name": "Mayer Multiple EMA",
-                    "config": "{\n    \"codeName\": \"MayerMultipleEMA\",\n    \"singularVariableName\": \"MayerMultipleEMA\",\n    \"pluralVariableName\": \"MayerMultipleEMAs\"\n}",
+                    "name": "Mayer_Multiple EMA",
+                    "config": "{\n    \"codeName\": \"Mayer_MultipleEMA\",\n    \"singularVariableName\": \"Mayer_MultipleEMA\",\n    \"pluralVariableName\": \"Mayer_MultipleEMAs\"\n}",
                     "project": "Foundations",
                     "datasets": [
                         {
@@ -2354,12 +2354,12 @@
                             {
                                 "type": "Record Property",
                                 "name": "MeyerMultiple",
-                                "config": "{\n  \"codeName\": \"MayerMultiple\",\n  \"isString\": false,\n  \"isCalculated\": false\n}",
+                                "config": "{\n  \"codeName\": \"Mayer_Multiple\",\n  \"isString\": false,\n  \"isCalculated\": false\n}",
                                 "project": "Foundations",
                                 "recordFormula": {
                                     "type": "Record Formula",
                                     "name": "New Record Formula",
-                                    "code": "variable.MayerMultiple",
+                                    "code": "variable.Mayer_Multiple",
                                     "project": "Foundations",
                                     "id": "7ebec200-0026-4800-99b8-11df048fa1ec",
                                     "savedPayload": {
@@ -2442,7 +2442,7 @@
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
                                 "name": "New Procedure Javascript Code",
-                                "code": "/* Loop Code. This goes at the Code of the Procedure Loop Object */\n\nlet candle = record.current\n\nvariable.ema200 = calculateEMA(200, candle.close, variable.previousEMA200)\nvariable.previousEMA200 = variable.ema200\n\nvariable.MayerMultiple = candle.close / variable.ema200\n\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1 - k)\n}\n\nvariable.MayerMultiple = isFinite(variable.MayerMultiple) && variable.MayerMultiple || 0\n\n\n\n",
+                                "code": "/* Loop Code. This goes at the Code of the Procedure Loop Object */\n\nlet candle = record.current\n\nvariable.ema200 = calculateEMA(200, candle.close, variable.previousEMA200)\nvariable.previousEMA200 = variable.ema200\n\nvariable.Mayer_Multiple = candle.close / variable.ema200\n\n\nfunction calculateEMA(periods, price, previousEMA) {\n    let k = 2 / (periods + 1)\n    return price * k + previousEMA * (1 - k)\n}\n\nvariable.Mayer_Multiple = isFinite(variable.Mayer_Multiple) && variable.Mayer_Multiple || 0\n\n\n\n",
                                 "project": "Foundations",
                                 "id": "40d7e108-e9f8-40c2-930b-213e95ac0bf4",
                                 "savedPayload": {
@@ -2497,7 +2497,7 @@
                             "procedureJavascriptCode": {
                                 "type": "Procedure Javascript Code",
                                 "name": "New Procedure Javascript Code",
-                                "code": "variable.last200 = []\r\nvariable.previousEMA200 = 0\r\nvariable.MayerMultiple = 0",
+                                "code": "variable.last200 = []\r\nvariable.previousEMA200 = 0\r\nvariable.Mayer_Multiple = 0",
                                 "project": "Foundations",
                                 "id": "35c57edf-bc05-498a-9aa0-2c5302077e26",
                                 "savedPayload": {
@@ -2591,20 +2591,20 @@
                         },
                         "referenceParent": {
                             "type": "Plotter Module",
-                            "name": "Mayer Multiple EMA",
+                            "name": "Mayer_Multiple EMA",
                             "id": "907a9b70-09bc-4bf0-b075-80ddb678f151"
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Mayer Multiple",
+                                "Mayer_Multiple",
                                 "Data Mine"
                             ],
                             [
-                                "Mayer Multiple EMA",
+                                "Mayer_Multiple EMA",
                                 "Plotter"
                             ],
                             [
-                                "Mayer Multiple EMA",
+                                "Mayer_Multiple EMA",
                                 "Plotter Module"
                             ]
                         ]
@@ -2639,33 +2639,33 @@
     "plotters": [
         {
             "type": "Plotter",
-            "name": "Mayer Multiple",
-            "config": "{\n  \"codeName\": \"plotterMayerMultiple\"\n}",
+            "name": "Mayer_Multiple",
+            "config": "{\n  \"codeName\": \"plotterMayer_Multiple\"\n}",
             "project": "Foundations",
             "modules": [
                 {
                     "type": "Plotter Module",
-                    "name": "Mayer Multiple",
-                    "config": "{\n  \"codeName\": \"moduleMayerMultiple\",\n  \"icon\": \"moving-average\"\n}",
+                    "name": "Mayer_Multiple",
+                    "config": "{\n  \"codeName\": \"moduleMayer_Multiple\",\n  \"icon\": \"moving-average\"\n}",
                     "project": "Foundations",
                     "shapes": {
                         "type": "Shapes",
-                        "name": "Mayer Multiple",
+                        "name": "Mayer_Multiple",
                         "project": "Foundations",
                         "chartPoints": [
                             {
                                 "type": "Chart Points",
-                                "name": "Mayer Multiple",
+                                "name": "Mayer_Multiple",
                                 "project": "Foundations",
                                 "points": [
                                     {
                                         "type": "Point",
-                                        "name": "MayerMultiple Begin",
+                                        "name": "Mayer_Multiple Begin",
                                         "project": "Foundations",
                                         "pointFormula": {
                                             "type": "Point Formula",
                                             "name": "New Point Formula",
-                                            "code": "x = record.begin\ny = record.previous.MayerMultiple",
+                                            "code": "x = record.begin\ny = record.previous.Mayer_Multiple",
                                             "project": "Foundations",
                                             "id": "398cb81b-0bb7-4c45-9aed-56bfb9ac6e15",
                                             "savedPayload": {
@@ -2715,12 +2715,12 @@
                                     },
                                     {
                                         "type": "Point",
-                                        "name": "MayerMultiple End",
+                                        "name": "Mayer_Multiple End",
                                         "project": "Foundations",
                                         "pointFormula": {
                                             "type": "Point Formula",
                                             "name": "New Point Formula",
-                                            "code": "x = record.end\ny = record.MayerMultiple",
+                                            "code": "x = record.end\ny = record.Mayer_Multiple",
                                             "project": "Foundations",
                                             "id": "732d969b-ccf4-48e6-9b8a-352e62b51a8c",
                                             "savedPayload": {
@@ -2857,7 +2857,7 @@
                                 "polygonVertexes": [
                                     {
                                         "type": "Polygon Vertex",
-                                        "name": "Mayer Multiple MayerMultiple Begin",
+                                        "name": "Mayer_Multiple Mayer_Multiple Begin",
                                         "project": "Foundations",
                                         "id": "6a664c73-6ecc-4e9d-a6fd-1f311498f556",
                                         "savedPayload": {
@@ -2882,32 +2882,32 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Point",
-                                                "name": "MayerMultiple Begin",
+                                                "name": "Mayer_Multiple Begin",
                                                 "id": "254ba1a9-b27d-4cfa-8c18-9971461ba5f5"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Data Mine"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Plotter"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Plotter Module"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Shapes"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Chart Points"
                                                 ],
                                                 [
-                                                    "MayerMultiple Begin",
+                                                    "Mayer_Multiple Begin",
                                                     "Point"
                                                 ]
                                             ]
@@ -2915,7 +2915,7 @@
                                     },
                                     {
                                         "type": "Polygon Vertex",
-                                        "name": "Mayer Multiple MayerMultiple End",
+                                        "name": "Mayer_Multiple Mayer_Multiple End",
                                         "project": "Foundations",
                                         "id": "eb8d07bb-6381-4c95-b002-3c89a6d7837e",
                                         "savedPayload": {
@@ -2940,32 +2940,32 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Point",
-                                                "name": "MayerMultiple End",
+                                                "name": "Mayer_Multiple End",
                                                 "id": "4ebebb27-b839-4978-b46d-73f9afe38133"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Data Mine"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Plotter"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Plotter Module"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Shapes"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Chart Points"
                                                 ],
                                                 [
-                                                    "MayerMultiple End",
+                                                    "Mayer_Multiple End",
                                                     "Point"
                                                 ]
                                             ]
@@ -3024,19 +3024,19 @@
                     "panels": [
                         {
                             "type": "Plotter Panel",
-                            "name": "Mayer Multiple",
-                            "config": "{\n    \"codeName\": \"panelMayerMultiple\",\n    \"isLegacy\": false\n}",
+                            "name": "Mayer_Multiple",
+                            "config": "{\n    \"codeName\": \"panelMayer_Multiple\",\n    \"isLegacy\": false\n}",
                             "project": "Foundations",
                             "panelData": [
                                 {
                                     "type": "Panel Data",
-                                    "name": "Mayer Multiple",
+                                    "name": "Mayer_Multiple",
                                     "config": "{\n  \"valueDecimals\": 3\n}",
                                     "project": "Foundations",
                                     "dataFormula": {
                                         "type": "Data Formula",
-                                        "name": "Mayer Multiple",
-                                        "code": "record.MayerMultiple",
+                                        "name": "Mayer_Multiple",
+                                        "code": "record.Mayer_Multiple",
                                         "project": "Foundations",
                                         "id": "4e6ae1df-a2ab-4ae0-ade2-58a7da2cfacb",
                                         "savedPayload": {
@@ -3186,33 +3186,33 @@
         },
         {
             "type": "Plotter",
-            "name": "Mayer Multiple EMA",
-            "config": "{\n  \"codeName\": \"plotterMayerMultipleEMA\"\n}",
+            "name": "Mayer_Multiple EMA",
+            "config": "{\n  \"codeName\": \"plotterMayer_MultipleEMA\"\n}",
             "project": "Foundations",
             "modules": [
                 {
                     "type": "Plotter Module",
-                    "name": "Mayer Multiple EMA",
-                    "config": "{\n  \"codeName\": \"moduleMayerMultipleEMA\",\n  \"icon\": \"moving-average\"\n}",
+                    "name": "Mayer_Multiple EMA",
+                    "config": "{\n  \"codeName\": \"moduleMayer_MultipleEMA\",\n  \"icon\": \"moving-average\"\n}",
                     "project": "Foundations",
                     "shapes": {
                         "type": "Shapes",
-                        "name": "Mayer Multiple EMA",
+                        "name": "Mayer_Multiple EMA",
                         "project": "Foundations",
                         "chartPoints": [
                             {
                                 "type": "Chart Points",
-                                "name": "Mayer Multiple",
+                                "name": "Mayer_Multiple",
                                 "project": "Foundations",
                                 "points": [
                                     {
                                         "type": "Point",
-                                        "name": "MayerMultiple Begin",
+                                        "name": "Mayer_Multiple Begin",
                                         "project": "Foundations",
                                         "pointFormula": {
                                             "type": "Point Formula",
                                             "name": "New Point Formula",
-                                            "code": "x = record.begin\ny = record.previous.MayerMultiple",
+                                            "code": "x = record.begin\ny = record.previous.Mayer_Multiple",
                                             "project": "Foundations",
                                             "id": "6a7b1395-140f-4a59-96f2-fe6ed43245bb",
                                             "savedPayload": {
@@ -3262,12 +3262,12 @@
                                     },
                                     {
                                         "type": "Point",
-                                        "name": "MayerMultiple End",
+                                        "name": "Mayer_Multiple End",
                                         "project": "Foundations",
                                         "pointFormula": {
                                             "type": "Point Formula",
                                             "name": "New Point Formula",
-                                            "code": "x = record.end\ny = record.MayerMultiple",
+                                            "code": "x = record.end\ny = record.Mayer_Multiple",
                                             "project": "Foundations",
                                             "id": "372c4c72-99d1-4229-987a-ab596bfe7430",
                                             "savedPayload": {
@@ -3404,7 +3404,7 @@
                                 "polygonVertexes": [
                                     {
                                         "type": "Polygon Vertex",
-                                        "name": "Mayer Multiple MayerMultiple Begin",
+                                        "name": "Mayer_Multiple Mayer_Multiple Begin",
                                         "project": "Foundations",
                                         "id": "3f770a71-5b66-4b79-94ac-45329a2e3239",
                                         "savedPayload": {
@@ -3429,32 +3429,32 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Point",
-                                                "name": "MayerMultiple Begin",
+                                                "name": "Mayer_Multiple Begin",
                                                 "id": "b7f85724-9f90-4b29-a478-2733dcf1b788"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Data Mine"
                                                 ],
                                                 [
-                                                    "Mayer Multiple EMA",
+                                                    "Mayer_Multiple EMA",
                                                     "Plotter"
                                                 ],
                                                 [
-                                                    "Mayer Multiple EMA",
+                                                    "Mayer_Multiple EMA",
                                                     "Plotter Module"
                                                 ],
                                                 [
-                                                    "Mayer Multiple EMA",
+                                                    "Mayer_Multiple EMA",
                                                     "Shapes"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Chart Points"
                                                 ],
                                                 [
-                                                    "MayerMultiple Begin",
+                                                    "Mayer_Multiple Begin",
                                                     "Point"
                                                 ]
                                             ]
@@ -3462,7 +3462,7 @@
                                     },
                                     {
                                         "type": "Polygon Vertex",
-                                        "name": "Mayer Multiple MayerMultiple End",
+                                        "name": "Mayer_Multiple Mayer_Multiple End",
                                         "project": "Foundations",
                                         "id": "76017261-9b1c-4463-88a5-4e89dee68a62",
                                         "savedPayload": {
@@ -3487,32 +3487,32 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Point",
-                                                "name": "MayerMultiple End",
+                                                "name": "Mayer_Multiple End",
                                                 "id": "d5703f1f-c5ff-4a22-ab87-b3d0dbf8d8fc"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Data Mine"
                                                 ],
                                                 [
-                                                    "Mayer Multiple EMA",
+                                                    "Mayer_Multiple EMA",
                                                     "Plotter"
                                                 ],
                                                 [
-                                                    "Mayer Multiple EMA",
+                                                    "Mayer_Multiple EMA",
                                                     "Plotter Module"
                                                 ],
                                                 [
-                                                    "Mayer Multiple EMA",
+                                                    "Mayer_Multiple EMA",
                                                     "Shapes"
                                                 ],
                                                 [
-                                                    "Mayer Multiple",
+                                                    "Mayer_Multiple",
                                                     "Chart Points"
                                                 ],
                                                 [
-                                                    "MayerMultiple End",
+                                                    "Mayer_Multiple End",
                                                     "Point"
                                                 ]
                                             ]
@@ -3571,19 +3571,19 @@
                     "panels": [
                         {
                             "type": "Plotter Panel",
-                            "name": "Mayer Multiple EMA",
-                            "config": "{\n    \"codeName\": \"panelMayerMultipleEMA\",\n    \"isLegacy\": false\n}",
+                            "name": "Mayer_Multiple EMA",
+                            "config": "{\n    \"codeName\": \"panelMayer_MultipleEMA\",\n    \"isLegacy\": false\n}",
                             "project": "Foundations",
                             "panelData": [
                                 {
                                     "type": "Panel Data",
-                                    "name": "Mayer Multiple EMA",
+                                    "name": "Mayer_Multiple EMA",
                                     "config": "{\n  \"valueDecimals\": 3\n}",
                                     "project": "Foundations",
                                     "dataFormula": {
                                         "type": "Data Formula",
-                                        "name": "Mayer Multiple EMA",
-                                        "code": "record.MayerMultiple",
+                                        "name": "Mayer_Multiple EMA",
+                                        "code": "record.Mayer_Multiple",
                                         "project": "Foundations",
                                         "id": "c3174709-4c5a-43d7-8691-c25b4dd06c6c",
                                         "savedPayload": {
