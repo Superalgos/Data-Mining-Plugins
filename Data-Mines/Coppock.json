@@ -1,0 +1,3068 @@
+{
+    "type": "Data Mine",
+    "name": "Coppock",
+    "config": "{\n    \"codeName\": \"Coppock\"\n}",
+    "project": "Data-Mining",
+    "sensorBots": [],
+    "apiDataFetcherBots": [],
+    "indicatorBots": [
+        {
+            "type": "Indicator Bot",
+            "name": "Coppock Curve",
+            "config": "{\n    \"codeName\": \"CoppockCurve\"\n}",
+            "project": "Data-Mining",
+            "processes": [
+                {
+                    "type": "Process Definition",
+                    "name": "Multi-Time-Frame-Market",
+                    "config": "{\n    \"codeName\": \"Multi-Time-Frame-Market\",\n    \"normalWaitTime\": 0,\n    \"retryWaitTime\": 10000,\n    \"framework\": {\n        \"name\": \"Multi-Time-Frame-Market\"\n    }\n}",
+                    "project": "Foundations",
+                    "processOutput": {
+                        "type": "Process Output",
+                        "name": "New Process Output",
+                        "project": "Foundations",
+                        "outputDatasets": [
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Market cCurve",
+                                "project": "Foundations",
+                                "id": "fe6ebb9b-6889-4e03-9560-542c0194e42e",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22128.42727308033,
+                                        "y": 25442.88650907177
+                                    },
+                                    "targetPosition": {
+                                        "x": 22154.309177590585,
+                                        "y": 25539.479091700676
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Output",
+                                        "name": "New Process Output",
+                                        "id": "df40a05a-3ff6-48ae-8132-28ff5526ea9f"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Output",
+                                        "name": "New Process Output",
+                                        "id": "df40a05a-3ff6-48ae-8132-28ff5526ea9f"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "ed2c1e10-8e36-43eb-beff-6de138c495f2"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Chande",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Chande Momentum Oscillator",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "CMO ",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "outputDatasetFolders": [],
+                        "id": "f73097b6-a825-4353-89b6-edc9b6c172c6",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22154.309177590585,
+                                "y": 25539.479091700676
+                            },
+                            "targetPosition": {
+                                "x": 22193.132034355964,
+                                "y": 25684.367965644036
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            }
+                        }
+                    },
+                    "processDependencies": {
+                        "type": "Process Dependencies",
+                        "name": "New Process Dependencies",
+                        "project": "Foundations",
+                        "statusDependencies": [
+                            {
+                                "type": "Status Dependency",
+                                "name": "Coppock Curve Multi-Time-Frame-Market",
+                                "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
+                                "project": "Foundations",
+                                "id": "2cfeb149-2070-4e9d-b207-80cc9d770de1",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22120.77774788672,
+                                        "y": 25134.782596621983
+                                    },
+                                    "targetPosition": {
+                                        "x": 22270.77774788672,
+                                        "y": 25394.590217757315
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "f0016942-3dff-41fa-8256-978822fe8d4b"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "f0016942-3dff-41fa-8256-978822fe8d4b"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "CFO",
+                                        "id": "85eb319d-2b47-4088-9e19-ba7ed1474578"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Chande",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Chande Momentum Oscillator",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "CFO",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Status Dependency",
+                                "name": "Candles Volumes Multi-Time-Frame-Market",
+                                "config": "{\n    \"mainUtility\": \"Market Ending Point\"\n}",
+                                "project": "Foundations",
+                                "id": "48ab5a8b-9111-46f5-8c44-b1d4a6f260e6",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22348.42346141748,
+                                        "y": 25104.812469870594
+                                    },
+                                    "targetPosition": {
+                                        "x": 22270.77774788672,
+                                        "y": 25394.590217757315
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "f0016942-3dff-41fa-8256-978822fe8d4b"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "f0016942-3dff-41fa-8256-978822fe8d4b"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "Candles Volumes Multi-Time-Frame-Market Status Report",
+                                        "id": "a0a61ba9-91cb-4ec7-92fe-134ff079de2d"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "Candles Volumes Multi-Time-Frame-Market Status Report",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataDependencies": [
+                            {
+                                "type": "Data Dependency",
+                                "name": "Candles Multi-Time-Frame-Market",
+                                "project": "Foundations",
+                                "id": "e4963ce2-431b-4f29-a9e9-bfbe0fd3cc26",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22530.585369022054,
+                                        "y": 25244.590217757315
+                                    },
+                                    "targetPosition": {
+                                        "x": 22270.77774788672,
+                                        "y": 25394.590217757315
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "f0016942-3dff-41fa-8256-978822fe8d4b"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "f0016942-3dff-41fa-8256-978822fe8d4b"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Market",
+                                        "id": "2b03494a-67d6-47f1-89b6-53fc4c9116a8"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Market",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataMineDataDependencies": [],
+                        "id": "4978f75b-73de-4f66-8573-2a2f908c6e46",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22270.77774788672,
+                                "y": 25394.590217757315
+                            },
+                            "targetPosition": {
+                                "x": 22193.132034355964,
+                                "y": 25684.367965644036
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            }
+                        }
+                    },
+                    "statusReport": {
+                        "type": "Status Report",
+                        "name": "CFO",
+                        "project": "Foundations",
+                        "id": "85eb319d-2b47-4088-9e19-ba7ed1474578",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22405.264068711927,
+                                "y": 25472.235931288073
+                            },
+                            "targetPosition": {
+                                "x": 22193.132034355964,
+                                "y": 25684.367965644036
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            },
+                            "referenceChildren": [
+                                {
+                                    "type": "Status Dependency",
+                                    "name": "Chande Momentum Oscillator Multi-Time-Frame-Market",
+                                    "id": "b27b8a80-2107-4ff4-ab47-5d02ab95d16a"
+                                },
+                                {
+                                    "type": "Status Dependency",
+                                    "name": "Coppock Curve Multi-Time-Frame-Market",
+                                    "id": "53ea1533-7582-4026-ab19-ac100f0bce88"
+                                }
+                            ]
+                        }
+                    },
+                    "executionStartedEvent": {
+                        "type": "Execution Started Event",
+                        "name": "",
+                        "project": "Foundations",
+                        "id": "eecbcce6-7567-484f-aaea-5e584555bdd6",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22482.909782242685,
+                                "y": 25606.72225211328
+                            },
+                            "targetPosition": {
+                                "x": 22193.132034355964,
+                                "y": 25684.367965644036
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            },
+                            "referenceParent": {
+                                "type": "Execution Finished Event",
+                                "name": "New Execution Finished Event",
+                                "id": "1824fa00-dd30-4cdc-acc0-01c2f29056c5"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Candles",
+                                    "Data Mine"
+                                ],
+                                [
+                                    "Candles Volumes",
+                                    "Indicator Bot"
+                                ],
+                                [
+                                    "Multi-Time-Frame-Market",
+                                    "Process Definition"
+                                ],
+                                [
+                                    "New Execution Finished Event",
+                                    "Execution Finished Event"
+                                ]
+                            ]
+                        }
+                    },
+                    "executionFinishedEvent": {
+                        "type": "Execution Finished Event",
+                        "name": "New Execution Finished Event",
+                        "project": "Foundations",
+                        "id": "8327fdcc-f31f-4269-a05c-faae3b831c37",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22482.909782242685,
+                                "y": 25762.013679174794
+                            },
+                            "targetPosition": {
+                                "x": 22193.132034355964,
+                                "y": 25684.367965644036
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Market",
+                                "id": "2763bba7-2dc8-4223-b9f5-ab2dd87a4700"
+                            }
+                        }
+                    },
+                    "id": "853cc3ef-f039-4efc-9f5d-7f7f2b6e58b0",
+                    "savedPayload": {
+                        "position": {
+                            "x": 22506.132034355964,
+                            "y": 26074.367965644036
+                        },
+                        "targetPosition": {
+                            "x": 22294,
+                            "y": 26286.5
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "parentNode": {
+                            "type": "Indicator Bot",
+                            "name": "Coppock Curve",
+                            "id": "28019654-b1ab-4542-a566-3583e154687d"
+                        },
+                        "chainParent": {
+                            "type": "Indicator Bot",
+                            "name": "Coppock Curve",
+                            "id": "28019654-b1ab-4542-a566-3583e154687d"
+                        },
+                        "referenceChildren": [
+                            {
+                                "type": "Indicator Process Instance",
+                                "name": "Chande Momentum Oscillator Multi-Time-Frame-Market",
+                                "id": "0cac97ef-5da8-4d1d-808e-d46c7e8b53c2"
+                            },
+                            {
+                                "type": "Indicator Process Instance",
+                                "name": "Coppock Curve Multi-Time-Frame-Market",
+                                "id": "63b727ff-572d-48c5-90aa-2226e1250983"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Process Definition",
+                    "name": "Multi-Time-Frame-Daily",
+                    "config": "{\n    \"codeName\": \"Multi-Time-Frame-Daily\",\n    \"normalWaitTime\": 0,\n    \"retryWaitTime\": 10000,\n    \"framework\": {\n        \"name\": \"Multi-Time-Frame-Daily\"\n    }\n}",
+                    "project": "Foundations",
+                    "processOutput": {
+                        "type": "Process Output",
+                        "name": "New Process Output",
+                        "project": "Foundations",
+                        "outputDatasets": [
+                            {
+                                "type": "Output Dataset",
+                                "name": "Multi-Time-Frame-Daily cCurve",
+                                "project": "Foundations",
+                                "id": "263a95c4-0e38-4633-87dd-e3c045cebf3f",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22581,
+                                        "y": 25376.884757729335
+                                    },
+                                    "targetPosition": {
+                                        "x": 22431,
+                                        "y": 25636.692378864667
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Output",
+                                        "name": "New Process Output",
+                                        "id": "47ae8840-453b-42a2-9f3d-0c62ed4b8e46"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Output",
+                                        "name": "New Process Output",
+                                        "id": "47ae8840-453b-42a2-9f3d-0c62ed4b8e46"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "b8e96e46-0d92-4efd-ba0d-6ff777c10276"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Chande",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Chande Momentum Oscillator",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "CMO ",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "outputDatasetFolders": [],
+                        "id": "4b074ab4-07bb-4b4e-b2f5-2ffb140c690f",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22431,
+                                "y": 25636.692378864667
+                            },
+                            "targetPosition": {
+                                "x": 22281,
+                                "y": 25896.5
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            }
+                        }
+                    },
+                    "processDependencies": {
+                        "type": "Process Dependencies",
+                        "name": "New Process Dependencies",
+                        "project": "Foundations",
+                        "statusDependencies": [
+                            {
+                                "type": "Status Dependency",
+                                "name": "Coppock Curve Multi-Time-Frame-Daily",
+                                "config": "{\n    \"mainUtility\": \"Self Reference\"\n}",
+                                "project": "Foundations",
+                                "id": "88c5eec0-e92d-4c31-8678-79cf310d746d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22704.19933163984,
+                                        "y": 25494.898829616373
+                                    },
+                                    "targetPosition": {
+                                        "x": 22540.807621135333,
+                                        "y": 25746.5
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "60d8f300-4eab-4029-af02-b0e1a7afd067"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "60d8f300-4eab-4029-af02-b0e1a7afd067"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "CFO",
+                                        "id": "b803762c-5463-470a-b6a4-f170f80da9ff"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Chande",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Chande Momentum Oscillator",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "CFO",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Status Dependency",
+                                "name": "",
+                                "config": "{\n    \"mainUtility\": \"Market Ending Point\"\n}",
+                                "project": "Foundations",
+                                "id": "7c4c9e8c-90c1-4a90-bdb4-b075681441e0",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22773.951409572423,
+                                        "y": 25557.703882685048
+                                    },
+                                    "targetPosition": {
+                                        "x": 22540.807621135333,
+                                        "y": 25746.5
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "60d8f300-4eab-4029-af02-b0e1a7afd067"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "60d8f300-4eab-4029-af02-b0e1a7afd067"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "New Status Report",
+                                        "id": "2a021da8-9feb-475e-90ab-1586968c17c7"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "New Status Report",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Status Dependency",
+                                "name": "Exchange Raw Data Historic-OHLCVs",
+                                "config": "{\n    \"mainUtility\": \"Market Starting Point\"\n}",
+                                "project": "Foundations",
+                                "id": "a370fafa-e752-451c-aa6f-7da87dcbe0a9",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22820.881749084492,
+                                        "y": 25638.98961513641
+                                    },
+                                    "targetPosition": {
+                                        "x": 22540.807621135333,
+                                        "y": 25746.5
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "60d8f300-4eab-4029-af02-b0e1a7afd067"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "60d8f300-4eab-4029-af02-b0e1a7afd067"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Status Report",
+                                        "name": "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                        "id": "181c7c34-7243-497a-9ddb-1b0067c6d66e"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Exchange Raw Data",
+                                            "Sensor Bot"
+                                        ],
+                                        [
+                                            "Historic-OHLCVs",
+                                            "Process Definition"
+                                        ],
+                                        [
+                                            "Exchange-Raw-Data Historic-OHLCVs Status Report",
+                                            "Status Report"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataDependencies": [
+                            {
+                                "type": "Data Dependency",
+                                "name": "Candles Multi-Time-Frame-Daily",
+                                "project": "Foundations",
+                                "id": "fcb04287-aa56-42c3-99c1-e1e8fe17fc65",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22840.396481561704,
+                                        "y": 25730.799213127117
+                                    },
+                                    "targetPosition": {
+                                        "x": 22540.807621135333,
+                                        "y": 25746.5
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "60d8f300-4eab-4029-af02-b0e1a7afd067"
+                                    },
+                                    "chainParent": {
+                                        "type": "Process Dependencies",
+                                        "name": "New Process Dependencies",
+                                        "id": "60d8f300-4eab-4029-af02-b0e1a7afd067"
+                                    },
+                                    "referenceParent": {
+                                        "type": "Dataset Definition",
+                                        "name": "Multi-Time-Frame-Daily",
+                                        "id": "678a567c-f08d-49b9-813b-4e54fd6afadb"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Candles",
+                                            "Data Mine"
+                                        ],
+                                        [
+                                            "Candles Volumes",
+                                            "Indicator Bot"
+                                        ],
+                                        [
+                                            "Candles",
+                                            "Product Definition"
+                                        ],
+                                        [
+                                            "Multi-Time-Frame-Daily",
+                                            "Dataset Definition"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataMineDataDependencies": [],
+                        "id": "d315e216-460c-4100-8062-d16842f10e3c",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22540.807621135333,
+                                "y": 25746.5
+                            },
+                            "targetPosition": {
+                                "x": 22281,
+                                "y": 25896.5
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            }
+                        }
+                    },
+                    "statusReport": {
+                        "type": "Status Report",
+                        "name": "CFO",
+                        "project": "Foundations",
+                        "id": "b803762c-5463-470a-b6a4-f170f80da9ff",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22431,
+                                "y": 25896.5
+                            },
+                            "targetPosition": {
+                                "x": 22281,
+                                "y": 25896.5
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            },
+                            "referenceChildren": [
+                                {
+                                    "type": "Status Dependency",
+                                    "name": "Chande Momentum Oscillator Multi-Time-Frame-Daily",
+                                    "id": "40cc3d35-1fe7-41f6-b323-ea0287986701"
+                                },
+                                {
+                                    "type": "Status Dependency",
+                                    "name": "Coppock Curve Multi-Time-Frame-Daily",
+                                    "id": "1b292525-e634-4782-a2ba-ded4fc2bf955"
+                                }
+                            ]
+                        }
+                    },
+                    "executionStartedEvent": {
+                        "type": "Execution Started Event",
+                        "name": "",
+                        "project": "Foundations",
+                        "id": "1a393fd8-b830-4353-abe8-d432d71036bf",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22410.903810567666,
+                                "y": 25971.5
+                            },
+                            "targetPosition": {
+                                "x": 22281,
+                                "y": 25896.5
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            },
+                            "referenceParent": {
+                                "type": "Execution Finished Event",
+                                "name": "New Execution Finished Event",
+                                "id": "f29d08f9-e7c8-490c-8fca-14851a0d3dc3"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Candles",
+                                    "Data Mine"
+                                ],
+                                [
+                                    "Candles Volumes",
+                                    "Indicator Bot"
+                                ],
+                                [
+                                    "Multi-Time-Frame-Daily",
+                                    "Process Definition"
+                                ],
+                                [
+                                    "New Execution Finished Event",
+                                    "Execution Finished Event"
+                                ]
+                            ]
+                        }
+                    },
+                    "executionFinishedEvent": {
+                        "type": "Execution Finished Event",
+                        "name": "New Execution Finished Event",
+                        "project": "Foundations",
+                        "id": "26b8e761-5498-4aa4-8335-0a73a76b34bb",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22356,
+                                "y": 26026.403810567666
+                            },
+                            "targetPosition": {
+                                "x": 22281,
+                                "y": 25896.5
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            },
+                            "chainParent": {
+                                "type": "Process Definition",
+                                "name": "Multi-Time-Frame-Daily",
+                                "id": "97a3c424-735a-4f6a-8b6e-097b3c54bc46"
+                            }
+                        }
+                    },
+                    "id": "03ca3fbe-87ff-4453-be59-d7607bb29700",
+                    "savedPayload": {
+                        "position": {
+                            "x": 22594,
+                            "y": 26286.5
+                        },
+                        "targetPosition": {
+                            "x": 22294,
+                            "y": 26286.5
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "parentNode": {
+                            "type": "Indicator Bot",
+                            "name": "Coppock Curve",
+                            "id": "28019654-b1ab-4542-a566-3583e154687d"
+                        },
+                        "chainParent": {
+                            "type": "Indicator Bot",
+                            "name": "Coppock Curve",
+                            "id": "28019654-b1ab-4542-a566-3583e154687d"
+                        },
+                        "referenceChildren": [
+                            {
+                                "type": "Indicator Process Instance",
+                                "name": "Chande Momentum Oscillator Multi-Time-Frame-Daily",
+                                "id": "b4de785f-b233-4363-9e68-4ea64f0c95f9"
+                            },
+                            {
+                                "type": "Indicator Process Instance",
+                                "name": "Coppock Curve Multi-Time-Frame-Daily",
+                                "id": "a0d8e8c2-e632-4f86-8fda-52e957094fd8"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "products": [
+                {
+                    "type": "Product Definition",
+                    "name": "cCurve",
+                    "config": "{\n    \"codeName\": \"cCurve\",\n    \"singularVariableName\": \"cCurve\",\n    \"pluralVariableName\": \"cCurves\"\n}",
+                    "project": "Foundations",
+                    "datasets": [
+                        {
+                            "type": "Dataset Definition",
+                            "name": "Multi-Time-Frame-Market",
+                            "config": "{\n    \"codeName\": \"Multi-Time-Frame-Market\",\n    \"type\": \"Market Files\",\n    \"validTimeFrames\": [\n        \"24-hs\",\n        \"12-hs\",\n        \"08-hs\",\n        \"06-hs\",\n        \"04-hs\",\n        \"03-hs\",\n        \"02-hs\",\n        \"01-hs\"\n    ],\n    \"filePath\": \"Project/@Project/@MineType/@Mine/@Bot/@Exchange/@BaseAsset-@QuotedAsset/Output/@Product/@Dataset/@TimeFrame\",\n    \"fileName\": \"Data.json\"\n}",
+                            "project": "Foundations",
+                            "id": "ed2c1e10-8e36-43eb-beff-6de138c495f2",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 22654.285285445236,
+                                    "y": 26475.16686459993
+                                },
+                                "targetPosition": {
+                                    "x": 22506.132034355964,
+                                    "y": 26498.632034355964
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 2,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Product Definition",
+                                    "name": "cCurve",
+                                    "id": "ebafaecb-5616-4305-886e-206c97cc51ad"
+                                },
+                                "chainParent": {
+                                    "type": "Product Definition",
+                                    "name": "cCurve",
+                                    "id": "ebafaecb-5616-4305-886e-206c97cc51ad"
+                                },
+                                "referenceChildren": [
+                                    {
+                                        "type": "Output Dataset",
+                                        "name": "Multi-Time-Frame-Market CMO ",
+                                        "id": "6a007ecb-094e-4010-8f29-db8fdad6dd8e"
+                                    },
+                                    {
+                                        "type": "Output Dataset",
+                                        "name": "Multi-Time-Frame-Market cCurve",
+                                        "id": "711189b0-5d3e-428d-8c67-598bab43fe90"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "Dataset Definition",
+                            "name": "Multi-Time-Frame-Daily",
+                            "config": "{\n    \"codeName\": \"Multi-Time-Frame-Daily\",\n    \"type\": \"Daily Files\",\n    \"validTimeFrames\": [\n        \"45-min\",\n        \"40-min\",\n        \"30-min\",\n        \"20-min\",\n        \"15-min\",\n        \"10-min\",\n        \"05-min\",\n        \"04-min\",\n        \"03-min\",\n        \"02-min\",\n        \"01-min\"\n    ],\n    \"filePath\": \"Project/@Project/@MineType/@Mine/@Bot/@Exchange/@BaseAsset-@QuotedAsset/Output/@Product/@Dataset/@TimeFrame/@Year/@Month/@Day\",\n    \"fileName\": \"Data.json\",\n    \"dataRange\": {\n        \"filePath\": \"Project/@Project/@MineType/@Mine/@Bot/@Exchange/@BaseAsset-@QuotedAsset/Output/@Product/@Dataset\",\n        \"fileName\": \"Data.Range.json\"\n    }\n}",
+                            "project": "Foundations",
+                            "id": "b8e96e46-0d92-4efd-ba0d-6ff777c10276",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 22595.2326867748,
+                                    "y": 26544.03108432992
+                                },
+                                "targetPosition": {
+                                    "x": 22506.132034355964,
+                                    "y": 26498.632034355964
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 1,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Product Definition",
+                                    "name": "cCurve",
+                                    "id": "ebafaecb-5616-4305-886e-206c97cc51ad"
+                                },
+                                "chainParent": {
+                                    "type": "Product Definition",
+                                    "name": "cCurve",
+                                    "id": "ebafaecb-5616-4305-886e-206c97cc51ad"
+                                },
+                                "referenceChildren": [
+                                    {
+                                        "type": "Output Dataset",
+                                        "name": "Multi-Time-Frame-Daily CMO ",
+                                        "id": "4fb7017c-b01e-492a-8f25-71e8dbb7e077"
+                                    },
+                                    {
+                                        "type": "Output Dataset",
+                                        "name": "Multi-Time-Frame-Daily cCurve",
+                                        "id": "f3444a98-a3a3-4eff-a7db-8fcb299e7dda"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "record": {
+                        "type": "Record Definition",
+                        "name": "New Record Definition",
+                        "project": "Foundations",
+                        "properties": [
+                            {
+                                "type": "Record Property",
+                                "name": "Begin",
+                                "config": "{\n    \"codeName\": \"begin\",\n    \"isString\": false,\n    \"isCalculated\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Formula",
+                                    "code": "record.current.begin",
+                                    "project": "Foundations",
+                                    "id": "178903a2-0788-4db4-ae2c-5b4aec241eb8",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 23317.50007803927,
+                                            "y": 27284.83836839251
+                                        },
+                                        "targetPosition": {
+                                            "x": 23221.724996370776,
+                                            "y": 27256.078435649306
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 1,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Record Property",
+                                            "name": "Begin",
+                                            "id": "4a5d4678-0c58-4057-beb2-ca4917f94ce6"
+                                        },
+                                        "chainParent": {
+                                            "type": "Record Property",
+                                            "name": "Begin",
+                                            "id": "4a5d4678-0c58-4057-beb2-ca4917f94ce6"
+                                        }
+                                    }
+                                },
+                                "id": "4a75dbe8-fcae-4f7c-a685-7267a7098de2",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22674.414923024277,
+                                        "y": 26883.106324378376
+                                    },
+                                    "targetPosition": {
+                                        "x": 22553.062373868033,
+                                        "y": 26794.938536534504
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "85adbaab-0691-4a05-8a36-c838908fc6de"
+                                    },
+                                    "chainParent": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "85adbaab-0691-4a05-8a36-c838908fc6de"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Record Property",
+                                "name": "End",
+                                "config": "{\n    \"codeName\": \"end\",\n    \"isString\": false,\n    \"isCalculated\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Formula",
+                                    "code": "record.current.end",
+                                    "project": "Foundations",
+                                    "id": "90aef513-ddbc-47dc-b77c-36fe9075cb30",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 23262.592123239865,
+                                            "y": 27381.606173017524
+                                        },
+                                        "targetPosition": {
+                                            "x": 23188.780223491132,
+                                            "y": 27314.139118424315
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 1,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Record Property",
+                                            "name": "End",
+                                            "id": "6113d6ba-bfa6-4ee4-91f2-bde6c102ca9a"
+                                        },
+                                        "chainParent": {
+                                            "type": "Record Property",
+                                            "name": "End",
+                                            "id": "6113d6ba-bfa6-4ee4-91f2-bde6c102ca9a"
+                                        }
+                                    }
+                                },
+                                "id": "799efac8-80b7-46c6-94db-a8d62713ad74",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22576.527543624066,
+                                        "y": 26943.091787623776
+                                    },
+                                    "targetPosition": {
+                                        "x": 22553.062373868033,
+                                        "y": 26794.938536534504
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "85adbaab-0691-4a05-8a36-c838908fc6de"
+                                    },
+                                    "chainParent": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "85adbaab-0691-4a05-8a36-c838908fc6de"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Record Property",
+                                "name": "cCurve",
+                                "config": "{\n  \"codeName\": \"cCurve\",\n  \"isString\": false,\n  \"isCalculated\": false\n}",
+                                "project": "Foundations",
+                                "recordFormula": {
+                                    "type": "Record Formula",
+                                    "name": "New Record Formula",
+                                    "code": "variable.cCurve",
+                                    "project": "Foundations",
+                                    "id": "7d239c55-5e48-47ac-b43f-0c83082614f1",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 22406.116060794913,
+                                            "y": 26997.19278512824
+                                        },
+                                        "targetPosition": {
+                                            "x": 22464.894586024162,
+                                            "y": 26916.291085690747
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 2,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Record Property",
+                                            "name": "cCurve",
+                                            "id": "91c932c0-6817-4e25-b6d2-08f72fdc5975"
+                                        },
+                                        "chainParent": {
+                                            "type": "Record Property",
+                                            "name": "cCurve",
+                                            "id": "91c932c0-6817-4e25-b6d2-08f72fdc5975"
+                                        }
+                                    }
+                                },
+                                "id": "89a81185-811a-443d-a350-a1cb4c01d10d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22464.894586024162,
+                                        "y": 26916.291085690747
+                                    },
+                                    "targetPosition": {
+                                        "x": 22553.062373868033,
+                                        "y": 26794.938536534504
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "85adbaab-0691-4a05-8a36-c838908fc6de"
+                                    },
+                                    "chainParent": {
+                                        "type": "Record Definition",
+                                        "name": "New Record Definition",
+                                        "id": "85adbaab-0691-4a05-8a36-c838908fc6de"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "3c610b3a-2627-471f-b19e-7f58ce19c3d8",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22553.062373868033,
+                                "y": 26794.938536534504
+                            },
+                            "targetPosition": {
+                                "x": 22506.132034355964,
+                                "y": 26498.632034355964
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Product Definition",
+                                "name": "cCurve",
+                                "id": "ebafaecb-5616-4305-886e-206c97cc51ad"
+                            },
+                            "chainParent": {
+                                "type": "Product Definition",
+                                "name": "cCurve",
+                                "id": "ebafaecb-5616-4305-886e-206c97cc51ad"
+                            }
+                        }
+                    },
+                    "dataBuilding": {
+                        "type": "Data Building Procedure",
+                        "name": "New Data Building Procedure",
+                        "project": "Foundations",
+                        "loop": {
+                            "type": "Procedure Loop",
+                            "name": "New Procedure Loop",
+                            "project": "Foundations",
+                            "procedureJavascriptCode": {
+                                "type": "Procedure Javascript Code",
+                                "name": "New Procedure Javascript Code",
+                                "code": "let candle = record.current\nlet wmaLen = 10\nlet longROClen = 14\nlet shortROClen = 11\n\nvariable.closeArray.push(candle.close)\nif (variable.closeArray.length > longROClen) { variable.closeArray.splice(0, 1) } //set to longest length\n\n// Coppock Curve\nvariable.ROCs.push(ROC(variable.closeArray, longROClen) + ROC(variable.closeArray, shortROClen))\nif (variable.ROCs.length > wmaLen) { variable.ROCs.splice(0, 1) }\n\nvariable.cCurve = WMA(variable.ROCs, wmaLen)\n\n// NaN -> 0\nvariable.cCurve = variable.cCurve || 0\n\n\n//FUNCTIONS\n// Weighted moving average (from Pluvtech)\nfunction WMA(src, len) {\n    let pLen = src.length\n    if (pLen < len) { return 0 }\n\n    let count = 1\n    let numerator = 0\n    for (let i = pLen - len; i < pLen; i++, count++) {\n        numerator += src[i] * count\n    }\n    return (numerator / ((len * (len + 1)) / 2))\n}\n\n// Rate of Change\nfunction ROC(src, len) {\n    let values = src.slice(-len)\n    let start = values[0]\n    let end = values[values.length - 1]\n\n    return 100 * (end - start) / len\n}",
+                                "project": "Foundations",
+                                "id": "3b426a41-b9bb-42c9-b000-fa2a9227ae64",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22186.69484935836,
+                                        "y": 26734.01326090661
+                                    },
+                                    "targetPosition": {
+                                        "x": 22261.009331906098,
+                                        "y": 26667.100200270725
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Procedure Loop",
+                                        "name": "New Procedure Loop",
+                                        "id": "1b6c1eab-0c7e-422c-99b2-d2e102b83569"
+                                    },
+                                    "chainParent": {
+                                        "type": "Procedure Loop",
+                                        "name": "New Procedure Loop",
+                                        "id": "1b6c1eab-0c7e-422c-99b2-d2e102b83569"
+                                    }
+                                }
+                            },
+                            "id": "dc6b70c0-faa9-438a-8a23-69aac7f33ab1",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 22261.009331906098,
+                                    "y": 26667.100200270725
+                                },
+                                "targetPosition": {
+                                    "x": 22372.48105572771,
+                                    "y": 26566.730609316895
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 3,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Data Building Procedure",
+                                    "name": "New Data Building Procedure",
+                                    "id": "73f3f4d2-ed0d-4e3d-be0a-7292519aa840"
+                                },
+                                "chainParent": {
+                                    "type": "Data Building Procedure",
+                                    "name": "New Data Building Procedure",
+                                    "id": "73f3f4d2-ed0d-4e3d-be0a-7292519aa840"
+                                }
+                            }
+                        },
+                        "initialization": {
+                            "type": "Procedure Initialization",
+                            "name": "New Procedure Initialization",
+                            "project": "Foundations",
+                            "procedureJavascriptCode": {
+                                "type": "Procedure Javascript Code",
+                                "name": "New Procedure Javascript Code",
+                                "code": "variable.closeArray = []\r\nvariable.ROCs = []",
+                                "project": "Foundations",
+                                "id": "6459708d-6efe-4a74-a095-f1d8f8926a75",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 22127.944155544257,
+                                        "y": 26618.708532021334
+                                    },
+                                    "targetPosition": {
+                                        "x": 22225.758915617636,
+                                        "y": 26597.91736293956
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 2,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Procedure Initialization",
+                                        "name": "New Procedure Initialization",
+                                        "id": "7f4d97fd-acbf-4923-9423-49aa5af30810"
+                                    },
+                                    "chainParent": {
+                                        "type": "Procedure Initialization",
+                                        "name": "New Procedure Initialization",
+                                        "id": "7f4d97fd-acbf-4923-9423-49aa5af30810"
+                                    }
+                                }
+                            },
+                            "id": "cd206c0d-a8ac-4bb5-b7b2-19a61e6a6e3f",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 22225.758915617636,
+                                    "y": 26597.91736293956
+                                },
+                                "targetPosition": {
+                                    "x": 22372.48105572771,
+                                    "y": 26566.730609316895
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 3,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Data Building Procedure",
+                                    "name": "New Data Building Procedure",
+                                    "id": "73f3f4d2-ed0d-4e3d-be0a-7292519aa840"
+                                },
+                                "chainParent": {
+                                    "type": "Data Building Procedure",
+                                    "name": "New Data Building Procedure",
+                                    "id": "73f3f4d2-ed0d-4e3d-be0a-7292519aa840"
+                                }
+                            }
+                        },
+                        "id": "3b1cfbdd-cc55-4106-ad87-ba56811b9fb6",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22372.48105572771,
+                                "y": 26566.730609316895
+                            },
+                            "targetPosition": {
+                                "x": 22506.132034355964,
+                                "y": 26498.632034355964
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Product Definition",
+                                "name": "cCurve",
+                                "id": "ebafaecb-5616-4305-886e-206c97cc51ad"
+                            },
+                            "chainParent": {
+                                "type": "Product Definition",
+                                "name": "cCurve",
+                                "id": "ebafaecb-5616-4305-886e-206c97cc51ad"
+                            }
+                        }
+                    },
+                    "id": "1aecfef2-6df7-4704-9258-4d406ac6ab43",
+                    "savedPayload": {
+                        "position": {
+                            "x": 22506.132034355964,
+                            "y": 26498.632034355964
+                        },
+                        "targetPosition": {
+                            "x": 22294,
+                            "y": 26286.5
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "parentNode": {
+                            "type": "Indicator Bot",
+                            "name": "Coppock Curve",
+                            "id": "28019654-b1ab-4542-a566-3583e154687d"
+                        },
+                        "chainParent": {
+                            "type": "Indicator Bot",
+                            "name": "Coppock Curve",
+                            "id": "28019654-b1ab-4542-a566-3583e154687d"
+                        },
+                        "referenceChildren": [
+                            {
+                                "type": "Data Product",
+                                "name": "CMO ",
+                                "id": "8742ef25-14ef-4218-87ae-d423d1f413ac"
+                            },
+                            {
+                                "type": "Data Product",
+                                "name": "cCurve",
+                                "id": "41c64ef0-2f6e-45b0-9550-0b7637f46a98"
+                            }
+                        ],
+                        "referenceParent": {
+                            "type": "Plotter Module",
+                            "name": "CoppockCurve",
+                            "id": "eeeb1e28-cb1e-4ada-b599-304bed3a5c58"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Chande",
+                                "Data Mine"
+                            ],
+                            [
+                                "Chande Momentum Oscillator",
+                                "Plotter"
+                            ],
+                            [
+                                "Chande Momentum Oscillator",
+                                "Plotter Module"
+                            ]
+                        ]
+                    }
+                }
+            ],
+            "id": "800ba296-cb8c-4741-b75c-7028a9db1f2f",
+            "savedPayload": {
+                "position": {
+                    "x": 22294,
+                    "y": 26286.5
+                },
+                "targetPosition": {
+                    "x": 21994,
+                    "y": 26286.5
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "parentNode": {
+                    "type": "Data Mine",
+                    "name": "Coppock",
+                    "id": "b3b52f6e-e5fe-478b-bd0c-2ca747b8dee8"
+                },
+                "chainParent": {
+                    "type": "Data Mine",
+                    "name": "Coppock",
+                    "id": "b3b52f6e-e5fe-478b-bd0c-2ca747b8dee8"
+                }
+            }
+        }
+    ],
+    "plotters": [
+        {
+            "type": "Plotter",
+            "name": "Coppock Curve",
+            "config": "{\n  \"codeName\": \"plotterCoppockCurve\"\n}",
+            "project": "Foundations",
+            "modules": [
+                {
+                    "type": "Plotter Module",
+                    "name": "CoppockCurve",
+                    "config": "{\n  \"codeName\": \"moduleCoppockCurve\",\n  \"icon\": \"oscilator\"\n}",
+                    "project": "Foundations",
+                    "shapes": {
+                        "type": "Shapes",
+                        "name": "CoppockCurve",
+                        "project": "Foundations",
+                        "chartPoints": [
+                            {
+                                "type": "Chart Points",
+                                "name": "Points",
+                                "project": "Foundations",
+                                "points": [
+                                    {
+                                        "type": "Point",
+                                        "name": "cCurve Begin",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.begin\ny = record.previous.cCurve",
+                                            "project": "Foundations",
+                                            "id": "2ee19c07-d0ee-41ee-93bd-0c937ea4669f",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 21434.138899963815,
+                                                    "y": 27192.5653247609
+                                                },
+                                                "targetPosition": {
+                                                    "x": 21245.342782648862,
+                                                    "y": 26959.42153632381
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                },
+                                                "parentNode": {
+                                                    "type": "Point",
+                                                    "name": "cCurve Begin",
+                                                    "id": "5e6a7dad-6244-4623-a221-1800ef3f8e22"
+                                                },
+                                                "chainParent": {
+                                                    "type": "Point",
+                                                    "name": "cCurve Begin",
+                                                    "id": "5e6a7dad-6244-4623-a221-1800ef3f8e22"
+                                                }
+                                            }
+                                        },
+                                        "id": "9003ba5e-cf5e-4a6e-95ef-da7c8e140226",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 21245.342782648862,
+                                                "y": 26959.42153632381
+                                            },
+                                            "targetPosition": {
+                                                "x": 21056.54666533391,
+                                                "y": 26726.27774788672
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "ed62c55d-20f7-40e3-834e-c87c24d41cc3"
+                                            },
+                                            "chainParent": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "ed62c55d-20f7-40e3-834e-c87c24d41cc3"
+                                            },
+                                            "referenceChildren": [
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points CMO Begin",
+                                                    "id": "0a05c641-db36-4864-8dee-0174754538a1"
+                                                },
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points cCurve Begin",
+                                                    "id": "1ad4871b-4f43-4551-935d-5c747c5ec13c"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "cCurve End",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.end\ny = record.cCurve",
+                                            "project": "Foundations",
+                                            "id": "0158e584-b328-4cb4-92e8-f96917441922",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 21087.948239079677,
+                                                    "y": 27325.455468739463
+                                                },
+                                                "targetPosition": {
+                                                    "x": 21072.247452206793,
+                                                    "y": 27025.866608313092
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 1,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                },
+                                                "parentNode": {
+                                                    "type": "Point",
+                                                    "name": "cCurve End",
+                                                    "id": "70cc9089-1670-4ca0-b1ca-abfd4c09c4e8"
+                                                },
+                                                "chainParent": {
+                                                    "type": "Point",
+                                                    "name": "cCurve End",
+                                                    "id": "70cc9089-1670-4ca0-b1ca-abfd4c09c4e8"
+                                                }
+                                            }
+                                        },
+                                        "id": "2481ecc9-ffe3-403d-8dc6-eaca55ada682",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 21072.247452206793,
+                                                "y": 27025.866608313092
+                                            },
+                                            "targetPosition": {
+                                                "x": 21056.54666533391,
+                                                "y": 26726.27774788672
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "ed62c55d-20f7-40e3-834e-c87c24d41cc3"
+                                            },
+                                            "chainParent": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "ed62c55d-20f7-40e3-834e-c87c24d41cc3"
+                                            },
+                                            "referenceChildren": [
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points CMO End",
+                                                    "id": "927f3151-820e-4fb3-8b01-499d8472b28e"
+                                                },
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points cCurve End",
+                                                    "id": "c8094863-2073-4a60-bd8b-22d480aa3032"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "zero line begin",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.begin\ny = 0",
+                                            "project": "Foundations",
+                                            "id": "d1c665b5-0100-49db-9e9d-54acf3d68adf",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 20729.763244324895,
+                                                    "y": 27229.480088653974
+                                                },
+                                                "targetPosition": {
+                                                    "x": 20893.154954829402,
+                                                    "y": 26977.878918270348
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                },
+                                                "parentNode": {
+                                                    "type": "Point",
+                                                    "name": "zero line begin",
+                                                    "id": "7df484aa-7d17-4937-b9e6-55835e7eb5db"
+                                                },
+                                                "chainParent": {
+                                                    "type": "Point",
+                                                    "name": "zero line begin",
+                                                    "id": "7df484aa-7d17-4937-b9e6-55835e7eb5db"
+                                                }
+                                            }
+                                        },
+                                        "id": "b768480d-b154-4989-9a0e-d641cba6821b",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20893.154954829402,
+                                                "y": 26977.878918270348
+                                            },
+                                            "targetPosition": {
+                                                "x": 21056.54666533391,
+                                                "y": 26726.27774788672
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "ed62c55d-20f7-40e3-834e-c87c24d41cc3"
+                                            },
+                                            "chainParent": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "ed62c55d-20f7-40e3-834e-c87c24d41cc3"
+                                            },
+                                            "referenceChildren": [
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points zero line begin",
+                                                    "id": "9e5befac-3324-40ae-bdd8-37416d2101a2"
+                                                },
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points zero line begin",
+                                                    "id": "d9b5cd33-3a92-4553-af33-c6a88741c69a"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Point",
+                                        "name": "zero line end",
+                                        "project": "Foundations",
+                                        "pointFormula": {
+                                            "type": "Point Formula",
+                                            "name": "New Point Formula",
+                                            "code": "x = record.end\ny = 0",
+                                            "project": "Foundations",
+                                            "id": "c7af2a51-ffd9-4218-9f41-a7e396a1342d",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 20496.39840943559,
+                                                    "y": 26941.298517613905
+                                                },
+                                                "targetPosition": {
+                                                    "x": 20776.47253738475,
+                                                    "y": 26833.788132750313
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                },
+                                                "parentNode": {
+                                                    "type": "Point",
+                                                    "name": "zero line end",
+                                                    "id": "7a7607e5-6d51-4500-90f8-9096eebd8963"
+                                                },
+                                                "chainParent": {
+                                                    "type": "Point",
+                                                    "name": "zero line end",
+                                                    "id": "7a7607e5-6d51-4500-90f8-9096eebd8963"
+                                                }
+                                            }
+                                        },
+                                        "id": "33180ee6-a7d0-47aa-9ea1-da8fac2a0c3c",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20776.47253738475,
+                                                "y": 26833.788132750313
+                                            },
+                                            "targetPosition": {
+                                                "x": 21056.54666533391,
+                                                "y": 26726.27774788672
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "ed62c55d-20f7-40e3-834e-c87c24d41cc3"
+                                            },
+                                            "chainParent": {
+                                                "type": "Chart Points",
+                                                "name": "Points",
+                                                "id": "ed62c55d-20f7-40e3-834e-c87c24d41cc3"
+                                            },
+                                            "referenceChildren": [
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points zero line end",
+                                                    "id": "523e0834-95ba-4bbc-b58d-2a307d6cb4ec"
+                                                },
+                                                {
+                                                    "type": "Polygon Vertex",
+                                                    "name": "Points zero line end",
+                                                    "id": "26597478-0586-4964-898e-c6c2cf1a4d1e"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "aef3e0e6-bec9-490d-ad0b-dfcdb0ff3beb",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 21056.54666533391,
+                                        "y": 26726.27774788672
+                                    },
+                                    "targetPosition": {
+                                        "x": 21134.192378864667,
+                                        "y": 26436.5
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Shapes",
+                                        "name": "CoppockCurve",
+                                        "id": "1bdbe686-ed5a-40ac-a117-19106d3d69f1"
+                                    },
+                                    "chainParent": {
+                                        "type": "Shapes",
+                                        "name": "CoppockCurve",
+                                        "id": "1bdbe686-ed5a-40ac-a117-19106d3d69f1"
+                                    }
+                                }
+                            }
+                        ],
+                        "polygons": [
+                            {
+                                "type": "Polygon",
+                                "name": "cCurve",
+                                "project": "Foundations",
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 1,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.DARK\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 1,\r\n        \"lineWidth\": 2,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.LIGHT\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "fd095216-460d-4a8a-919a-c63573366cd2",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20719.09333066782,
+                                                "y": 27166.055495773442
+                                            },
+                                            "targetPosition": {
+                                                "x": 20796.739044198577,
+                                                "y": 26876.27774788672
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Polygon Border",
+                                                "name": "New Polygon Border",
+                                                "id": "b7b2527f-00e7-4d49-82eb-77147cdb1b25"
+                                            },
+                                            "chainParent": {
+                                                "type": "Polygon Border",
+                                                "name": "New Polygon Border",
+                                                "id": "b7b2527f-00e7-4d49-82eb-77147cdb1b25"
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "300fda93-1330-40b3-b3a5-ed181aaf6b0b",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 20796.739044198577,
+                                            "y": 26876.27774788672
+                                        },
+                                        "targetPosition": {
+                                            "x": 20874.384757729335,
+                                            "y": 26586.5
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Polygon",
+                                            "name": "cCurve",
+                                            "id": "224bc69a-0ee7-458e-86a2-4fac3784b3ee"
+                                        },
+                                        "chainParent": {
+                                            "type": "Polygon",
+                                            "name": "cCurve",
+                                            "id": "224bc69a-0ee7-458e-86a2-4fac3784b3ee"
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Points cCurve Begin",
+                                        "project": "Foundations",
+                                        "id": "e66724c6-f451-4bf2-83b8-3a25f6eb9d37",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20614.577136594,
+                                                "y": 26736.5
+                                            },
+                                            "targetPosition": {
+                                                "x": 20874.384757729335,
+                                                "y": 26586.5
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": true,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Polygon",
+                                                "name": "cCurve",
+                                                "id": "224bc69a-0ee7-458e-86a2-4fac3784b3ee"
+                                            },
+                                            "chainParent": {
+                                                "type": "Polygon",
+                                                "name": "cCurve",
+                                                "id": "224bc69a-0ee7-458e-86a2-4fac3784b3ee"
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "cCurve Begin",
+                                                "id": "9003ba5e-cf5e-4a6e-95ef-da7c8e140226"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Chande",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Chande Momentum Oscillator",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Chande Momentum Oscillator",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "CFO",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Points",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "CMO Begin",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Points cCurve End",
+                                        "project": "Foundations",
+                                        "id": "964cccbf-ed52-48d2-aa53-a1918924130b",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20584.607009842613,
+                                                "y": 26508.854286469243
+                                            },
+                                            "targetPosition": {
+                                                "x": 20874.384757729335,
+                                                "y": 26586.5
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Polygon",
+                                                "name": "cCurve",
+                                                "id": "224bc69a-0ee7-458e-86a2-4fac3784b3ee"
+                                            },
+                                            "chainParent": {
+                                                "type": "Polygon",
+                                                "name": "cCurve",
+                                                "id": "224bc69a-0ee7-458e-86a2-4fac3784b3ee"
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "cCurve End",
+                                                "id": "2481ecc9-ffe3-403d-8dc6-eaca55ada682"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Chande",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Chande Momentum Oscillator",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Chande Momentum Oscillator",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "CFO",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Points",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "CMO End",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "727acedb-212d-4fae-89ab-9b41855df38f",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 20874.384757729335,
+                                        "y": 26586.5
+                                    },
+                                    "targetPosition": {
+                                        "x": 21134.192378864667,
+                                        "y": 26436.5
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Shapes",
+                                        "name": "CoppockCurve",
+                                        "id": "1bdbe686-ed5a-40ac-a117-19106d3d69f1"
+                                    },
+                                    "chainParent": {
+                                        "type": "Shapes",
+                                        "name": "CoppockCurve",
+                                        "id": "1bdbe686-ed5a-40ac-a117-19106d3d69f1"
+                                    },
+                                    "referenceChildren": [
+                                        {
+                                            "type": "Layer Polygon",
+                                            "name": "CMO",
+                                            "id": "ec41cb41-eb7c-4550-a038-dd601e409ec2"
+                                        },
+                                        {
+                                            "type": "Layer Polygon",
+                                            "name": "CMO",
+                                            "id": "facf640f-f991-48b5-8ab7-0363e843f191"
+                                        },
+                                        {
+                                            "type": "Layer Polygon",
+                                            "name": "cCurve",
+                                            "id": "2a9d443a-af70-4058-85e6-8ced74060b37"
+                                        },
+                                        {
+                                            "type": "Layer Polygon",
+                                            "name": "cCurve",
+                                            "id": "7f7cab3a-b0a3-437c-8982-c76ffb7b9d7d"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Polygon",
+                                "name": "New Polygon",
+                                "project": "Foundations",
+                                "polygonBorder": {
+                                    "type": "Polygon Border",
+                                    "name": "New Polygon Border",
+                                    "project": "Foundations",
+                                    "style": {
+                                        "type": "Style",
+                                        "name": "New Style",
+                                        "config": "{\r\n    \"default\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            3,\r\n            3\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.DARK\"\r\n    },\r\n    \"atMousePosition\": {\r\n        \"opacity\": 0.3,\r\n        \"lineWidth\": 1,\r\n        \"lineDash\": [\r\n            0,\r\n            0\r\n        ],\r\n        \"paletteColor\": \"UI_COLOR.LIGHT\"\r\n    }\r\n}",
+                                        "project": "Foundations",
+                                        "id": "4971fe10-c3d2-4058-84c9-6d39812d63f0",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20324.79938870728,
+                                                "y": 26659.854286469243
+                                            },
+                                            "targetPosition": {
+                                                "x": 20584.607009842613,
+                                                "y": 26509.854286469243
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Polygon Border",
+                                                "name": "New Polygon Border",
+                                                "id": "45b06182-f75c-42b0-8dd6-de0adaa904c3"
+                                            },
+                                            "chainParent": {
+                                                "type": "Polygon Border",
+                                                "name": "New Polygon Border",
+                                                "id": "45b06182-f75c-42b0-8dd6-de0adaa904c3"
+                                            }
+                                        }
+                                    },
+                                    "styleConditions": [],
+                                    "id": "c0ad36ea-fddd-4b47-8b39-b7d967ad8fd0",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 20584.607009842613,
+                                            "y": 26509.854286469243
+                                        },
+                                        "targetPosition": {
+                                            "x": 20844.414630977946,
+                                            "y": 26359.854286469243
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Polygon",
+                                            "name": "New Polygon",
+                                            "id": "3aaa1361-6a94-49bf-a763-ade05f3e186d"
+                                        },
+                                        "chainParent": {
+                                            "type": "Polygon",
+                                            "name": "New Polygon",
+                                            "id": "3aaa1361-6a94-49bf-a763-ade05f3e186d"
+                                        }
+                                    }
+                                },
+                                "polygonVertexes": [
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Points zero line begin",
+                                        "project": "Foundations",
+                                        "id": "f67f79d1-ca2a-4fe2-b34f-cac1e76a5a87",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20554.636883091225,
+                                                "y": 26282.208572938485
+                                            },
+                                            "targetPosition": {
+                                                "x": 20844.414630977946,
+                                                "y": 26359.854286469243
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Polygon",
+                                                "name": "New Polygon",
+                                                "id": "3aaa1361-6a94-49bf-a763-ade05f3e186d"
+                                            },
+                                            "chainParent": {
+                                                "type": "Polygon",
+                                                "name": "New Polygon",
+                                                "id": "3aaa1361-6a94-49bf-a763-ade05f3e186d"
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "zero line begin",
+                                                "id": "b768480d-b154-4989-9a0e-d641cba6821b"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Chande",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Chande Momentum Oscillator",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Chande Momentum Oscillator",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "CFO",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Points",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "zero line begin",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Polygon Vertex",
+                                        "name": "Points zero line end",
+                                        "project": "Foundations",
+                                        "id": "066b6d25-d42c-4cbe-b558-36de46a3e0ac",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20694.414630977946,
+                                                "y": 26100.04666533391
+                                            },
+                                            "targetPosition": {
+                                                "x": 20844.414630977946,
+                                                "y": 26359.854286469243
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Polygon",
+                                                "name": "New Polygon",
+                                                "id": "3aaa1361-6a94-49bf-a763-ade05f3e186d"
+                                            },
+                                            "chainParent": {
+                                                "type": "Polygon",
+                                                "name": "New Polygon",
+                                                "id": "3aaa1361-6a94-49bf-a763-ade05f3e186d"
+                                            },
+                                            "referenceParent": {
+                                                "type": "Point",
+                                                "name": "zero line end",
+                                                "id": "33180ee6-a7d0-47aa-9ea1-da8fac2a0c3c"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Chande",
+                                                    "Data Mine"
+                                                ],
+                                                [
+                                                    "Chande Momentum Oscillator",
+                                                    "Plotter"
+                                                ],
+                                                [
+                                                    "Chande Momentum Oscillator",
+                                                    "Plotter Module"
+                                                ],
+                                                [
+                                                    "CFO",
+                                                    "Shapes"
+                                                ],
+                                                [
+                                                    "Points",
+                                                    "Chart Points"
+                                                ],
+                                                [
+                                                    "zero line end",
+                                                    "Point"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "c89ef3c8-7403-4d54-846b-1ab5a694fa4f",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 20844.414630977946,
+                                        "y": 26358.854286469243
+                                    },
+                                    "targetPosition": {
+                                        "x": 21134.192378864667,
+                                        "y": 26436.5
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": true,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "parentNode": {
+                                        "type": "Shapes",
+                                        "name": "CoppockCurve",
+                                        "id": "1bdbe686-ed5a-40ac-a117-19106d3d69f1"
+                                    },
+                                    "chainParent": {
+                                        "type": "Shapes",
+                                        "name": "CoppockCurve",
+                                        "id": "1bdbe686-ed5a-40ac-a117-19106d3d69f1"
+                                    },
+                                    "referenceChildren": [
+                                        {
+                                            "type": "Layer Polygon",
+                                            "name": "Polygon",
+                                            "id": "98fd8500-769d-48fb-9d83-17bfe6b168e0"
+                                        },
+                                        {
+                                            "type": "Layer Polygon",
+                                            "name": "Polygon",
+                                            "id": "852e1f39-1864-4916-84b4-9a9172d7a93e"
+                                        },
+                                        {
+                                            "type": "Layer Polygon",
+                                            "name": "Polygon",
+                                            "id": "12f541ba-f2e6-401d-b914-18cecd4e413e"
+                                        },
+                                        {
+                                            "type": "Layer Polygon",
+                                            "name": "Polygon",
+                                            "id": "91c64e1a-541d-44b1-9749-bc2b7a75ce7d"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "images": [],
+                        "texts": [],
+                        "id": "d5b02f83-23e8-4dff-9883-fa066a84c00d",
+                        "savedPayload": {
+                            "position": {
+                                "x": 21134.192378864667,
+                                "y": 26436.5
+                            },
+                            "targetPosition": {
+                                "x": 21394,
+                                "y": 26286.5
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "parentNode": {
+                                "type": "Plotter Module",
+                                "name": "CoppockCurve",
+                                "id": "6a58a4e0-f5a8-4e5a-b7bf-3890155f05be"
+                            },
+                            "chainParent": {
+                                "type": "Plotter Module",
+                                "name": "CoppockCurve",
+                                "id": "6a58a4e0-f5a8-4e5a-b7bf-3890155f05be"
+                            }
+                        }
+                    },
+                    "panels": [
+                        {
+                            "type": "Plotter Panel",
+                            "name": "CoppockCurve",
+                            "config": "{\n    \"codeName\": \"panelCoppockCurve\",\n    \"isLegacy\": false\n}",
+                            "project": "Foundations",
+                            "panelData": [
+                                {
+                                    "type": "Panel Data",
+                                    "name": "Coppock Curve",
+                                    "config": "{\n  \"valueDecimals\": 2\n}",
+                                    "project": "Foundations",
+                                    "dataFormula": {
+                                        "type": "Data Formula",
+                                        "name": "CoppockCurve",
+                                        "code": "record.cCurve",
+                                        "project": "Foundations",
+                                        "id": "b777ac58-cc91-48c6-b47f-0689dd624425",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20614.577136594,
+                                                "y": 26136.5
+                                            },
+                                            "targetPosition": {
+                                                "x": 20874.384757729335,
+                                                "y": 25986.5
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Panel Data",
+                                                "name": "Coppock Curve",
+                                                "id": "ba42799a-470b-465d-ab01-6083cb2070a1"
+                                            },
+                                            "chainParent": {
+                                                "type": "Panel Data",
+                                                "name": "Coppock Curve",
+                                                "id": "ba42799a-470b-465d-ab01-6083cb2070a1"
+                                            }
+                                        }
+                                    },
+                                    "textStyle": {
+                                        "type": "Text Style",
+                                        "name": "New Text Style",
+                                        "config": "{\n    \"configuration\": \"Get the appropriate configuration from the documentation\"\n}",
+                                        "project": "Foundations",
+                                        "id": "340fd72d-931d-4034-8913-cde3597aef7d",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 20874.384757729335,
+                                                "y": 25686.5
+                                            },
+                                            "targetPosition": {
+                                                "x": 20874.384757729335,
+                                                "y": 25986.5
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "parentNode": {
+                                                "type": "Panel Data",
+                                                "name": "Coppock Curve",
+                                                "id": "ba42799a-470b-465d-ab01-6083cb2070a1"
+                                            },
+                                            "chainParent": {
+                                                "type": "Panel Data",
+                                                "name": "Coppock Curve",
+                                                "id": "ba42799a-470b-465d-ab01-6083cb2070a1"
+                                            }
+                                        }
+                                    },
+                                    "id": "7958c2b0-86d3-42bb-a863-105934842218",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 20874.384757729335,
+                                            "y": 25986.5
+                                        },
+                                        "targetPosition": {
+                                            "x": 21134.192378864667,
+                                            "y": 26136.5
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 3,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "parentNode": {
+                                            "type": "Plotter Panel",
+                                            "name": "CoppockCurve",
+                                            "id": "95ed2f78-0cdb-4b8c-8a26-8b351aa46adb"
+                                        },
+                                        "chainParent": {
+                                            "type": "Plotter Panel",
+                                            "name": "CoppockCurve",
+                                            "id": "95ed2f78-0cdb-4b8c-8a26-8b351aa46adb"
+                                        }
+                                    }
+                                }
+                            ],
+                            "id": "9f9861ec-77d6-485b-b8c4-618980992808",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 21134.192378864667,
+                                    "y": 26136.5
+                                },
+                                "targetPosition": {
+                                    "x": 21394,
+                                    "y": 26286.5
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "parentNode": {
+                                    "type": "Plotter Module",
+                                    "name": "CoppockCurve",
+                                    "id": "6a58a4e0-f5a8-4e5a-b7bf-3890155f05be"
+                                },
+                                "chainParent": {
+                                    "type": "Plotter Module",
+                                    "name": "CoppockCurve",
+                                    "id": "6a58a4e0-f5a8-4e5a-b7bf-3890155f05be"
+                                },
+                                "referenceChildren": [
+                                    {
+                                        "type": "Layer Panel",
+                                        "name": "Chande Momentum Oscillator",
+                                        "id": "6d1ddfef-f8d1-4226-aed7-e6e1bb700bdf"
+                                    },
+                                    {
+                                        "type": "Layer Panel",
+                                        "name": "Chande Momentum Oscillator",
+                                        "id": "21e028d9-84d6-4872-b43c-6ebc3e25f966"
+                                    },
+                                    {
+                                        "type": "Layer Panel",
+                                        "name": "CoppockCurve",
+                                        "id": "867e4a15-e41b-4353-ad5b-676416302697"
+                                    },
+                                    {
+                                        "type": "Layer Panel",
+                                        "name": "CoppockCurve",
+                                        "id": "8dd09c85-1a1d-43b3-8379-ce52bd769366"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "id": "eeeb1e28-cb1e-4ada-b599-304bed3a5c58",
+                    "savedPayload": {
+                        "position": {
+                            "x": 21394,
+                            "y": 26286.5
+                        },
+                        "targetPosition": {
+                            "x": 21694,
+                            "y": 26286.5
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "parentNode": {
+                            "type": "Plotter",
+                            "name": "Coppock Curve",
+                            "id": "6c4bf6ac-2dee-4164-a8ac-5f7fde69664f"
+                        },
+                        "chainParent": {
+                            "type": "Plotter",
+                            "name": "Coppock Curve",
+                            "id": "6c4bf6ac-2dee-4164-a8ac-5f7fde69664f"
+                        },
+                        "referenceChildren": [
+                            {
+                                "type": "Product Definition",
+                                "name": "CMO ",
+                                "id": "def0aef6-f06d-4cde-9b75-75f60a4e8f4d"
+                            },
+                            {
+                                "type": "Product Definition",
+                                "name": "cCurve",
+                                "id": "ebafaecb-5616-4305-886e-206c97cc51ad"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "id": "48bdf36b-9d4f-466c-8c89-8d800390531f",
+            "savedPayload": {
+                "position": {
+                    "x": 21694,
+                    "y": 26286.5
+                },
+                "targetPosition": {
+                    "x": 21994,
+                    "y": 26286.5
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "parentNode": {
+                    "type": "Data Mine",
+                    "name": "Coppock",
+                    "id": "b3b52f6e-e5fe-478b-bd0c-2ca747b8dee8"
+                },
+                "chainParent": {
+                    "type": "Data Mine",
+                    "name": "Coppock",
+                    "id": "b3b52f6e-e5fe-478b-bd0c-2ca747b8dee8"
+                }
+            }
+        }
+    ],
+    "id": "6d78b6fb-f47e-4ea0-b13a-fe169b07d8a4",
+    "savedPayload": {
+        "position": {
+            "x": 21994,
+            "y": 26286.5
+        },
+        "targetPosition": {
+            "x": 21994,
+            "y": 26286.5
+        },
+        "floatingObject": {
+            "isPinned": true,
+            "isFrozen": false,
+            "isCollapsed": true,
+            "angleToParent": 1,
+            "distanceToParent": 3,
+            "arrangementStyle": 0
+        },
+        "uiObject": {
+            "isRunning": false
+        },
+        "referenceChildren": [
+            {
+                "type": "Data Mine Tasks",
+                "name": "Chande",
+                "id": "1fec8056-7022-44c1-b8c8-af547dc8b0eb"
+            },
+            {
+                "type": "Data Mine Products",
+                "name": "Chande",
+                "id": "d352a19e-d9dd-459f-955d-98ba43a729fc"
+            },
+            {
+                "type": "Data Mine Tasks",
+                "name": "Coppock",
+                "id": "dc4192a8-f94e-417b-bdd6-ec7275d5b1ea"
+            },
+            {
+                "type": "Data Mine Products",
+                "name": "Coppock",
+                "id": "fd6e027d-b7df-4d10-93e8-6b63bf6b8192"
+            }
+        ]
+    }
+}
